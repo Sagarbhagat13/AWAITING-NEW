@@ -1,6 +1,6 @@
 
 export const spitiTrekItinerary = {
-  id: 'ob1',
+  id: 'lw1',
   title: 'Spiti Valley Trek',
   location: 'Himachal Pradesh',
   price: 15999,
