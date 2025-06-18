@@ -1,7 +1,7 @@
 
 export const meghalayaExplorationItinerary = {
   id: '4',
-  title: 'Meghalaya Exploration',
+  title: 'Meghalaya Explorationn',
   location: 'North East',
   price: 24999,
   discount: 5,
