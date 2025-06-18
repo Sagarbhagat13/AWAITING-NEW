@@ -5,7 +5,7 @@ export const meghalayaExplorationItinerary = {
   location: 'North East',
   price: 24999,
   discount: 5,
-  duration: '6 Days / 5 Nights',
+  duration: '7 Days / 5 Nights',
   description: 'Discover the abode of clouds in this immersive journey through Meghalaya. Explore living root bridges, crystal clear rivers, magnificent waterfalls, and experience the unique culture of this northeastern state.',
   coverImage: 'https://images.unsplash.com/photo-1461301214746-1e109215d6d3?q=80&w=2070&auto=format&fit=crop',
   rating: 4.6,
