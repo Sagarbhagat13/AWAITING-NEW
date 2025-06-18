@@ -16,7 +16,7 @@ export const spitiTrekItinerary = {
     'https://images.unsplash.com/photo-1698753935121-153a106616d5?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     'https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80'
   ],
-  placesCovered: ['Kaza', 'Hikkim', 'Komic', 'Langza', 'Dhankar', 'Pin Valley'],
+  placesCovered: ['Sangla', 'Tabo', 'Komic', 'Pin valley', 'Kaza', 'Chandratal'],
   highlights: [
     'Trek through the world\'s highest villages',
     'Visit Hikkim - world\'s highest post office',
@@ -59,64 +59,60 @@ export const spitiTrekItinerary = {
   itinerary: [
     {
       day: 1,
-      title: 'Arrival in Kaza',
-      description: 'Arrive in Kaza, the administrative center of Spiti Valley, and acclimatize to the high altitude.',
+      title: 'Delhi to Shimla',
+      description: 'Meetup at delhi bus standn and  proceed for overnight journey to shimla.',
       activities: [
-        'Arrival in Kaza (3,650m)',
-        'Check-in at guesthouse',
-        'Rest and acclimatization',
-        'Local orientation walk',
-        'Visit local market'
+        'Arrival in Delhi before 7pm',
+        'Gather at majnu ka tila'
       ],
-      meals: ['Dinner'],
-      accommodation: 'Guesthouse in Kaza'
+      meals: ['Dinner on own'],
+      accommodation: 'Overnight Journey in volvo'
     },
     {
       day: 2,
-      title: 'Kaza to Hikkim and Komic',
-      description: 'Trek to the world\'s highest villages of Hikkim and Komic.',
+      title: 'Shimla to Sangla/Chitkul',
+      description: 'after freshen up, Embark on a beautiful jouney from shimla to chitkul.',
       activities: [
-        'Trek to Hikkim village',
-        'Visit world\'s highest post office',
-        'Continue to Komic village (4,587m)',
-        'Explore the highest motorable village',
-        'Return to Kaza'
+        'Drive through kufri',
+        'Narkanda',
+        'Indo tebitan Highway',
+        
       ],
-      meals: ['Breakfast', 'Packed lunch', 'Dinner'],
-      accommodation: 'Guesthouse in Kaza'
+      meals: [ 'Dinner'],
+      accommodation: 'Guesthouse in Sangla/Chitkul'
     },
     {
       day: 3,
-      title: 'Langza Village and Fossil Hunting',
-      description: 'Visit Langza village famous for fossils and the giant Buddha statue.',
+      title: 'sangla to tabo via nako',
+      description: 'Travel by road from sangla to nako.',
       activities: [
-        'Trek to Langza village',
-        'Fossil hunting activity',
+        'Explore nako lake ',
+        'explore nako village',
         'Visit giant Buddha statue',
-        'Photography session with Chau Chau Kang Nilda peak',
+        'transfer to tabo',
         'Interact with local families'
       ],
-      meals: ['Breakfast', 'Packed lunch', 'Dinner'],
-      accommodation: 'Homestay in Langza'
+      meals: ['Breakfast', 'Dinner'],
+      accommodation: 'Homestay in Tabo'
     },
     {
       day: 4,
-      title: 'Dhankar Monastery Trek',
-      description: 'Trek to the spectacular Dhankar Monastery perched on a cliff.',
+      title: 'tabo to pin valley via dhankar',
+      description: 'Drive through scenic mountains of spiti.',
       activities: [
-        'Trek to Dhankar Monastery',
+        'Explore tabo  Monastery',
         'Explore the 1000-year-old monastery',
         'Trek to Dhankar Lake (optional)',
-        'Photography of dramatic landscapes',
-        'Return to Dhankar village'
+        'Beautiful viilage of pin valley',
+        'stay at pin village'
       ],
-      meals: ['Breakfast', 'Packed lunch', 'Dinner'],
-      accommodation: 'Guesthouse in Dhankar'
+      meals: ['Breakfast', 'Dinner'],
+      accommodation: 'Guesthouse in Pin valley'
     },
     {
       day: 5,
-      title: 'Pin Valley Exploration',
-      description: 'Explore the beautiful Pin Valley National Park.',
+      title: 'Pin Valley to kaza',
+      description: '.',
       activities: [
         'Drive to Pin Valley',
         'Short trek in the valley',
