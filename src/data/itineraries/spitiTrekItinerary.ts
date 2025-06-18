@@ -1,19 +1,19 @@
 
 export const spitiTrekItinerary = {
   id: 'lw1',
-  title: 'Spiti Valley Trek',
+  title: 'Experience Spiti Valley with chandratal ',
   location: 'Himachal Pradesh',
   price: 15999,
   discount: 0,
-  duration: '6 Days / 5 Nights',
+  duration: '8 Days / 7 Nights',
   description: 'Embark on an unforgettable trek through the mystical Spiti Valley, often called "Little Tibet". Experience high-altitude desert landscapes, ancient monasteries, and remote villages frozen in time.',
   coverImage: 'https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80',
   rating: 4.7,
   reviews: 89,
   images: [
-    'https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1599891628402-944da038957f?q=80&w=2071&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1624818112191-5b109a8fe19b?q=80&w=2070&auto=format&fit=crop'
+    'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    'https://images.unsplash.com/photo-1628782379401-4fff9cdcbbfe?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    'https://images.unsplash.com/photo-1698753935121-153a106616d5?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   ],
   placesCovered: ['Kaza', 'Hikkim', 'Komic', 'Langza', 'Dhankar', 'Pin Valley'],
   highlights: [
