@@ -1,0 +1,64 @@
+
+/* Custom styles for monthly tabs to ensure they're visible and scrollable */
+.monthly-tabs-container {
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  position: relative;
+}
+
+.monthly-tabs-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Custom styles for pricing tabs */
+.pricing-tabs-container {
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  position: relative;
+  margin-bottom: 10px;
+  /* Increase padding to prevent cropping */
+  padding: 12px 0;
+}
+
+.pricing-tabs-container::-webkit-scrollbar {
+  display: none;
+}
+
+.pricing-tab {
+  transition: all 0.3s ease;
+  position: relative;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  /* Add padding-top to make room for the badge */
+  padding-top: 6px;
+}
+
+.pricing-tab.active {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.pricing-tab-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  z-index: 1;
+  font-size: 0.65rem;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Pricing tab animation */
+@keyframes pulse-badge {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.pricing-tab-badge {
+  animation: pulse-badge 2s infinite;
+}

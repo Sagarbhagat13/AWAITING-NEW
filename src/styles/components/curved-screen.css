@@ -1,0 +1,35 @@
+
+.curved-screen-card {
+  position: relative;
+  border-radius: 16px;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.curved-screen-overlay {
+  background: linear-gradient(
+    165deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.05) 40%,
+    rgba(255, 255, 255, 0.2) 60%,
+    rgba(255, 255, 255, 0.3) 80%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  border-radius: 16px;
+  transform: rotateY(-10deg) rotateX(5deg);
+  opacity: 0.5;
+}
+
+.curved-screen-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.05) 40%,
+    transparent 100%
+  );
+  pointer-events: none;
+}

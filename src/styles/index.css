@@ -1,0 +1,15 @@
+/* Base styles and CSS Variables */
+@import './base.css';
+
+/* Utility classes */
+@import './utilities/scrollbar.css';
+
+/* Component styles */
+@import './components/carousel.css';
+@import './components/tabs.css';
+@import './components/contact.css';
+@import './components/navbar.css';
+@import './components/curved-screen.css';
+
+/* Animations */
+@import './animations.css';

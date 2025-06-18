@@ -1,0 +1,53 @@
+
+.contact-gradient-bg {
+  background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+}
+
+.contact-card {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+}
+
+.contact-input {
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-input:focus {
+  border-color: #9b87f5;
+  box-shadow: 0 0 0 2px rgba(155, 135, 245, 0.1);
+}
+
+.contact-map {
+  filter: grayscale(0.8);
+  transition: filter 0.3s ease;
+}
+
+.contact-map:hover {
+  filter: grayscale(0);
+}
+
+.contact-button {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.contact-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255,255,255,0.1), rgba(255,255,255,0.2), rgba(255,255,255,0.1));
+  transition: all 0.4s ease;
+}
+
+.contact-button:hover::before {
+  left: 100%;
+}

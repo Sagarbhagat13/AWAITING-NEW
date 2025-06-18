@@ -1,0 +1,48 @@
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  min-width: 200px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  animation: slideDown 0.2s ease-out;
+}
+
+.dropdown-menu-item {
+  padding: 8px 16px;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.dropdown-menu-item:hover {
+  background-color: rgba(var(--tripvidya-primary-rgb), 0.05);
+}
+
+/* Logo animation */
+.logo-image {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.logo-image:hover {
+  transform: scale(1.05);
+  filter: invert(55%) sepia(95%) saturate(1752%) hue-rotate(18deg) brightness(120%) contrast(96%) !important;
+}
+
+/* Mobile menu animation */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile menu specific styles */
+@media (max-width: 1023px) {
+  body.menu-open {
+    overflow: hidden;
+  }
+}
