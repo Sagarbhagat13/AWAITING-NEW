@@ -151,10 +151,12 @@ export const spitiTrekItinerary = {
       title: '  manali to delhi',
       description: 'transfer to delhi with bag full of memories.',
       activities: [
-        
+        'atal tunnel',
+        'Last-minute shopping',
+        'Departure from manali'
       ],
-      
-      accommodation: 'Camp near chandratal'
+      meals: [],
+      accommodation: 'Overnight bus'
     }
   ],
 
