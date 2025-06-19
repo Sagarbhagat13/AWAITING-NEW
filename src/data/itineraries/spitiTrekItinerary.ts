@@ -165,7 +165,7 @@ export const spitiTrekItinerary = {
     {
       id: 'batch-1',
       startDate: '2024-07-01',
-      endDate: '2024-07-01',
+      endDate: '2024-07-10',
       totalSlots: 15,
       availableSlots: 8,
       price: 13999

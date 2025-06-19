@@ -106,7 +106,27 @@ const generateBasicItinerary = (trip: any) => {
         answer: 'Yes, this trip is designed to be suitable for travelers of all ages including families with children.',
       },
     ],
-    placesCovered: [trip.location]
+        placesCovered: [trip.location],
+    // Add the missing properties with default values
+    pricingOptions: [
+      {
+        id: 'standard',
+        title: 'Standard',
+        price: trip.price,
+        description: 'Standard package',
+        isPopular: true
+      }
+    ],
+    batchDates: [
+      {
+        id: 'batch1',
+        startDate: '2024-07-15',
+        endDate: '2024-07-19',
+        totalSlots: 20,
+        availableSlots: 15,
+        price: trip.price
+      }
+    ]
   };
 };
 
@@ -154,6 +174,17 @@ export const getTripData = (id: string) => {
         answer: 'This trip may have been removed or the link may be incorrect. Please contact us or browse our available trips.',
       }
     ],
-    placesCovered: ['Unknown']
+       placesCovered: ['Unknown'],
+    // Add the missing properties with default values
+    pricingOptions: [
+      {
+        id: 'standard',
+        title: 'Standard',
+        price: 0,
+        description: 'Package details not available',
+        isPopular: false
+      }
+    ],
+    batchDates: []
   };
 };

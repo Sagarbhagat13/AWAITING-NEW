@@ -2,6 +2,7 @@
 import TripDetails from '@/components/itinerary/TripDetails';
 import TripBookingCard from '@/components/itinerary/TripBookingCard';
 import { PricingOption } from './booking/PricingTabs';
+import { BatchDate } from './booking/types';
 
 interface TripContentSectionProps {
   description: string;
@@ -35,6 +36,8 @@ interface TripContentSectionProps {
   onPricingChange?: (pricingId: string, pricingData: PricingOption) => void;
   guestCount?: number;
   onGuestCountChange?: (count: number) => void;
+  pricingOptions?: PricingOption[];
+  batchDates?: BatchDate[];
 }
 
 const TripContentSection = ({
@@ -58,7 +61,9 @@ const TripContentSection = ({
   activePricingId,
   onPricingChange,
   guestCount = 1,
-  onGuestCountChange
+   onGuestCountChange,
+  pricingOptions,
+  batchDates
 }: TripContentSectionProps) => {
   return (
     <section className="py-8">
@@ -90,6 +95,9 @@ const TripContentSection = ({
             onPricingChange={onPricingChange}
             guestCount={guestCount}
             onGuestCountChange={onGuestCountChange}
+            pricingOptions={pricingOptions}
+            batchDates={batchDates}
+
           />
         </div>
       </div>

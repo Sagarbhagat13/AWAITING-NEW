@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
@@ -11,7 +12,7 @@ import MiniGallery from '@/components/itinerary/MiniGallery';
 import { getDynamicTripData } from '@/services/dynamicTripService';
 import { useTripActions } from '@/hooks/use-trip-actions';
 import { useIsMobile } from '@/hooks/use-mobile';
-import { generateBatchDates } from '@/utils/travelersUtil';
+
 import { PricingOption } from '@/components/itinerary/booking/PricingTabs';
 import MobileFixedBottom from '@/components/itinerary/MobileFixedBottom';
 
@@ -34,9 +35,7 @@ const DynamicItineraryPage = () => {
   const [activePricing, setActivePricing] = useState<PricingOption | null>(null);
   const [guestCount, setGuestCount] = useState(1);
   
-  // Generate batch dates for this trip
-  const discountedPrice = tripData.price - (tripData.price * tripData.discount) / 100;
-  const batchDates = generateBatchDates(discountedPrice);
+  
 
   const handleBookNowClick = () => {
     setShowBookingSummary(true);
@@ -95,6 +94,8 @@ const DynamicItineraryPage = () => {
           onPricingChange={handlePricingChange}
           guestCount={guestCount}
           onGuestCountChange={handleGuestCountChange}
+           pricingOptions={tripData.pricingOptions || []}
+          batchDates={tripData.batchDates || []}
         />
         
         {/* Google Reviews Slider */}

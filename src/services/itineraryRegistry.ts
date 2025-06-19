@@ -1,4 +1,3 @@
-
 // Dynamic itinerary registry that automatically discovers and loads all itinerary files
 
 export interface ItineraryMetadata {
@@ -22,6 +21,24 @@ export interface ItineraryFAQ {
   answer: string;
 }
 
+export interface PricingOption {
+  id: string;
+  title: string;
+  price: number;
+  description: string;
+  isPopular?: boolean;
+}
+
+export interface BatchDate {
+  id: string;
+  startDate: string;
+  endDate: string;
+  totalSlots: number;
+  availableSlots: number;
+  price: number;
+}
+
+
 export interface ItineraryData {
   id: string;
   title: string;
@@ -40,6 +57,8 @@ export interface ItineraryData {
   itinerary: ItineraryDay[];
   faqs: ItineraryFAQ[];
   placesCovered: string[];
+  pricingOptions?: PricingOption[];
+  batchDates?: BatchDate[];
 }
 
 export interface ItineraryModule {
@@ -52,7 +71,7 @@ export interface RegistryStats {
 }
 
 // Use Vite's import.meta.glob to dynamically import all itinerary files
-const itineraryModules = import.meta.glob('/src/data/itineraries/*.ts', { eager: true });
+const itineraryModules = import.meta.glob ('/src/data/itineraries/*.ts', { eager: true });
 
 // Registry to store all discovered itineraries
 const itineraryRegistry = new Map<string, ItineraryData>();

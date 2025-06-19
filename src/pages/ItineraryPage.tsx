@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
@@ -87,6 +88,8 @@ const ItineraryPage = () => {
           onPricingChange={handlePricingChange}
           guestCount={guestCount}
           onGuestCountChange={handleGuestCountChange}
+           pricingOptions={tripData.pricingOptions || []}
+          batchDates={tripData.batchDates || []}
         />
         
         {/* Google Reviews Slider */}
