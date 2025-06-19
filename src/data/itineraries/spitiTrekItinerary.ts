@@ -135,7 +135,7 @@ export const spitiTrekItinerary = {
       meals: ['Breakfast'],
       accommodation: 'N/A (Tour ends)'
     }
-  ]
+  ],
 
   // Pricing tiers
   pricingOptions: [
