@@ -1,6 +1,6 @@
 
 export const keralaHoneymoonItinerary = {
-  id: 'LW4',
+  id: 'lw4',
   title: 'Kerala Backwaters Honeymoon',
   location: 'Kerala',
   price: 22999,
