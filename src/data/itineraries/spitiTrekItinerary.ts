@@ -136,4 +136,48 @@ export const spitiTrekItinerary = {
       accommodation: 'N/A (Tour ends)'
     }
   ]
+
+  // Pricing tiers
+  pricingOptions: [
+    {
+      id: 'standard',
+      title: 'Standard',
+      price: 12999,
+      description: 'Standard package with basic amenities',
+      isPopular: true
+    },
+    {
+      id: 'deluxe',
+      title: 'Deluxe',
+      price: 13799,
+      description: 'Enhanced package with premium accommodations'
+    },
+    {
+      id: 'premium',
+      title: 'Premium',
+      price: 14999,
+      description: 'Luxury package with all premium amenities'
+    }
+  ],
+  
+  // Available batch dates
+  batchDates: [
+    {
+      id: 'batch-1',
+      startDate: '2024-07-01',
+      endDate: '2024-07-01',
+      totalSlots: 15,
+      availableSlots: 8,
+      price: 13999
+    },
+    {
+      id: 'batch-2', 
+      startDate: '2024-07-02',
+      endDate: '2024-07-02',
+      totalSlots: 15,
+      availableSlots: 12,
+      price: 13999
+    }
+    // Add more batch dates...
+  ]
 };
