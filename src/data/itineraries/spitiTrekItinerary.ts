@@ -112,20 +112,19 @@ export const spitiTrekItinerary = {
     {
       day: 5,
       title: 'Pin Valley to kaza',
-      description: '.',
+      description: ' transfer to kaza',
       activities: [
-        'Drive to Pin Valley',
-        'Short trek in the valley',
-        'Wildlife spotting (blue sheep, ibex)',
-        'Visit Mudh village',
-        'Return to Kaza'
+        'langza vilagge',
+        'Komic',
+        'Hikkim ',
+  
       ],
-      meals: ['Breakfast', 'Packed lunch', 'Dinner'],
+      meals: ['Breakfast', 'Dinner'],
       accommodation: 'Guesthouse in Kaza'
     },
     {
       day: 6,
-      title: 'Departure from Kaza',
+      title: 'kaza to chandratal',
       description: 'Final exploration of Kaza before departure.',
       activities: [
         'Visit Key Monastery',
@@ -133,7 +132,29 @@ export const spitiTrekItinerary = {
         'Departure from Kaza'
       ],
       meals: ['Breakfast'],
-      accommodation: 'N/A (Tour ends)'
+      accommodation: 'Camp near chandratal'
+    },
+    {
+      day: 7,
+      title: ' chandratal to manali',
+      description: 'Final exploration of manali via atal tunnel.',
+      activities: [
+        'atal tunnel',
+        'Last-minute shopping',
+        'Departure from manali'
+      ],
+      meals: ['Breakfast'],
+      accommodation: 'Camp near chandratal'
+    },
+    {
+      day: 8,
+      title: '  manali to delhi',
+      description: 'transfer to delhi with bag full of memories.',
+      activities: [
+        
+      ],
+      
+      accommodation: 'Camp near chandratal'
     }
   ],
 
