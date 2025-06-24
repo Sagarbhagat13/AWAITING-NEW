@@ -150,14 +150,14 @@ export const spitiTrekItinerary = {
   // Pricing tiers
   pricingOptions: [
     {
-      id: 'Triple Sharing',
+      id: 'standard',
       title: 'Triple Sharing',
       price: 18999,
       description: 'Accomodation on triple sharing basis',
       isPopular: true
     },
     {
-      id: 'Double Sharing',
+      id: 'deluxe',
       title: 'Double Sharing',
       price: 20999,
       description: 'Accommodations on double sharing basis'
