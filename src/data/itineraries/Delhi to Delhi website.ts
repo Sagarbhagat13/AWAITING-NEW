@@ -56,7 +56,7 @@ export const spitiTrekItinerary = {
       answer: 'Essential items include warm clothes (temperature can drop below freezing), trekking boots, sleeping bag, sun protection, personal medications, and quick-dry clothing.'
     }
   ],
-  itinerary: [
+  itinerary:[
     {
       day: 1,
       title: 'Delhi To Manali',
@@ -66,7 +66,7 @@ export const spitiTrekItinerary = {
         'Enjoy a comfortable overnight journey through the hills',
      
       ],
-      meals: ['-'],
+      meals: ['no meals'],
       accommodation: 'Overnight Bus'
     },
     {
@@ -213,10 +213,11 @@ export const spitiTrekItinerary = {
        day: 12,
       title: 'Arrival At Delhi',
       description: 'Return back to your Home Town with Bag full of Memories.',
-      activities: [
-        '-',
-
-  ],
+      activities: ['-'],
+      meals: ['Breakfast'],
+      accommodation: 'Overnight Bus'
+    },
+  ]
 
   // Pricing tiers
   pricingOptions: [
