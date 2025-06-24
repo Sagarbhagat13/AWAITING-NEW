@@ -6,12 +6,12 @@ const partners = [
   {
     id: 1,
     name: "MSME",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Ministry_of_Micro%2C_Small_and_Medium_Enterprises_logo.svg/1200px-Ministry_of_Micro%2C_Small_and_Medium_Enterprises_logo.svg.png",
+    logo: "",
   },
   {
     id: 2,
     name: "AIR INDIA",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Air_India_Logo.svg/2560px-Air_India_Logo.svg.png",
+    logo: "https://thehardcopy.co/wp-content/uploads/Air-India-Logo-1200x522.jpg",
   },
   {
     id: 3,
