@@ -14,7 +14,7 @@ import {
 export const galleryPhotos = [
   {
     id: 1,
-    url: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80',
+    url: 'https://www.instagram.com/p/DITmwYCICQK/?igsh=MWVuNjh1OWhka2IybA==',
     alt: 'Mountain view with fog',
     location: 'Himalayas, India'
   },
@@ -115,7 +115,7 @@ const PhotoGallery = () => {
             className="flex items-center gap-2 text-wanderon-primary hover:text-wanderon-dark transition-colors"
           >
             <Instagram size={18} />
-            <span className="font-medium">@wanderon.in</span>
+            <span className="font-medium">@wawaiting_adventures.in</span>
           </a>
           {!isMobile && (
             <div className="hidden md:flex items-center gap-2">
