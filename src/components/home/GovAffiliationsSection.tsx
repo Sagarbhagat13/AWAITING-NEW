@@ -26,28 +26,33 @@ const partners = [
   {
     id: 5,
     name: "INDIGO",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/IndiGo_Airlines_logo.svg/2560px-IndiGo_Airlines_logo.svg.png",
+    logo: "https://1000logos.net/wp-content/uploads/2021/07/IndiGo-Logo.jpg",
   },
   {
     id: 6,
     name: "OTM",
-    logo: "https://www.otm-india.com/images/OTM-logo.png",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaoDtaHluxwKfB70joJEYxZFwlMgnZJq4ZYQ&s",
   },
   {
     id: 7,
     name: "MAHARASHTRA TOURISM",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Maharashtra_Tourism_Logo.svg/1200px-Maharashtra_Tourism_Logo.svg.png",
+    logo: "https://www.mediainfoline.com/wp-content/uploads/2021/02/maharashtra-tourism-logo.jpg",
   },
   {
     id: 8,
     name: "IRCTC",
-    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Indian_Railway_Catering_and_Tourism_Corporation_logo.svg/1200px-Indian_Railway_Catering_and_Tourism_Corporation_logo.svg.png",
+    logo: "https://images.seeklogo.com/logo-png/18/1/irctc-logo-png_seeklogo-184098.png",
   },
   {
     id: 9,
     name: "STARTUP INDIA",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Startup_India_Logo.svg/1200px-Startup_India_Logo.svg.png",
+    logo: "https://www.ux4g.gov.in/assets/img/uxdt-logo/Startup-India_Preview.png",
   },
+  {
+    id: 10,
+    name: "UDAAN HOTELS ",
+    logo: "",
+  }
 ];
 
 const GovAffiliationsSection = () => {
