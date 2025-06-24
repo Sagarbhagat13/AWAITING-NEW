@@ -115,7 +115,7 @@ const PhotoGallery = () => {
             className="flex items-center gap-2 text-wanderon-primary hover:text-wanderon-dark transition-colors"
           >
             <Instagram size={18} />
-            <span className="font-medium">@wawaiting_adventures.in</span>
+            <span className="font-medium">@awaiting_adventures.in</span>
           </a>
           {!isMobile && (
             <div className="hidden md:flex items-center gap-2">
