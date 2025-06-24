@@ -6,7 +6,7 @@ const partners = [
   {
     id: 1,
     name: "MSME",
-    logo: "",
+    logo: "https://w7.pngwing.com/pngs/158/831/png-transparent-ministry-of-micro-small-and-medium-enterprises-government-of-india-industry-small-business-india.png",
   },
   {
     id: 2,
