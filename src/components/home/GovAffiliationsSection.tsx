@@ -16,12 +16,12 @@ const partners = [
   {
     id: 3,
     name: "GST",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Goods_and_Services_Tax_logo.svg/1200px-Goods_and_Services_Tax_logo.svg.png",
+    logo: "https://www.presentations.gov.in/wp-content/uploads/2020/01/NE_Preview1.png",
   },
   {
     id: 4,
     name: "IDFC BANK",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/IDFC_First_Bank_Logo.svg/2560px-IDFC_First_Bank_Logo.svg.png",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_3CmS5o5iOFRFh-5MH-UMWwwn5oXM2h1hwQ&s",
   },
   {
     id: 5,
