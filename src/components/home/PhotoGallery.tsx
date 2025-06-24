@@ -109,7 +109,7 @@ const PhotoGallery = () => {
         
         <div className="flex justify-center items-center gap-4 mb-6">
           <a 
-            href="https://www.instagram.com/wanderon.in/" 
+            href="https://www.instagram.com/awaiting_adventures.in/?hl=en" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-wanderon-primary hover:text-wanderon-dark transition-colors"
