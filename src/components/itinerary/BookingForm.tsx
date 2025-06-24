@@ -15,7 +15,7 @@ import { toast } from 'sonner';
 import FormFields, { formSchema, FormValues } from './booking/FormFields';
 import FormActions from './booking/FormActions';
 import { BookingFormProps } from './booking/types';
-import { sendFormSubmissionEmail } from '@/services/emailService';
+import { openWhatsApp } from '@/services/whatsappService';
 
 const BookingForm = ({ isOpen, onClose, batchDates, tripName }: BookingFormProps) => {
   const form = useForm<FormValues>({
@@ -58,25 +58,39 @@ const BookingForm = ({ isOpen, onClose, batchDates, tripName }: BookingFormProps
     }
 
     // In a real app, this would submit to an API
-    console.log('Inquiry submitted:', data);
+    console.log('Opening WhatsApp with inquiry data:', data);
     
-    // Send email notification with form data
-    await sendFormSubmissionEmail({
-      name: data.name,
-      email: data.email,
-      phone: data.phone,
-      additionalData: {
-        numberOfPeople: data.numberOfPeople,
-        batchDate: selectedBatchDate ? `${selectedBatchDate.startDate} - ${selectedBatchDate.endDate}` : 'Not specified',
-        tripName
-      },
-      pageUrl: window.location.href,
-      formType: 'Trip Booking'
+    // // Send email notification with form data
+    // await sendFormSubmissionEmail({
+    //   name: data.name,
+    //   email: data.email,
+    //   phone: data.phone,
+    //   additionalData: {
+    //     numberOfPeople: data.numberOfPeople,
+    //     batchDate: selectedBatchDate ? `${selectedBatchDate.startDate} - ${selectedBatchDate.endDate}` : 'Not specified',
+    //     tripName
+    //   },
+    //   pageUrl: window.location.href,
+    //   formType: 'Trip Booking'
+    // });
+
+       // Open WhatsApp with pre-filled message
+    openWhatsApp({
+      tripName,
+      userName: data.name,
+      userPhone: data.phone,
+      userEmail: data.email,
+      numberOfPeople: data.numberOfPeople,
+      batchDate: selectedBatchDate ? `${selectedBatchDate.startDate} - ${selectedBatchDate.endDate}` : undefined
     });
     
     // Show catchy success message
-    toast.success('✨ Adventure awaits! Our travel expert will contact you soon with exclusive offers for your dream journey!', {
-      duration: 5000,
+    // toast.success('✨ Adventure awaits! Our travel expert will contact you soon with exclusive offers for your dream journey!', {
+    //   duration: 5000,
+    // });
+     // Show success message
+    toast.success('🚀 WhatsApp is opening with your inquiry details! Our travel expert will respond shortly.', {
+      duration: 4000,
     });
     
     // Close the form
@@ -88,7 +102,7 @@ const BookingForm = ({ isOpen, onClose, batchDates, tripName }: BookingFormProps
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
           <DialogTitle className="text-xl font-bold text-tripvidya-primary">
-            Your Adventure Starts Here
+            Get Trip Details
           </DialogTitle>
         </DialogHeader>
         

@@ -26,6 +26,32 @@ const findTripInCollections = (id: string) => {
   return null;
 };
 
+// Function to generate batch dates
+const generateBatchDates = () => {
+  const dates = [];
+  const currentDate = new Date();
+  
+  for (let i = 0; i < 6; i++) {
+    const startDate = new Date(currentDate);
+    startDate.setDate(currentDate.getDate() + (i * 15) + 7);
+    
+    const endDate = new Date(startDate);
+    endDate.setDate(startDate.getDate() + 5);
+    
+    dates.push({
+      id: `batch-${i + 1}`,
+      startDate: startDate.toISOString().split('T')[0],
+      endDate: endDate.toISOString().split('T')[0],
+      totalSlots: 20,
+      availableSlots: 20 - Math.floor(Math.random() * 10),
+      price: 25000 + (i * 2000)
+    });
+  }
+  
+  return dates;
+};
+
+
 // Enhanced function to generate basic itinerary from trip card data
 const generateBasicItinerary = (trip: any) => {
   const destinationSpecificContent = {
@@ -106,27 +132,24 @@ const generateBasicItinerary = (trip: any) => {
         answer: 'Yes, this trip is designed to be suitable for travelers of all ages including families with children.',
       },
     ],
+        
         placesCovered: [trip.location],
-    // Add the missing properties with default values
     pricingOptions: [
       {
         id: 'standard',
-        title: 'Standard',
+        title: 'Standard Package',
         price: trip.price,
-        description: 'Standard package',
+        description: 'Perfect for budget-conscious travelers',
         isPopular: true
+      },
+      {
+        id: 'premium',
+        title: 'Premium Package',
+        price: trip.price + 5000,
+        description: 'Enhanced experience with premium accommodations'
       }
     ],
-    batchDates: [
-      {
-        id: 'batch1',
-        startDate: '2024-07-15',
-        endDate: '2024-07-19',
-        totalSlots: 20,
-        availableSlots: 15,
-        price: trip.price
-      }
-    ]
+    batchDates: generateBatchDates()
   };
 };
 
@@ -134,7 +157,20 @@ export const getTripData = (id: string) => {
   // First, try to get detailed itinerary data from the dynamic registry
   const detailedItinerary = getItineraryById(id);
   if (detailedItinerary) {
-    return detailedItinerary;
+    // Ensure detailed itinerary has required properties
+    return {
+      ...detailedItinerary,
+      pricingOptions: detailedItinerary.pricingOptions || [
+        {
+          id: 'standard',
+          title: 'Standard Package',
+          price: detailedItinerary.price,
+          description: 'Perfect for budget-conscious travelers',
+          isPopular: true
+        }
+      ],
+      batchDates: detailedItinerary.batchDates || generateBatchDates()
+    };
   }
   
   // If no detailed itinerary, try to find basic trip data and generate itinerary
@@ -174,15 +210,13 @@ export const getTripData = (id: string) => {
         answer: 'This trip may have been removed or the link may be incorrect. Please contact us or browse our available trips.',
       }
     ],
-       placesCovered: ['Unknown'],
-    // Add the missing properties with default values
+   placesCovered: ['Unknown'],
     pricingOptions: [
       {
         id: 'standard',
-        title: 'Standard',
+        title: 'Contact Us',
         price: 0,
-        description: 'Package details not available',
-        isPopular: false
+        description: 'Please contact us for pricing details'
       }
     ],
     batchDates: []
