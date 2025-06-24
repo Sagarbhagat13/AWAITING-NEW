@@ -51,7 +51,7 @@ const partners = [
   {
     id: 10,
     name: "UDAAN HOTELS ",
-    logo: "",
+    logo: "https://i0.wp.com/udaanhotels.com/wp-content/uploads/2021/10/cropped-Asset-1@2x.png?w=1200&ssl=1",
   }
 ];
 
