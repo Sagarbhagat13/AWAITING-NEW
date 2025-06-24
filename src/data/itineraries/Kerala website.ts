@@ -158,7 +158,7 @@ export const spitiTrekItinerary = {
       activities: [
     
       ],
-      meals: [-],
+      meals: ['no meals'],
       accommodation: '-'
     }
   ],
@@ -211,6 +211,7 @@ export const spitiTrekItinerary = {
       totalSlots: 18,
       availableSlots: 18,
       price: 14900
+    }
 
 
     // Add more batch dates...

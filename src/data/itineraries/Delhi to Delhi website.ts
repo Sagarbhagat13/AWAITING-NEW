@@ -217,7 +217,7 @@ export const spitiTrekItinerary = {
       meals: ['Breakfast'],
       accommodation: 'Overnight Bus'
     },
-  ]
+  ],
 
   // Pricing tiers
   pricingOptions: [

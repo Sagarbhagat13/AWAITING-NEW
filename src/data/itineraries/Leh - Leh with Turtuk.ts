@@ -163,7 +163,7 @@ export const spitiTrekItinerary = {
       description: 'Accommodations on double sharing basis'
     },
   
-  ]
+  ],
   
   // Available batch dates
   batchDates: [

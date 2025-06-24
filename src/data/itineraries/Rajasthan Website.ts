@@ -159,7 +159,7 @@ export const spitiTrekItinerary = {
         '-',
 
       ],
-      meals: [-],
+      meals: ['no meals'],
       accommodation: '-'
     }
   ],
