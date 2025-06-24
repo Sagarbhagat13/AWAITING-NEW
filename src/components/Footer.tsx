@@ -25,16 +25,16 @@ const Footer = () => {
               comfort, and authentic local experiences.
             </p>
             <div className="flex space-x-3">
-              <a href="#" className="text-white hover:text-tripvidya-primary transition-colors">
+              <a href="https://www.facebook.com/awaitingadventures/" className="text-white hover:text-tripvidya-primary transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-white hover:text-tripvidya-primary transition-colors">
+              <a href="https://www.instagram.com/awaiting_adventures.in/?hl=en" className="text-white hover:text-tripvidya-primary transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-white hover:text-tripvidya-primary transition-colors">
+              <a href="https://www.youtube.com/@awaitingadventures7454" className="text-white hover:text-tripvidya-primary transition-colors">
                 <Youtube className="h-5 w-5" />
               </a>
-              <a href="#" className="text-white hover:text-tripvidya-primary transition-colors">
+              <a href="https://x.com/awaitingadvens" className="text-white hover:text-tripvidya-primary transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
             </div>
@@ -92,12 +92,12 @@ const Footer = () => {
               </li>
               <li className="flex">
                 <Phone className="h-5 w-5 text-tripvidya-primary mr-3 flex-shrink-0" />
-                <span className="text-gray-300">+91 9999999999</span>
+                <span className="text-gray-300">+91 9137798539</span>
               </li>
               <li className="flex">
                 <MapPin className="h-5 w-5 text-tripvidya-primary mr-3 flex-shrink-0" />
                 <span className="text-gray-300">
-                  Delhi, India
+                  Mumbai, India
                 </span>
               </li>
             </ul>
