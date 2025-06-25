@@ -44,6 +44,17 @@ export const monthlyTrips: MonthlyTrips[] = [
         image: 'https://images.unsplash.com/photo-1602157729150-3edc9cb4c4c6?auto=format&fit=crop&w=800&q=80',
         rating: 4.9,
         reviews: 145
+      },
+      {
+        id: 'lw1',
+        title: 'Spiti valley in chandratal',
+        location: 'Himachal Pradesh',
+        price: 19999,
+        discount: 5,
+        duration: '8D/7N',
+        image: 'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        rating: 4.9,
+        reviews: 156
       }
     ]
   },
@@ -82,6 +93,17 @@ export const monthlyTrips: MonthlyTrips[] = [
         image: 'https://images.unsplash.com/photo-1590080748465-1ef694f45478?auto=format&fit=crop&w=800&q=80',
         rating: 4.7,
         reviews: 112
+      },
+      {
+        id: 'lw1',
+        title: 'Spiti valley in chandratal',
+        location: 'Himachal Pradesh',
+        price: 19999,
+        discount: 5,
+        duration: '8D/7N',
+        image: 'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        rating: 4.9,
+        reviews: 156
       }
     ]
   },
@@ -120,6 +142,17 @@ export const monthlyTrips: MonthlyTrips[] = [
         image: 'https://images.unsplash.com/photo-1626016352668-5c5bdbe641c4?auto=format&fit=crop&w=800&q=80',
         rating: 4.7,
         reviews: 109
+      },
+      {
+        id: 'lw1',
+        title: 'Spiti valley in chandratal',
+        location: 'Himachal Pradesh',
+        price: 19999,
+        discount: 5,
+        duration: '8D/7N',
+        image: 'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        rating: 4.9,
+        reviews: 156
       }
     ]
   },
@@ -158,6 +191,17 @@ export const monthlyTrips: MonthlyTrips[] = [
         image: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80',
         rating: 4.5,
         reviews: 98
+      },
+      {
+        id: 'lw1',
+        title: 'Spiti valley in chandratal',
+        location: 'Himachal Pradesh',
+        price: 19999,
+        discount: 5,
+        duration: '8D/7N',
+        image: 'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        rating: 4.9,
+        reviews: 156
       }
     ]
   },
@@ -196,6 +240,17 @@ export const monthlyTrips: MonthlyTrips[] = [
         image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc953?auto=format&fit=crop&w=800&q=80',
         rating: 4.7,
         reviews: 89
+      },
+      {
+        id: 'lw1',
+        title: 'Spiti valley in chandratal',
+        location: 'Himachal Pradesh',
+        price: 19999,
+        discount: 5,
+        duration: '8D/7N',
+        image: 'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        rating: 4.9,
+        reviews: 156
       }
     ]
   },
@@ -234,6 +289,17 @@ export const monthlyTrips: MonthlyTrips[] = [
         image: 'https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?auto=format&fit=crop&w=800&q=80',
         rating: 4.7,
         reviews: 98
+      },
+      {
+        id: 'lw1',
+        title: 'Spiti valley in chandratal',
+        location: 'Himachal Pradesh',
+        price: 19999,
+        discount: 5,
+        duration: '8D/7N',
+        image: 'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        rating: 4.9,
+        reviews: 156
       }
     ]
   },
@@ -272,6 +338,17 @@ export const monthlyTrips: MonthlyTrips[] = [
         image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc953?auto=format&fit=crop&w=800&q=80',
         rating: 4.7,
         reviews: 95
+      },
+      {
+        id: 'lw1',
+        title: 'Spiti valley in chandratal',
+        location: 'Himachal Pradesh',
+        price: 19999,
+        discount: 5,
+        duration: '8D/7N',
+        image: 'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        rating: 4.9,
+        reviews: 156
       }
     ]
   },
@@ -310,6 +387,17 @@ export const monthlyTrips: MonthlyTrips[] = [
         image: 'https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?auto=format&fit=crop&w=800&q=80',
         rating: 4.7,
         reviews: 125
+      },
+      {
+        id: 'lw1',
+        title: 'Spiti valley in chandratal',
+        location: 'Himachal Pradesh',
+        price: 19999,
+        discount: 5,
+        duration: '8D/7N',
+        image: 'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        rating: 4.9,
+        reviews: 156
       }
     ]
   },
@@ -348,6 +436,17 @@ export const monthlyTrips: MonthlyTrips[] = [
         image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=80',
         rating: 4.6,
         reviews: 102
+      },
+      {
+        id: 'lw1',
+        title: 'Spiti valley in chandratal',
+        location: 'Himachal Pradesh',
+        price: 19999,
+        discount: 5,
+        duration: '8D/7N',
+        image: 'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        rating: 4.9,
+        reviews: 156
       }
     ]
   },
@@ -386,6 +485,17 @@ export const monthlyTrips: MonthlyTrips[] = [
         image: 'https://images.unsplash.com/photo-1626198225952-a73547da7be2?auto=format&fit=crop&w=800&q=80',
         rating: 4.6,
         reviews: 98
+      },
+      {
+        id: 'lw1',
+        title: 'Spiti valley in chandratal',
+        location: 'Himachal Pradesh',
+        price: 19999,
+        discount: 5,
+        duration: '8D/7N',
+        image: 'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        rating: 4.9,
+        reviews: 156
       }
     ]
   },
@@ -424,6 +534,17 @@ export const monthlyTrips: MonthlyTrips[] = [
         image: 'https://images.unsplash.com/photo-1544550581-5f7ceaf7f992?auto=format&fit=crop&w=800&q=80',
         rating: 4.9,
         reviews: 145
+      },
+      {
+        id: 'lw1',
+        title: 'Spiti valley in chandratal',
+        location: 'Himachal Pradesh',
+        price: 19999,
+        discount: 5,
+        duration: '8D/7N',
+        image: 'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        rating: 4.9,
+        reviews: 156
       }
     ]
   },
@@ -460,6 +581,17 @@ export const monthlyTrips: MonthlyTrips[] = [
         discount: 10,
         duration: '6D/5N',
         image: 'https://images.unsplash.com/photo-1599661046289-e31897ec8548?auto=format&fit=crop&w=800&q=80',
+        rating: 4.9,
+        reviews: 156
+      },
+      {
+        id: 'lw1',
+        title: 'Spiti valley in chandratal',
+        location: 'Himachal Pradesh',
+        price: 19999,
+        discount: 5,
+        duration: '8D/7N',
+        image: 'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         rating: 4.9,
         reviews: 156
       }
