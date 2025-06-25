@@ -51,7 +51,7 @@ const WhyUsSection = () => {
   return (
     <section className="py-16 bg-gradient-to-r from-[#E6E9F0] to-[#EEF1F5]">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl font-bold text-gray-800 mb-12 text-center">Why Choose TripVidya</h2>
+        <h2 className="text-2xl font-bold text-gray-800 mb-12 text-center">Why Choose Awaiting Adventures</h2>
         
         {isMobile ? (
           <TripCarousel 

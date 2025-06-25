@@ -5,7 +5,7 @@ const ReviewHeader = () => {
   return (
     <div className="flex items-center gap-2">
       <img 
-        src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png"
         alt="Google"
         className="h-5 w-5"
       />

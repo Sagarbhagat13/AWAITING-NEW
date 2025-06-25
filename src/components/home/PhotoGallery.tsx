@@ -38,7 +38,7 @@ export const galleryPhotos = [
   },
   {
     id: 5,
-    url: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=80',
+    url: 'https://drive.google.com/file/d/1y5aeMrC6Afo2C8LB7I7bE0U67Jsy1fNT/view?usp=drive_link',
     alt: 'Temple architecture',
     location: 'Tamil Nadu, India'
   },
