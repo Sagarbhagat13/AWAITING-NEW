@@ -13,7 +13,7 @@ export const regionalTrips: RegionalTrips[] = [
     region: "North",
     trips: [
       {
-        id: 'north-1',
+        id: '',
         title: 'Kashmir Paradise',
         location: 'Jammu & Kashmir',
         price: 24999,
@@ -24,7 +24,7 @@ export const regionalTrips: RegionalTrips[] = [
         reviews: 156
       },
       {
-        id: 'north-2',
+        id: '',
         title: 'Manali Adventure',
         location: 'Himachal Pradesh',
         price: 18999,
@@ -35,7 +35,7 @@ export const regionalTrips: RegionalTrips[] = [
         reviews: 134
       },
       {
-        id: 'north-3',
+        id: '',
         title: 'Spiritual Varanasi',
         location: 'Uttar Pradesh',
         price: 16999,
@@ -51,7 +51,7 @@ export const regionalTrips: RegionalTrips[] = [
     region: "South",
     trips: [
       {
-        id: 'south-1',
+        id: '',
         title: 'Kerala Backwaters',
         location: 'Kerala',
         price: 22999,
@@ -62,7 +62,7 @@ export const regionalTrips: RegionalTrips[] = [
         reviews: 187
       },
       {
-        id: 'south-2',
+        id: '',
         title: 'Mysore Heritage',
         location: 'Karnataka',
         price: 17999,
@@ -73,7 +73,7 @@ export const regionalTrips: RegionalTrips[] = [
         reviews: 112
       },
       {
-        id: 'south-3',
+        id: '',
         title: 'Pondicherry Beach Retreat',
         location: 'Tamil Nadu',
         price: 19999,
@@ -89,7 +89,7 @@ export const regionalTrips: RegionalTrips[] = [
     region: "East",
     trips: [
       {
-        id: 'east-1',
+        id: '',
         title: 'Darjeeling Tea Trails',
         location: 'West Bengal',
         price: 21999,
@@ -100,7 +100,7 @@ export const regionalTrips: RegionalTrips[] = [
         reviews: 132
       },
       {
-        id: 'east-2',
+        id: '',
         title: 'Kaziranga Wildlife',
         location: 'Assam',
         price: 26999,
@@ -111,7 +111,7 @@ export const regionalTrips: RegionalTrips[] = [
         reviews: 118
       },
       {
-        id: 'east-3',
+        id: '',
         title: 'Gangtok & Pelling',
         location: 'Sikkim',
         price: 23999,
@@ -127,7 +127,7 @@ export const regionalTrips: RegionalTrips[] = [
     region: "West",
     trips: [
       {
-        id: 'west-1',
+        id: '',
         title: 'Goa Beach Holiday',
         location: 'Goa',
         price: 18999,
@@ -138,7 +138,7 @@ export const regionalTrips: RegionalTrips[] = [
         reviews: 176
       },
       {
-        id: 'west-2',
+        id: '',
         title: 'Udaipur Lake City',
         location: 'Rajasthan',
         price: 22999,
@@ -149,7 +149,7 @@ export const regionalTrips: RegionalTrips[] = [
         reviews: 146
       },
       {
-        id: 'west-3',
+        id: '',
         title: 'Rann of Kutch',
         location: 'Gujarat',
         price: 20999,

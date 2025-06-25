@@ -3,7 +3,7 @@ import { Trip } from '@/data/popularTrips';
 
 export const ladakhBikingTrips: Trip[] = [
   {
-    id: 'ladakh-1',
+    id: '',
     title: 'Ladakh Bike Expedition',
     location: 'Ladakh',
     price: 32999,
@@ -15,7 +15,7 @@ export const ladakhBikingTrips: Trip[] = [
     international: false
   },
   {
-    id: 'ladakh-2',
+    id: '',
     title: 'Manali to Leh Bike Journey',
     location: 'Ladakh',
     price: 28500,
@@ -27,7 +27,7 @@ export const ladakhBikingTrips: Trip[] = [
     international: false
   },
   {
-    id: 'ladakh-3',
+    id: '',
     title: 'Srinagar to Leh Bike Tour',
     location: 'Ladakh',
     price: 29999,
@@ -39,7 +39,7 @@ export const ladakhBikingTrips: Trip[] = [
     international: false
   },
   {
-    id: 'ladakh-4',
+    id: '',
     title: 'Pangong Lake Bike Expedition',
     location: 'Ladakh',
     price: 31500,
@@ -54,7 +54,7 @@ export const ladakhBikingTrips: Trip[] = [
 
 export const ladakhSUVTrips: Trip[] = [
   {
-    id: 'ladakh-suv-1',
+    id: '',
     title: 'Ladakh SUV Expedition',
     location: 'Ladakh',
     price: 38999,
@@ -66,7 +66,7 @@ export const ladakhSUVTrips: Trip[] = [
     international: false
   },
   {
-    id: 'ladakh-suv-2',
+    id: '',
     title: 'Leh Nubra Valley SUV Tour',
     location: 'Ladakh',
     price: 34500,
@@ -78,7 +78,7 @@ export const ladakhSUVTrips: Trip[] = [
     international: false
   },
   {
-    id: 'ladakh-suv-3',
+    id: '',
     title: 'Ladakh Monastery Tour by SUV',
     location: 'Ladakh',
     price: 33999,
@@ -90,7 +90,7 @@ export const ladakhSUVTrips: Trip[] = [
     international: false
   },
   {
-    id: 'ladakh-suv-4',
+    id: '',
     title: 'Zanskar Valley SUV Expedition',
     location: 'Ladakh',
     price: 42500,

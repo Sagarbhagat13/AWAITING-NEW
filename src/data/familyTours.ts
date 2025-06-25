@@ -3,7 +3,7 @@ import { Trip } from './popularTrips';
 
 export const familyTours: Trip[] = [
   {
-    id: 'family1',
+    id: '',
     title: 'Munnar Family Adventure',
     location: 'Kerala',
     price: 24999,
@@ -15,7 +15,7 @@ export const familyTours: Trip[] = [
     familySpecial: true,
   },
   {
-    id: 'family2',
+    id: '',
     title: 'Goa Beach Retreat',
     location: 'Goa',
     price: 18999,
@@ -27,7 +27,7 @@ export const familyTours: Trip[] = [
     familySpecial: true,
   },
   {
-    id: 'family3',
+    id: '',
     title: 'Coorg Nature Escape',
     location: 'Karnataka',
     price: 22500,
@@ -39,7 +39,7 @@ export const familyTours: Trip[] = [
     familySpecial: true,
   },
   {
-    id: 'family4',
+    id: '',
     title: 'Nainital Lake Tour',
     location: 'Uttarakhand',
     price: 19999,

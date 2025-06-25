@@ -3,7 +3,7 @@ import { Trip } from './popularTrips';
 
 export const weekendTrips: Trip[] = [
   {
-    id: '6',
+    id: '',
     title: 'Bir Billing Paragliding Weekend',
     location: 'Himachal Pradesh',
     price: 6999,
@@ -14,7 +14,7 @@ export const weekendTrips: Trip[] = [
     reviews: 112,
   },
   {
-    id: '7',
+    id: '',
     title: 'Rishikesh River Rafting',
     location: 'Uttarakhand',
     price: 5500,
@@ -25,7 +25,7 @@ export const weekendTrips: Trip[] = [
     reviews: 98,
   },
   {
-    id: '8',
+    id: '',
     title: 'Kasol Weekend Retreat',
     location: 'Himachal Pradesh',
     price: 7500,
@@ -36,7 +36,7 @@ export const weekendTrips: Trip[] = [
     reviews: 87,
   },
   {
-    id: '9',
+    id: '',
     title: 'Jibhi Hidden Paradise',
     location: 'Himachal Pradesh',
     price: 8999,

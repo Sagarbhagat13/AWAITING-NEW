@@ -3,7 +3,7 @@ import { Trip } from './popularTrips';
 
 export const statePackages: Trip[] = [
   {
-    id: '10',
+    id: '',
     title: 'Kerala Backwaters Tour',
     location: 'Kerala',
     price: 22999,
@@ -15,7 +15,7 @@ export const statePackages: Trip[] = [
     stateHighlight: true
   },
   {
-    id: '11',
+    id: '',
     title: 'Rajasthan Heritage Tour',
     location: 'Rajasthan',
     price: 25500,
@@ -27,7 +27,7 @@ export const statePackages: Trip[] = [
     stateHighlight: true
   },
   {
-    id: '12',
+    id: '',
     title: 'Goa Beach Holiday',
     location: 'Goa',
     price: 14999,
@@ -39,7 +39,7 @@ export const statePackages: Trip[] = [
     stateHighlight: true
   },
   {
-    id: '13',
+    id: '',
     title: 'Uttarakhand Valley Tour',
     location: 'Uttarakhand',
     price: 18500,
@@ -51,7 +51,7 @@ export const statePackages: Trip[] = [
     stateHighlight: true
   },
   {
-    id: '14',
+    id: '',
     title: 'Karnataka Temple Tour',
     location: 'Karnataka',
     price: 16999,

@@ -4,7 +4,7 @@ import { Trip } from './popularTrips';
 // Using the Trip interface directly instead of creating a separate interface
 export const offBeatTrips: Trip[] = [
   {
-    id: 'ob1',
+    id: '',
     title: 'Spiti Valley Trek',
     location: 'Himachal Pradesh',
     image: 'https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80',
@@ -16,7 +16,7 @@ export const offBeatTrips: Trip[] = [
     offbeat: true
   },
   {
-    id: 'ob2',
+    id: '',
     title: 'Zanskar River Expedition',
     location: 'Ladakh',
     image: 'https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&w=1200&q=80',
@@ -28,7 +28,7 @@ export const offBeatTrips: Trip[] = [
     offbeat: true
   },
   {
-    id: 'ob3',
+    id: '',
     title: 'Valley of Flowers',
     location: 'Uttarakhand',
     image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80',
@@ -40,7 +40,7 @@ export const offBeatTrips: Trip[] = [
     offbeat: true
   },
   {
-    id: 'ob4',
+    id: '',
     title: 'Dzukou Valley',
     location: 'Nagaland',
     image: 'https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=1200&q=80',
@@ -52,7 +52,7 @@ export const offBeatTrips: Trip[] = [
     offbeat: true
   },
   {
-    id: 'ob5',
+    id: '',
     title: 'Sandakphu Trek',
     location: 'West Bengal',
     image: 'https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1200&q=80',

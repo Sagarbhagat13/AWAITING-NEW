@@ -13,7 +13,7 @@ export const monthlyTrips: MonthlyTrips[] = [
     month: "January",
     trips: [
       {
-        id: 'jan-1',
+        id: '',
         title: 'Jaipur Winter Festival',
         location: 'Rajasthan',
         price: 19999,
@@ -24,7 +24,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 123
       },
       {
-        id: 'jan-2',
+        id: '',
         title: 'Rann of Kutch',
         location: 'Gujarat',
         price: 21999,
@@ -35,7 +35,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 98
       },
       {
-        id: 'jan-3',
+        id: '',
         title: 'Kerala Backwaters',
         location: 'Kerala',
         price: 23499,
@@ -51,7 +51,7 @@ export const monthlyTrips: MonthlyTrips[] = [
     month: "February",
     trips: [
       {
-        id: 'feb-1',
+        id: '',
         title: 'Taj Mahal Tour',
         location: 'Uttar Pradesh',
         price: 15999,
@@ -62,7 +62,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 178
       },
       {
-        id: 'feb-2',
+        id: '',
         title: 'Valentine Special Goa',
         location: 'Goa',
         price: 18999,
@@ -73,7 +73,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 156
       },
       {
-        id: 'feb-3',
+        id: '',
         title: 'Udaipur Romance',
         location: 'Rajasthan',
         price: 22999,
@@ -89,7 +89,7 @@ export const monthlyTrips: MonthlyTrips[] = [
     month: "March",
     trips: [
       {
-        id: 'mar-1',
+        id: '',
         title: 'Holi Festival Special',
         location: 'Mathura & Vrindavan',
         price: 17999,
@@ -100,7 +100,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 134
       },
       {
-        id: 'mar-2',
+        id: '',
         title: 'Kaziranga Safari',
         location: 'Assam',
         price: 26999,
@@ -111,7 +111,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 87
       },
       {
-        id: 'mar-3',
+        id: '',
         title: 'Himalayan Spring Trek',
         location: 'Himachal Pradesh',
         price: 21999,
@@ -127,7 +127,7 @@ export const monthlyTrips: MonthlyTrips[] = [
     month: "April",
     trips: [
       {
-        id: 'apr-1',
+        id: '',
         title: 'Darjeeling Tea Trail',
         location: 'West Bengal',
         price: 19999,
@@ -138,7 +138,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 132
       },
       {
-        id: 'apr-2',
+        id: '',
         title: 'Valley of Flowers Trek',
         location: 'Uttarakhand',
         price: 24999,
@@ -149,7 +149,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 145
       },
       {
-        id: 'apr-3',
+        id: '',
         title: 'Ooty Hill Station',
         location: 'Tamil Nadu',
         price: 18999,
@@ -165,7 +165,7 @@ export const monthlyTrips: MonthlyTrips[] = [
     month: "May",
     trips: [
       {
-        id: 'may-1',
+        id: '',
         title: 'Ladakh Adventure',
         location: 'Ladakh',
         price: 29999,
@@ -176,7 +176,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 156
       },
       {
-        id: 'may-2',
+        id: '',
         title: 'Summer in Shimla',
         location: 'Himachal Pradesh',
         price: 17999,
@@ -187,7 +187,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 132
       },
       {
-        id: 'may-3',
+        id: '',
         title: 'Coorg Coffee Trails',
         location: 'Karnataka',
         price: 22999,
@@ -203,7 +203,7 @@ export const monthlyTrips: MonthlyTrips[] = [
     month: "June",
     trips: [
       {
-        id: 'jun-1',
+        id: '',
         title: 'Andaman Beach Holiday',
         location: 'Andaman',
         price: 32999,
@@ -214,7 +214,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 143
       },
       {
-        id: 'jun-2',
+        id: '',
         title: 'Spiti Valley',
         location: 'Himachal Pradesh',
         price: 26999,
@@ -225,7 +225,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 112
       },
       {
-        id: 'jun-3',
+        id: '',
         title: 'Monsoon in Munnar',
         location: 'Kerala',
         price: 19999,
@@ -241,7 +241,7 @@ export const monthlyTrips: MonthlyTrips[] = [
     month: "July",
     trips: [
       {
-        id: 'jul-1',
+        id: '',
         title: 'Monsoon in Goa',
         location: 'Goa',
         price: 16999,
@@ -252,7 +252,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 108
       },
       {
-        id: 'jul-2',
+        id: '',
         title: 'Valley of Flowers',
         location: 'Uttarakhand',
         price: 24999,
@@ -263,7 +263,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 132
       },
       {
-        id: 'jul-3',
+        id: '',
         title: 'Coorg Monsoon',
         location: 'Karnataka',
         price: 18999,
@@ -279,7 +279,7 @@ export const monthlyTrips: MonthlyTrips[] = [
     month: "August",
     trips: [
       {
-        id: 'aug-1',
+        id: '',
         title: 'Leh Ladakh Adventure',
         location: 'Ladakh',
         price: 27999,
@@ -290,7 +290,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 156
       },
       {
-        id: 'aug-2',
+        id: '',
         title: 'Independence Special',
         location: 'Delhi & Agra',
         price: 14999,
@@ -301,7 +301,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 98
       },
       {
-        id: 'aug-3',
+        id: '',
         title: 'Munnar Tea Gardens',
         location: 'Kerala',
         price: 21999,
@@ -317,7 +317,7 @@ export const monthlyTrips: MonthlyTrips[] = [
     month: "September",
     trips: [
       {
-        id: 'sep-1',
+        id: '',
         title: 'Meghalaya Monsoon',
         location: 'Meghalaya',
         price: 25999,
@@ -328,7 +328,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 112
       },
       {
-        id: 'sep-2',
+        id: '',
         title: 'Andaman Island Tour',
         location: 'Andaman',
         price: 32999,
@@ -339,7 +339,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 143
       },
       {
-        id: 'sep-3',
+        id: '',
         title: 'Post-monsoon Goa',
         location: 'Goa',
         price: 17999,
@@ -355,7 +355,7 @@ export const monthlyTrips: MonthlyTrips[] = [
     month: "October",
     trips: [
       {
-        id: 'oct-1',
+        id: '',
         title: 'Dussehra in Mysore',
         location: 'Karnataka',
         price: 19999,
@@ -366,7 +366,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 134
       },
       {
-        id: 'oct-2',
+        id: '',
         title: 'Varanasi Diwali',
         location: 'Uttar Pradesh',
         price: 23999,
@@ -377,7 +377,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 142
       },
       {
-        id: 'oct-3',
+        id: '',
         title: 'Autumn in Manali',
         location: 'Himachal Pradesh',
         price: 18999,
@@ -393,7 +393,7 @@ export const monthlyTrips: MonthlyTrips[] = [
     month: "November",
     trips: [
       {
-        id: 'nov-1',
+        id: '',
         title: 'Pushkar Camel Fair',
         location: 'Rajasthan',
         price: 22999,
@@ -404,7 +404,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 112
       },
       {
-        id: 'nov-2',
+        id: '',
         title: 'Rann Utsav',
         location: 'Gujarat',
         price: 24999,
@@ -415,7 +415,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 132
       },
       {
-        id: 'nov-3',
+        id: '',
         title: 'Andamans Beach Holiday',
         location: 'Andaman',
         price: 32999,
@@ -431,7 +431,7 @@ export const monthlyTrips: MonthlyTrips[] = [
     month: "December",
     trips: [
       {
-        id: 'dec-1',
+        id: '',
         title: 'Goa New Year Special',
         location: 'Goa',
         price: 29999,
@@ -442,7 +442,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 178
       },
       {
-        id: 'dec-2',
+        id: '',
         title: 'Winter in Shimla',
         location: 'Himachal Pradesh',
         price: 19999,
@@ -453,7 +453,7 @@ export const monthlyTrips: MonthlyTrips[] = [
         reviews: 132
       },
       {
-        id: 'dec-3',
+        id: '',
         title: 'Jaisalmer Desert Festival',
         location: 'Rajasthan',
         price: 23999,

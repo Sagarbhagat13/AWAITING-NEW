@@ -3,7 +3,7 @@ import { Trip } from './popularTrips';
 
 export const honeymoonPackages: Trip[] = [
   {
-    id: '15',
+    id: '',
     title: 'Andaman Paradise',
     location: 'Andaman & Nicobar',
     price: 45999,
@@ -15,7 +15,7 @@ export const honeymoonPackages: Trip[] = [
     honeymoonSpecial: true
   },
   {
-    id: '16',
+    id: '',
     title: 'Coorg Romantic Getaway',
     location: 'Karnataka',
     price: 28500,
@@ -27,7 +27,7 @@ export const honeymoonPackages: Trip[] = [
     honeymoonSpecial: true
   },
   {
-    id: '17',
+    id: '',
     title: 'Udaipur Royal Retreat',
     location: 'Rajasthan',
     price: 35999,
@@ -39,7 +39,7 @@ export const honeymoonPackages: Trip[] = [
     honeymoonSpecial: true
   },
   {
-    id: '18',
+    id: '',
     title: 'Shimla-Manali Couple Tour',
     location: 'Himachal Pradesh',
     price: 32500,
@@ -52,7 +52,7 @@ export const honeymoonPackages: Trip[] = [
   },
   // International packages
   {
-    id: '24',
+    id: '',
     title: 'Maldives Luxury Escape',
     location: 'Maldives',
     price: 125000,
@@ -65,7 +65,7 @@ export const honeymoonPackages: Trip[] = [
     international: true
   },
   {
-    id: '25',
+    id: '',
     title: 'Santorini Romance',
     location: 'Greece',
     price: 150000,
@@ -78,7 +78,7 @@ export const honeymoonPackages: Trip[] = [
     international: true
   },
   {
-    id: '26',
+    id: '',
     title: 'Bali Intimate Getaway',
     location: 'Indonesia',
     price: 85000,
@@ -91,7 +91,7 @@ export const honeymoonPackages: Trip[] = [
     international: true
   },
   {
-    id: '27',
+    id: '',
     title: 'Paris Romantic Tour',
     location: 'France',
     price: 175000,
