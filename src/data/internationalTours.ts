@@ -3,7 +3,7 @@ import { Trip } from './popularTrips';
 
 export const internationalTours: Trip[] = [
   {
-    id: '19',
+    id: '',
     title: 'Bali Island Hopping',
     location: 'Indonesia',
     price: 65999,
@@ -15,7 +15,7 @@ export const internationalTours: Trip[] = [
     international: true
   },
   {
-    id: '20',
+    id: '',
     title: 'Thailand Discovery',
     location: 'Thailand',
     price: 48500,
@@ -27,7 +27,7 @@ export const internationalTours: Trip[] = [
     international: true
   },
   {
-    id: '21',
+    id: '',
     title: 'Dubai Extravaganza',
     location: 'UAE',
     price: 75999,
@@ -39,7 +39,7 @@ export const internationalTours: Trip[] = [
     international: true
   },
   {
-    id: '22',
+    id: '',
     title: 'Singapore & Malaysia Tour',
     location: 'Singapore & Malaysia',
     price: 82500,
@@ -51,7 +51,7 @@ export const internationalTours: Trip[] = [
     international: true
   },
   {
-    id: '23',
+    id: '',
     title: 'Vietnam Explorer',
     location: 'Vietnam',
     price: 55999,
