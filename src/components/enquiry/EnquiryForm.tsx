@@ -7,7 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { User, Mail, Phone, Users, Calendar, MapPin } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { FormData } from './types';
-import { sendFormSubmissionEmail } from '@/services/emailService';
+import { openWhatsAppForGeneralEnquiry } from '@/services/whatsappService';
 
 interface EnquiryFormProps {
   onClose: () => void;
@@ -45,24 +45,40 @@ const EnquiryForm = ({ onClose }: EnquiryFormProps) => {
     setIsSubmitting(true);
     
     try {
-      // Send email notification with form data
-      await sendFormSubmissionEmail({
-        name: formData.name,
-        email: formData.email,
-        phone: formData.phone,
-        additionalData: {
-          people: formData.people,
-          destination: formData.destination,
-          dates: formData.dates
-        },
-        pageUrl: window.location.href,
-        formType: 'Trip Enquiry'
+      // // Send email notification with form data
+      // await sendFormSubmissionEmail({
+      //   name: formData.name,
+      //   email: formData.email,
+      //   phone: formData.phone,
+      //   additionalData: {
+      //     people: formData.people,
+      //     destination: formData.destination,
+      //     dates: formData.dates
+      //   },
+      //   pageUrl: window.location.href,
+      //   formType: 'Trip Enquiry'
+      // });
+      
+      // // Show catchy toast message
+      // toast({
+      //   title: "Adventure Awaits! 🏔️",
+      //   description: `Thanks ${formData.name}! We're already dreaming about your ${formData.destination} trip. We'll contact you within 24 hours to start planning your perfect getaway!`,
+            console.log('Opening WhatsApp with general enquiry data:', formData);
+      
+      // Open WhatsApp with pre-filled message
+      openWhatsAppForGeneralEnquiry({
+        userName: formData.name,
+        userPhone: formData.phone,
+        userEmail: formData.email,
+        destination: formData.destination,
+        numberOfPeople: formData.people,
+        preferredDates: formData.dates
       });
       
-      // Show catchy toast message
+      // Show success toast message
       toast({
-        title: "Adventure Awaits! 🏔️",
-        description: `Thanks ${formData.name}! We're already dreaming about your ${formData.destination} trip. We'll contact you within 24 hours to start planning your perfect getaway!`,
+        title: "🚀 WhatsApp is opening!",
+        description: `Thanks ${formData.name}! WhatsApp is opening with your trip planning details. Our travel expert will respond shortly!`,
       });
       
       // Reset form and close dialog
