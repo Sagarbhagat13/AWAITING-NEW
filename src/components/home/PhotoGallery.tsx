@@ -14,7 +14,7 @@ import {
 export const galleryPhotos = [
   {
     id: 1,
-    url: 'https://www.instagram.com/p/DITmwYCICQK/?igsh=MWVuNjh1OWhka2IybA==',
+    url: '/images/PHOTO-2025-06-25-11-50-12.jpg',
     alt: 'Mountain view with fog',
     location: 'Himalayas, India'
   },
@@ -26,37 +26,37 @@ export const galleryPhotos = [
   },
   {
     id: 3,
-    url: 'https://images.unsplash.com/photo-1567253549588-6d50ad1e0938?auto=format&fit=crop&w=800&q=80',
+    url: '/images/PHOTO-2025-06-25-11-50-26.jpg',
     alt: 'Desert camel ride',
     location: 'Rajasthan, India'
   },
   {
     id: 4,
-    url: 'https://images.unsplash.com/photo-1576487248805-cf45219d84ef?auto=format&fit=crop&w=800&q=80',
+    url: '/images/PHOTO-2025-06-25-11-50-40.jpg',
     alt: 'Houseboat on water',
     location: 'Kerala, India'
   },
   {
     id: 5,
-    url: 'https://drive.google.com/file/d/1y5aeMrC6Afo2C8LB7I7bE0U67Jsy1fNT/view?usp=drive_link',
+    url: '/images/PHOTO-2025-06-25-11-55-21.jpg',
     alt: 'Temple architecture',
     location: 'Tamil Nadu, India'
   },
   {
     id: 6,
-    url: 'https://images.unsplash.com/photo-1587922546307-776227941871?auto=format&fit=crop&w=800&q=80',
+    url: '/images/PHOTO-2025-06-25-11-53-06.jpg',
     alt: 'Tea plantations',
     location: 'Munnar, India'
   },
   {
     id: 7,
-    url: 'https://images.unsplash.com/photo-1543158266-0066955047b0?auto=format&fit=crop&w=800&q=80',
+    url: '/images/PHOTO-2025-06-25-11-54-09.jpg',
     alt: 'Snow mountains',
     location: 'Ladakh, India'
   },
   {
     id: 8,
-    url: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=80',
+    url: '/images/PHOTO-2025-06-25-11-52-21.jpg',
     alt: 'City view',
     location: 'Mumbai, India'
   }
