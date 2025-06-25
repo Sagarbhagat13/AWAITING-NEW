@@ -8,7 +8,7 @@ const GroupDiscountBanner = () => {
         <div 
           className="rounded-2xl overflow-hidden bg-cover bg-center bg-no-repeat h-64 relative"
           style={{ 
-            backgroundImage: 'url("https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=2000&q=80")', 
+            backgroundImage: 'url("/images/Spiti Valley banner.png")', 
             backgroundPosition: 'center',
           }}
         >
