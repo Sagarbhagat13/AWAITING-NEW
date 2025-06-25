@@ -20,7 +20,7 @@ export const galleryPhotos = [
   },
   {
     id: 2,
-    url: 'https://drive.google.com/file/d/1vyko3i42tEOSEgG2RhB7tI6FmneeY42w/view?usp=drive_link',
+    url: '/images/PHOTO-2025-06-25-11-54-46.jpg',
     alt: 'Beach sunset',
     location: 'Goa, India'
   },
