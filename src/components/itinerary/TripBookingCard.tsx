@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import { Card } from '@/components/ui/card';
 import { generateBatchDates } from '@/utils/travelersUtil';
@@ -160,12 +161,17 @@ const TripBookingCard = ({
             )}
 
             {/* Hide action buttons on mobile devices */}
-            <div className="hidden md:block">
+            {/* <div className="hidden md:block">
               <ActionButtons 
                 onBookingFormOpen={handleBookingFormOpen}
                 onBookNowClick={handleBookNowClick}
               />
-            </div>
+            </div> */}
+              {/* Action buttons - now visible on both mobile and desktop */}
+            <ActionButtons 
+              onBookingFormOpen={handleBookingFormOpen}
+              onBookNowClick={handleBookNowClick}
+            />
 
             <ContactSection />
           </div>
