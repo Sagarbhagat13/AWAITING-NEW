@@ -93,7 +93,7 @@ const EnquiryForm = ({ onClose }: EnquiryFormProps) => {
     } catch (error) {
       toast({
         title: "Something went wrong!",
-        description: "We couldn't send your inquiry. Please try again later.",
+        description: "We couldn't open WhatsApp. Please try again later.",
         variant: "destructive"
       });
     } finally {
@@ -218,7 +218,7 @@ const EnquiryForm = ({ onClose }: EnquiryFormProps) => {
         className="w-full bg-tripvidya-primary hover:bg-tripvidya-primary/90"
         disabled={isSubmitting}
       >
-        {isSubmitting ? "Sending..." : "Submit Enquiry"}
+         {isSubmitting ? "Opening WhatsApp..." : "Plan My Trip"}
       </Button>
     </form>
   );
