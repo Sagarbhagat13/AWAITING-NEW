@@ -36,7 +36,7 @@ const partners = [
   {
     id: 7,
     name: "MAHARASHTRA TOURISM",
-    logo: "https://www.mediainfoline.com/wp-content/uploads/2021/02/maharashtra-tourism-logo.jpg",
+    logo: "https://e2p8rtixif5.exactdn.com/wp-content/uploads/2025/01/mah-logo-300x277.png?strip=all&lossy=1&ssl=1",
   },
   {
     id: 8,

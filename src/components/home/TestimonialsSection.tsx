@@ -18,7 +18,7 @@ const TestimonialsSection = () => {
         <div className="flex flex-col items-center justify-center mb-6">
           <div className="flex items-center justify-center gap-2 mb-2">
             <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png"
               alt="Google"
               className="h-6 w-6"
             />
@@ -31,12 +31,12 @@ const TestimonialsSection = () => {
                 />
               ))}
             </div>
-            <span className="text-sm text-gray-600">200+ reviews</span>
+            <span className="text-sm text-gray-600">500+ reviews</span>
           </div>
           
           <Button
             variant="outline"
-            onClick={() => window.open('https://www.google.com/search?q=tripvidya+reviews', '_blank')}
+            onClick={() => window.open('https://g.co/kgs/Asd4iqt', '_blank')}
             className="gap-2 mt-2"
           >
             Read More Reviews on Google <ExternalLink className="h-4 w-4" />
