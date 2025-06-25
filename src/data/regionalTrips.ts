@@ -44,12 +44,24 @@ export const regionalTrips: RegionalTrips[] = [
         image: 'https://images.unsplash.com/photo-1561361058-c24cecae35ca?auto=format&fit=crop&w=800&q=80',
         rating: 4.6,
         reviews: 98
+      },
+      {
+        id: 'lw1',
+        title: 'Spiti valley in chandratal',
+        location: 'Himachal Pradesh',
+        price: 19999,
+        discount: 5,
+        duration: '8D/7N',
+        image: 'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        rating: 4.9,
+        reviews: 156
       }
     ]
   },
   {
     region: "South",
     trips: [
+      
       {
         id: '',
         title: 'Kerala Backwaters',
@@ -82,7 +94,19 @@ export const regionalTrips: RegionalTrips[] = [
         image: 'https://images.unsplash.com/photo-1598222864721-b743b9f1d9cb?auto=format&fit=crop&w=800&q=80',
         rating: 4.7,
         reviews: 143
-      }
+      },
+      {
+    id: 'lw4',
+    title: 'Kerala mansoon',
+    location: 'kerala',
+    price: 14900,
+    discount: 5,
+    duration: '8D/7N',
+    image: 'https://images.unsplash.com/photo-1629813538702-64c925934e19?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    rating: 4.9,
+    reviews: 189,
+  }
+      
     ]
   },
   {
@@ -109,6 +133,17 @@ export const regionalTrips: RegionalTrips[] = [
         image: 'https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=800&q=80',
         rating: 4.8,
         reviews: 118
+      },
+      {
+        id: '',
+        title: 'Gangtok & Pelling',
+        location: 'Sikkim',
+        price: 23999,
+        discount: 10,
+        duration: '7D/6N',
+        image: 'https://images.unsplash.com/photo-1626077578726-744055a7c979?auto=format&fit=crop&w=800&q=80',
+        rating: 4.6,
+        reviews: 96
       },
       {
         id: '',
@@ -147,6 +182,17 @@ export const regionalTrips: RegionalTrips[] = [
         image: 'https://images.unsplash.com/photo-1599661046289-e31897ec8548?auto=format&fit=crop&w=800&q=80',
         rating: 4.7,
         reviews: 146
+      },
+      {
+        id: '',
+        title: 'Rann of Kutch',
+        location: 'Gujarat',
+        price: 20999,
+        discount: 8,
+        duration: '5D/4N',
+        image: 'https://images.unsplash.com/photo-1584487487374-6aa12cfced1f?auto=format&fit=crop&w=800&q=80',
+        rating: 4.6,
+        reviews: 122
       },
       {
         id: '',
