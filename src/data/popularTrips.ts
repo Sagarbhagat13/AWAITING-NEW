@@ -23,7 +23,7 @@ export interface Trip {
 
 export const popularTrips: Trip[] = [
   {
-    id: '1',
+    id: 'lw5',
     title: 'Experience Rajasthan in monsoon',
     location: 'Rajasthan',
     price: 15900,
@@ -34,7 +34,7 @@ export const popularTrips: Trip[] = [
     reviews: 245,
   },
   {
-    id: '2',
+    id: 'lw4',
     title: 'Kerala mansoon',
     location: 'kerala',
     price: 14900,
@@ -45,7 +45,7 @@ export const popularTrips: Trip[] = [
     reviews: 189,
   },
   {
-    id: '3',
+    id: 'lw1',
     title: 'Spiti Valley Road Trip',
     location: 'Himachal Pradesh',
     price: 19999,
@@ -56,7 +56,7 @@ export const popularTrips: Trip[] = [
     reviews: 176,
   },
   {
-    id: '4',
+    id: 'lw3',
     title: 'Ladakh with turtuk',
     location: 'Ladakh',
     price: 18999,
@@ -67,7 +67,7 @@ export const popularTrips: Trip[] = [
     reviews: 134,
   },
   {
-    id: '5',
+    id: 'lw6',
     title: 'Ladakh Bike Expedition',
     location: 'Ladakh',
     price: 37999,
