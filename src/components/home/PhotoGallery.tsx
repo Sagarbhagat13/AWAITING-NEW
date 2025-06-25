@@ -20,7 +20,7 @@ export const galleryPhotos = [
   },
   {
     id: 2,
-    url: 'https://images.unsplash.com/photo-1542401886-65d6c61db217?auto=format&fit=crop&w=800&q=80',
+    url: 'https://drive.google.com/file/d/1vyko3i42tEOSEgG2RhB7tI6FmneeY42w/view?usp=drive_link',
     alt: 'Beach sunset',
     location: 'Goa, India'
   },
