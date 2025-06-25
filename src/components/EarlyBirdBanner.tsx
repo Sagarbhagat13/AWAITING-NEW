@@ -8,7 +8,7 @@ const EarlyBirdBanner = () => {
         <div 
           className="rounded-2xl overflow-hidden bg-cover bg-center bg-no-repeat h-64 relative"
           style={{ 
-            backgroundImage: 'url("https://images.unsplash.com/photo-1590677865878-9b11096b3e9d?auto=format&fit=crop&w=2000&q=80")', 
+            backgroundImage: 'url("/images/Spiti Valley banner.png")', 
             backgroundPosition: 'center',
           }}
         >
