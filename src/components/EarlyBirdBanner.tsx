@@ -6,8 +6,7 @@ const EarlyBirdBanner = () => {
     <section className="py-8 px-4 md:px-8 w-full">
       <div className="container mx-auto">
         <div 
-          className="rounded-2xl overflow-hidden bg-cover bg-center bg-no-repeat aspect-[4/3] sm:aspect-[3/2] md:aspect-[16/9] relative"
-
+          className="rounded-2xl overflow-hidden bg-cover bg-center bg-no-repeat h-64 relative"
           style={{ 
             backgroundImage: 'url("/images/Spiti Valley banner.png")', 
             backgroundPosition: 'center',
