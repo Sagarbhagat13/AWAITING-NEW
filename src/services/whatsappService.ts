@@ -7,7 +7,7 @@ interface WhatsAppMessageData {
   batchDate?: string;
 }
 
-const BUSINESS_WHATSAPP_NUMBER = '917021115917'; // From FloatingInfoButton
+const BUSINESS_WHATSAPP_NUMBER = '919137798539'; // From FloatingInfoButton
 
 export const formatWhatsAppMessage = (data: WhatsAppMessageData): string => {
   const message = `🏔️ Hi! I'm interested in ${data.tripName}
