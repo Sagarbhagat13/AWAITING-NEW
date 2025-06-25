@@ -33,14 +33,14 @@ const customizedTrips: CustomTripProps[] = [
     id: "custom-3",
     title: "Desert Safari",
     location: "Rajasthan",
-    image: "https://images.unsplash.com/photo-1604596529732-eda197ef53d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    image: "https://images.unsplash.com/photo-1614181081801-f241632a4d49?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     isInternational: false
   },
   {
     id: "custom-4",
     title: "Backwater Cruise",
     location: "Kerala",
-    image: "https://images.unsplash.com/photo-1602501415308-526eb77a7025?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80",
+    image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     isInternational: false
   },
   {
@@ -61,14 +61,14 @@ const customizedTrips: CustomTripProps[] = [
     id: "custom-7",
     title: "Northern Lights",
     location: "Iceland",
-    image: "https://images.unsplash.com/photo-1579033385971-a7bc8c5f8c0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1376&q=80",
+    image: "https://images.unsplash.com/photo-1507272931001-fc06c17e4f43?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     isInternational: true
   },
   {
     id: "custom-8",
     title: "Ancient Wonders",
     location: "Italy",
-    image: "https://images.unsplash.com/photo-1529155157179-963abf419b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    image: "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=1283&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     isInternational: true
   }
 ];
