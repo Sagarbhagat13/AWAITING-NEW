@@ -59,6 +59,12 @@ export const galleryPhotos = [
     url: '/images/PHOTO-2025-06-25-11-52-21.jpg',
     alt: 'City view',
     location: 'Mumbai, India'
+  },
+  {
+    id: 9,
+    url: '/images/PHOTO-2025-06-25-11-52-21.jpg',
+    alt: 'City view',
+    location: 'Mumbai, India'
   }
 ];
 
