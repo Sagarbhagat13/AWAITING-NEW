@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import {
   BrowserRouter,
@@ -75,6 +76,29 @@ function App() {
               <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
               <Route path="/careers" element={<CareerPage />} />
               <Route path="/faq" element={<FaqPage />} />
+
+                            
+              {/* Specific India state routes */}
+              <Route path="/india/ladakh" element={<CategoryPage />} />
+              <Route path="/india/himachal-pradesh" element={<CategoryPage />} />
+              <Route path="/india/uttarakhand" element={<CategoryPage />} />
+              <Route path="/india/rajasthan" element={<CategoryPage />} />
+              <Route path="/india/goa" element={<CategoryPage />} />
+              <Route path="/india/kerala" element={<CategoryPage />} />
+              <Route path="/india/tamil-nadu" element={<CategoryPage />} />
+              <Route path="/india/andaman" element={<CategoryPage />} />
+              <Route path="/india/all-states" element={<CategoryPage />} />
+              
+              {/* Specific World country routes */}
+              <Route path="/world/thailand" element={<CategoryPage />} />
+              <Route path="/world/singapore" element={<CategoryPage />} />
+              <Route path="/world/bali" element={<CategoryPage />} />
+              <Route path="/world/maldives" element={<CategoryPage />} />
+              <Route path="/world/dubai" element={<CategoryPage />} />
+              <Route path="/world/europe" element={<CategoryPage />} />
+              <Route path="/world/all-countries" element={<CategoryPage />} />
+              
+              {/* Generic category route - must come after specific routes */}
               <Route path="/:category" element={<CategoryPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

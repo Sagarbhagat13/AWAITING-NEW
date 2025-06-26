@@ -40,9 +40,26 @@ export const useCategoryData = (): CategoryDataResult => {
   useEffect(() => {
     window.scrollTo(0, 0);
     
-    // Handle state-specific pages
-    if (location.pathname.startsWith('/india/') && state) {
-      const stateInfo = stateTrips[state];
+    // // Handle state-specific pages
+    // if (location.pathname.startsWith('/india/') && state) {
+    //   const stateInfo = stateTrips[state];
+    // Reset states
+    setStateData(null);
+    setCountryData(null);
+    setTrips([]);
+    
+    // Handle specific India state pages
+    if (location.pathname.startsWith('/india/')) {
+      const stateName = location.pathname.split('/')[2];
+      
+      if (stateName === 'all-states') {
+        setPageTitle('All India Tour Packages');
+        setPageDescription('Explore tour packages across all Indian states and union territories.');
+        setTrips(popularTrips.filter(trip => !trip.international));
+        return;
+      }
+      
+      const stateInfo = stateTrips[stateName];
       if (stateInfo) {
         setStateData(stateInfo);
         setPageTitle(`${stateInfo.name} Tours & Travel Packages`);
@@ -51,9 +68,21 @@ export const useCategoryData = (): CategoryDataResult => {
       }
     }
     
-    // Handle country-specific pages
-    if (location.pathname.startsWith('/world/') && country) {
-      const countryInfo = worldTrips[country];
+    // // Handle country-specific pages
+    // if (location.pathname.startsWith('/world/') && country) {
+    //   const countryInfo = worldTrips[country];
+    // Handle specific World country pages
+    if (location.pathname.startsWith('/world/')) {
+      const countryName = location.pathname.split('/')[2];
+      
+      if (countryName === 'all-countries') {
+        setPageTitle('All International Tour Packages');
+        setPageDescription('Discover amazing destinations around the world with our international travel packages.');
+        setTrips(popularTrips.filter(trip => trip.international));
+        return;
+      }
+      
+      const countryInfo = worldTrips[countryName];
       if (countryInfo) {
         setCountryData(countryInfo);
         setPageTitle(`${countryInfo.name} Tours & Travel Packages`);
