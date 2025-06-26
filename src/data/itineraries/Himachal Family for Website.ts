@@ -64,19 +64,16 @@ export const spitiTrekItinerary = {
       day: 1,
       title: 'Mumbai to Chandigarh',
       description: 'Overnight Train Departure from Mumbai to Chandigarh.',
-      activities: [
-        '-',
-        
-      ],
+      activities: ['-'],
       meals: ['-'],
       accommodation: 'Overnight Train'
     },
     {
       day: 2,
       title: 'Escape to Shimla',
-      description: 'Journey from Chandigarh to Shimla.',
+      description: 'Journey from Chandigarh to Shimla.'
       activities: [
-        'Enjoy your Bus journey from Chamdigarh to Shimla',
+        'Enjoy your Bus journey from Chamdigarh to Shimla'
         
       ],
       meals: [ 'Dinner'],
@@ -172,12 +169,14 @@ export const spitiTrekItinerary = {
       ],
       meals: ['Breakfast'],
       accommodation: 'Return Train Journey'
+    
     },
     {
        day: 10,
       title: 'Arrival In Mumbai',
       description: 'Reach Mumbai with Bag full of Memories & Amazing Artifacts from Himachal.',
-      activities: [
+      activities: []
+    }
 
   ],
 
