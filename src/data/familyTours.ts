@@ -3,13 +3,13 @@ import { Trip } from './popularTrips';
 
 export const familyTours: Trip[] = [
   {
-    id: '',
-    title: 'Munnar Family Adventure',
-    location: 'Kerala',
+    id: 'f1',
+    title: 'Himachal family',
+    location: 'Himachal Pradesh',
     price: 24999,
-    discount: 12,
-    duration: '5D/4N',
-    image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80',
+    discount: 0,
+    duration: '8D/7N',
+    image: 'https://images.unsplash.com/photo-1609948543911-7f01ff385be5?q=80&w=1285&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     rating: 4.8,
     reviews: 145,
     familySpecial: true,
