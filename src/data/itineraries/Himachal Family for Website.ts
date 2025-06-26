@@ -71,7 +71,7 @@ export const spitiTrekItinerary = {
     {
       day: 2,
       title: 'Escape to Shimla',
-      description: 'Journey from Chandigarh to Shimla.'
+      description: 'Journey from Chandigarh to Shimla.',
       activities: [
         'Enjoy your Bus journey from Chamdigarh to Shimla'
         
