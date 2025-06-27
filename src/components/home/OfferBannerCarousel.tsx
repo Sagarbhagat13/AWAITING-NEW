@@ -19,7 +19,7 @@ const offerBanners: OfferBanner[] = [
     id: '1',
     title: 'Early Bird Special - 30% Off',
     description: 'Book your adventure 45 days in advance and save big on all packages',
-    image: '/images/Spiti Valley banner.png',
+    image: 'url("/images/Spiti Valley banner.png")',
     ctaText: 'Book Now',
     ctaLink: '#'
   },
