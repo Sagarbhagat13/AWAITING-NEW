@@ -27,7 +27,7 @@ const offerBanners: OfferBanner[] = [
     id: '2',
     title: 'Group Discounts Available',
     description: 'Travel with friends and family - Special rates for groups of 6 or more',
-    image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=1200&h=600',
+    image: 'https://www.feeltourism.com/images/himachal/himachal-head.jpg',
     ctaText: 'Learn More',
     ctaLink: '#'
   },
