@@ -146,6 +146,8 @@ const Index = () => {
             <EarlyBirdBanner />
             
             <StatePackagesSection />
+                        
+            <OfferBannerCarousel />
             
             <RegionalTripsSection />
             

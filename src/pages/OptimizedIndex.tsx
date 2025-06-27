@@ -211,6 +211,11 @@ const OptimizedIndex = () => {
                 </Suspense>
               )}
             </div>
+                 
+            <Suspense fallback={<SectionLoader />}>
+              <OfferBannerCarousel />
+            </Suspense>
+            
             
             <div data-section="regional-trips" className="min-h-[400px]">
               {shouldLoadSection('regional-trips') && (
