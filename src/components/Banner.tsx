@@ -26,7 +26,7 @@ const Banner = ({ onSearch }: { onSearch: (query: string) => void }) => {
   ];
   
   return (
-    <div className="relative h-[70vh] md:h-[90vh] overflow-hidden">
+      <div className="relative h-[56vh] md:h-[90vh] overflow-hidden">
       <BannerSlider images={bannerImages} />
       
       <div className="relative container mx-auto h-full flex flex-col justify-center items-center px-4 text-center">
