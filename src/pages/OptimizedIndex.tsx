@@ -15,6 +15,7 @@ import { useSEOOptimization } from '@/hooks/useSEOOptimization';
 
 // Lazy load non-critical sections for better initial load performance
 const SearchResults = lazy(() => import('@/components/home/SearchResults'));
+const OfferBannerCarousel = lazy(() => import('@/components/home/OfferBannerCarousel'));
 const LongWeekendSection = lazy(() => import('@/components/home/LongWeekendSection'));
 const PopularTripsSection = lazy(() => import('@/components/home/PopularTripsSection'));
 const StatePackagesSection = lazy(() => import('@/components/home/StatePackagesSection'));
@@ -166,6 +167,10 @@ const OptimizedIndex = () => {
       <Navbar />
       
       <OptimizedBanner onSearch={handleSearch} />
+            
+      <Suspense fallback={<SectionLoader />}>
+        <OfferBannerCarousel />
+      </Suspense>
       
       <main className="flex-grow">
         <h1 className="sr-only">Awaiting Adventures - Premier Travel Agency for India and International Tours</h1>

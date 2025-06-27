@@ -15,6 +15,7 @@ import { usePerformanceMonitor } from '@/hooks/usePerformanceMonitor';
 import { useSEOOptimization } from '@/hooks/useSEOOptimization';
 
 import SearchResults from '@/components/home/SearchResults';
+import OfferBannerCarousel from '@/components/home/OfferBannerCarousel';
 import LongWeekendSection from '@/components/home/LongWeekendSection';
 import PopularTripsSection from '@/components/home/PopularTripsSection';
 import StatePackagesSection from '@/components/home/StatePackagesSection';
@@ -123,6 +124,8 @@ const Index = () => {
       <Navbar />
       
       <Banner onSearch={handleSearch} />
+            
+      <OfferBannerCarousel />
       
       <main className="flex-grow">
         <h1 className="sr-only">Awaiting Adventures - Premier Travel Agency for India and International Tours</h1>
