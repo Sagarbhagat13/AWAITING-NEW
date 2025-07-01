@@ -17,8 +17,8 @@ interface OfferBanner {
 const offerBanners: OfferBanner[] = [
   {
     id: '1',
-    title: 'Early Bird Special - 30% Off',
-    description: 'Book your adventure 30g days in advance and save big on all packages',
+    title: '',
+    description: '',
     image: '/images/spitiq.png',
     ctaText: 'Book Now',
     ctaLink: '#'
@@ -26,7 +26,7 @@ const offerBanners: OfferBanner[] = [
   {
     id: '2',
     title: 'Group Discounts Available',
-    description: 'Travel with friends and family - Special rates for groups of 6 or more',
+    description: '',
     image: 'https://www.feeltourism.com/images/himachal/himachal-head.jpg',
     ctaText: 'Learn More',
     ctaLink: '#'
@@ -78,7 +78,7 @@ const OfferBannerCarousel = () => {
           <div 
             className={cn(
               "relative w-full transition-all duration-500 ease-in-out",
-              isMobile ? "aspect-[16/8.1]" : "aspect-[16/4]"
+              isMobile ? "aspect-[18/9]" : "aspect-[2/1]"
             )}
           >
             {offerBanners.map((banner, index) => (
