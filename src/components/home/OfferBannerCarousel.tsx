@@ -18,7 +18,7 @@ const offerBanners: OfferBanner[] = [
   {
     id: '1',
     title: 'Early Bird Special - 30% Off',
-    description: 'Book your adventure 45 days in advance and save big on all packages',
+    description: 'Book your adventure 30g days in advance and save big on all packages',
     image: '/images/spitiq.png',
     ctaText: 'Book Now',
     ctaLink: '#'
