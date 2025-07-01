@@ -78,7 +78,7 @@ const OfferBannerCarousel = () => {
           <div 
             className={cn(
               "relative w-full transition-all duration-500 ease-in-out",
-              isMobile ? "aspect-[4/1]" : "aspect-[16/4]"
+              isMobile ? "aspect-[6/2]" : "aspect-[12/3]"
             )}
           >
             {offerBanners.map((banner, index) => (
