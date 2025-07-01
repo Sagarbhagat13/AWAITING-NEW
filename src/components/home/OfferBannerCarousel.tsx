@@ -91,8 +91,13 @@ const OfferBannerCarousel = () => {
               >
                 {/* Background Image */}
                 <div 
-                  className="absolute inset-0 bg-contain bg-center bg-no-repeat bg-gray-100"
-                  style={{ backgroundImage: `url(${banner.image})` }}
+                  // className="absolute inset-0 bg-contain bg-center bg-no-repeat bg-gray-100"
+                  // style={{ backgroundImage: `url(${banner.image})` }}
+                   className="absolute inset-0 bg-no-repeat bg-center"
+                  style={{ 
+                    backgroundImage: `url(${banner.image})`,
+                    backgroundSize: 'contain'
+                  }}
                 />
                 
                 {/* Overlay */}
