@@ -9,7 +9,8 @@ interface OfferBanner {
   id: string;
   title: string;
   description: string;
-  image: string;
+   desktopImage: string;
+   mobileImage: string;
   ctaText?: string;
   ctaLink?: string;
 }
@@ -19,7 +20,8 @@ const offerBanners: OfferBanner[] = [
     id: '1',
     title: '',
     description: '',
-    image: '/images/spitiq.png',
+    desktopImage: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=1200&h=400',
+    mobileImage: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=800&h=600',
     ctaText: 'Book Now',
     ctaLink: '#'
   },
@@ -27,7 +29,8 @@ const offerBanners: OfferBanner[] = [
     id: '2',
     title: 'Group Discounts Available',
     description: '',
-    image: 'https://www.feeltourism.com/images/himachal/himachal-head.jpg',
+    desktopImage: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=1200&h=400',
+    mobileImage: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=800&h=600',
     ctaText: 'Learn More',
     ctaLink: '#'
   },
@@ -35,7 +38,8 @@ const offerBanners: OfferBanner[] = [
     id: '3',
     title: 'Monsoon Special Packages',
     description: 'Experience the beauty of monsoon destinations with exclusive deals',
-    image: 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&q=80&w=1200&h=600',
+    desktopImage: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=1200&h=400',
+    mobileImage: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=800&h=600',
     ctaText: 'Explore Now',
     ctaLink: '#'
   }
@@ -66,6 +70,11 @@ const OfferBannerCarousel = () => {
     }
   }, [nextSlide, isHovered]);
 
+    // Get current image based on device type
+  const getCurrentImage = (banner: OfferBanner) => {
+    return isMobile ? banner.mobileImage : banner.desktopImage;
+  };
+
   return (
     <section className="w-full bg-gray-50 py-8">
       <div className="container mx-auto px-4">
@@ -78,7 +87,8 @@ const OfferBannerCarousel = () => {
           <div 
             className={cn(
               "relative w-full transition-all duration-500 ease-in-out",
-              isMobile ? "aspect-[16/8.1]" : "aspect-[16/4]"
+              // isMobile ? "aspect-[16/8.1]" : "aspect-[16/4]"
+               isMobile ? "aspect-[4/3]" : "aspect-[3/1]"
             )}
           >
             {offerBanners.map((banner, index) => (
@@ -93,12 +103,15 @@ const OfferBannerCarousel = () => {
                 <div 
                   // className="absolute inset-0 bg-contain bg-center bg-no-repeat bg-gray-100"
                   // style={{ backgroundImage: `url(${banner.image})` }}
-                   className="absolute inset-0 bg-no-repeat bg-center"
-                  style={{ 
-                    backgroundImage: `url(${banner.image})`,
-                    backgroundSize: 'cover'
-                  }}
+                  //  className="absolute inset-0 bg-no-repeat bg-center"
+                  // style={{ 
+                  //   backgroundImage: `url(${banner.image})`,
+                  //   backgroundSize: 'cover'
+                   className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+                  style={{ backgroundImage: `url(${getCurrentImage(banner)})` }}
                 />
+                  
+               
                 
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/20" />
