@@ -20,7 +20,7 @@ const offerBanners: OfferBanner[] = [
     id: '1',
     title: '',
     description: '',
-    desktopImage: 'url("/images/Spiti Valley banner.png")',
+    desktopImage: '/images/Spiti Valley banner.png',
     mobileImage: 'https://plus.unsplash.com/premium_photo-1692386759833-3acf660742ad?q=80&w=2352&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&q=80&w=800&h=600',
     ctaText: 'Book Now',
     ctaLink: '#'
