@@ -108,7 +108,7 @@ const OfferBannerCarousel = () => {
                   //   backgroundImage: `url(${banner.image})`,
                   //   backgroundSize: 'cover'
                    className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-                  style={{ backgroundImage:`url(${getCurrentImage(banner)})` }}
+                  style={{ backgroundImage: `url(${getCurrentImage(banner)})` }}
                 />
                   
                
