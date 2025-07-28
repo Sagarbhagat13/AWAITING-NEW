@@ -20,18 +20,18 @@ const offerBanners: OfferBanner[] = [
     id: '1',
     title: '',
     description: '',
-    desktopImage:  '/images/Spiti Valley banner.png',
-    mobileImage:  '/images/spitiq.png',
-    ctaText: 'Book Now',
+    desktopImage: 'url("/images/Spiti Valley banner.png")',
+    mobileImage: 'url("/images/spitiq.png")',
+    ctaText: '',
     ctaLink: '#'
   },
   {
     id: '2',
-    title: 'Group Discounts Available',
+    title: '',
     description: '',
     desktopImage: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=1200&h=400',
     mobileImage: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=800&h=600',
-    ctaText: 'Learn More',
+    ctaText: '',
     ctaLink: '#'
   },
   {
