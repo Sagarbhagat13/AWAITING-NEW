@@ -20,7 +20,7 @@ const offerBanners: OfferBanner[] = [
     id: '1',
     title: '',
     description: '',
-    desktopImage: '/images/Spiti-Valley-banner.png',
+    desktopImage:  '/images/Spiti Valley banner.png',
     mobileImage: '/images/spitiq.png',
     ctaText: '',
     ctaLink: '#'
