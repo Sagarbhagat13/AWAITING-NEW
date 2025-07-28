@@ -20,8 +20,8 @@ const offerBanners: OfferBanner[] = [
     id: '1',
     title: '',
     description: '',
-    desktopImage: 'url("/images/Spiti Valley banner.png")',
-    mobileImage: 'url("/images/spitiq.png")',
+    desktopImage: '/images/Spiti-Valley-banner.png',
+    mobileImage: '/images/spitiq.png',
     ctaText: '',
     ctaLink: '#'
   },
@@ -108,7 +108,7 @@ const OfferBannerCarousel = () => {
                   //   backgroundImage: `url(${banner.image})`,
                   //   backgroundSize: 'cover'
                    className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-                  style={{ backgroundImage: `url(${getCurrentImage(banner)})` }}
+                  style={{ backgroundImage:`url(${getCurrentImage(banner)})` }}
                 />
                   
                
