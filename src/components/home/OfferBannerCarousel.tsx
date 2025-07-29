@@ -20,8 +20,8 @@ const offerBanners: OfferBanner[] = [
     id: '1',
     title: '',
     description: '',
-    desktopImage:  '/images/IndSale.jpg',
-    mobileImage: '/images/IndSale.jpg',
+    desktopImage:  '/images/indsale1.jpg',
+    mobileImage: '/images/indsale1.jpg',
     ctaText: '',
     ctaLink: '#'
   },
@@ -30,7 +30,7 @@ const offerBanners: OfferBanner[] = [
     title: '',
     description: '',
     desktopImage: '/images/KeralaBanner.Jpg',
-    mobileImage: '/images/KeralaBanner.Jpg',
+    mobileImage: '/images/Singapore_MOB.png',
     ctaText: '',
     ctaLink: '#'
   },
@@ -38,7 +38,7 @@ const offerBanners: OfferBanner[] = [
     id: '3',
     title: '',
     description: '',
-    desktopImage: '/images/Bali_WB.png',
+    desktopImage: '/images/SINGAPORE.png',
     mobileImage: '/images/Bali_WB.png',
     ctaText: '',
     ctaLink: '#'
