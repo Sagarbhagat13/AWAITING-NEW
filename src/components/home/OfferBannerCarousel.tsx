@@ -38,8 +38,8 @@ const offerBanners: OfferBanner[] = [
     id: '3',
     title: 'Monsoon Special Packages',
     description: 'Experience the beauty of monsoon destinations with exclusive deals',
-    desktopImage: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=1200&h=400',
-    mobileImage: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=800&h=600',
+    desktopImage: '/images/Bali_WB.png',
+    mobileImage: '/images/Bali_WB.png',
     ctaText: 'Explore Now',
     ctaLink: '#'
   }
