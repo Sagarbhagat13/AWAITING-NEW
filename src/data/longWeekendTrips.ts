@@ -4,6 +4,7 @@ import { Trip } from './popularTrips';
 // Extend Trip interface to maintain type compatibility
 export interface LongWeekendTrip extends Trip {
   longWeekend: boolean;
+  independenceSpecial: boolean; // Indicates if the trip is part of an Independence Day special
 }
 
 export const longWeekendTrips: LongWeekendTrip[] = [
@@ -15,6 +16,7 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     price: 19999,
     duration: '8D/7N',
     longWeekend: true,
+    independenceSpecial: true,
     rating: 4.7,
     reviews: 120
   },

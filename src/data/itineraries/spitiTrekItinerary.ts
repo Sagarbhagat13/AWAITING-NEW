@@ -187,16 +187,72 @@ export const spitiTrekItinerary = {
   batchDates: [
     {
       id: 'batch-1',
-      startDate: '2024-07-01',
-      endDate: '2024-07-10',
-      totalSlots: 15,
-      availableSlots: 8,
+      startDate: '03-08-2025',
+      endDate: '10-08-2025',
+      totalSlots: 12,
+      availableSlots: 6,
       price: 17999
     },
     {
       id: 'batch-2', 
-      startDate: '2024-07-02',
-      endDate: '2024-07-02',
+      startDate: '09-08-2025',
+      endDate: '16-08-2025',
+      totalSlots: 12,
+      availableSlots: 7,
+      price: 17999
+    },
+    {
+      id: 'batch-3', 
+      startDate: '15-08-2025',
+      endDate: '22-08-2025',
+      totalSlots: 12,
+      availableSlots: 8,
+      price: 17999
+    },
+    {
+      id: 'batch-4', 
+      startDate: '24-08-2025',
+      endDate: '31-08-2025',
+      totalSlots: 15,
+      availableSlots: 12,
+      price: 17999
+    },
+    {
+      id: 'batch-5', 
+      startDate: '31-08-2025',
+      endDate: '07-09-2025',
+      totalSlots: 15,
+      availableSlots: 12,
+      price: 17999
+    },
+    {
+      id: 'batch-6', 
+      startDate: '07-09-2025',
+      endDate: '14-09-2025',
+      totalSlots: 15,
+      availableSlots: 12,
+      price: 17999
+    },
+    {
+      id: 'batch-7', 
+      startDate: '14-09-2025',
+      endDate: '21-09-2025',
+      totalSlots: 15,
+      availableSlots: 12,
+      price: 17999
+    },
+    {
+      id: 'batch-8', 
+      startDate: '21-09-2025',
+      endDate: '28-09-2025',
+      totalSlots: 15,
+      availableSlots: 12,
+      price: 17999
+    },
+    {
+      id: 'batch-9', 
+      startDate: '28-09-2025',
+      endDate: '05-10-2025',
       totalSlots: 15,
       availableSlots: 12,
       price: 17999
