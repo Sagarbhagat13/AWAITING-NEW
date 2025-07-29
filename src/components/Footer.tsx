@@ -75,6 +75,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/contact-landing" className="text-gray-300 hover:text-tripvidya-primary transition-colors">
+                  Plan Your Trip
+                </Link>
+              </li>
+              <li>
                 <Link to="/careers" className="text-gray-300 hover:text-tripvidya-primary transition-colors">
                   Careers
                 </Link>
