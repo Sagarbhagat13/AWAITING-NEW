@@ -38,7 +38,7 @@ const offerBanners: OfferBanner[] = [
     id: '3',
     title: '',
     description: '',
-    desktopImage: '/images/SINGAPORE.png',
+    desktopImage: '/images/SingaporeBanner.jpg',
     mobileImage: '/images/Bali_WB.png',
     ctaText: '',
     ctaLink: '#'
