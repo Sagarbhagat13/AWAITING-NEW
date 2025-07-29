@@ -17,6 +17,7 @@ import ErrorBoundary from "@/components/ErrorBoundary";
 // Route imports - using existing pages
 import Index from "@/pages/Index";
 import ContactPage from "@/pages/ContactPage";
+import ContactLandingPage from "@/pages/ContactLandingPage";
 import BlogPage from "@/pages/BlogPage";
 import NotFound from "@/pages/NotFound";
 import BackpackingPage from "@/pages/BackpackingPage";
@@ -69,6 +70,7 @@ function App() {
               <Route path="/suggested/:id" element={<DynamicSuggestedItineraryPage />} />
               <Route path="/custom-trip/:tripId" element={<CustomizedTripPage />} />
               <Route path="/contact" element={<ContactPage />} />
+              <Route path="/contact-landing" element={<ContactLandingPage />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/blog" element={<BlogPage />} />
               <Route path="/blog/:slug" element={<BlogPostPage />} />
