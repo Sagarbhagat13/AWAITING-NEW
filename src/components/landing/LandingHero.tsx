@@ -91,7 +91,7 @@ const LandingHero = () => {
         
         {/* Fallback image if video doesn't load */}
         <img
-          src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=2000&q=80"
+          src='/images/Lead_w.png'
           alt="Travel Background"
           className="w-full h-full object-cover"
           style={{ display: 'none' }}
