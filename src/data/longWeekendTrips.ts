@@ -2,7 +2,7 @@
 import { Trip } from './popularTrips';
 
 // Extend Trip interface to maintain type compatibility
-export interface LongWeekendTrip  extends Trip {
+export interface LongWeekendTrip independenceSpecial extends Trip {
   longWeekend: boolean;
   independenceSpecial: boolean; // Optional property for Independence Day special trips
 
