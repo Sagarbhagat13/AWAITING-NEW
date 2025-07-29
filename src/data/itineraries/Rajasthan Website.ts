@@ -167,20 +167,20 @@ export const spitiTrekItinerary = {
   // Pricing tiers
   pricingOptions: [
     {
-      id: 'Train Fare',
+      id: 'standard',
       title: 'Without Train Fare',
       price: 15900,
       description: 'Package without Train Fare',
       isPopular: true
     },
     {
-      id: 'Train Fare',
+      id: 'deluxe',
       title: 'With Sleeper Train Fare',
       price: 16950,
       description: 'Package with Sleeper Train Fare'
     },
     {
-      id: 'Train Fare',
+      id: 'premium',
       title: 'With 3 A/C Train Fare',
       price: 18700,
       description: 'Package with 3 A/C Train Fare'
