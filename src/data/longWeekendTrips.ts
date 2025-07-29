@@ -2,9 +2,10 @@
 import { Trip } from './popularTrips';
 
 // Extend Trip interface to maintain type compatibility
-export interface LongWeekendTrip extends Trip {
+export interface LongWeekendTrip  extends Trip {
   longWeekend: boolean;
-  independenceSpecial: boolean; // Indicates if the trip is part of an Independence Day special
+  independenceSpecial: boolean; // Optional property for Independence Day special trips
+
 }
 
 export const longWeekendTrips: LongWeekendTrip[] = [
@@ -13,10 +14,10 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     title: 'Experience Spiti With Chandratal',
     location: 'Himachal Pradesh',
     image: 'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    price: 19999,
+    price: 17999,
     duration: '8D/7N',
-    longWeekend: true,
-    independenceSpecial: true,
+    longWeekend: false,
+    independenceSpecial: true, // Marking this trip as an Independence Day special
     rating: 4.7,
     reviews: 120
   },
