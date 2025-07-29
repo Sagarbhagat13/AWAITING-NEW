@@ -6,7 +6,7 @@ export const spitiTrekItinerary = {
   price: 37999,
   discount: 0,
   duration: '12 Days / 11 Nights',
-  description: 'Embark on an unforgettable trek through the mystical Spiti Valley, often called "Little Tibet". Experience high-altitude desert landscapes, ancient monasteries, and remote villages frozen in time.',
+  description: 'A perfect blend of adventurous, thrilling and cultural experiences, handpicked by Thrillophilia’s outdoor experts',
   coverImage: 'https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80',
   rating: 4.7,
   reviews: 89,
@@ -18,24 +18,24 @@ export const spitiTrekItinerary = {
   ],
   placesCovered: ['Sangla', 'Tabo', 'Komic', 'Pin valley', 'Kaza', 'Chandratal'],
   highlights: [
-    'Trek through the world\'s highest villages',
-    'Visit Hikkim - world\'s highest post office',
-    'Explore ancient Dhankar Monastery perched on cliffs',
-    'Witness unique cold desert landscape',
-    'Interact with local Spitian communities',
-    'Search for fossils in Langza village'
+    'Ride through the high passes like shinkula and Pensi La',
+    'witness the stunning landscapes of Zanskar Valley',
+    'gombo ranjan (Mahakal) at Shingo La',
+    'pangong Lake and its mesmerizing blue waters',
+    'umling La, the world\'s highest motorable pass',
+    'visit the ancient monasteries of Ladakh',
   ],
   inclusions: [
     'Accommodation in homestays and guesthouses',
-    'All meals during the trek',
+    'All meals during the trip',
     'Experienced trekking guide',
     'Permits for restricted areas',
-    'Transportation within Spiti Valley',
+    'Transportation within Ladakh',
     'First aid and safety equipment',
     'Porter support for common luggage'
   ],
   exclusions: [
-    'Transportation to/from Shimla or Manali',
+    'Transportation to/from delhi ',
     'Personal trekking gear',
     'Travel insurance',
     'Tips for guides and porters',
@@ -222,14 +222,14 @@ export const spitiTrekItinerary = {
   // Pricing tiers
   pricingOptions: [
     {
-      id: '350 CC',
+      id: 'standard',
       title: 'Ride + Ride Pillion',
       price: 37999,
       description: 'Package for Double Riders',
       isPopular: true
     },
     {
-      id: '350 CC',
+      id: 'deluxe',
       title: 'Single Rider',
       price: 47999,
       description: 'Package for Single Rider'
@@ -240,55 +240,47 @@ export const spitiTrekItinerary = {
   // Available batch dates
   batchDates: [
     {
-      id: 'Batches On',
-      startDate: '2025-06-28',
-      endDate: '2025-07-09',
-      totalSlots: 12,
+      id: 'batch-1',
+      startDate: '09-08-2025',
+      endDate: '20-08-2025',
+      totalSlots: 24  ,
+      availableSlots: 12,
+      price: 37999
+    },  
+    {
+      id: 'batch-2',
+      startDate: '20-08-2025',
+      endDate: '31-08-2025',
+      totalSlots: 24,
       availableSlots: 12,
       price: 37999
     },
     {
-      id: 'Batches On', 
-      startDate: '2025-07-09',
-      endDate: '2025-07-20',
-      totalSlots: 12,
+      id: 'batch-3',
+      startDate: '31-08-2025',
+      endDate: '11-09-2025',
+      totalSlots: 24,
       availableSlots: 12,
       price: 37999
     },
     {
-      id: 'Batches On', 
-      startDate: '2025-07-19',
-      endDate: '2025-07-30',
-      totalSlots: 12,
+      id: 'batch-4',
+      startDate: '10-09-2025',
+      endDate: '21-09-2025',
+      totalSlots: 24,
       availableSlots: 12,
       price: 37999
     },
     {
-      id: 'Batches On', 
-      startDate: '2025-07-30',
-      endDate: '2025-08-10',
-      totalSlots: 12,
+      id: 'batch-5',
+      startDate: '20-09-2025',
+      endDate: '01-10-2025',
+      totalSlots: 24,
       availableSlots: 12,
       price: 37999
-    },
-    {
-      id: 'Batches On', 
-      startDate: '2025-08-09',
-      endDate: '2025-08-20',
-      totalSlots: 12,
-      availableSlots: 12,
-      price: 37999
-    },
-    {
-      id: 'Batches On', 
-      startDate: '2025-08-20',
-      endDate: '2025-08-31',
-      totalSlots: 12,
-      availableSlots: 12,
-      price: 37999
-    }      
-
-
+    }
+    
+    
     // Add more batch dates...
   ]
 };
