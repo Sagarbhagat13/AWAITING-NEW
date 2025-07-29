@@ -14,11 +14,10 @@ interface CardBadgeProps {
   className?: string;
   month?: string;
   text?: string; // Add text prop to support direct text badges
-   // Holiday badges - uncomment to use
-  // diwaliSpecial?: boolean;
-  // christmasSpecial?: boolean;
-  // newYearSpecial?: boolean;
-  // independenceSpecial?: boolean;
+  diwaliSpecial?: boolean;
+  christmasSpecial?: boolean;
+  newYearSpecial?: boolean;
+  independenceSpecial?: boolean;
 }
 
 export const CardBadge = ({ 
@@ -33,12 +32,12 @@ export const CardBadge = ({
   offbeat,
   className,
   month,
-  text
+  text,
   // Holiday badges - uncomment to use
-  // diwaliSpecial,
-  // christmasSpecial,
-  // newYearSpecial,
-  // independenceSpecial
+  diwaliSpecial,
+  christmasSpecial,
+  newYearSpecial,
+  independenceSpecial
 }: CardBadgeProps) => {
   // If text prop is provided, render a generic badge with that text
   if (text) {
@@ -156,7 +155,7 @@ export const CardBadge = ({
     );
   }
     // Holiday badges - uncomment to use these special occasion badges
-  /*
+  
   if (diwaliSpecial) {
     return (
       <div className="absolute top-3 left-3 bg-gradient-to-r from-amber-500 to-yellow-500 text-white px-3 py-1 rounded-full text-xs font-medium flex items-center">
@@ -192,7 +191,7 @@ export const CardBadge = ({
       </div>
     );
   }
-  */
+  
   
   if (discount && discount > 0) {
     return (

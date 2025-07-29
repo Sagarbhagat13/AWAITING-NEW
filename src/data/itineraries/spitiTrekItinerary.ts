@@ -3,7 +3,7 @@ export const spitiTrekItinerary = {
   id: 'lw1',
   title: 'Experience Spiti Valley with chandratal ',
   location: 'Himachal Pradesh',
-  price: 15999,
+  price: 17999,
   discount: 0,
   duration: '8 Days / 7 Nights',
   description: 'Embark on an unforgettable trek through the mystical Spiti Valley, often called "Little Tibet". Experience high-altitude desert landscapes, ancient monasteries, and remote villages frozen in time.',
@@ -165,20 +165,20 @@ export const spitiTrekItinerary = {
     {
       id: 'standard',
       title: 'Standard',
-      price: 12999,
+      price: 17999,
       description: 'Standard package with basic amenities',
       isPopular: true
     },
     {
       id: 'deluxe',
       title: 'Deluxe',
-      price: 13799,
-      description: 'Enhanced package with premium accommodations'
+      price: 19999,
+      description: 'Double occupancy with enhanced comfort',
     },
     {
       id: 'premium',
       title: 'Premium',
-      price: 14999,
+      price: 22999,
       description: 'Luxury package with all premium amenities'
     }
   ],
@@ -191,7 +191,7 @@ export const spitiTrekItinerary = {
       endDate: '2024-07-10',
       totalSlots: 15,
       availableSlots: 8,
-      price: 13999
+      price: 17999
     },
     {
       id: 'batch-2', 
@@ -199,7 +199,7 @@ export const spitiTrekItinerary = {
       endDate: '2024-07-02',
       totalSlots: 15,
       availableSlots: 12,
-      price: 13999
+      price: 17999
     }
     // Add more batch dates...
   ]
