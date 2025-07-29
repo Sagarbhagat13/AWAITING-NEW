@@ -16,7 +16,7 @@ export const spitiTrekItinerary = {
     'https://images.unsplash.com/photo-1652204597589-962156b9483d?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     'https://images.unsplash.com/photo-1581280445448-ab465a010046?q=80&w=1336&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   ],
-  placesCovered: ['Sangla', 'Tabo', 'Komic', 'Pin valley', 'Kaza', 'Chandratal'],
+  placesCovered: ['Leh', 'Pangong', 'Nubra valley', 'turtuk', 'Khardungla', 'Diskit Monastery'],
   highlights: [
     'Trek through the world\'s highest villages',
     'Visit Hikkim - world\'s highest post office',
@@ -121,7 +121,7 @@ export const spitiTrekItinerary = {
     },
     {
       day: 6,
-      title: 'kaza to chandratal',
+      title: 'Pangong to Leh via Chang La Pass',
       description: 'After breakfast, drive back to Leh via Chang La Pass (5,320 m) the highest point of the journey.',
       activities: [
         'En route, visit major sites in the Indus Valley',

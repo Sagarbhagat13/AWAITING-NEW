@@ -16,7 +16,7 @@ export const spitiTrekItinerary = {
     'https://images.unsplash.com/photo-1597735881932-d9664c9bbcea?q=80&w=1283&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     'https://images.unsplash.com/photo-1549366021-9f761d450615?q=80&w=1306&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   ],
-  placesCovered: ['Sangla', 'Tabo', 'Komic', 'Pin valley', 'Kaza', 'Chandratal'],
+  placesCovered: ['Cochin', 'Munnar', 'Thekkady', 'Alleppy', 'Kochi'],
   highlights: [
     'Trek through the world\'s highest villages',
     'Visit Hikkim - world\'s highest post office',

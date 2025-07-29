@@ -16,7 +16,7 @@ export const spitiTrekItinerary = {
     'https://images.unsplash.com/photo-1586612438666-ffd0ae97ad36?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     'https://images.unsplash.com/photo-1587295656906-b06dca8f2340?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   ],
-  placesCovered: ['Sangla', 'Tabo', 'Komic', 'Pin valley', 'Kaza', 'Chandratal'],
+  placesCovered: ['udaipur', 'Jaipur', 'Pushkar','chittorgarh'],
   highlights: [
     'Trek through the world\'s highest villages',
     'Visit Hikkim - world\'s highest post office',
