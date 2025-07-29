@@ -77,14 +77,14 @@ const LandingHero = () => {
           muted
           playsInline
           className="w-full h-full object-cover"
-          poster="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=2000&q=80"
+          poster='/images/Lead_WB 2.png'
         >
           <source
-            src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            src='/images/Lead_WB 2.png'
             type="video/mp4"
           />
           <source
-            src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4"
+            src='/images/Lead_WB 2.png'
             type="video/mp4"
           />
         </video>
