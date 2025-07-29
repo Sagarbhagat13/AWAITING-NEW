@@ -1,5 +1,5 @@
 
-export const spitiTrekItinerary = {
+export const spitiBikeItinerary = {
   id: 'lw2',
   title: 'Experience Spiti Valley - Where Mountains Meet the Machine',
   location: 'Himachal Pradesh',

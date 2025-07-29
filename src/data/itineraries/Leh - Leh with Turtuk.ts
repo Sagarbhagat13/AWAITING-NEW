@@ -168,53 +168,65 @@ export const spitiTrekItinerary = {
   // Available batch dates
   batchDates: [
     {
-      id: 'Batches on',
-      startDate: '2025-06-23',
-      endDate: '2025-06-29',
+      id: 'batch-1',
+      startDate: '04-08-2025',
+      endDate: '10-08-2025',
       totalSlots: 12,
-      availableSlots: 12,
-      price: 18999
+      availableSlots: 7,
+      price: 31999
     },
     {
-      id: 'Batches on', 
-      startDate: '2025-07-07',
-      endDate: '2025-07-13',
+      id: 'batch-2',
+      startDate: '10-08-2025',
+      endDate: '16-08-2025',
       totalSlots: 12,
-      availableSlots: 12,
-      price: 18999
-    },
-    { 
-      id: 'Batches on',
-      startDate: '2025-07-14',
-      endDate: '2025-07-20',
-      totalSlots: 12,
-      availableSlots: 12,
-      price: 18999
+      availableSlots: 7,
+      price: 31999
     },
     {
-      id: 'Batches on',
-      startDate: '2025-07-21',
-      endDate: '2025-07-27',
+      id: 'batch-3',
+      startDate: '15-08-2025',
+      endDate: '21-08-2025',
       totalSlots: 12,
-      availableSlots: 12,
-      price: 18999
+      availableSlots: 7,
+      price: 31999
     },
     {
-      id: 'Batches on',
-      startDate: '2025-07-28',
-      endDate: '2025-08-03',
+      id: 'batch-4',
+      startDate: '25-08-2025',
+      endDate: '31-08-2025',
       totalSlots: 12,
-      availableSlots: 12,
-      price: 18999
+      availableSlots: 7,
+      price: 31999
     },
     {
-      id: 'Batches on',
-      startDate: '2025-08-04',
-      endDate: '2025-08-10',
+      id: 'batch-5',
+      startDate: '08-09-2025',
+      endDate: '14-09-2025',
       totalSlots: 12,
-      availableSlots: 12,
-      price: 18999
-    }  
+      availableSlots: 7,
+      price: 31999
+    },
+    {
+      id: 'batch-6',
+      startDate: '15-09-2025',
+      endDate: '21-09-2025',
+      totalSlots: 12,
+      availableSlots: 7,
+      price: 31999
+    },
+    {
+      id: 'batch-7',
+      startDate: '22-09-2025',
+      endDate: '28-09-2025',  
+      totalSlots: 12,
+      availableSlots: 7,
+      price: 31999
+    }
+    
+    
+
+
 
 
 
