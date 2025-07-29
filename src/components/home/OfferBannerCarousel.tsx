@@ -20,8 +20,8 @@ const offerBanners: OfferBanner[] = [
     id: '1',
     title: '',
     description: '',
-    desktopImage:  '/images/Spiti-Valley-banner.png',
-    mobileImage: '/images/spitiq.png',
+    desktopImage:  '/images/ladakh1.png',
+    mobileImage: '/images/spitiv1.png',
     ctaText: '',
     ctaLink: '#'
   },
@@ -29,8 +29,8 @@ const offerBanners: OfferBanner[] = [
     id: '2',
     title: '',
     description: '',
-    desktopImage: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=1200&h=400',
-    mobileImage: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=800&h=600',
+    desktopImage: '/images/spitiv1.png',
+    mobileImage: '/images/ladakh1.png',
     ctaText: '',
     ctaLink: '#'
   },
