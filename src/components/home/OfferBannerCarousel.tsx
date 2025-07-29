@@ -30,7 +30,7 @@ const offerBanners: OfferBanner[] = [
     title: '',
     description: '',
     desktopImage: '/images/KeralaBanner.Jpg',
-    mobileImage: '/images/SingaporeBanner.jpg',
+    mobileImage: '/images/Singapore_MOB.png',
     ctaText: '',
     ctaLink: '#'
   },
