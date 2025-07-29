@@ -199,52 +199,87 @@ export const spitiTrekItinerary = {
   batchDates: [
     {
       id: 'batch-1',
-      startDate: '2025-06-28',
-      endDate: '2025-07-06',
+      startDate: '02-08-2025',
+      endDate: '10-08-2025',
       totalSlots: 12,
-      availableSlots: 12,
+      availableSlots: 7,
       price: 31999
     },
     {
-      id: 'batch-2', 
-      startDate: '2025-07-05',
-      endDate: '2025-07-13',
+      id: 'batch-2',
+      startDate: '09-08-2025',
+      endDate: '17-08-2025',
       totalSlots: 12,
-      availableSlots: 12,
+      availableSlots: 7,
       price: 31999
     },
     {
-      id: 'batch-3', 
-      startDate: '2025-07-12',
-      endDate: '2025-07-20',
+      id: 'batch-3',
+      startDate: '16-08-2025',
+      endDate: '24-08-2025',
       totalSlots: 12,
-      availableSlots: 12,
+      availableSlots: 8,
       price: 31999
     },
     {
-      id: 'batch-4', 
-      startDate: '2025-07-19',
-      endDate: '2025-07-27',
+      id: 'batch-4',
+      startDate: '23-08-2025',
+      endDate: '31-08-2025',
       totalSlots: 12,
-      availableSlots: 12,
+      availableSlots: 7,
       price: 31999
     },
     {
-      id: 'batch-5', 
-      startDate: '2025-07-26',
-      endDate: '2025-08-03',
+      id: 'batch-5',
+      startDate: '30-08-2025',
+      endDate: '07-09-2025',
       totalSlots: 12,
-      availableSlots: 12,
+      availableSlots: 10,
       price: 31999
     },
     {
-      id: 'batch-6', 
-      startDate: '2025-08-02',
-      endDate: '2025-08-10',
+      id: 'batch-6',
+      startDate: '06-09-2025',
+      endDate: '14-09-2025',
       totalSlots: 12,
-      availableSlots: 12,
+      availableSlots: 9,
+      price: 31999
+    },
+    {
+      id: 'batch-7',
+      startDate: '13-09-2025',
+      endDate: '21-09-2025',
+      totalSlots: 12,
+      availableSlots: 10,
+      price: 31999
+    },
+    {
+      id: 'batch-8',
+      startDate: '20-09-2025',
+      endDate: '28-09-2025',
+      totalSlots: 12,
+      availableSlots: 11,
+      price: 31999
+    },
+    {
+      id: 'batch-9',
+      startDate: '27-09-2025',
+      endDate: '05-10-2025',
+      totalSlots: 12,
+      availableSlots: 10,
+      price: 31999
+    },
+    {
+      id: 'batch-10',
+      startDate: '04-10-2025',
+      endDate: '12-10-2025',
+      totalSlots: 12,
+      availableSlots: 8,
       price: 31999
     }
+
+    
+ 
   
   
 
