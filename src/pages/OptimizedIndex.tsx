@@ -199,7 +199,7 @@ const OptimizedIndex = () => {
             <div data-section="early-bird" className="min-h-[100px]">
               {shouldLoadSection('early-bird') && (
                 <Suspense fallback={<SectionLoader />}>
-                  <EarlyBirdBanner />
+                  {/* <EarlyBirdBanner /> */}
                 </Suspense>
               )}
             </div>
@@ -252,7 +252,7 @@ const OptimizedIndex = () => {
             <div data-section="group-discount" className="min-h-[100px]">
               {shouldLoadSection('group-discount') && (
                 <Suspense fallback={<SectionLoader />}>
-                  <GroupDiscountBanner />
+                  {/* <GroupDiscountBanner /> */}
                 </Suspense>
               )}
             </div>
