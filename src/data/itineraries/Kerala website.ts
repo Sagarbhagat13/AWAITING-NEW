@@ -189,29 +189,30 @@ export const spitiTrekItinerary = {
   // Available batch dates
   batchDates: [
     {
-      id: 'Batches on',
-      startDate: '2025-08-09',
-      endDate: '2025-08-16',
-      totalSlots: 18,
-      availableSlots: 18,
+      id: 'batch-1',
+      startDate: '09-08-2025',
+      endDate: '16-08-2025',
+      totalSlots: 12,
+      availableSlots: 8,
       price: 14900
     },
     {
-      id: 'Batches on', 
-      startDate: '2025-08-15',
-      endDate: '2025-08-22',
-      totalSlots: 18,
-      availableSlots: 18,
+      id: 'batch-2',
+      startDate: '15-08-2025',
+      endDate: '22-08-2025',
+      totalSlots: 12,
+      availableSlots: 8,
       price: 14900
     },
     {
-      id: 'Batches on', 
-      startDate: '2025-09-05',
-      endDate: '2025-09-22',
-      totalSlots: 18,
-      availableSlots: 18,
+      id: 'batch-3',
+      startDate: '05-09-2025',
+      endDate: '12-09-2025',
+      totalSlots: 12,
+      availableSlots: 8,
       price: 14900
     }
+    
 
 
     // Add more batch dates...
