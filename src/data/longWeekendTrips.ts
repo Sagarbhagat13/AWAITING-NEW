@@ -46,7 +46,7 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     location: 'Kerala',
     image: 'https://images.unsplash.com/photo-1593693411515-c20261bcad6e?q=80&w=2338&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     price: 14900,
-    duration: '8D/7N',
+    duration: '6D/5N',
     longWeekend: true,
     rating: 4.9,
     reviews: 135
