@@ -5,8 +5,8 @@ import { useSearchParams } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Banner from '@/components/Banner';
 import Footer from '@/components/Footer';
-// import EarlyBirdBanner from '@/components/EarlyBirdBanner';
-// import GroupDiscountBanner from '@/components/GroupDiscountBanner';
+import EarlyBirdBanner from '@/components/EarlyBirdBanner';
+import GroupDiscountBanner from '@/components/GroupDiscountBanner';
 import EnhancedSEOHead from '@/components/seo/EnhancedSEOHead';
 import { Trip } from '@/data/popularTrips';
 import { optimizedSearchService } from '@/services/optimizedSearchService';
@@ -143,7 +143,7 @@ const Index = () => {
             
             <PopularTripsSection />
             
-            {/* <EarlyBirdBanner /> */}
+            <EarlyBirdBanner />
             
             <StatePackagesSection />
                         
@@ -157,7 +157,7 @@ const Index = () => {
             
             <OffBeatTripsSection />
             
-            {/* <GroupDiscountBanner /> */}
+            <GroupDiscountBanner />
             
             <FamilyToursSection />
             
