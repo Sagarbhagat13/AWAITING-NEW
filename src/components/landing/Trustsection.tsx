@@ -30,7 +30,7 @@ const TrustSection = () => {
     {
       icon: Shield,
       title: "100% Secure",
-      description: "Your data is protected"
+      description: "Your data is Protected"
     },
     {
       icon: Clock,
