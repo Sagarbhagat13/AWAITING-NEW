@@ -164,23 +164,18 @@ export const spitiTrekItinerary = {
   pricingOptions: [
     {
       id: 'standard',
-      title: 'Standard',
+      title: 'Triple Sharing',
       price: 17999,
       description: 'Standard package with basic amenities',
       isPopular: true
     },
     {
       id: 'deluxe',
-      title: 'Deluxe',
-      price: 19999,
+      title: 'Double Sharing',
+      price: 20499,
       description: 'Double occupancy with enhanced comfort',
     },
-    {
-      id: 'premium',
-      title: 'Premium',
-      price: 22999,
-      description: 'Luxury package with all premium amenities'
-    }
+    
   ],
   
   // Available batch dates
