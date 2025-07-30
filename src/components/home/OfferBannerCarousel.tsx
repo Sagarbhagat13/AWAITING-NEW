@@ -72,8 +72,8 @@ export const secondSetOfferBanners: OfferBanner[] = [
     id: '6',
     title: '',
     description: '',
-    desktopImage: '/images/KeralaBanner.jpg',
-    mobileImage: '/images/KeralaBanner.jpg',
+    desktopImage: '/images/kerala_WB.png',
+    mobileImage: '/images/kerala_WB.png',
     ctaText: '',
     ctaLink: '#'
   }
