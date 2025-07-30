@@ -28,7 +28,7 @@ const ContactCards = () => {
             <h3 className="text-xl font-semibold mb-2">Call Us</h3>
             <p className="text-gray-500 mb-4">Mon-Fri from 9am to 6pm</p>
             <a href="tel:+919999999999" className="text-tripvidya-primary font-medium group flex items-center">
-              +91 9137798539/+91 7021115917 / +91 7977091859
+              +91 9137798539 / +91 7021115917 / +91 7977091859
               <ArrowRight className="h-4 w-4 ml-1 transition-transform group-hover:translate-x-1" />
             </a>
           </div>
