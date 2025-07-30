@@ -33,8 +33,8 @@ const defaultOfferBanners: OfferBanner[] = [
     id: '2',
     title: '',
     description: '',
-    desktopImage: '/images/Spiti Valley_DWB.Jpg',
-    mobileImage: '/images/Spiti Valley_MWB.png',
+    desktopImage: '/images/SPITIVDWB.png',
+    mobileImage: '/images/SPITIVMWB.png',
     ctaText: '',
     ctaLink: '#'
   },
