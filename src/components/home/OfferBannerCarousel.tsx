@@ -42,8 +42,8 @@ const defaultOfferBanners: OfferBanner[] = [
     id: '3',
     title: '',
     description: '',
-    desktopImage: '/images/SINGDW.png',
-    mobileImage: '/images/SingaporeBanner.Jpg',
+    desktopImage: '/images/SingaporeBanner.Jpg',
+    mobileImage: '/images/SINGDW.png',
     ctaText: '',
     ctaLink: '#'
   }
