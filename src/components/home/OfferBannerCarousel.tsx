@@ -99,7 +99,7 @@ const OfferBannerCarousel: React.FC<OfferBannerCarouselProps> = ({ slides = defa
   // Auto-play functionality
   useEffect(() => {
     if (!isHovered) {
-      const interval = setInterval(nextSlide, 4000);
+      const interval = setInterval(nextSlide, 1500);
       return () => clearInterval(interval);
     }
   }, [nextSlide, isHovered]);
