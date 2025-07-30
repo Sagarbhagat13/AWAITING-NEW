@@ -52,7 +52,7 @@ const BackpackingPage = () => {
         </div>
         
         {/* Hero Section */}
-        <section className="py-20 bg-gradient-to-r from-[#E8F5E8] to-[#D4F1D4]">
+        {/* <section className="py-20 bg-gradient-to-r from-[#E8F5E8] to-[#D4F1D4]">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
               Backpacking Adventures Across India & Beyond
@@ -77,7 +77,7 @@ const BackpackingPage = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         
         {/* Trips Carousel Section */}
         <section className="py-16 bg-white">
@@ -85,10 +85,10 @@ const BackpackingPage = () => {
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
               Popular Backpacking Destinations
             </h2>
-            <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+            {/* <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
               Choose from our curated collection of backpacking adventures designed for solo travelers, 
               groups, and adventure enthusiasts seeking authentic travel experiences.
-            </p>
+            </p> */}
             
             <TripCarousel 
               title=""
