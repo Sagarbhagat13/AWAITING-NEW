@@ -72,7 +72,7 @@ const AboutPage = () => {
               </div>
             </div>
             
-            <div className="mb-10">
+            {/* <div className="mb-10">
               <h2 className="text-2xl font-bold mb-4">Meet Our Team</h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div className="text-center">
@@ -103,7 +103,7 @@ const AboutPage = () => {
                   <p className="text-sm text-gray-500">Lead Travel Curator</p>
                 </div>
               </div>
-            </div>
+            </div> */}
             
             <div className="bg-tripvidya-light p-6 rounded-lg">
               <h2 className="text-2xl font-bold mb-4">Join Us On The Journey</h2>
