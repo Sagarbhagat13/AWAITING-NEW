@@ -33,8 +33,8 @@ const defaultOfferBanners: OfferBanner[] = [
     id: '2',
     title: '',
     description: '',
-    desktopImage: '/images/KeralaBanner.Jpg',
-    mobileImage: '/images/Singapore_MOB.png',
+    desktopImage: '/images/Spiti Valley_DWB.Jpg',
+    mobileImage: '/images/Spiti Valley_MWB.png',
     ctaText: '',
     ctaLink: '#'
   },
@@ -42,8 +42,8 @@ const defaultOfferBanners: OfferBanner[] = [
     id: '3',
     title: '',
     description: '',
-    desktopImage: '/images/SingaporeBanner.jpg',
-    mobileImage: '/images/KeralaBanner.Jpg',
+    desktopImage: '/images/Singapore_MWB.jpg',
+    mobileImage: '/images/SingaporeBanner.Jpg',
     ctaText: '',
     ctaLink: '#'
   }
@@ -52,29 +52,29 @@ const defaultOfferBanners: OfferBanner[] = [
 export const secondSetOfferBanners: OfferBanner[] = [
   {
     id: '4',
-    title: 'Weekend Getaway Deals',
-    description: 'Escape the city with our curated weekend packages starting from ₹4,999',
-    desktopImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=1200&h=514',
-    mobileImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=800&h=450',
-    ctaText: 'Discover',
+    title: '',
+    description: '',
+    desktopImage: '/images/Bali_DWB.png',
+    mobileImage: '/images/Bali_DWB.png',
+    ctaText: '',
     ctaLink: '#'
   },
   {
     id: '5',
-    title: 'Adventure Sports Package',
-    description: 'Thrilling adventures await - Rafting, Trekking, and Paragliding combos',
-    desktopImage: 'https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=1200&h=514',
-    mobileImage: 'https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=800&h=450',
-    ctaText: 'Adventure Time',
+    title: '',
+    description: '',
+    desktopImage: '/images/ladakh1.png',
+    mobileImage: '/images/ladakh1.png',
+    ctaText: '',
     ctaLink: '#'
   },
   {
     id: '6',
-    title: 'Luxury Resort Stays',
-    description: 'Indulge in premium accommodations with spa and fine dining included',
-    desktopImage: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=1200&h=514',
-    mobileImage: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=800&h=450',
-    ctaText: 'Book Luxury',
+    title: '',
+    description: '',
+    desktopImage: '/images/KeralaBanner.jpg',
+    mobileImage: '/images/KeralaBanner.jpg',
+    ctaText: '',
     ctaLink: '#'
   }
 ];
