@@ -180,6 +180,11 @@ export const spitiTrekItinerary = {
       activities: [
 
   ],
+      meals: ['-'],
+      accommodation: 'Return to Home'
+    }
+  ],
+
 
   // Pricing tiers
   pricingOptions: [
@@ -258,4 +263,4 @@ export const spitiTrekItinerary = {
   
     // Add more batch dates...
   ]
-};
+} 
