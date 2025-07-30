@@ -14,7 +14,7 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     image: 'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     price: 17999,
     duration: '8D/7N',
-  
+    longWeekend: true,
     rating: 4.7,
     reviews: 120,
     independence: true
@@ -26,7 +26,6 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     image: 'https://images.unsplash.com/photo-1653844573020-71f77a0ccb8c?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     price: 31999,
     duration: '8D/7N',
-    independence: true,
     longWeekend: true,
     rating: 4.8,
     reviews: 156

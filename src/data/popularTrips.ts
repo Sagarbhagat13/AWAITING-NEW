@@ -50,6 +50,7 @@ export const popularTrips: Trip[] = [
     rating: 4.9,
     reviews: 189,
     independence: true,
+    diwali: true,
   },
   {
     id: 'lw1',
@@ -62,6 +63,7 @@ export const popularTrips: Trip[] = [
     rating: 4.7,
     reviews: 176,
     independence  : true,
+    diwali: true,
   },
   {
     id: 'lw3',
