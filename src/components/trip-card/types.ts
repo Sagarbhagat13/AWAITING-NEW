@@ -19,4 +19,8 @@ export interface TripCardProps {
   suvPackage?: boolean;
   longWeekend?: boolean;
   offbeat?: boolean;
+   diwali?: boolean;
+  christmas?: boolean;
+  newYear?: boolean;
+  independence?: boolean;
 }

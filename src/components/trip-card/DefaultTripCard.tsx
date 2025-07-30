@@ -23,6 +23,10 @@ interface Trip {
   suvPackage?: boolean;
   longWeekend?: boolean;
   offbeat?: boolean;
+  diwali?: boolean;
+  christmas?: boolean;
+  newYear?: boolean;
+  independence?: boolean;
 }
 
 interface DefaultTripCardProps {
@@ -78,6 +82,10 @@ const DefaultTripCard = ({
             suvPackage={trip.suvPackage}
             longWeekend={trip.longWeekend}
             offbeat={trip.offbeat}
+            diwali={trip.diwali}
+            christmas={trip.christmas}
+            newYear={trip.newYear}
+            independence={trip.independence}
           />
           
           {/* Favorite Button */}

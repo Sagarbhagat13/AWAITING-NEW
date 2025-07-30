@@ -25,6 +25,10 @@ export const CompactTripCard = ({
   suvPackage,
   longWeekend,
   offbeat,
+  diwali,
+  christmas,
+  newYear,
+  independence,
 }: TripCardProps) => {
   const discountedPrice = price - (price * discount) / 100;
   
@@ -58,6 +62,10 @@ export const CompactTripCard = ({
           suvPackage={badgeSUVPackage}
           longWeekend={longWeekend}
           offbeat={offbeat}
+           diwali={diwali}
+          christmas={christmas}
+          newYear={newYear}
+          independence={independence}
           className={className}
         />
       </div>

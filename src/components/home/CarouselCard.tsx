@@ -25,6 +25,10 @@ interface CarouselCardProps {
   month?: string;
   priority?: boolean;
   index?: number;
+  diwali?: boolean;
+  christmas?: boolean;
+  newYear?: boolean;
+  independence?: boolean;
 }
 
 const CarouselCard = React.memo(({
@@ -47,6 +51,12 @@ const CarouselCard = React.memo(({
   month,
   priority = false,
   index = 0,
+  diwali,
+  christmas,
+  newYear,
+  independence,
+
+
 }: CarouselCardProps) => {
   // Calculate the discounted price
   const discountedPrice = price - (price * (discount || 0)) / 100;
@@ -82,6 +92,10 @@ const CarouselCard = React.memo(({
           offbeat={offbeat}
           className={className}
           month={month}
+          diwali={diwali}
+          christmas={christmas}
+          newYear={newYear}
+          independence={independence}
         />
         
         <div className="absolute bottom-0 left-0 p-6 text-white">
