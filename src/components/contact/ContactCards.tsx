@@ -15,7 +15,7 @@ const ContactCards = () => {
             <h3 className="text-xl font-semibold mb-2">Email Us</h3>
             <p className="text-gray-500 mb-4">Our friendly team is here to help</p>
             <a href="mailto:info@tripvidya.in" className="text-tripvidya-primary font-medium group flex items-center">
-              info@tripvidya.in
+              info@awaitingadventures.in
               <ArrowRight className="h-4 w-4 ml-1 transition-transform group-hover:translate-x-1" />
             </a>
           </div>
