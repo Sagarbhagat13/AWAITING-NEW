@@ -15,7 +15,7 @@ import { usePerformanceMonitor } from '@/hooks/usePerformanceMonitor';
 import { useSEOOptimization } from '@/hooks/useSEOOptimization';
 
 import SearchResults from '@/components/home/SearchResults';
-import OfferBannerCarousel from '@/components/home/OfferBannerCarousel';
+import OfferBannerCarousel, { secondSetOfferBanners } from '@/components/home/OfferBannerCarousel';
 import LongWeekendSection from '@/components/home/LongWeekendSection';
 import PopularTripsSection from '@/components/home/PopularTripsSection';
 import StatePackagesSection from '@/components/home/StatePackagesSection';
@@ -147,7 +147,7 @@ const Index = () => {
             
             <StatePackagesSection />
                         
-            <OfferBannerCarousel />
+            <OfferBannerCarousel slides={secondSetOfferBanners} />
             
             <RegionalTripsSection />
             

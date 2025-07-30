@@ -15,7 +15,11 @@ interface OfferBanner {
   ctaLink?: string;
 }
 
-const offerBanners: OfferBanner[] = [
+interface OfferBannerCarouselProps {
+  slides?: OfferBanner[];
+}
+
+const defaultOfferBanners: OfferBanner[] = [
   {
     id: '1',
     title: '',
@@ -45,18 +49,48 @@ const offerBanners: OfferBanner[] = [
   }
 ];
 
-const OfferBannerCarousel = () => {
+export const secondSetOfferBanners: OfferBanner[] = [
+  {
+    id: '4',
+    title: 'Weekend Getaway Deals',
+    description: 'Escape the city with our curated weekend packages starting from ₹4,999',
+    desktopImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=1200&h=514',
+    mobileImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=800&h=450',
+    ctaText: 'Discover',
+    ctaLink: '#'
+  },
+  {
+    id: '5',
+    title: 'Adventure Sports Package',
+    description: 'Thrilling adventures await - Rafting, Trekking, and Paragliding combos',
+    desktopImage: 'https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=1200&h=514',
+    mobileImage: 'https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=800&h=450',
+    ctaText: 'Adventure Time',
+    ctaLink: '#'
+  },
+  {
+    id: '6',
+    title: 'Luxury Resort Stays',
+    description: 'Indulge in premium accommodations with spa and fine dining included',
+    desktopImage: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=1200&h=514',
+    mobileImage: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=800&h=450',
+    ctaText: 'Book Luxury',
+    ctaLink: '#'
+  }
+];
+
+const OfferBannerCarousel: React.FC<OfferBannerCarouselProps> = ({ slides = defaultOfferBanners }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
   const isMobile = useIsMobile();
 
   const nextSlide = useCallback(() => {
-    setCurrentSlide((prev) => (prev + 1) % offerBanners.length);
-  }, []);
+      setCurrentSlide((prev) => (prev + 1) % slides.length);
+  }, [slides.length]);
 
   const prevSlide = useCallback(() => {
-    setCurrentSlide((prev) => (prev - 1 + offerBanners.length) % offerBanners.length);
-  }, []);
+    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+  }, [slides.length]);
 
   const goToSlide = (index: number) => {
     setCurrentSlide(index);
@@ -91,7 +125,7 @@ const OfferBannerCarousel = () => {
                isMobile ? "aspect-[5/2]" : "aspect-[25/6]"
             )}
           >
-            {offerBanners.map((banner, index) => (
+            {slides.map((banner, index) => (
               <div
                 key={banner.id}
                 className={cn(
@@ -164,7 +198,7 @@ const OfferBannerCarousel = () => {
 
           {/* Dot Indicators */}
           <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
-            {offerBanners.map((_, index) => (
+            {slides.map((_, index) => (
               <button
                 key={index}
                 className={cn(

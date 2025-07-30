@@ -12,6 +12,7 @@ import { dataLoader } from '@/services/dataLoader';
 import { enhancedPerformanceService } from '@/services/enhancedPerformanceService';
 import { usePerformanceMonitor } from '@/hooks/usePerformanceMonitor';
 import { useSEOOptimization } from '@/hooks/useSEOOptimization';
+import { secondSetOfferBanners } from '@/components/home/OfferBannerCarousel';
 
 // Lazy load non-critical sections for better initial load performance
 const SearchResults = lazy(() => import('@/components/home/SearchResults'));
@@ -213,7 +214,7 @@ const OptimizedIndex = () => {
             </div>
                  
             <Suspense fallback={<SectionLoader />}>
-              <OfferBannerCarousel />
+                <OfferBannerCarousel slides={secondSetOfferBanners} />
             </Suspense>
             
             
