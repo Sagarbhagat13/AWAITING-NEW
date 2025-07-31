@@ -30,7 +30,9 @@ const Navbar = () => {
                                location.pathname.includes('/contact') ||
                                location.pathname.includes('/trip/') || 
                                location.pathname.includes('/custom-trip/') || 
-                               location.pathname.includes('/day-itinerary/');
+                               location.pathname.includes('/day-itinerary/') ||
+                               location.pathname.includes('/backpacking') ||
+                                location.pathname.includes('/corporate-tours') ;
   
   const toggleMenu = (e: React.MouseEvent) => {
     e.stopPropagation();
