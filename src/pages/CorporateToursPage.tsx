@@ -12,7 +12,7 @@ const CorporateToursPage = () => {
 
   const handleEnquiry = () => {
     const message = "Hi, I'm interested in your Corporate Tours & Packages. Can you provide more details?";
-    const whatsappUrl = `https://wa.me/9266238287?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/9137798539?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
     
     toast({
@@ -97,7 +97,7 @@ const CorporateToursPage = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
                 <div className="inline-block px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
-                  by TripVidya 🌍
+                  by Awaiting Adventures 🌍
                 </div>
                 
                 <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
@@ -124,7 +124,7 @@ const CorporateToursPage = () => {
                   
                   <div className="flex items-center gap-4 text-sm text-gray-600">
                     <div className="flex items-center gap-1">
-                      <span className="font-semibold text-gray-900">50k+</span>
+                      <span className="font-semibold text-gray-900">5k+</span>
                       <span>Happy Travelers</span>
                     </div>
                     <div className="flex items-center gap-1">
@@ -227,7 +227,7 @@ const CorporateToursPage = () => {
         <section className="py-16 bg-blue-50">
           <div className="container mx-auto max-w-6xl px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose TripVidya</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Awaiting Adventures</h2>
               <p className="text-xl text-gray-600">
                 Your trusted partner for memorable corporate experiences
               </p>
