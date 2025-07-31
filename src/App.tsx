@@ -33,6 +33,7 @@ import PrivacyPolicyPage from "@/pages/PrivacyPolicyPage";
 // Add new imports for Career and FAQ pages
 import CareerPage from "@/pages/CareerPage";
 import FaqPage from "@/pages/FaqPage";
+import CorporateToursPage from "@/pages/CorporateToursPage";
 
 // Update the route for the optimized index page
 import OptimizedIndex from '@/pages/OptimizedIndex';
@@ -78,6 +79,7 @@ function App() {
               <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
               <Route path="/careers" element={<CareerPage />} />
               <Route path="/faq" element={<FaqPage />} />
+               <Route path="/corporate-tours" element={<CorporateToursPage />} />
 
                             
               {/* Specific India state routes */}

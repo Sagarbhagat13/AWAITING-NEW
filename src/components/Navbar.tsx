@@ -7,11 +7,12 @@ import { useLocation } from 'react-router-dom';
 // Import components
 import Logo from './navbar/Logo';
 import NavLinks from './navbar/NavLinks';
+import DesktopNavLinks from './navbar/DesktopNavLinks';
 import DesktopActions from './navbar/DesktopActions';
 import MobileActions from './navbar/MobileActions';
 import MobileMenu from './navbar/MobileMenu';
 import SearchOverlay from './navbar/SearchOverlay';
-import { navLinks } from './navbar/NavbarData';
+import { navLinks, primaryNavLinks, moreMenuLinks } from './navbar/NavbarData';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -91,7 +92,11 @@ const Navbar = () => {
           <Logo />
           
           {/* Desktop Navigation */}
-          <NavLinks isScrolled={isScrolled || isWhiteBackgroundPage} links={navLinks} />
+          <DesktopNavLinks 
+            isScrolled={isScrolled || isWhiteBackgroundPage} 
+            primaryLinks={primaryNavLinks}
+            moreMenuLinks={moreMenuLinks}
+          />
           
           {/* Desktop Action Buttons */}
           <DesktopActions isScrolled={isScrolled || isWhiteBackgroundPage} toggleSearch={toggleSearch} />
