@@ -83,16 +83,14 @@ const Navbar = () => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
 
-// Check if promotional banner is visible
-  const isPromoBannerVisible = typeof window !== 'undefined' && 
-    localStorage.getItem('winter-promo-dismissed-2024') !== 'true';
+
   
 
   
   return (
     <header className={cn(
-      "fixed left-0 right-0 z-50 transition-all duration-300",
-      isPromoBannerVisible ? "top-10" : "top-0",
+       "fixed left-0 right-0 z-40 transition-all duration-300",
+      "top-12", // Always leave space for banner
       isScrolled || isWhiteBackgroundPage ? "bg-white shadow-md py-2" : "bg-transparent py-4"
     )}>
       <div className="container mx-auto px-4">

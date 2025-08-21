@@ -9,9 +9,11 @@ const PromotionalBanner = () => {
   useEffect(() => {
     // Check if banner was previously dismissed
     const isDismissed = localStorage.getItem('winter-promo-dismissed-2024') === 'true';
+     console.log('Banner dismissed status:', isDismissed);
     if (!isDismissed) {
-      // Show banner after a slight delay for smooth animation
-      setTimeout(() => setIsVisible(true), 500);
+     // Show banner immediately for testing
+      setIsVisible(true);
+      console.log('Banner should be visible now');
     }
   }, []);
 
@@ -36,7 +38,7 @@ const PromotionalBanner = () => {
   return (
     <div 
       className={cn(
-        "fixed top-0 left-0 right-0 z-60 bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 text-white transition-all duration-300 cursor-pointer",
+       "fixed top-0 left-0 right-0 z-[100] h-12 bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 text-white transition-all duration-300 cursor-pointer",
         isAnimatingOut ? "transform -translate-y-full opacity-0" : "transform translate-y-0 opacity-100"
       )}
       onClick={handleClick}
