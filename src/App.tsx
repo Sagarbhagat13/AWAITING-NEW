@@ -10,6 +10,7 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { Toaster } from "@/components/ui/toaster";
 import { AuthProvider } from "@/contexts/AuthContext";
 import ScrollToTop from "@/components/ScrollToTop";
+import PromotionalBanner from "@/components/PromotionalBanner";
 
 // Error handling component
 import ErrorBoundary from "@/components/ErrorBoundary";
@@ -62,6 +63,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <AuthProvider>
         <BrowserRouter>
+          <PromotionalBanner />
           <ScrollToTop />
           <ErrorBoundary>
             <Routes>

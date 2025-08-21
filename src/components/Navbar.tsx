@@ -19,20 +19,33 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isEnquiryOpen, setIsEnquiryOpen] = useState(false);
+  const [isBannerVisible, setIsBannerVisible] = useState(true);
   const isMobile = useIsMobile();
   const overlayRef = useRef<HTMLDivElement>(null);
   const navRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
   
-  // Check if we're on pages that need white navbar background
-  const isWhiteBackgroundPage = location.pathname.includes('/blog') || 
-                               location.pathname.includes('/about') || 
-                               location.pathname.includes('/contact') ||
-                               location.pathname.includes('/trip/') || 
-                               location.pathname.includes('/custom-trip/') || 
-                               location.pathname.includes('/day-itinerary/') ||
-                               location.pathname.includes('/backpacking') ||
-                                location.pathname.includes('/corporate-tours') ;
+  // Check banner visibility from localStorage
+  useEffect(() => {
+    const checkBannerVisibility = () => {
+      const isDismissed = localStorage.getItem('winter-promo-dismissed-2024') === 'true';
+      setIsBannerVisible(!isDismissed);
+    };
+    
+    // Check initially
+    checkBannerVisibility();
+    
+    // Listen for localStorage changes
+    window.addEventListener('storage', checkBannerVisibility);
+    
+    // Poll for changes (in case localStorage is updated in same tab)
+    const interval = setInterval(checkBannerVisibility, 500);
+    
+    return () => {
+      window.removeEventListener('storage', checkBannerVisibility);
+      clearInterval(interval);
+    };
+  }, []);
   
   const toggleMenu = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -89,9 +102,8 @@ const Navbar = () => {
   
   return (
     <header className={cn(
-       "fixed left-0 right-0 z-40 transition-all duration-300",
-      "top-12", // Always leave space for banner
-      isScrolled || isWhiteBackgroundPage ? "bg-white shadow-md py-2" : "bg-transparent py-4"
+     "fixed left-0 right-0 z-40 transition-all duration-300 bg-white shadow-md py-2",
+      isBannerVisible ? "top-8" : "top-0"
     )}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between" ref={navRef}>
@@ -100,17 +112,17 @@ const Navbar = () => {
           
           {/* Desktop Navigation */}
           <DesktopNavLinks 
-            isScrolled={isScrolled || isWhiteBackgroundPage} 
+             isScrolled={true}
             primaryLinks={primaryNavLinks}
             moreMenuLinks={moreMenuLinks}
           />
           
           {/* Desktop Action Buttons */}
-          <DesktopActions isScrolled={isScrolled || isWhiteBackgroundPage} toggleSearch={toggleSearch} />
-          
+         <DesktopActions isScrolled={true} toggleSearch={toggleSearch} />
           {/* Mobile Action Buttons */}
           <MobileActions 
-            isScrolled={isScrolled || isWhiteBackgroundPage} 
+            // isScrolled={isScrolled || isWhiteBackgroundPage} 
+             isScrolled={true}
             isMenuOpen={isMenuOpen} 
             toggleMenu={toggleMenu} 
             toggleSearch={toggleSearch}

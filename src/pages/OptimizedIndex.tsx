@@ -6,6 +6,7 @@ import Navbar from '@/components/Navbar';
 import OptimizedBanner from '@/components/OptimizedBanner';
 import Footer from '@/components/Footer';
 import EnhancedSEOHead from '@/components/seo/EnhancedSEOHead';
+import PromotionalBanner from '@/components/PromotionalBanner';
 import { Trip } from '@/data/popularTrips';
 import { optimizedSearchService } from '@/services/optimizedSearchService';
 import { dataLoader } from '@/services/dataLoader';
