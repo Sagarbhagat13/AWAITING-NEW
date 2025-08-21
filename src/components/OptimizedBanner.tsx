@@ -147,9 +147,9 @@ const OptimizedBanner: React.FC<OptimizedBannerProps> = React.memo(({ onSearch }
 
 // export default OptimizedBanner;
 return (
-    // Frame-like structure with padding on all sides like Desh Videsh
-    <div className="p-4 md:p-6 lg:p-8 bg-background min-h-screen">
-      <div className="relative h-[calc(100vh-2rem)] md:h-[calc(100vh-3rem)] lg:h-[calc(100vh-4rem)] overflow-hidden rounded-2xl shadow-2xl">
+    // Frame-like structure with increased padding on all sides
+    <div className="p-6 md:p-10 lg:p-16 xl:p-20 bg-background min-h-screen">
+      <div className="relative h-[calc(100vh-3rem)] md:h-[calc(100vh-5rem)] lg:h-[calc(100vh-8rem)] xl:h-[calc(100vh-10rem)] overflow-hidden rounded-2xl shadow-2xl">
         {/* Video Background */}
         <div className="absolute inset-0 rounded-2xl overflow-hidden">
           <video
