@@ -17,7 +17,7 @@ const PopularTripsSection = () => {
           title=""
           description=""
           itemsPerView={4}
-        >
+        > 
           {popularTrips.map((trip) => (
             <CarouselCard 
               key={trip.id} 
