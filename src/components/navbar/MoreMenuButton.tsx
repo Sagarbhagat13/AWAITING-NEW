@@ -40,10 +40,10 @@ const MoreMenuButton = ({ isScrolled, menuItems }: MoreMenuButtonProps) => {
         </button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56" align="end">
-        {menuItems.map((item, index) => (
-          <React.Fragment key={item.name}>
-            {item.isDropdown ? (
-              <DropdownMenuSub>
+        {menuItems.map((item, index) => {
+          if (item.isDropdown) {
+            return (
+              <DropdownMenuSub key={item.name}>
                 <DropdownMenuSubTrigger className="cursor-pointer">
                   {item.name}
                 </DropdownMenuSubTrigger>
@@ -60,20 +60,24 @@ const MoreMenuButton = ({ isScrolled, menuItems }: MoreMenuButtonProps) => {
                   ))}
                 </DropdownMenuSubContent>
               </DropdownMenuSub>
-            ) : (
-              <DropdownMenuItem asChild>
-                <Link 
-                  to={item.path}
-                  className="w-full py-2 text-sm hover:bg-gray-50 hover:text-tripvidya-primary transition-colors cursor-pointer"
-                >
-                  {item.name}
-                </Link>
-              </DropdownMenuItem>
-            )}
-            {/* Add separator before last item (Contact) */}
-            {index === menuItems.length - 2 && <DropdownMenuSeparator />}
-          </React.Fragment>
-        ))}
+           );
+          } else {
+            return (
+              <React.Fragment key={item.name}>
+                <DropdownMenuItem asChild>
+                  <Link 
+                    to={item.path}
+                    className="w-full py-2 text-sm hover:bg-gray-50 hover:text-tripvidya-primary transition-colors cursor-pointer"
+                  >
+                    {item.name}
+                  </Link>
+                </DropdownMenuItem>
+                {/* Add separator before last item (Contact) */}
+                {index === menuItems.length - 2 && <DropdownMenuSeparator />}
+              </React.Fragment>
+            );
+          }
+        })}
       </DropdownMenuContent>
     </DropdownMenu>
   );

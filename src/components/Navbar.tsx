@@ -101,12 +101,12 @@ const Navbar = () => {
 
   
   return (
-    <header className={cn(
-     "fixed left-0 right-0 z-30 transition-all duration-300 bg-white shadow-md ",
+     <header className={cn(
+      "fixed left-0 right-0 z-30 transition-all duration-300 bg-white shadow-md",
       isBannerVisible ? "top-8" : "top-0"
     )}>
-      <div className="container mx-auto px-4 py-3">
-        <div className="flex items-center justify-between" ref={navRef}>
+        <div className="container mx-auto px-4 py-2 md:py-3">
+        <div className="flex items-center justify-between h-12 md:h-auto" ref={navRef}>
           {/* Logo */}
           <Logo />
           

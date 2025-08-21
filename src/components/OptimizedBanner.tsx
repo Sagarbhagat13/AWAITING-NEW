@@ -1,6 +1,7 @@
 
-import React, { useState, useCallback, useMemo } from 'react';
+import React, { useState, useCallback, useMemo, useEffect } from 'react';
 import { MessageCircle, Users, MapPin, Award } from 'lucide-react';
+import { cn } from '@/lib/utils';
 import { popularTrips } from '@/data/popularTrips';
 import { weekendTrips } from '@/data/weekendTrips';
 import { internationalTours } from '@/data/internationalTours';
@@ -18,6 +19,29 @@ interface OptimizedBannerProps {
 }
 
 const OptimizedBanner: React.FC<OptimizedBannerProps> = React.memo(({ onSearch }) => {
+  const [isBannerVisible, setIsBannerVisible] = useState(true);
+  
+  // Check banner visibility from localStorage
+  useEffect(() => {
+    const checkBannerVisibility = () => {
+      const isDismissed = localStorage.getItem('winter-promo-dismissed-2024') === 'true';
+      setIsBannerVisible(!isDismissed);
+    };
+    
+    // Check initially
+    checkBannerVisibility();
+    
+    // Listen for localStorage changes
+    window.addEventListener('storage', checkBannerVisibility);
+    
+    // Poll for changes (in case localStorage is updated in same tab)
+    const interval = setInterval(checkBannerVisibility, 500);
+    
+    return () => {
+      window.removeEventListener('storage', checkBannerVisibility);
+      clearInterval(interval);
+    };
+  }, []);
   // const [currentImageIndex, setCurrentImageIndex] = useState(0);
   // const isMobile = useIsMobile();
 
@@ -147,9 +171,13 @@ const OptimizedBanner: React.FC<OptimizedBannerProps> = React.memo(({ onSearch }
 
 // export default OptimizedBanner;
 return (
-    // Frame-like structure with increased padding on all sides
-    <div className="p-6 md:p-10 lg:p-16 xl:p-20 bg-background min-h-screen">
-      <div className="relative h-[calc(100vh-3rem)] md:h-[calc(100vh-5rem)] lg:h-[calc(100vh-8rem)] xl:h-[calc(100vh-10rem)] overflow-hidden rounded-2xl shadow-2xl">
+       // Frame-like structure with responsive spacing - mobile optimized
+    // Frame-like structure with responsive spacing - mobile optimized
+    <div className={cn(
+     "px-6 md:px-8 lg:px-12 pb-8 md:pb-12 bg-background transition-all duration-300",
+      isBannerVisible ? "pt-24 md:pt-28" : "pt-20 md:pt-24"
+    )}>
+       <div className="relative h-[45vh] md:h-[75vh] lg:h-[80vh] xl:h-[85vh] overflow-hidden rounded-2xl shadow-2xl">
         {/* Video Background */}
         <div className="absolute inset-0 rounded-2xl overflow-hidden">
           <video
@@ -157,11 +185,17 @@ return (
             muted
             loop
             playsInline
-            preload="metadata"
+            preload="auto"
             className="w-full h-full object-cover"
             poster="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=2000&q=90&fm=webp"
             onLoadedData={handleVideoLoad}
             onError={handleVideoError}
+            onCanPlay={() => {
+              const video = document.querySelector('video') as HTMLVideoElement;
+              if (video) {
+                video.play().catch(console.error);
+              }
+            }}
           >
             {videoSources.map((src, index) => (
               <source key={index} src={src} type="video/mp4" />
@@ -186,29 +220,13 @@ return (
             <span className="text-primary font-semibold">ends with a story</span>
           </p>
           
-          {/* Search Bar */}
-          <div className="w-full max-w-xl md:max-w-2xl mb-8 md:mb-12">
+          {/* Search Bar - Hidden on Mobile */}
+          <div className="hidden md:block w-full max-w-2xl mb-8 md:mb-12">
             <BannerSearchBar onSearch={onSearch} allTrips={allTrips} />
           </div>
           
-          {/* Trust Badges */}
-          <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8 mb-8">
-            <div className="flex items-center gap-2 text-white/90 text-sm md:text-base">
-              <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-              24×7 Support
-            </div>
-            <div className="flex items-center gap-2 text-white/90 text-sm md:text-base">
-              <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
-              100% Personalised
-            </div>
-            <div className="flex items-center gap-2 text-white/90 text-sm md:text-base">
-              <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
-              4.9+ Rated
-            </div>
-          </div>
-          
           {/* Stats Counters */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 w-full max-w-4xl">
+              <div className="grid grid-cols-4 gap-1 md:gap-8 w-full max-w-4xl mt-8 md:mt-0">
             <StatsCounter count="300+" label="Reviews" icon={MessageCircle} />
             <StatsCounter count="5000+" label="Travelers" icon={Users} />
             <StatsCounter count="80+" label="Destinations" icon={MapPin} />
