@@ -36,9 +36,7 @@ const OptimizedBanner: React.FC<OptimizedBannerProps> = React.memo(({ onSearch }
 
    // Travel-themed video sources for better compatibility  
   const videoSources = useMemo(() => [
-    'https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-beautiful-resort-in-the-mountains-4081-large.mp4',
-    'https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4',
-    'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
+    'https://videos.pexels.com/video-files/5235133/5235133-hd_1920_1080_25fps.mp4'
   ], []);
 
   // Handle video events
