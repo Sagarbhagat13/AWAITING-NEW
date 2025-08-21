@@ -206,50 +206,50 @@ const OptimizedIndex = () => {
               )}
             </div>
             
-            <div data-section="state-packages" className="min-h-[400px]">
+            {/* <div data-section="state-packages" className="min-h-[400px]">
               {shouldLoadSection('state-packages') && (
                 <Suspense fallback={<SectionLoader />}>
                   <StatePackagesSection />
                 </Suspense>
               )}
-            </div>
+            </div> */}
                  
             <Suspense fallback={<SectionLoader />}>
                 <OfferBannerCarousel slides={secondSetOfferBanners} />
             </Suspense>
             
             
-            <div data-section="regional-trips" className="min-h-[400px]">
+            {/* <div data-section="regional-trips" className="min-h-[400px]">
               {shouldLoadSection('regional-trips') && (
                 <Suspense fallback={<SectionLoader />}>
                   <RegionalTripsSection />
                 </Suspense>
               )}
-            </div>
+            </div> */}
             
-            <div data-section="customized-trips" className="min-h-[300px]">
+            {/* <div data-section="customized-trips" className="min-h-[300px]">
               {shouldLoadSection('customized-trips') && (
                 <Suspense fallback={<SectionLoader />}>
                   <CustomizedTripsSection />
                 </Suspense>
               )}
-            </div>
+            </div> */}
             
-            <div data-section="ladakh-departures" className="min-h-[400px]">
+            {/* <div data-section="ladakh-departures" className="min-h-[400px]">
               {shouldLoadSection('ladakh-departures') && (
                 <Suspense fallback={<SectionLoader />}>
                   <LadakhDeparturesSection />
                 </Suspense>
               )}
-            </div>
+            </div> */}
             
-            <div data-section="offbeat-trips" className="min-h-[400px]">
+            {/* <div data-section="offbeat-trips" className="min-h-[400px]">
               {shouldLoadSection('offbeat-trips') && (
                 <Suspense fallback={<SectionLoader />}>
                   <OffBeatTripsSection />
                 </Suspense>
               )}
-            </div>
+            </div> */}
             
             <div data-section="group-discount" className="min-h-[100px]">
               {shouldLoadSection('group-discount') && (
@@ -260,13 +260,13 @@ const OptimizedIndex = () => {
             </div>
             
             {/* Lower priority sections */}
-            <div data-section="family-tours" className="min-h-[400px]">
+            {/* <div data-section="family-tours" className="min-h-[400px]">
               {shouldLoadSection('family-tours') && (
                 <Suspense fallback={<SectionLoader />}>
                   <FamilyToursSection />
                 </Suspense>
               )}
-            </div>
+            </div> */}
             
             <div data-section="honeymoon" className="min-h-[400px]">
               {shouldLoadSection('honeymoon') && (
@@ -276,13 +276,13 @@ const OptimizedIndex = () => {
               )}
             </div>
             
-            <div data-section="weekend-trips" className="min-h-[400px]">
+            {/* <div data-section="weekend-trips" className="min-h-[400px]">
               {shouldLoadSection('weekend-trips') && (
                 <Suspense fallback={<SectionLoader />}>
                   <WeekendTripsSection />
                 </Suspense>
               )}
-            </div>
+            </div> */}
             
             <div data-section="international-tours" className="min-h-[400px]">
               {shouldLoadSection('international-tours') && (
