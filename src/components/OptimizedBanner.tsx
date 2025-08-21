@@ -1,5 +1,5 @@
 
-import React, { useState, useCallback, useMemo, useEffect } from 'react';
+import React, { useState, useCallback, useMemo, useEffect, useRef } from 'react';
 import { MessageCircle, Users, MapPin, Award } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { popularTrips } from '@/data/popularTrips';
@@ -20,6 +20,8 @@ interface OptimizedBannerProps {
 
 const OptimizedBanner: React.FC<OptimizedBannerProps> = React.memo(({ onSearch }) => {
   const [isBannerVisible, setIsBannerVisible] = useState(true);
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [hasUserInteracted, setHasUserInteracted] = useState(false);
   
   // Check banner visibility from localStorage
   useEffect(() => {
@@ -42,6 +44,52 @@ const OptimizedBanner: React.FC<OptimizedBannerProps> = React.memo(({ onSearch }
       clearInterval(interval);
     };
   }, []);
+  
+  // Handle user interaction for autoplay policy compliance
+  useEffect(() => {
+    const handleUserInteraction = () => {
+      setHasUserInteracted(true);
+      if (videoRef.current) {
+        videoRef.current.play().catch(() => {
+          console.log('Video play failed even after user interaction');
+        });
+      }
+    };
+
+    // Add interaction listeners
+    document.addEventListener('click', handleUserInteraction, { once: true });
+    document.addEventListener('touchstart', handleUserInteraction, { once: true });
+
+    return () => {
+      document.removeEventListener('click', handleUserInteraction);
+      document.removeEventListener('touchstart', handleUserInteraction);
+    };
+  }, []);
+
+  // Video intersection observer for play when visible
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && hasUserInteracted) {
+            video.play().catch(() => {
+              console.log('Video autoplay prevented');
+            });
+          } else if (!entry.isIntersecting) {
+            video.pause();
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    observer.observe(video);
+
+    return () => observer.disconnect();
+  }, [hasUserInteracted]);
   // const [currentImageIndex, setCurrentImageIndex] = useState(0);
   // const isMobile = useIsMobile();
 
@@ -191,9 +239,18 @@ return (
             onLoadedData={handleVideoLoad}
             onError={handleVideoError}
             onCanPlay={() => {
-              const video = document.querySelector('video') as HTMLVideoElement;
-              if (video) {
-                video.play().catch(console.error);
+              if (videoRef.current && hasUserInteracted) {
+                videoRef.current.play().catch(() => {
+                  console.log('Video autoplay prevented by browser policy');
+                });
+              }
+            }}
+            onLoadedMetadata={() => {
+              // Try to play when metadata is loaded and user has interacted
+              if (videoRef.current && hasUserInteracted) {
+                videoRef.current.play().catch(() => {
+                  console.log('Video play attempt failed');
+                });
               }
             }}
           >

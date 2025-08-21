@@ -19,7 +19,7 @@ const YouTubeSection = () => {
         <div className="max-w-4xl mx-auto">
           <div className="relative aspect-video rounded-xl overflow-hidden shadow-2xl bg-black">
             <iframe
-              src="https://www.youtube.com/embed?listType=user_uploads&list=awaitingadventures7454"
+              src="https://youtu.be/HYgPrB0Jcss?si=4EYF18JWP91nXmLo"
               title="Awaiting Adventures Channel"
               className="w-full h-full"
               allowFullScreen
