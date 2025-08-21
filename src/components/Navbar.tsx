@@ -82,10 +82,17 @@ const Navbar = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
+
+// Check if promotional banner is visible
+  const isPromoBannerVisible = typeof window !== 'undefined' && 
+    localStorage.getItem('winter-promo-dismissed-2024') !== 'true';
+  
+
   
   return (
     <header className={cn(
-      "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
+      "fixed left-0 right-0 z-50 transition-all duration-300",
+      isPromoBannerVisible ? "top-10" : "top-0",
       isScrolled || isWhiteBackgroundPage ? "bg-white shadow-md py-2" : "bg-transparent py-4"
     )}>
       <div className="container mx-auto px-4">

@@ -8,6 +8,7 @@ import Footer from '@/components/Footer';
 import EarlyBirdBanner from '@/components/EarlyBirdBanner';
 import GroupDiscountBanner from '@/components/GroupDiscountBanner';
 import EnhancedSEOHead from '@/components/seo/EnhancedSEOHead';
+import PromotionalBanner from '@/components/PromotionalBanner';
 import { Trip } from '@/data/popularTrips';
 import { optimizedSearchService } from '@/services/optimizedSearchService';
 import { dataLoader } from '@/services/dataLoader';
@@ -121,6 +122,7 @@ const Index = () => {
         image="https://awaitingadventures.com/og-image.png"
       />
       
+       <PromotionalBanner />
       <Navbar />
       
       <Banner onSearch={handleSearch} />
