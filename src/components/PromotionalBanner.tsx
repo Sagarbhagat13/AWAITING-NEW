@@ -8,9 +8,10 @@ const PromotionalBanner = () => {
    console.log('PromotionalBanner rendering, isVisible:', isVisible);
 
   useEffect(() => {
-    // Always show for debugging - ignore localStorage for now
+   // Clear localStorage for debugging - always show banner
+    localStorage.removeItem('winter-promo-dismissed-2024');
     setIsVisible(true);
-    console.log('Banner force set to visible for debugging');
+    console.log('Banner force set to visible - localStorage cleared');
   }, []);
 
   const handleDismiss = () => {
