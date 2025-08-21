@@ -26,6 +26,7 @@ const EarlyBirdBanner = lazy(() => import('@/components/EarlyBirdBanner'));
 const GroupDiscountBanner = lazy(() => import('@/components/GroupDiscountBanner'));
 
 // Lazy load remaining sections with lower priority
+const YouTubeSection = lazy(() => import('@/components/home/YouTubeSection'));
 const CustomizedTripsSection = lazy(() => import('@/components/home/CustomizedTripsSection'));
 const LadakhDeparturesSection = lazy(() => import('@/components/home/LadakhDeparturesSection'));
 const OffBeatTripsSection = lazy(() => import('@/components/home/OffBeatTripsSection'));
@@ -288,6 +289,15 @@ const OptimizedIndex = () => {
               {shouldLoadSection('international-tours') && (
                 <Suspense fallback={<SectionLoader />}>
                   <InternationalToursSection />
+                </Suspense>
+              )}
+            </div>
+            
+            {/* YouTube Section - Added above testimonials */}
+            <div data-section="youtube-experiences" className="min-h-[500px]">
+              {shouldLoadSection('youtube-experiences') && (
+                <Suspense fallback={<SectionLoader />}>
+                  <YouTubeSection />
                 </Suspense>
               )}
             </div>
