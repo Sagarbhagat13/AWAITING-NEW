@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import TripCarousel from '@/components/TripCarousel';
 import CarouselCard from '@/components/home/CarouselCard';
 import EnhancedSEOHead from '@/components/seo/EnhancedSEOHead';
-import Breadcrumb from '@/components/seo/Breadcrumb';
+import MinimalHero from '@/components/MinimalHero';
 import { popularTrips } from '@/data/popularTrips';
 import { weekendTrips } from '@/data/weekendTrips';
 import { internationalTours } from '@/data/internationalTours';
@@ -47,9 +47,9 @@ const BackpackingPage = () => {
       <Navbar />
       
       <main className="flex-grow">
-        <div className="container mx-auto px-4 pt-20">
+        {/* <div className="container mx-auto px-4 pt-20">
           <Breadcrumb />
-        </div>
+        </div> */}
         
         {/* Hero Section */}
         {/* <section className="py-20 bg-gradient-to-r from-[#E8F5E8] to-[#D4F1D4]">
@@ -78,7 +78,7 @@ const BackpackingPage = () => {
             </div>
           </div>
         </section> */}
-        
+                <MinimalHero title="Backpacking Adventures" />
         {/* Trips Carousel Section */}
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
