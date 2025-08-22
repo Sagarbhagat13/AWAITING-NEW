@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingInfoButton from "@/components/FloatingInfoButton";
+import MinimalHero from "@/components/MinimalHero";
 import SEOHead from "@/components/SEOHead";
 import BlogPostHeader from '@/components/blog/post/BlogPostHeader';
 import BlogPostImage from '@/components/blog/post/BlogPostImage';
@@ -87,8 +88,12 @@ const BlogPostPage = () => {
       />
       
       <Navbar />
-      <div className="min-h-screen bg-gray-50 pt-20">
-        <div className="container mx-auto px-4 py-12">
+         
+      <main className="flex-grow">
+        <MinimalHero title={post.title} />
+        
+        <div className="min-h-screen bg-gray-50">
+          <div className="container mx-auto px-4 py-12">
           {/* Blog header */}
           <BlogPostHeader 
             title={post.title}
@@ -111,6 +116,7 @@ const BlogPostPage = () => {
         </div>
       </div>
       <Footer />
+      </main>
       <FloatingInfoButton />
     </>
   );

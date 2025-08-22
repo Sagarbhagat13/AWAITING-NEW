@@ -3,6 +3,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight, Home, MapPin, Clock, Users, Heart, Award, Briefcase } from 'lucide-react';
 import SEOHead from '@/components/SEOHead';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import MinimalHero from '@/components/MinimalHero';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
@@ -77,9 +80,9 @@ const CareerPage = () => {
         canonicalUrl="/careers"
       />
       
-      <div className="min-h-screen bg-gray-50">
+      {/* {/* <div className="min-h-screen bg-gray-50">
         {/* Breadcrumb */}
-        <div className="bg-white border-b">
+        {/* <div className="bg-white border-b">
           <div className="container mx-auto px-4 py-4">
             <nav className="flex items-center space-x-2 text-sm text-gray-600">
               <Link to="/" className="flex items-center hover:text-tripvidya-primary transition-colors">
@@ -90,17 +93,23 @@ const CareerPage = () => {
               <span className="text-gray-900 font-medium">Careers</span>
             </nav>
           </div>
-        </div>
+        </div> */}
 
         {/* Header */}
-        <div className="bg-tripvidya-dark text-white py-16">
+        {/* <div className="bg-tripvidya-dark text-white py-16">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Join Our Team</h1>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
               Build your career in the travel industry and help people create unforgettable memories.
             </p>
           </div>
-        </div>
+        </div>   */}
+        <Navbar />
+      
+      <main className="flex-grow">
+        <MinimalHero title="Join Our Team" />
+        
+        <div className="min-h-screen bg-gray-50">
 
         {/* Why Work With Us */}
         <section className="py-16">
@@ -192,6 +201,9 @@ const CareerPage = () => {
           </div>
         </section>
       </div>
+      </main>
+      
+      <Footer />
     </>
   );
 };

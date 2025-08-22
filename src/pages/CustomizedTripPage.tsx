@@ -3,6 +3,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import MinimalHero from '@/components/MinimalHero';
 import TripCarousel from '@/components/TripCarousel';
 import ItineraryCard from '@/components/customized/ItineraryCard';
 
@@ -47,7 +48,7 @@ const CustomizedTripPage = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <div className="relative h-[60vh] md:h-[70vh] mt-16">
+      {/* <div className="relative h-[60vh] md:h-[70vh] mt-16">
         <img 
           src={trip.image}
           alt={trip.title}
@@ -60,7 +61,9 @@ const CustomizedTripPage = () => {
             <p className="text-xl">Customize Your Perfect Journey</p>
           </div>
         </div>
-      </div>
+      </div> */}
+      <main className="flex-grow">
+        <MinimalHero title="Customize Your Perfect Journey" />
 
       {/* Itineraries Section */}
       <div className="container mx-auto px-4 py-12">
@@ -77,7 +80,7 @@ const CustomizedTripPage = () => {
           ))}
         </TripCarousel>
       </div>
-      
+      </main>
       <Footer />
     </div>
   );

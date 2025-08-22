@@ -1,6 +1,9 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import MinimalHero from '@/components/MinimalHero';
 import { ChevronRight, Home, Search, Plus, Minus } from 'lucide-react';
 import SEOHead from '@/components/SEOHead';
 import { Input } from '@/components/ui/input';
@@ -143,9 +146,9 @@ const FaqPage = () => {
         canonicalUrl="/faq"
       />
       
-      <div className="min-h-screen bg-gray-50">
+      {/* <div className="min-h-screen bg-gray-50"> */}
         {/* Breadcrumb */}
-        <div className="bg-white border-b">
+        {/* <div className="bg-white border-b">
           <div className="container mx-auto px-4 py-4">
             <nav className="flex items-center space-x-2 text-sm text-gray-600">
               <Link to="/" className="flex items-center hover:text-tripvidya-primary transition-colors">
@@ -156,17 +159,24 @@ const FaqPage = () => {
               <span className="text-gray-900 font-medium">FAQ</span>
             </nav>
           </div>
-        </div>
+        </div> */}
 
         {/* Header */}
-        <div className="bg-tripvidya-dark text-white py-16">
+        {/* <div className="bg-tripvidya-dark text-white py-16">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Frequently Asked Questions</h1>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
               Find quick answers to the most common questions about our travel services.
             </p>
           </div>
-        </div>
+        </div> */}
+
+        <Navbar />
+      
+      <main className="flex-grow">
+        <MinimalHero title="Frequently Asked Questions" />
+        
+        <div className="min-h-screen bg-gray-50">
 
         {/* Search */}
         <div className="container mx-auto px-4 py-8">
@@ -258,6 +268,9 @@ const FaqPage = () => {
           </div>
         </div>
       </div>
+      </main>
+      
+      <Footer />
     </>
   );
 };

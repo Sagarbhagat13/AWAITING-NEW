@@ -12,6 +12,9 @@ import { Separator } from '@/components/ui/separator';
 import { toast } from 'sonner';
 import { User, Phone, Mail, Calendar, Shield, Wallet } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import MinimalHero from '@/components/MinimalHero';
 
 interface UserProfile {
   id: string;
@@ -132,7 +135,12 @@ const ProfilePage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-tripvidya-light to-white">
-      <div className="container mx-auto px-4 py-8">
+     <Navbar />
+      
+      <main className="flex-grow">
+        <MinimalHero title="My Profile" />
+        
+        <div className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto space-y-6">
           {/* Header */}
           <div className="text-center mb-8">
@@ -259,6 +267,9 @@ const ProfilePage = () => {
           </Card>
         </div>
       </div>
+       </main>
+      
+      <Footer />\
     </div>
   );
 };

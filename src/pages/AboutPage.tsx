@@ -2,6 +2,7 @@
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import MinimalHero from '@/components/MinimalHero'
 import { Helmet } from 'react-helmet';
 
 const AboutPage = () => {
@@ -17,7 +18,7 @@ const AboutPage = () => {
       
       <Navbar />
       
-      <main className="pt-24 pb-16">
+      {/* <main className="pt-24 pb-16">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center mb-8">
             <img 
@@ -27,7 +28,11 @@ const AboutPage = () => {
               style={{ filter: "invert(55%) sepia(95%) saturate(1752%) hue-rotate(322deg) brightness(99%) contrast(96%)" }}
             />
             <h1 className="text-3xl md:text-4xl font-bold text-center">About Awaiting Adventures</h1>
-          </div>
+          </div> */}
+          <main className="flex-grow">
+        <MinimalHero title="About Awaiting Adventures" />
+        
+        <div className="container mx-auto px-4 py-16">
           
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-xl shadow-md overflow-hidden mb-10">

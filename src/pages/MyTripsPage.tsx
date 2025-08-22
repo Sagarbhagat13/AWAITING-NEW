@@ -8,6 +8,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { MapPin, Calendar, Users, IndianRupee, Plus, Package } from 'lucide-react';
 import { toast } from 'sonner';
 import { useNavigate } from 'react-router-dom';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import MinimalHero from '@/components/MinimalHero';
 
 interface Trip {
   id: string;
@@ -184,7 +187,13 @@ const MyTripsPage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-tripvidya-light to-white">
-      <div className="container mx-auto px-4 py-8">
+      {/* <div className="container mx-auto px-4 py-8"> */}
+       <Navbar />
+      
+      <main className="flex-grow">
+        <MinimalHero title="My Trips" />
+        
+        <div className="container mx-auto px-4 py-8">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="flex justify-between items-center mb-8">
@@ -279,6 +288,9 @@ const MyTripsPage = () => {
           )}
         </div>
       </div>
+       </main>
+      
+      <Footer />
     </div>
   );
 };

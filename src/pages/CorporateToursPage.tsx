@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import SEOHead from '@/components/SEOHead';
+import MinimalHero from '@/components/MinimalHero';
 import { useToast } from '@/hooks/use-toast';
 
 const CorporateToursPage = () => {
@@ -90,6 +91,8 @@ const CorporateToursPage = () => {
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         <Navbar />
+        <main className="flex-grow">
+          <MinimalHero title="Corporate Tours & Packages" />
         
         {/* Hero Section */}
         <section className="relative pt-24 pb-16 px-4">
@@ -264,7 +267,7 @@ const CorporateToursPage = () => {
             </Button>
           </div>
         </section>
-
+      </main>
         <Footer />
       </div>
     </>
