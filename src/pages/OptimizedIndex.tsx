@@ -39,6 +39,7 @@ const WhyUsSection = lazy(() => import('@/components/home/WhyUsSection'));
 const PhotoGallery = lazy(() => import('@/components/home/PhotoGallery'));
 const GovAffiliationsSection = lazy(() => import('@/components/home/GovAffiliationsSection'));
 
+
 // Loading component for better UX
 const SectionLoader = () => (
   <div className="h-32 flex items-center justify-center">
@@ -294,8 +295,8 @@ const OptimizedIndex = () => {
             </div>
             
             {/* YouTube Section - Added above testimonials */}
-            <div data-section="youtube-experiences" className="min-h-[500px]">
-              {shouldLoadSection('youtube-experiences') && (
+            <div data-section="youtube" className="min-h-[400px]">
+              {shouldLoadSection('youtube') && (
                 <Suspense fallback={<SectionLoader />}>
                   <YouTubeSection />
                 </Suspense>
