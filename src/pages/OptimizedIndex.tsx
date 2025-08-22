@@ -295,8 +295,8 @@ const OptimizedIndex = () => {
             </div>
             
             {/* YouTube Section - Added above testimonials */}
-            <div data-section="youtube" className="min-h-[400px]">
-              {shouldLoadSection('youtube') && (
+            <div data-section="youtube-experiences" className="min-h-[500px]">
+              {shouldLoadSection('youtube-experiences') && (
                 <Suspense fallback={<SectionLoader />}>
                   <YouTubeSection />
                 </Suspense>

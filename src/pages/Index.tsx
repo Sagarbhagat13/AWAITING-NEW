@@ -33,7 +33,6 @@ import WhyUsSection from '@/components/home/WhyUsSection';
 import CustomizedTripsSection from '@/components/home/CustomizedTripsSection';
 import PhotoGallery from '@/components/home/PhotoGallery';
 import GovAffiliationsSection from '@/components/home/GovAffiliationsSection';
-import YouTubeSection from '@/components/home/YouTubeSection';
 
 const Index = () => {
   const { toast } = useToast();
@@ -175,8 +174,6 @@ const Index = () => {
             <WhyUsSection />
             
             <PhotoGallery />
-              
-            <YouTubeSection />
             
             <GovAffiliationsSection />
           </>
