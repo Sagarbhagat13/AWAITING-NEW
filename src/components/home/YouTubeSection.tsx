@@ -19,12 +19,13 @@ const YouTubeSection = () => {
         <div className="max-w-4xl mx-auto">
           <div className="relative aspect-video rounded-xl overflow-hidden shadow-2xl bg-black">
             <iframe
-              src="https://www.youtube.com/watch?v=HYgPrB0Jcss&ab_channel=AwaitingAdventures"
+              src="https://www.youtube-nocookie.com/embed/dU5KpTo1_rU"
               title="Awaiting Adventures Channel"
               className="w-full h-full"
               allowFullScreen
               loading="lazy"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+               frameBorder="0"
             />
           </div>
         </div>
