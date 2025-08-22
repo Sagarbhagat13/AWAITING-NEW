@@ -8,36 +8,36 @@ export const primaryNavLinks = [
 
 // Secondary navigation links shown in "More" menu
 export const moreMenuLinks = [
-  { 
-    name: 'India', 
-    path: '/india',
-    isDropdown: true,
-    subItems: [
-      { name: 'Ladakh', path: '/india/ladakh' },
-      { name: 'Himachal Pradesh', path: '/india/himachal-pradesh' },
-      { name: 'Uttarakhand', path: '/india/uttarakhand' },
-      { name: 'Rajasthan', path: '/india/rajasthan' },
-      { name: 'Goa', path: '/india/goa' },
-      { name: 'Kerala', path: '/india/kerala' },
-      { name: 'Tamil Nadu', path: '/india/tamil-nadu' },
-      { name: 'Andaman', path: '/india/andaman' },
-      { name: 'All States', path: '/india/all-states' },
-    ]
-  },
-  { 
-    name: 'World', 
-    path: '/world',
-    isDropdown: true,
-    subItems: [
-      { name: 'Thailand', path: '/world/thailand' },
-      { name: 'Singapore', path: '/world/singapore' },
-      { name: 'Bali', path: '/world/bali' },
-      { name: 'Maldives', path: '/world/maldives' },
-      { name: 'Dubai', path: '/world/dubai' },
-      { name: 'Europe', path: '/world/europe' },
-      { name: 'All Countries', path: '/world/all-countries' },
-    ]
-  },
+  // { 
+  //   name: 'India', 
+  //   path: '/india',
+  //   isDropdown: true,
+  //   subItems: [
+  //     { name: 'Ladakh', path: '/india/ladakh' },
+  //     { name: 'Himachal Pradesh', path: '/india/himachal-pradesh' },
+  //     { name: 'Uttarakhand', path: '/india/uttarakhand' },
+  //     { name: 'Rajasthan', path: '/india/rajasthan' },
+  //     { name: 'Goa', path: '/india/goa' },
+  //     { name: 'Kerala', path: '/india/kerala' },
+  //     { name: 'Tamil Nadu', path: '/india/tamil-nadu' },
+  //     { name: 'Andaman', path: '/india/andaman' },
+  //     { name: 'All States', path: '/india/all-states' },
+  //   ]
+  // },
+  // { 
+  //   name: 'World', 
+  //   path: '/world',
+  //   isDropdown: true,
+  //   subItems: [
+  //     { name: 'Thailand', path: '/world/thailand' },
+  //     { name: 'Singapore', path: '/world/singapore' },
+  //     { name: 'Bali', path: '/world/bali' },
+  //     { name: 'Maldives', path: '/world/maldives' },
+  //     { name: 'Dubai', path: '/world/dubai' },
+  //     { name: 'Europe', path: '/world/europe' },
+  //     { name: 'All Countries', path: '/world/all-countries' },
+  //   ]
+  // },
   { name: 'Family Packages', path: '/family-tours' },
   { name: 'Corporate Tours', path: '/corporate-tours' },
   { name: 'Blog', path: '/blog' },
@@ -51,36 +51,36 @@ export const moreMenuLinks = [
 
 
 export const navLinks = [
-  { 
-    name: 'India', 
-    path: '/india',
-    isDropdown: true,
-    subItems: [
-      { name: 'Ladakh', path: '/india/ladakh' },
-      { name: 'Himachal Pradesh', path: '/india/himachal-pradesh' },
-      { name: 'Uttarakhand', path: '/india/uttarakhand' },
-      { name: 'Rajasthan', path: '/india/rajasthan' },
-      { name: 'Goa', path: '/india/goa' },
-      { name: 'Kerala', path: '/india/kerala' },
-      { name: 'Tamil Nadu', path: '/india/tamil-nadu' },
-      { name: 'Andaman', path: '/india/andaman' },
-      { name: 'All States', path: '/india/all-states' },
-    ]
-  },
-  { 
-    name: 'World', 
-    path: '/world',
-    isDropdown: true,
-    subItems: [
-      { name: 'Thailand', path: '/world/thailand' },
-      { name: 'Singapore', path: '/world/singapore' },
-      { name: 'Bali', path: '/world/bali' },
-      { name: 'Maldives', path: '/world/maldives' },
-      { name: 'Dubai', path: '/world/dubai' },
-      { name: 'Europe', path: '/world/europe' },
-      { name: 'All Countries', path: '/world/all-countries' },
-    ]
-  },
+  // { 
+  //   name: 'India', 
+  //   path: '/india',
+  //   isDropdown: true,
+  //   subItems: [
+  //     { name: 'Ladakh', path: '/india/ladakh' },
+  //     { name: 'Himachal Pradesh', path: '/india/himachal-pradesh' },
+  //     { name: 'Uttarakhand', path: '/india/uttarakhand' },
+  //     { name: 'Rajasthan', path: '/india/rajasthan' },
+  //     { name: 'Goa', path: '/india/goa' },
+  //     { name: 'Kerala', path: '/india/kerala' },
+  //     { name: 'Tamil Nadu', path: '/india/tamil-nadu' },
+  //     { name: 'Andaman', path: '/india/andaman' },
+  //     { name: 'All States', path: '/india/all-states' },
+  //   ]
+  // },
+  // { 
+  //   name: 'World', 
+  //   path: '/world',
+  //   isDropdown: true,
+  //   subItems: [
+  //     { name: 'Thailand', path: '/world/thailand' },
+  //     { name: 'Singapore', path: '/world/singapore' },
+  //     { name: 'Bali', path: '/world/bali' },
+  //     { name: 'Maldives', path: '/world/maldives' },
+  //     { name: 'Dubai', path: '/world/dubai' },
+  //     { name: 'Europe', path: '/world/europe' },
+  //     { name: 'All Countries', path: '/world/all-countries' },
+  //   ]
+  // },
   { name: 'Backpacking', path: '/backpacking' },
   { name: 'Long Weekends', path: '/long-weekend-trips' },
   { name: 'Family Packages', path: '/family-tours' },
