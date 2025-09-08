@@ -31,6 +31,7 @@ const CustomizedTripsSection = lazy(() => import('@/components/home/CustomizedTr
 const LadakhDeparturesSection = lazy(() => import('@/components/home/LadakhDeparturesSection'));
 const OffBeatTripsSection = lazy(() => import('@/components/home/OffBeatTripsSection'));
 const FamilyToursSection = lazy(() => import('@/components/home/FamilyToursSection'));
+const XmasNewYearSection = lazy(() => import('@/components/home/XmasNewYearSection'));
 const HoneymoonSection = lazy(() => import('@/components/home/HoneymoonSection'));
 const WeekendTripsSection = lazy(() => import('@/components/home/WeekendTripsSection'));
 const InternationalToursSection = lazy(() => import('@/components/home/InternationalToursSection'));
@@ -269,6 +270,13 @@ const OptimizedIndex = () => {
                 </Suspense>
               )}
             </div> */}
+             <div data-section="xmas-new-year" className="min-h-[400px]">
+              {shouldLoadSection('xmas-new-year') && (
+                <Suspense fallback={<SectionLoader />}>
+                  <XmasNewYearSection />
+                </Suspense>
+              )}
+            </div>
             
             <div data-section="honeymoon" className="min-h-[400px]">
               {shouldLoadSection('honeymoon') && (

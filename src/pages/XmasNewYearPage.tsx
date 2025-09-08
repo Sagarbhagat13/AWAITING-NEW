@@ -9,6 +9,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Snowflake, Gift, Star, Calendar } from "lucide-react";
 import { useSEOOptimization } from '@/hooks/useSEOOptimization';
 
+import { xmasNewYearTrips } from '@/data/xmasNewYearTrips';
+
 const XmasNewYearPage = () => {
   // Initialize SEO optimization
   useSEOOptimization({
@@ -16,43 +18,6 @@ const XmasNewYearPage = () => {
     enableHeadingOptimization: true,
     enableImageAltOptimization: true
   });
-
-  // Sample X-mas and New Year trips data - this can be replaced with actual data
-  const xmasNewYearTrips = [
-    {
-      id: "xmas-goa-2024",
-      title: "Goa Christmas Special",
-      location: "Goa",
-      duration: "4 Days 3 Nights",
-      price: 15999,
-      discount: 19,
-      image: "/lovable-uploads/2f2cf992-ad1d-47ad-9f83-81862be69fc9.png",
-      features: ["Beach Parties", "Christmas Dinner", "Live Music"],
-      category: "Holiday Special"
-    },
-    {
-      id: "new-year-manali-2024",
-      title: "Manali New Year Celebration",
-      location: "Manali, Himachal Pradesh",
-      duration: "5 Days 4 Nights",
-      price: 18999,
-      discount: 16,
-      image: "/lovable-uploads/a92cd83f-872e-43e1-a7bb-92c1ff4d6905.png",
-      features: ["Snow Activities", "Bonfire Night", "New Year Party"],
-      category: "Winter Special"
-    },
-    {
-      id: "xmas-kerala-2024",
-      title: "Kerala Christmas Backwaters",
-      location: "Kerala",
-      duration: "6 Days 5 Nights",
-      price: 22999,
-      discount: 13,
-      image: "/lovable-uploads/2f2cf992-ad1d-47ad-9f83-81862be69fc9.png",
-      features: ["Houseboat Stay", "Traditional Feast", "Cultural Shows"],
-      category: "Cultural Special"
-    }
-  ];
 
   const whyChooseReasons = [
     {
@@ -139,11 +104,19 @@ const XmasNewYearPage = () => {
               description=""
               itemsPerView={4}
             >
-              {xmasNewYearTrips.map((trip) => (
+            {xmasNewYearTrips.map((trip, index) => (
                 <CarouselCard 
                   key={trip.id} 
-                  {...trip} 
+                  id={trip.id}
+                  title={trip.title}
+                  location={trip.location}
+                  duration={trip.duration}
+                  price={trip.price}
+                  discount={trip.discount}
+                  image={trip.image}
                   className="holiday-package"
+                   priority={index < 4}
+                  index={index}
                 />
               ))}
             </TripCarousel>
