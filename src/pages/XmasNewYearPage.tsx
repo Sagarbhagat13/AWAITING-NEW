@@ -45,7 +45,7 @@ const XmasNewYearPage = () => {
                 <CarouselCard 
                   key={trip.id} 
                   {...trip} 
-                  className="xmas-newyear-package"
+                  className="backpacking-package"
                 />
               ))}
             </TripCarousel>
