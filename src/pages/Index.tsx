@@ -17,6 +17,7 @@ import { useSEOOptimization } from '@/hooks/useSEOOptimization';
 
 import SearchResults from '@/components/home/SearchResults';
 import OfferBannerCarousel, { secondSetOfferBanners } from '@/components/home/OfferBannerCarousel';
+import XmasNewYearSection from '@/components/home/XmasNewYearSection';
 import LongWeekendSection from '@/components/home/LongWeekendSection';
 import PopularTripsSection from '@/components/home/PopularTripsSection';
 import StatePackagesSection from '@/components/home/StatePackagesSection';
@@ -141,6 +142,8 @@ const Index = () => {
           />
         ) : (
           <>
+
+          <XmasNewYearSection />
             <LongWeekendSection />
             
             <PopularTripsSection />

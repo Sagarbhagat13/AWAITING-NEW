@@ -2,9 +2,10 @@
 // Primary navigation links shown directly in desktop navbar
 export const primaryNavLinks = [
   { name: 'Long Weekends', path: '/long-weekend-trips' },
+   { name: 'X-MAS & New Year', path: '/xmas-new-year' },
   { name: 'Honeymoon', path: '/honeymoon-packages' },
   { name: 'Backpacking', path: '/backpacking' },
-   { name: 'X-mas & New Year', path: '/xmas-new-year' },
+   
 ];
 
 // Secondary navigation links shown in "More" menu
@@ -84,9 +85,9 @@ export const navLinks = [
   // },
   { name: 'Backpacking', path: '/backpacking' },
   { name: 'Long Weekends', path: '/long-weekend-trips' },
+   { name: 'X-MAS & New Year', path: '/xmas-new-year' },
   { name: 'Family Packages', path: '/family-tours' },
   { name: 'Honeymoon', path: '/honeymoon-packages' },
-   { name: 'X-mas & New Year', path: '/xmas-new-year' },
     { name: 'Corporate Tours', path: '/corporate-tours' },
   { name: 'Blog', path: '/blog' },
   { name: 'About Us', path: '/about' },

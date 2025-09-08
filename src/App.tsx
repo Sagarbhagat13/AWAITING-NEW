@@ -35,7 +35,6 @@ import PrivacyPolicyPage from "@/pages/PrivacyPolicyPage";
 import CareerPage from "@/pages/CareerPage";
 import FaqPage from "@/pages/FaqPage";
 import CorporateToursPage from "@/pages/CorporateToursPage";
-import XmasNewYearPage from "@/pages/XmasNewYearPage";
 
 // Update the route for the optimized index page
 import OptimizedIndex from '@/pages/OptimizedIndex';
@@ -83,7 +82,7 @@ function App() {
                 <Route path="/careers" element={<CareerPage />} />
                 <Route path="/faq" element={<FaqPage />} />
                 <Route path="/corporate-tours" element={<CorporateToursPage />} />
-                <Route path="/xmas-new-year" element={<XmasNewYearPage />} />
+                <Route path="/xmas-new-year" element={<CategoryPage />} />
                 
                 {/* Specific India state routes */}
                 <Route path="/india/ladakh" element={<CategoryPage />} />

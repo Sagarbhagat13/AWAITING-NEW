@@ -15,6 +15,7 @@ import {
   ladakhBikingTrips,
   ladakhSUVTrips
 } from '@/data/tripData';
+import { xmasNewYearTrips } from '@/data/xmasNewYearTrips';
 import { categories } from '@/data/categories';
 
 interface CategoryDataResult {
@@ -143,6 +144,11 @@ export const useCategoryData = (): CategoryDataResult => {
         setPageDescription('Experience the breathtaking beauty of Ladakh with our specialized biking and SUV tour packages.');
         setTrips([...ladakhBikingTrips, ...ladakhSUVTrips]);
         break;
+      case 'xmas-new-year':
+        setPageTitle('X-MAS & New Year Specials');
+        setPageDescription('Celebrate the festive season with our specially curated Christmas and New Year travel packages.');
+        setTrips(xmasNewYearTrips);
+        break
       default:
         // Try to find a matching category
         const category = categories.find(cat => cat.slug === path);

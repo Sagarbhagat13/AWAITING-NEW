@@ -23,4 +23,5 @@ export interface TripCardProps {
   christmas?: boolean;
   newYear?: boolean;
   independence?: boolean;
+   xmasNewYear?: boolean;
 }

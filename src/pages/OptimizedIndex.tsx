@@ -18,7 +18,9 @@ import { secondSetOfferBanners } from '@/components/home/OfferBannerCarousel';
 // Lazy load non-critical sections for better initial load performance
 const SearchResults = lazy(() => import('@/components/home/SearchResults'));
 const OfferBannerCarousel = lazy(() => import('@/components/home/OfferBannerCarousel'));
+const XmasNewYearSection = lazy(() => import('@/components/home/XmasNewYearSection'));
 const LongWeekendSection = lazy(() => import('@/components/home/LongWeekendSection'));
+
 const PopularTripsSection = lazy(() => import('@/components/home/PopularTripsSection'));
 const StatePackagesSection = lazy(() => import('@/components/home/StatePackagesSection'));
 const RegionalTripsSection = lazy(() => import('@/components/home/RegionalTripsSection'));
@@ -31,7 +33,6 @@ const CustomizedTripsSection = lazy(() => import('@/components/home/CustomizedTr
 const LadakhDeparturesSection = lazy(() => import('@/components/home/LadakhDeparturesSection'));
 const OffBeatTripsSection = lazy(() => import('@/components/home/OffBeatTripsSection'));
 const FamilyToursSection = lazy(() => import('@/components/home/FamilyToursSection'));
-const XmasNewYearSection = lazy(() => import('@/components/home/XmasNewYearSection'));
 const HoneymoonSection = lazy(() => import('@/components/home/HoneymoonSection'));
 const WeekendTripsSection = lazy(() => import('@/components/home/WeekendTripsSection'));
 const InternationalToursSection = lazy(() => import('@/components/home/InternationalToursSection'));
@@ -191,6 +192,10 @@ const OptimizedIndex = () => {
           </Suspense>
         ) : (
           <>
+           {/* X-MAS & New Year Section - Added below banner */}
+            <Suspense fallback={<SectionLoader />}>
+              <XmasNewYearSection />
+            </Suspense>
             {/* Critical above-the-fold sections loaded immediately */}
             <Suspense fallback={<SectionLoader />}>
               <LongWeekendSection />

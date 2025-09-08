@@ -1,82 +1,98 @@
-import { Helmet } from "react-helmet";
+
+import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import TripCarousel from '@/components/TripCarousel';
-import CarouselCard from '@/components/home/CarouselCard';
+import MinimalHero from '@/components/MinimalHero';
 import EnhancedSEOHead from '@/components/seo/EnhancedSEOHead';
-import Breadcrumb from '@/components/seo/Breadcrumb';
-
-import { useSEOOptimization } from '@/hooks/useSEOOptimization';
-import { xmasNewYearTrips } from '@/data/XmasNewYearTrips';
+import { 
+  Carousel, 
+  CarouselContent, 
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious 
+} from "@/components/ui/carousel";
+import CarouselCard from '@/components/home/CarouselCard';
+import { xmasNewYearTrips } from '@/data/xmasNewYearTrips';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 const XmasNewYearPage = () => {
-  // Initialize SEO optimization
-  useSEOOptimization({
-    enableAutoInternalLinking: true,
-    enableHeadingOptimization: true,
-    enableImageAltOptimization: true
-  });
-
- 
+  const isMobile = useIsMobile();
 
   return (
-    <div className="min-h-screen flex flex-col relative">
+    <div className="flex flex-col min-h-screen">
       <EnhancedSEOHead 
-        title="Christmas & New Year Holiday Packages | TripVidya - Festive Travel Deals"
-        description="Celebrate Christmas and New Year with specially curated holiday packages. Experience festive magic with family and friends in India's most beautiful destinations with exclusive deals and celebrations."
-        keywords="christmas packages, new year trips, holiday packages, festive tours, christmas vacation, new year celebration, holiday travel deals, winter holiday packages"
-        url="https://tripvidya.com/xmas-new-year"
-        type="website"
-        image="https://tripvidya.com/og-image.png"
+        title="X-MAS & New Year Travel Packages - Awaiting Adventures"
+        description="Celebrate Christmas and New Year with our specially curated holiday packages. Explore festive destinations across India with amazing deals and unforgettable experiences."
+        keywords="christmas packages, new year travel, holiday packages, festive travel, christmas destinations, new year celebrations, winter packages"
+        url="https://awaitingadventures.com/xmas-new-year"
       />
       
       <Navbar />
+      <MinimalHero title="X-MAS & New Year Specials" />
       
       <main className="flex-grow">
-        <div className="container mx-auto px-4 pt-20">
-          <Breadcrumb />
-        </div>
-        
-          {/* Minimal Hero Section */}
-        <section className="py-20 bg-gradient-to-r from-red-50 to-green-50">
-          <div className="container mx-auto px-4 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-              Christmas & New Year Specials
-            </h1>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Celebrate the festive season with magical holiday experiences across India's most beautiful destinations.
-            </p>
-          </div>
-        </section>
-
-        {/* Trip Carousel Section */}
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                Make this festive season unforgettable with our specially curated Christmas and New Year packages. 
+                Celebrate the holidays in breathtaking destinations with amazing deals and experiences.
+              </p>
+            </div>
             
-            
-            <TripCarousel 
-              title=""
-              description=""
-              itemsPerView={4}
+            {/* Horizontal Carousel for all screen sizes */}
+            <Carousel 
+              className="w-full"
+              opts={{
+                align: "start",
+                loop: true,
+                dragFree: true,
+              }}
             >
-            {xmasNewYearTrips.map((trip, index) => (
-                <CarouselCard 
-                  key={trip.id} 
-                  id={trip.id}
-                  title={trip.title}
-                  location={trip.location}
-                  duration={trip.duration}
-                  price={trip.price}
-                  discount={trip.discount}
-                  image={trip.image}
-                  className="holiday-package"
-                   priority={index < 4}
-                  index={index}
-                />
-              ))}
-            </TripCarousel>
-        
-        
+              <CarouselContent className={isMobile ? "px-4" : "px-8"}>
+                {xmasNewYearTrips.map((trip) => (
+                  <CarouselItem 
+                    key={trip.id} 
+                    className={isMobile ? "basis-[85%]" : "basis-1/2 lg:basis-1/3 xl:basis-1/4"}
+                  >
+                    <div className="p-2">
+                      <CarouselCard 
+                        {...trip}
+                      />
+                    </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="left-2 border-none bg-black/30 text-white hover:bg-black/50" />
+              <CarouselNext className="right-2 border-none bg-black/30 text-white hover:bg-black/50" />
+            </Carousel>
+            
+            <div className="text-center mt-16">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Our Festival Packages?</h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl">🎄</span>
+                  </div>
+                  <h3 className="text-xl font-semibold mb-2">Festive Celebrations</h3>
+                  <p className="text-gray-600">Experience magical Christmas and New Year celebrations at stunning destinations</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl">🎉</span>
+                  </div>
+                  <h3 className="text-xl font-semibold mb-2">Special Events</h3>
+                  <p className="text-gray-600">Join exclusive holiday events and activities designed for the festive season</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-gold-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl">💝</span>
+                  </div>
+                  <h3 className="text-xl font-semibold mb-2">Amazing Deals</h3>
+                  <p className="text-gray-600">Get the best prices for your holiday travel with our special festive offers</p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </main>
