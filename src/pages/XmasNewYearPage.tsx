@@ -12,7 +12,7 @@ import {
   CarouselPrevious 
 } from "@/components/ui/carousel";
 import CarouselCard from '@/components/home/CarouselCard';
-import { xmasNewYearTrips } from '@/data/xmasNewYearTrips';
+import { xmasNewYearTrips } from '@/data/XmasNewYearTrips';
 import { useIsMobile } from '@/hooks/use-mobile';
 
 const XmasNewYearPage = () => {
