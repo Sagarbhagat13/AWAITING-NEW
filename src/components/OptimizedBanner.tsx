@@ -267,7 +267,7 @@ return (
         <div className="relative h-full flex flex-col justify-center items-center px-6 md:px-12 lg:px-16 text-center z-10">
           {/* Brand Title */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 animate-fade-in">
-            TripVidya
+            Get.Set.Go
           </h1>
           
           {/* Tagline */}
