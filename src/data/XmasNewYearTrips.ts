@@ -2,7 +2,7 @@ import { Trip } from './popularTrips';
 
 // Extend Trip interface to maintain type compatibility
 export interface XmasNewYearTrip extends Trip {
-  XmasNewYear: boolean;
+  xmasNewYear: boolean;
 }
 
 export const xmasNewYearTrips: XmasNewYearTrip[] = [
@@ -13,7 +13,7 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1200&q=80',
     price: 24999,
     duration: '5D/4N',
-    XmasNewYear: true,
+    xmasNewYear: true,
     rating: 4.9,
     reviews: 145
   },
@@ -24,7 +24,7 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=1200&q=80',
     price: 18999,
     duration: '4D/3N',
-    XmasNewYear: true,
+    xmasNewYear: true,
     rating: 4.8,
     reviews: 203
   },
@@ -46,7 +46,7 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     image: 'https://images.unsplash.com/photo-1599661046289-e31897ec8548?auto=format&fit=crop&w=1200&q=80',
     price: 19999,
     duration: '5D/4N',
-    XmasNewYear: true,
+    xmasNewYear: true,
     rating: 4.8,
     reviews: 189
   },
@@ -57,7 +57,7 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',
     price: 22999,
     duration: '6D/5N',
-    XmasNewYear: true,
+    xmasNewYear: true,
     rating: 4.9,
     reviews: 156
   },
@@ -68,7 +68,7 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=1200&q=80',
     price: 28999,
     duration: '7D/6N',
-    XmasNewYear: true,
+    xmasNewYear: true,
     rating: 4.8,
     reviews: 134
   }
