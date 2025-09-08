@@ -275,13 +275,13 @@ const OptimizedIndex = () => {
                 </Suspense>
               )}
             </div> */}
-             <div data-section="xmas-new-year" className="min-h-[400px]">
+             {/* <div data-section="xmas-new-year" className="min-h-[400px]">
               {shouldLoadSection('xmas-new-year') && (
                 <Suspense fallback={<SectionLoader />}>
                   <XmasNewYearSection />
                 </Suspense>
               )}
-            </div>
+            </div> */}
             
             <div data-section="honeymoon" className="min-h-[400px]">
               {shouldLoadSection('honeymoon') && (
