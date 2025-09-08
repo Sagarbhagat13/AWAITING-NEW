@@ -4,6 +4,7 @@ export const primaryNavLinks = [
   { name: 'Long Weekends', path: '/long-weekend-trips' },
   { name: 'Honeymoon', path: '/honeymoon-packages' },
   { name: 'Backpacking', path: '/backpacking' },
+   { name: 'X-mas & New Year', path: '/xmas-new-year' },
 ];
 
 // Secondary navigation links shown in "More" menu
@@ -85,6 +86,7 @@ export const navLinks = [
   { name: 'Long Weekends', path: '/long-weekend-trips' },
   { name: 'Family Packages', path: '/family-tours' },
   { name: 'Honeymoon', path: '/honeymoon-packages' },
+   { name: 'X-mas & New Year', path: '/xmas-new-year' },
     { name: 'Corporate Tours', path: '/corporate-tours' },
   { name: 'Blog', path: '/blog' },
   { name: 'About Us', path: '/about' },
@@ -100,5 +102,6 @@ export const categoryDescriptions = {
   adventure: "Challenge yourself with thrilling activities like trekking, rafting, paragliding and more.",
   family: "Create lasting memories with our family-friendly tours designed to keep all ages engaged and happy.",
   honeymoon: "Begin your journey together with romantic getaways tailored for newlyweds in picturesque settings.",
+   xmasNewYear: "Celebrate the festive season with specially curated Christmas and New Year holiday packages to magical destinations.",
   blog: "Get inspired by travel stories, destination guides, and practical tips from our experienced travelers.",
 };
