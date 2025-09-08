@@ -7,7 +7,7 @@ import EnhancedSEOHead from '@/components/seo/EnhancedSEOHead';
 import Breadcrumb from '@/components/seo/Breadcrumb';
 
 import { useSEOOptimization } from '@/hooks/useSEOOptimization';
-import { xmasNewYearTrips } from '@/data/xmasNewYearTrips';
+import { xmasNewYearTrips } from '@/data/XmasNewYearTrips';
 
 const XmasNewYearPage = () => {
   // Initialize SEO optimization

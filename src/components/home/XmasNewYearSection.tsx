@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import TripCarousel from '../TripCarousel';
 import CarouselCard from './CarouselCard';
 import { Button } from '../ui/button';
-import { xmasNewYearTrips } from '@src//data/xmasNewYearTrips';
+import { xmasNewYearTrips } from '../../data/XmasNewYearTrips';
 import { ChevronRight, Snowflake, Gift } from 'lucide-react';
 
 const XmasNewYearSection = () => {
