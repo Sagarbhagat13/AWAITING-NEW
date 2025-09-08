@@ -4,13 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import MinimalHero from '@/components/MinimalHero';
 import EnhancedSEOHead from '@/components/seo/EnhancedSEOHead';
-import { 
-  Carousel, 
-  CarouselContent, 
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious 
-} from "@/components/ui/carousel";
+import TripCarousel from '@/components/TripCarousel';
 import CarouselCard from '@/components/home/CarouselCard';
 import { xmasNewYearTrips } from '@/data/XmasNewYearTrips';
 import { useIsMobile } from '@/hooks/use-mobile';
@@ -33,68 +27,30 @@ const XmasNewYearPage = () => {
       <main className="flex-grow">
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <p className="text-gray-600 max-w-2xl mx-auto">
-                Make this festive season unforgettable with our specially curated Christmas and New Year packages. 
-                Celebrate the holidays in breathtaking destinations with amazing deals and experiences.
-              </p>
-            </div>
+            <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
+              x-mas & new year
+            </h2>
+            {/* <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+              Choose from our curated collection of backpacking adventures designed for solo travelers, 
+              groups, and adventure enthusiasts seeking authentic travel experiences.
+            </p> */}
             
-            {/* Horizontal Carousel for all screen sizes */}
-            <Carousel 
-              className="w-full"
-              opts={{
-                align: "start",
-                loop: true,
-                dragFree: true,
-              }}
+            <TripCarousel 
+              title=""
+              description=""
+              itemsPerView={4}
             >
-              <CarouselContent className={isMobile ? "px-4" : "px-8"}>
-                {xmasNewYearTrips.map((trip) => (
-                  <CarouselItem 
-                    key={trip.id} 
-                    className={isMobile ? "basis-[85%]" : "basis-1/2 lg:basis-1/3 xl:basis-1/4"}
-                  >
-                    <div className="p-2">
-                      <CarouselCard 
-                        {...trip}
-                      />
-                    </div>
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
-              <CarouselPrevious className="left-2 border-none bg-black/30 text-white hover:bg-black/50" />
-              <CarouselNext className="right-2 border-none bg-black/30 text-white hover:bg-black/50" />
-            </Carousel>
-            
-            <div className="text-center mt-16">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Our Festival Packages?</h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-2xl">🎄</span>
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">Festive Celebrations</h3>
-                  <p className="text-gray-600">Experience magical Christmas and New Year celebrations at stunning destinations</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-2xl">🎉</span>
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">Special Events</h3>
-                  <p className="text-gray-600">Join exclusive holiday events and activities designed for the festive season</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-gold-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-2xl">💝</span>
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">Amazing Deals</h3>
-                  <p className="text-gray-600">Get the best prices for your holiday travel with our special festive offers</p>
-                </div>
-              </div>
-            </div>
+              {xmasNewYearTrips.map((trip) => (
+                <CarouselCard 
+                  key={trip.id} 
+                  {...trip} 
+                  className="xmas-newyear-package"
+                />
+              ))}
+            </TripCarousel>
           </div>
         </section>
+
       </main>
       
       <Footer />
