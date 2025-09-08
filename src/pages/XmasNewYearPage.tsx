@@ -26,6 +26,7 @@ const XmasNewYearPage = () => {
       
       <main className="flex-grow">
         <MinimalHero title="X-MAS & New Year Specials" />
+        
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
@@ -45,7 +46,7 @@ const XmasNewYearPage = () => {
                 <CarouselCard 
                   key={trip.id} 
                   {...trip} 
-                  className="backpacking-package"
+                  className="holiday-package"
                 />
               ))}
             </TripCarousel>
