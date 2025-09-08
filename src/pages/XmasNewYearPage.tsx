@@ -13,7 +13,7 @@ const XmasNewYearPage = () => {
   const isMobile = useIsMobile();
 
   return (
-    <div className="flex flex-col min-h-screen">
+   <div className="min-h-screen flex flex-col relative">
       <EnhancedSEOHead 
         title="X-MAS & New Year Travel Packages - Awaiting Adventures"
         description="Celebrate Christmas and New Year with our specially curated holiday packages. Explore festive destinations across India with amazing deals and unforgettable experiences."
@@ -46,7 +46,7 @@ const XmasNewYearPage = () => {
                 <CarouselCard 
                   key={trip.id} 
                   {...trip} 
-                  className="holiday-package"
+                  className="backpacking-package"
                 />
               ))}
             </TripCarousel>
