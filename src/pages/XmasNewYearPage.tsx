@@ -9,7 +9,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Snowflake, Gift, Star, Calendar } from "lucide-react";
 import { useSEOOptimization } from '@/hooks/useSEOOptimization';
 
-import { xmasNewYearTrips } from '@/data/xmasNewYearTrips';
+import { XmasNewYearTrips } from '@/data/XmasNewYearTrip';
 
 const XmasNewYearPage = () => {
   // Initialize SEO optimization

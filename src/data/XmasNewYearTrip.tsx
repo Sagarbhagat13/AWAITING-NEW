@@ -10,7 +10,7 @@ export interface XmasNewYearTrip {
   category: string;
 }
 
-export const xmasNewYearTrips: XmasNewYearTrip[] = [
+export const XmasNewYearTrips: XmasNewYearTrip[] = [
   {
     id: "xmas-goa-2024",
     title: "Goa Christmas Special",
