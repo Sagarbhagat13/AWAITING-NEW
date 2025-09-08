@@ -41,12 +41,15 @@ const XmasNewYearSection = () => {
             />
           ))}
         </TripCarousel>
+
+        <div className="text-center mt-10">
         <Link to="/xmas-new-year">
             <Button variant="outline" className="group">
               View All Holiday Packages
               <ChevronRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
           </Link>
+          </div>
 
      
       </div>
