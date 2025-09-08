@@ -15,7 +15,7 @@ import {
   ladakhBikingTrips,
   ladakhSUVTrips
 } from '@/data/tripData';
-import { xmasNewYearTrips } from '@/data/xmasNewYearTrips';
+import { xmasNewYearTrips } from '@/data/XmasNewYearTrips';
 import { categories } from '@/data/categories';
 
 interface CategoryDataResult {
