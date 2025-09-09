@@ -45,8 +45,8 @@ export const galleryPhotos = [
   {
     id: 6,
     url: '/images/PHOTO-2025-06-25-11-53-06.jpg',
-    alt: 'hikkim village',
-    location: 'Spiti Valley, India'
+    alt: 'Kerala',
+    location: 'Kerala, India'
   },
   {
     id: 7,
