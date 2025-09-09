@@ -1,5 +1,5 @@
 
-import { MapPin, Gift, Plane, Users, Bike, Car, Calendar, Clock3, Compass, Backpack, TreePine, Sparkles } from 'lucide-react';
+import { MapPin, Gift, Plane, Users, Bike, Car, Calendar, Star, Flag, Clock3, Compass, Backpack, TreePine, Sparkles } from 'lucide-react';
 
 interface CardBadgeProps {
   discount?: number;
