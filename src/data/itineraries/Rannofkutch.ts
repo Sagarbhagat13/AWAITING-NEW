@@ -129,18 +129,24 @@ itinerary: [
   pricingOptions: [
     {
       id: 'standard',
-      title: 'Triple Sharing',
+      title: 'Without Train Fare',
       price: 7500,
       description: 'Standard package with basic amenities',
       isPopular: true
     },
     {
       id: 'deluxe',
-      title: 'Double Sharing',
-      price: 8500,
+      title: 'Sleeping Berth in Train',
+      price: 8550,
       description: 'Double occupancy with enhanced comfort',
     },
-    
+    ,
+    {
+      id: 'superDeluxe',
+      title: '3AC Berth in Train',
+      price: 10150,
+      description: 'Double occupancy with enhanced comfort',
+    }
   ],
   
   // Available batch dates
