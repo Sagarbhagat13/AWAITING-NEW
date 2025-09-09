@@ -154,15 +154,15 @@ export const bhutanItinerary = {
   pricingOptions: [
     {
       id: 'standard',
-      title: 'Twin Sharing',
-      price: 64999,
+      title: 'Triple Sharing',
+      price: 29999,
       description: 'Standard hotels with Half Board basis (breakfast & dinner)',
       isPopular: true
     },
     {
       id: 'deluxe',
-      title: 'Twin Sharing (4-star)',
-      price: 74999,
+      title: 'Twin Sharing ',
+      price: 31999,
       description: 'Upgraded comfort in 4-star properties with enhanced inclusions'
     }
   ],
