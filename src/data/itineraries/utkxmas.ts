@@ -175,13 +175,26 @@ export const mussoorieItinerary = {
       accommodation: '-'
     }
   ],
-  supplementCharges: [
-    {
-      id: 'peak',
-      title: 'Peak Season Hike',
-      price: 3500,
-      description: 'Additional hike applicable during peak travel season per person'
-    }
+pricingOptions: [
+  {
+    id: 'standard',
+    title: 'Without Train Fare',
+    price: 22499,
+    description: 'Package without train fare',
+    isPopular: true
+  },
+  {
+    id: 'deluxe',
+    title: 'Sleeper Train Fare',
+    price: 24450,
+    description: 'Package with Sleeper Class Train Fare'
+  },
+  {
+    id: 'super-deluxe',
+    title: '3A Train Fare',
+    price: 25800,
+    description: 'Package with 3 AC Train Fare'
+  },
   ],
   batchDates: [
     {
