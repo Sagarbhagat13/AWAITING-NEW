@@ -42,10 +42,7 @@ const LongWeekendTripsPage = () => {
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
               Popular Long Weekend Destinations
             </h2>
-            <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-              Explore our collection of handpicked long weekend trips designed for maximum relaxation 
-              and adventure in minimum time. Perfect for busy professionals and adventure seekers.
-            </p>
+           
             
             <TripCarousel 
               title=""

@@ -42,10 +42,7 @@ const XmasNewYearPage = () => {
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
               Popular Festival Destinations
             </h2>
-            <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-              Celebrate Christmas and New Year in style with our curated holiday packages. 
-              Experience the magic of the festive season in stunning destinations across India and beyond.
-            </p>
+           
             
             <TripCarousel 
               title=""

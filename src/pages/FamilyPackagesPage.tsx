@@ -42,10 +42,7 @@ const FamilyPackagesPage = () => {
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
               Popular Family Destinations
             </h2>
-            <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-              Explore our collection of family-friendly destinations designed with children and parents in mind. 
-              Each package ensures safety, comfort, and fun activities for the entire family to enjoy together.
-            </p>
+            
             
             <TripCarousel 
               title=""
