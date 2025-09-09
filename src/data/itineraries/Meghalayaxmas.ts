@@ -11,11 +11,12 @@ export const meghalayaxmas = {
   rating: 4.7,
   reviews: 89,
   images: [
-  'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80', // Beach & sunset vibes
-  'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80', // Scenic mountains
-  'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80', // Lake & forest
-  'https://images.unsplash.com/photo-1526779259212-939e64788e3c?auto=format&fit=crop&w=1200&q=80'  // Cultural/heritage site
+  'https://images.unsplash.com/photo-1612951821228-89fbb0f59c67?auto=format&fit=crop&w=1200&q=80', // Dawki River, crystal clear waters
+  'https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=1200&q=80', // Living Root Bridge
+  'https://images.unsplash.com/photo-1627894489931-8e0d315fabb3?auto=format&fit=crop&w=1200&q=80', // Nohkalikai Falls
+  'https://images.unsplash.com/photo-1602331886685-34e66e4ae79e?auto=format&fit=crop&w=1200&q=80'  // Meghalaya hills & clouds
 ],
+
   placesCovered: ['Shillong', 'Mawllynong', 'Cherrapunji', 'Guwahati'],
   highlights: [
     'Scenic Drive from Guwahati to Shillong with a stop at the beautiful Umiam Lake',
