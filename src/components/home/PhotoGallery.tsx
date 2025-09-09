@@ -73,7 +73,7 @@ const PhotoGallery = () => {
   const isMobile = useIsMobile();
   
   // Number of photos to show at once
-  const visibleCount = isMobile ? 1 : 5;
+  const visibleCount = isMobile ? 1 : 6;
   
   const nextSlide = useCallback(() => {
     setActiveIndex((prevIndex) => 
@@ -165,15 +165,18 @@ const PhotoGallery = () => {
           </Carousel>
         ) : (
           // Desktop layout with the existing grid
-          <div className="hidden md:grid grid-cols-5 gap-4">
+          <div className="hidden md:grid grid-cols-6 gap-4">
             {getVisiblePhotos().map((photo, index) => (
               <div 
                 key={photo.id}
                 className={cn(
                   "relative overflow-hidden rounded-lg transition-all duration-300",
                   index === 2 ? "col-span-1 row-span-2 h-auto" : "h-64",
-                  index === 0 ? "col-span-2" : "",
-                  index === 1 ? "col-span-2" : ""
+                   index === 0 ? "col-span-3" : "",
+                  index === 1 ? "col-span-2" : "",
+                  index === 3 ? "col-span-2" : "",
+                  index === 4 ? "col-span-2" : "",
+                  index === 5 ? "col-span-1" : ""
                 )}
               >
                 <img 
