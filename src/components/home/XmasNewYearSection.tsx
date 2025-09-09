@@ -25,7 +25,7 @@ const XmasNewYearSection = () => {
           description=""
           itemsPerView={4}
         >
-          {xmasNewYearTrips.slice(0, 6).map((trip, index) => (
+          {xmasNewYearTrips.slice(0, 10).map((trip, index) => (
             <CarouselCard 
               key={trip.id} 
               id={trip.id}
