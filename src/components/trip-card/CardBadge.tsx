@@ -31,7 +31,7 @@ export const CardBadge = ({
   suvPackage,
   longWeekend,
   offbeat,
-   xmasNewYear,
+  xmasNewYear,
   className,
   month,
   text,

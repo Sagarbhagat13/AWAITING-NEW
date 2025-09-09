@@ -5,6 +5,7 @@ import TripCarousel from '@/components/TripCarousel';
 import CarouselCard from '@/components/home/CarouselCard';
 import EnhancedSEOHead from '@/components/seo/EnhancedSEOHead';
 import Breadcrumb from '@/components/seo/Breadcrumb';
+import MinimalHero from '@/components/MinimalHero';
 import { longWeekendTrips } from '@/data/longWeekendTrips';
 import { useSEOOptimization } from '@/hooks/useSEOOptimization';
 
@@ -30,9 +31,8 @@ const LongWeekendTripsPage = () => {
       <Navbar />
       
       <main className="flex-grow">
-        <div className="container mx-auto px-4 pt-20">
-          <Breadcrumb />
-        </div>
+        <MinimalHero title="LongWeekend Trips" />
+       
         
         
         

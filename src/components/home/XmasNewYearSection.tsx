@@ -38,6 +38,7 @@ const XmasNewYearSection = () => {
               className="holiday-package"
               priority={index < 4}
               index={index}
+              xmasNewYear={true}
             />
           ))}
         </TripCarousel>

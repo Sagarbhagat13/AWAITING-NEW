@@ -7,6 +7,7 @@ import EnhancedSEOHead from '@/components/seo/EnhancedSEOHead';
 import Breadcrumb from '@/components/seo/Breadcrumb';
 import { honeymoonPackages } from '@/data/honeymoonPackages';
 import { useSEOOptimization } from '@/hooks/useSEOOptimization';
+import MinimalHero from '@/components/MinimalHero';
 
 const HoneymoonPackagesPage = () => {
   // Initialize SEO optimization
@@ -30,9 +31,7 @@ const HoneymoonPackagesPage = () => {
       <Navbar />
       
       <main className="flex-grow">
-        <div className="container mx-auto px-4 pt-20">
-          <Breadcrumb />
-        </div>
+        <MinimalHero title="Honeymoon Packages" />
         
         {/* Hero Section */}
         
