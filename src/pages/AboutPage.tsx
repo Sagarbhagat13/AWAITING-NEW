@@ -3,124 +3,187 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import MinimalHero from '@/components/MinimalHero'
+import heroImage from '@/assets/about-hero.jpg';
 import { Helmet } from 'react-helmet';
 
 const AboutPage = () => {
+   const stats = [
+    { number: "100%", label: "Satisfaction Guaranteed" },
+    { number: "70+", label: "Destinations Explored" },
+    { number: "2500+", label: "Travellers Hosted" },
+    { number: "4.9+", label: "Google Reviews" },
+    { number: "10K+", label: "Instagram Community" }
+  ];
+
   return (
     <>
       <Helmet>
-        <title>About Us | Awaiting Adventures - Your Travel Partner</title>
+        <title>About Us | Awaiting Adventures - Your Travel Partner.</title>
         <meta 
           name="description" 
-          content="Learn more about Awaiting Adventures, our mission, values, and the team behind your favorite travel experiences."
+          content="Learn about Awaiting Adventures, our mission to create authentic travel experiences with eco-friendly tourism and responsible travel practices."
         />
       </Helmet>
       
       <Navbar />
       
-      {/* <main className="pt-24 pb-16">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col items-center mb-8">
-            <img 
-              src="/lovable-uploads/2f2cf992-ad1d-47ad-9f83-81862be69fc9.png" 
-              alt="Awaiting Adventures Logo" 
-              className="h-20 w-20 mb-4 logo-image"
-              style={{ filter: "invert(55%) sepia(95%) saturate(1752%) hue-rotate(322deg) brightness(99%) contrast(96%)" }}
-            />
-            <h1 className="text-3xl md:text-4xl font-bold text-center">About Awaiting Adventures</h1>
-          </div> */}
-          <main className="flex-grow">
-        <MinimalHero title="About Awaiting Adventures" />
-        
-        <div className="container mx-auto px-4 py-16">
-          
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-white rounded-xl shadow-md overflow-hidden mb-10">
-              <div className="md:flex">
-                <div className="md:flex-shrink-0">
-                  <img className="h-48 w-full object-cover md:w-48" src="https://images.unsplash.com/photo-1528127269322-539801943592?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Team working together" />
-                </div>
-                <div className="p-8">
-                  <div className="uppercase tracking-wide text-sm text-tripvidya-primary font-semibold">Our Story</div>
-                  <p className="mt-2 text-gray-600">
-                    Founded by passionate travelers in 2018, Awaiting Adventures began with a simple mission: to create authentic travel experiences that connect people with destinations in meaningful ways. What started as a small venture by friends who loved exploring India has now grown into a trusted travel partner for thousands of adventurers.
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="mb-10">
-              <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
-              <p className="text-gray-600 mb-4">
-                At Awaiting Adventures, we believe travel is more than just visiting places – it's about creating stories that last a lifetime. Our mission is to design journeys that surprise, delight, and transform, while maintaining respect for local communities and environments.
-              </p>
-              <p className="text-gray-600">
-                We're committed to sustainable tourism practices that ensure the places we love remain pristine for generations to come. By working closely with local guides and communities, we create authentic experiences that benefit everyone involved.
-              </p>
-            </div>
-            
-            <div className="mb-10">
-              <h2 className="text-2xl font-bold mb-4">What Sets Us Apart</h2>
-              <div className="grid md:grid-cols-3 gap-6">
-                <div className="bg-tripvidya-light p-5 rounded-lg">
-                  <h3 className="font-semibold text-tripvidya-primary mb-2">Curated Experiences</h3>
-                  <p className="text-sm text-gray-600">Every itinerary is thoughtfully designed by experts who have personally explored each destination.</p>
-                </div>
-                <div className="bg-tripvidya-light p-5 rounded-lg">
-                  <h3 className="font-semibold text-tripvidya-primary mb-2">Local Expertise</h3>
-                  <p className="text-sm text-gray-600">Our guides are locals who share authentic insights and hidden gems you won't find in guidebooks.</p>
-                </div>
-                <div className="bg-tripvidya-light p-5 rounded-lg">
-                  <h3 className="font-semibold text-tripvidya-primary mb-2">Responsible Travel</h3>
-                  <p className="text-sm text-gray-600">We minimize environmental impact and ensure our travels benefit local communities.</p>
-                </div>
-              </div>
-            </div>
-            
-            {/* <div className="mb-10">
-              <h2 className="text-2xl font-bold mb-4">Meet Our Team</h2>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div className="text-center">
-                  <div className="mb-3 relative mx-auto w-32 h-32 overflow-hidden rounded-full">
-                    <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" 
-                         alt="Team member" 
-                         className="w-full h-full object-cover" />
+      <main>
+        {/* Hero Section */}
+        <section className="relative h-[60vh] flex items-center justify-center bg-gradient-to-br from-teal-400 to-blue-500">
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{ backgroundImage: `url(${heroImage})` }}
+          />
+          <div className="absolute inset-0 bg-black/20" />
+          <div className="relative z-10 text-center text-white">
+            <h1 className="text-5xl md:text-6xl font-bold">About</h1>
+          </div>
+        </section>
+
+        {/* Stats Section */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-8 text-center">
+              {stats.map((stat, index) => (
+                <div key={index} className="space-y-2">
+                  <div className="text-3xl md:text-4xl font-bold text-gray-900">
+                    {stat.number}
                   </div>
-                  <h3 className="font-semibold">Vikram Sharma</h3>
-                  <p className="text-sm text-gray-500">Founder & CEO</p>
-                </div>
-                <div className="text-center">
-                  <div className="mb-3 relative mx-auto w-32 h-32 overflow-hidden rounded-full">
-                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" 
-                         alt="Team member" 
-                         className="w-full h-full object-cover" />
+                  <div className="text-sm md:text-base text-gray-600 font-medium">
+                    {stat.label}
                   </div>
-                  <h3 className="font-semibold">Priya Patel</h3>
-                  <p className="text-sm text-gray-500">Head of Operations</p>
                 </div>
-                <div className="text-center">
-                  <div className="mb-3 relative mx-auto w-32 h-32 overflow-hidden rounded-full">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" 
-                         alt="Team member" 
-                         className="w-full h-full object-cover" />
-                  </div>
-                  <h3 className="font-semibold">Arjun Mehta</h3>
-                  <p className="text-sm text-gray-500">Lead Travel Curator</p>
-                </div>
-              </div>
-            </div> */}
-            
-            <div className="bg-tripvidya-light p-6 rounded-lg">
-              <h2 className="text-2xl font-bold mb-4">Join Us On The Journey</h2>
-              <p className="text-gray-600 mb-4">
-                Whether you're a solo traveler seeking new adventures, a couple planning a romantic getaway, or a family looking for the perfect vacation, Awaiting Adventures is here to transform your travel dreams into reality.
-              </p>
-              <p className="text-gray-600">
-                Contact us today to start planning your next unforgettable journey!
-              </p>
+              ))}
             </div>
           </div>
-        </div>
+        </section>
+
+        {/* Why We Exist Section */}
+        <section className="py-16 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold text-gray-900 mb-8">Why We Exist</h2>
+              
+              <div className="space-y-6 text-gray-700 leading-relaxed">
+                <p>
+                  At Awaiting Adventures, we believe that travel isn't just about adventure; it's also about responsibility. 
+                  That's why we're committed to eco-friendly tourism—minimizing waste, supporting local communities, 
+                  and making sure the places we visit stay as beautiful as they are. We work hard to make travel 
+                  affordable without compromising the experience. We believe in offering great value that lets you 
+                  focus on having fun, not on how much you're spending.
+                </p>
+                
+                <p>
+                  We curate experiences that go beyond the ordinary. Before we take you anywhere, we go there first. 
+                  We explore, test, and refine every experience to make sure you get the best. From finding offbeat 
+                  locations to handpicking the best activities, we create trips that aren't just about sightseeing—they're 
+                  about living the moment. Every trip has a Trip Captain—your go-to person, friend, and guide who makes 
+                  sure everything runs smoothly.
+                </p>
+                
+                <p>
+                  Most importantly, our mission is to build an environment where female travelers can roam freely 
+                  without worries and where everyone can join in and feel welcomed—because let's face it: travel is 
+                  meant to be liberating, not stressful. You deserve to enjoy every moment without thinking twice.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Who We Are Section */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold text-gray-900 mb-8">Who We Are?</h2>
+              
+              <div className="space-y-6 text-gray-700 leading-relaxed">
+                <p>
+                  Ever found yourself scrolling through Instagram at 2 AM, looking at those travel reels, thinking, 
+                  "I need a vacation"? We've been there. And that's exactly why Awaiting Adventures exists!
+                </p>
+                
+                <p>
+                  We're not just another travel company trying to fill your itinerary with the usual touristy spots. 
+                  For us, travelling is about that chai break at a roadside dhaba on a long road trip, not sleeping 
+                  throughout the night to catch the most amazing sunrise and the strangers who became your best friends 
+                  after a crazy night under the stars.
+                </p>
+                
+                <p>
+                  We get it—traveling can be overwhelming. The flight bookings, hotel searches, figuring out the best 
+                  local experiences—sometimes, planning feels like a full-time job. <em>That's where we step in. 
+                  Think of us as your travel besties who've already done the research, made the mistakes, and found 
+                  the coolest experiences, so you don't have to. And these experiences, trust us, will change your life.</em>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Team Section */}
+        <section className="py-16 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Meet the Adventurers Behind Awaiting Adventures</h2>
+              <p className="text-gray-600 mb-12 text-lg">
+                Get to know the passionate team behind Awaiting Adventures — a group of dedicated outdoor enthusiasts 
+                who believe in the power of travel to transform lives. From our founders to our Trip Captains, 
+                we're all about creating unforgettable experiences that inspire and connect people.
+              </p>
+              
+              <div className="grid md:grid-cols-2 gap-12">
+                <div className="text-center">
+                  <div className="mb-6 relative mx-auto w-48 h-48 overflow-hidden rounded-2xl">
+                    <img 
+                      src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" 
+                      alt="Vikram Sharma - CEO & Founder" 
+                      className="w-full h-full object-cover" 
+                    />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900">Vikram Sharma</h3>
+                  <p className="text-gray-600 font-medium">CEO, Founder</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="mb-6 relative mx-auto w-48 h-48 overflow-hidden rounded-2xl">
+                    <img 
+                      src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" 
+                      alt="Priya Patel - CTO & Founder" 
+                      className="w-full h-full object-cover" 
+                    />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900">Priya Patel</h3>
+                  <p className="text-gray-600 font-medium">CTO, Founder</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="mb-6 relative mx-auto w-48 h-48 overflow-hidden rounded-2xl">
+                    <img 
+                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" 
+                      alt="Arjun Mehta - Operations Head" 
+                      className="w-full h-full object-cover" 
+                    />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900">Arjun Mehta</h3>
+                  <p className="text-gray-600 font-medium">Operations Head</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="mb-6 relative mx-auto w-48 h-48 overflow-hidden rounded-2xl">
+                    <img 
+                      src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" 
+                      alt="Sneha Kumar - Creative Director" 
+                      className="w-full h-full object-cover" 
+                    />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900">Sneha Kumar</h3>
+                  <p className="text-gray-600 font-medium">Creative Director</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       
       <Footer />
