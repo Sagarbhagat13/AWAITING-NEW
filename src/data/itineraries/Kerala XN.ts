@@ -184,7 +184,7 @@ faqs: [
     {
       id: 'standard',
       title: 'Without Train Fare',
-      price: 1800,
+      price: 18000,
       description: 'Package without Train Fare',
       isPopular: true
     },
