@@ -6,8 +6,9 @@ export const spitiTrekItinerary = {
   price: 18000,
   discount: 0,
   duration: '6 Days / 5 Nights',
-  description: 'Embark on an unforgettable trek through the mystical Spiti Valley, often called "Little Tibet". Experience high-altitude desert landscapes, ancient monasteries, and remote villages frozen in time.',
-  coverImage: 'https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80',
+  description: 'Experience the best of Kerala on this 6-day journey through charming Cochin, the misty tea gardens of Munnar, the wildlife and spice plantations of Thekkady, and the tranquil backwaters of Alleppey. A perfect blend of culture, nature, and relaxation awaits.',
+coverImage: 'https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?auto=format&fit=crop&w=1200&q=80',
+
   rating: 4.7,
   reviews: 89,
   images: [
