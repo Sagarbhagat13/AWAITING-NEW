@@ -83,8 +83,8 @@ function App() {
                 <Route path="/blog/:slug" element={<BlogPostPage />} />
                 <Route path="/backpacking" element={<BackpackingPage />} />
                 <Route path="/long-weekend-trips" element={<LongWeekendTripsPage />} />
-                   <Route path="/honeymoon-packages" element={<HoneymoonPackagesPage />} />
-                <Route path="/family-packages" element={<FamilyPackagesPage />} />
+                <Route path="/honeymoon-packages" element={<HoneymoonPackagesPage />} />
+                <Route path="/family-packages" element={<FamilyPackagesPage />} /> 
                 <Route path="/xmas-new-year" element={<XmasNewYearPage />} />
 
                 <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
