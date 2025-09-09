@@ -6,7 +6,7 @@ interface BlogPostImageProps {
 
 const BlogPostImage = ({ image, title }: BlogPostImageProps) => {
   return (
-    <div className="max-w-4xl mx-auto mb-12">
+     <div className="w-full mb-12 px-4 md:px-8">
       <div className="rounded-xl overflow-hidden shadow-md">
         <img 
           src={image} 

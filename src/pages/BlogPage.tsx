@@ -30,7 +30,7 @@ const BlogPage = () => {
         <MinimalHero title="Travel Blog" />
         
         <div className="min-h-screen bg-gray-50">
-          <div className="container mx-auto px-4 py-12">
+           <div className="container mx-auto px-6 md:px-12 lg:px-16 py-12">
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-wanderon-gray mb-8 text-center">
                 Discover travel insights, destination guides, and expert tips to make your next adventure unforgettable.

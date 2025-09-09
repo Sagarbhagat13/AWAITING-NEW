@@ -15,7 +15,7 @@ const BlogPostContent = ({
   location 
 }: BlogPostContentProps) => {
   return (
-    <div className="max-w-3xl mx-auto">
+    <div className="w-full px-4 md:px-8">
       <div className="prose prose-lg max-w-none">
         <p className="text-lg text-wanderon-gray mb-8 leading-relaxed">{description}</p>
         

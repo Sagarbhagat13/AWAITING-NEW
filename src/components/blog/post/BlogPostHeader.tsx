@@ -17,7 +17,7 @@ const BlogPostHeader = ({
   month
 }: BlogPostHeaderProps) => {
   return (
-    <div className="max-w-3xl mx-auto">
+     <div className="w-full px-4 md:px-8">
       <div className="mb-4">
         <span className="inline-block px-3 py-1 bg-tripvidya-primary text-white text-sm rounded-full">
           {category}
