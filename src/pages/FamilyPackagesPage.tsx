@@ -7,6 +7,7 @@ import EnhancedSEOHead from '@/components/seo/EnhancedSEOHead';
 import Breadcrumb from '@/components/seo/Breadcrumb';
 import { familyTours } from '@/data/familyTours';
 import { useSEOOptimization } from '@/hooks/useSEOOptimization';
+import MinimalHero from '@/components/MinimalHero';
 
 const FamilyPackagesPage = () => {
   // Initialize SEO optimization
@@ -30,6 +31,7 @@ const FamilyPackagesPage = () => {
       <Navbar />
       
       <main className="flex-grow">
+        <MinimalHero title="Family Packages" />
         
         
        
