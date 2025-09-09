@@ -115,27 +115,5 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     xmasNewYear: true,
     rating: 4.8,
     reviews: 134
-  },
-  {
-    id: 'xny5',
-    title: 'Christmas in Kerala',
-    location: 'Kerala',
-    image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',
-    price: 22999,
-    duration: '6D/5N',
-    xmasNewYear: true,
-    rating: 4.9,
-    reviews: 156
-  },
-  {
-    id: 'xny6',
-    title: 'New Year in Andaman',
-    location: 'Andaman',
-    image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=1200&q=80',
-    price: 28999,
-    duration: '7D/6N',
-    xmasNewYear: true,
-    rating: 4.8,
-    reviews: 134
   }
 ];

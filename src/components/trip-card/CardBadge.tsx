@@ -1,5 +1,5 @@
 
-import { MapPin, Gift, Plane, Users, Bike, Car, Calendar, Clock3, Compass, Backpack, Sparkles, TreePine, Heart, Star ,PartyPopper, Flag } from 'lucide-react';
+import { MapPin, Gift, Plane, Users, Bike, Car, Calendar, Clock3, Compass, Backpack, TreePine, Sparkles } from 'lucide-react';
 
 interface CardBadgeProps {
   discount?: number;
@@ -11,6 +11,7 @@ interface CardBadgeProps {
   suvPackage?: boolean;
   longWeekend?: boolean;
   offbeat?: boolean;
+  xmasNewYear?: boolean;
   className?: string;
   month?: string;
   text?: string; // Add text prop to support direct text badges
@@ -30,6 +31,7 @@ export const CardBadge = ({
   suvPackage,
   longWeekend,
   offbeat,
+   xmasNewYear,
   className,
   month,
   text,
@@ -46,7 +48,16 @@ export const CardBadge = ({
         </div>
     );
   }
-  
+    // X-MAS & New Year badge
+  if (xmasNewYear) {
+    return (
+      <div className="absolute top-3 left-3 bg-gradient-to-r from-red-500 to-green-500 text-white px-3 py-1 rounded-full text-xs font-medium flex items-center">
+        <TreePine className="h-3 w-3 mr-1" />
+        <Sparkles className="h-3 w-3 mr-1" />
+        X-MAS & New Year
+      </div>
+    );
+  }
   // Holiday badges (priority order)
   if (diwali) {
     return (

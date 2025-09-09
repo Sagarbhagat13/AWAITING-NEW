@@ -27,26 +27,29 @@ const XmasNewYearPage = () => {
       <main className="flex-grow">
         <MinimalHero title="X-MAS & New Year Specials" />
         
+        {/* Trips Carousel Section */}
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
-              x-mas & new year
+              Popular Festival Destinations
             </h2>
-            {/* <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-              Choose from our curated collection of backpacking adventures designed for solo travelers, 
-              groups, and adventure enthusiasts seeking authentic travel experiences.
-            </p> */}
+            <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+              Celebrate Christmas and New Year in style with our curated holiday packages. 
+              Experience the magic of the festive season in stunning destinations across India and beyond.
+            </p>
             
             <TripCarousel 
               title=""
               description=""
               itemsPerView={4}
             >
-              {xmasNewYearTrips.map((trip) => (
+              {xmasNewYearTrips.map((trip, index) => (
                 <CarouselCard 
                   key={trip.id} 
-                  {...trip} 
-                  className="backpacking-package"
+                  {...trip}
+                  xmasNewYear={true}
+                  index={index}
+                  priority={index < 2}
                 />
               ))}
             </TripCarousel>

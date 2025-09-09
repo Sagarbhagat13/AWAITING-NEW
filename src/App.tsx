@@ -35,6 +35,7 @@ import PrivacyPolicyPage from "@/pages/PrivacyPolicyPage";
 import CareerPage from "@/pages/CareerPage";
 import FaqPage from "@/pages/FaqPage";
 import CorporateToursPage from "@/pages/CorporateToursPage";
+import LongWeekendTripsPage from "@/pages/LongWeekendTripsPage";
 
 // Update the route for the optimized index page
 import OptimizedIndex from '@/pages/OptimizedIndex';
@@ -78,6 +79,7 @@ function App() {
                 <Route path="/blog" element={<BlogPage />} />
                 <Route path="/blog/:slug" element={<BlogPostPage />} />
                 <Route path="/backpacking" element={<BackpackingPage />} />
+                <Route path="/long-weekend-trips" element={<LongWeekendTripsPage />} />
                 <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
                 <Route path="/careers" element={<CareerPage />} />
                 <Route path="/faq" element={<FaqPage />} />

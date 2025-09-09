@@ -21,6 +21,7 @@ interface CarouselCardProps {
   suvPackage?: boolean;
   longWeekend?: boolean;
   offbeat?: boolean;
+  xmasNewYear?: boolean;
   className?: string;
   month?: string;
   priority?: boolean;
@@ -47,6 +48,7 @@ const CarouselCard = React.memo(({
   suvPackage,
   longWeekend,
   offbeat,
+  xmasNewYear,
   className,
   month,
   priority = false,
@@ -90,6 +92,7 @@ const CarouselCard = React.memo(({
           suvPackage={suvPackage}
           longWeekend={longWeekend}
           offbeat={offbeat}
+          xmasNewYear={xmasNewYear}
           className={className}
           month={month}
           diwali={diwali}
