@@ -73,7 +73,7 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     reviews: 134
   },
   {
-    id: 'xny5',
+    id: 'xny7',
     title: 'Experince Bhutan X-MAS & New Year Special',
     location: 'Bhutan',
     image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',
