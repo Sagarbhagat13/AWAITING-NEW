@@ -188,7 +188,7 @@ batchDates: [
     endDate: '25-12-2025',
     totalSlots: 12,
     availableSlots: 8,
-    price: 14900
+    price: 19999
   },
   {
     id: 'batch-2',
@@ -196,7 +196,7 @@ batchDates: [
     endDate: '30-12-2025',
     totalSlots: 12,
     availableSlots: 8,
-    price: 14900
+    price: 19999
   },
   {
     id: 'batch-3',
@@ -204,7 +204,7 @@ batchDates: [
     endDate: '01-01-2026',
     totalSlots: 12,
     availableSlots: 8,
-    price: 14900
+    price: 19999
   }
 ]
 

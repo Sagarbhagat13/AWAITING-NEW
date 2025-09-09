@@ -185,7 +185,7 @@ export const rjjjjxmas = {
     endDate: '03-01-2026',
     totalSlots: 12,
     availableSlots: 8,
-    price: 14900
+    price: 20800
   }
 ]
 
