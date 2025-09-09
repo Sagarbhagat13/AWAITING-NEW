@@ -184,20 +184,20 @@ faqs: [
     {
       id: 'standard',
       title: 'Without Train Fare',
-      price: 180,
+      price: 1800,
       description: 'Package without Train Fare',
       isPopular: true
     },
     {
       id: 'deluxe',
       title: 'Sleeper Train Fare',
-      price: 18800,
+      price: 19450,
       description: 'Package with Sleeper Train Fare'
     },
     {
       id: 'premium',
       title: '3 A/C Train Fare',
-      price: 21150,
+      price: 23650,
       description: 'Package with 3 A/C Train Fare'
     }
   ],
