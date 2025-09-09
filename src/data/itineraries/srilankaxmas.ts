@@ -1,5 +1,5 @@
 export const sriLankaItinerary = {
-  id: 'xny7',
+  id: 'xny8',
   title: 'Sri Lanka Explorer – Beaches, Hills & Culture',
   location: 'Sri Lanka',
   price: 55999,

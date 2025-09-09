@@ -84,7 +84,7 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     reviews: 156
   },
   {
-    id: 'xny6',
+    id: 'xny8',
     title: 'Srilanka in New Year',
     location: 'Srilanka',
     image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=1200&q=80',
