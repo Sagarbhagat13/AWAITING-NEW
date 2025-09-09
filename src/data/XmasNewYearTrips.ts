@@ -66,7 +66,7 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     title: 'New year Party in Bali',
     location: 'Bali',
     image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=1200&q=80',
-    price: 49999,
+    price: 45999,
     duration: '7D/6N',
     xmasNewYear: true,
     rating: 4.8,
