@@ -15,20 +15,20 @@ export const galleryPhotos = [
   {
     id: 1,
     url: '/images/PHOTO-2025-06-25-11-50-12.jpg',
-    alt: 'Mountain view with fog',
-    location: 'Himalayas, India'
+    alt: 'Kedarnath temple',
+    location: 'Kedarnath, India'
   },
   {
     id: 2,
     url: '/images/PHOTO-2025-06-25-11-54-46.jpg',
-    alt: 'Beach sunset',
-    location: 'Goa, India'
+    alt: 'pangong lake',
+    location: 'Ladakh, India'
   },
   {
     id: 3,
     url: '/images/PHOTO-2025-06-25-11-50-26.jpg',
-    alt: 'Desert camel ride',
-    location: 'Rajasthan, India'
+    alt: 'tea plantations',
+    location: 'Kerala, India'
   },
   {
     id: 4,
@@ -40,31 +40,31 @@ export const galleryPhotos = [
     id: 5,
     url: '/images/PHOTO-2025-06-25-11-55-21.jpg',
     alt: 'Temple architecture',
-    location: 'Tamil Nadu, India'
+    location: 'Phuket, Thailand'
   },
   {
     id: 6,
     url: '/images/PHOTO-2025-06-25-11-53-06.jpg',
-    alt: 'Tea plantations',
-    location: 'Munnar, India'
+    alt: 'hikkim village',
+    location: 'Spiti Valley, India'
   },
   {
     id: 7,
     url: '/images/PHOTO-2025-06-25-11-54-09.jpg',
-    alt: 'Snow mountains',
-    location: 'Ladakh, India'
+    alt: 'kellingkang beach',
+    location: 'Bali, Indonesia'
   },
   {
     id: 8,
     url: '/images/PHOTO-2025-06-25-11-52-21.jpg',
     alt: 'City view',
-    location: 'Mumbai, India'
+    location: 'Rajasthan, India'
   },
   {
     id: 9,
     url: '/images/PHOTO-2025-06-25-11-52-21.jpg',
     alt: 'City view',
-    location: 'Mumbai, India'
+    location: 'Rajasthan, India'
   }
 ];
 
