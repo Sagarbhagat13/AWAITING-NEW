@@ -95,7 +95,7 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     reviews: 134
   },
   {
-    id: 'xny5',
+    id: 'xny9',
     title: 'Christmas in Himachal',
     location: 'Himachal Pradesh',
     image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',
