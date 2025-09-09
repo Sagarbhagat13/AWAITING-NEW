@@ -8,9 +8,18 @@ import TripCarousel from '@/components/TripCarousel';
 import CarouselCard from '@/components/home/CarouselCard';
 import { xmasNewYearTrips } from '@/data/XmasNewYearTrips';
 import { useIsMobile } from '@/hooks/use-mobile';
+import Breadcrumb from '@/components/seo/Breadcrumb';
+import { useSEOOptimization } from '@/hooks/useSEOOptimization';
 
 const XmasNewYearPage = () => {
   const isMobile = useIsMobile();
+   // Initialize SEO optimization
+  useSEOOptimization({
+    enableAutoInternalLinking: true,
+    enableHeadingOptimization: true,
+    enableImageAltOptimization: true
+  });
+
 
   return (
    <div className="min-h-screen flex flex-col relative">

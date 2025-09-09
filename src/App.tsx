@@ -36,6 +36,9 @@ import CareerPage from "@/pages/CareerPage";
 import FaqPage from "@/pages/FaqPage";
 import CorporateToursPage from "@/pages/CorporateToursPage";
 import LongWeekendTripsPage from "@/pages/LongWeekendTripsPage";
+import HoneymoonPackagesPage from "@/pages/HoneymoonPackagesPage";
+import FamilyPackagesPage from "@/pages/FamilyPackagesPage";
+import XmasNewYearPage from "@/pages/XmasNewYearPage";
 
 // Update the route for the optimized index page
 import OptimizedIndex from '@/pages/OptimizedIndex';
@@ -80,11 +83,15 @@ function App() {
                 <Route path="/blog/:slug" element={<BlogPostPage />} />
                 <Route path="/backpacking" element={<BackpackingPage />} />
                 <Route path="/long-weekend-trips" element={<LongWeekendTripsPage />} />
+                   <Route path="/honeymoon-packages" element={<HoneymoonPackagesPage />} />
+                <Route path="/family-packages" element={<FamilyPackagesPage />} />
+                <Route path="/xmas-new-year" element={<XmasNewYearPage />} />
+
                 <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
                 <Route path="/careers" element={<CareerPage />} />
                 <Route path="/faq" element={<FaqPage />} />
                 <Route path="/corporate-tours" element={<CorporateToursPage />} />
-                <Route path="/xmas-new-year" element={<CategoryPage />} />
+                
                 
                 {/* Specific India state routes */}
                 <Route path="/india/ladakh" element={<CategoryPage />} />
