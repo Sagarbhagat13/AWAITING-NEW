@@ -11,12 +11,13 @@ export const rannofkutch = {
   coverImage: 'https://images.unsplash.com/photo-1602605004437-b0df59e2f25d?auto=format&fit=crop&w=1200&q=80',
   rating: 4.6,
   reviews: 72,
-  images: [
-    'https://images.unsplash.com/photo-1602605004437-b0df59e2f25d?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1638096249615-fcf989baf4c3?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1612444530248-f28285a44c6f?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1607354508900-d18bcb5086f6?auto=format&fit=crop&w=1200&q=80'
-  ],
+images: [
+  'https://images.unsplash.com/photo-1607354508900-d18bcb5086f6?auto=format&fit=crop&w=1200&q=80', // White salt desert at Rann of Kutch
+  'https://images.unsplash.com/photo-1612444530248-f28285a44c6f?auto=format&fit=crop&w=1200&q=80', // Sunset at Dhordo Village
+  'https://images.unsplash.com/photo-1638096249615-fcf989baf4c3?auto=format&fit=crop&w=1200&q=80', // Camel ride in Rann of Kutch
+  'https://images.unsplash.com/photo-1602605004437-b0df59e2f25d?auto=format&fit=crop&w=1200&q=80'  // Cultural festival at Rann
+]
+,
   placesCovered: ['Bhuj', 'Rann of Kutch', 'Kala Dungar', 'Dhordo Village', 'Aaina Mahal', 'Kutch Museum', 'Swaminarayan Temple'],
   highlights: [
     'Witness the surreal White Rann during sunset & sunrise',
