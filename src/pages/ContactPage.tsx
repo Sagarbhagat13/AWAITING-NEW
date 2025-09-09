@@ -22,7 +22,7 @@ const ContactPage = () => {
       <Navbar />
       
       <main className="flex-grow">
-        <MinimalHero title="Get in Touch" />
+        <MinimalHero title="Get in Touch" backgroundImage='https://thumbs.dreamstime.com/b/text-sign-showing-get-touch-conceptual-photo-stay-contact-constant-communication-interaction-bonding-man-holding-megaphone-123945219.jpg' />
         
         {/* Contact Cards */}
         <ContactCards />
