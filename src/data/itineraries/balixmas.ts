@@ -186,18 +186,6 @@ export const baliItinerary = {
       availableSlots: 12,
       price: 48999
     }
-  ],
-
-  travelNotes: [
-    'December–March is rainy season in Bali; some activities depend on weather conditions.',
-    'Padang Bai & Gili harbour taxes (approx. IDR 20,000–30,000 per person each way) payable directly.',
-    'Hotel check-in time: 14:00 hrs (some hotels 15:00 hrs). Early check-in subject to availability.'
-  ],
-
-  cancellationPolicy: [
-    'More than 30 days before departure: management fee of INR 10,000 per seat.',
-    'Within 30 days of departure: full 50% advance forfeited.',
-    'Failure to pay balance by D-30 will lead to cancellation & forfeiture of deposit.',
-    'Name change request: USD 150 per person (permitted only up to D-10).'
   ]
+
 };
