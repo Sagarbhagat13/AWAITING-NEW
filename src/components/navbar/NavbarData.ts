@@ -40,7 +40,7 @@ export const moreMenuLinks = [
   //     { name: 'All Countries', path: '/world/all-countries' },
   //   ]
   // },
-  { name: 'Family Packages', path: '/family-tours' },
+  { name: 'Family Packages', path: '/family-packages' },
   { name: 'Corporate Tours', path: '/corporate-tours' },
   { name: 'Blog', path: '/blog' },
   { name: 'About Us', path: '/about' },
@@ -86,7 +86,7 @@ export const navLinks = [
   { name: 'Backpacking', path: '/backpacking' },
   { name: 'Long Weekends', path: '/long-weekend-trips' },
    { name: 'X-MAS & New Year', path: '/xmas-new-year' },
-  { name: 'Family Packages', path: '/family-tours' },
+  { name: 'Family Packages', path: '//family-packages' },
   { name: 'Honeymoon', path: '/honeymoon-packages' },
     { name: 'Corporate Tours', path: '/corporate-tours' },
   { name: 'Blog', path: '/blog' },
