@@ -227,7 +227,7 @@ return (
      "px-6 md:px-8 lg:px-12 pb-8 md:pb-12 bg-background transition-all duration-300",
       isBannerVisible ? "pt-24 md:pt-28" : "pt-20 md:pt-24"
     )}>
-       <div className="relative h-[60vh] md:h-[75vh] lg:h-[80vh] xl:h-[85vh] overflow-hidden rounded-2xl shadow-2xl">
+        <div className="relative h-[54vh] md:h-[75vh] lg:h-[80vh] xl:h-[85vh] overflow-hidden rounded-2xl shadow-2xl">
         {/* Video Background */}
         <div className="absolute inset-0 rounded-2xl overflow-hidden">
           <video
@@ -274,25 +274,33 @@ return (
 
         {/* Content */}
         <div className="relative h-full flex flex-col justify-center items-center px-6 md:px-12 lg:px-16 text-center z-10">
-          {/* Brand Title */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 animate-fade-in">
-            Now is the time
-          </h1>
-          
-          {/* Tagline */}
-          <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-8 md:mb-12">
-             
-            <br className="hidden sm:block" />
-            <span className="text-primary font-semibold"></span>
-          </p>
-          
-          {/* Search Bar - Hidden on Mobile */}
-          <div className="hidden md:block w-full max-w-2xl mb-8 md:mb-12">
-            <BannerSearchBar onSearch={onSearch} allTrips={allTrips} />
+         {/* Main Content - Centered */}
+          <div className="flex flex-col items-center justify-center">
+            {/* Brand Title */}
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 animate-fade-in">
+              Awaiting Adventures
+            </h1>
+            
+            {/* Tagline */}
+            <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-8 md:mb-12">
+              Where every trip starts with a smile and 
+              <br className="hidden sm:block" />
+              <span className="text-primary font-semibold">ends with a story</span>
+            </p>
+            
+            {/* Search Bar - Hidden on Mobile */}
+            <div className="hidden md:block w-full max-w-2xl">
+              <BannerSearchBar onSearch={onSearch} allTrips={allTrips} />
+            </div>
           </div>
           
-          {/* Stats Counters */}
-              <div className="grid grid-cols-4 gap-1 md:gap-8 w-full max-w-4xl mt-8 md:mt-0">
+          {/* Stats Counters - Positioned differently on mobile vs desktop */}
+          <div className={cn(
+            "grid grid-cols-4 gap-2 md:gap-8 w-full max-w-4xl",
+            isMobile 
+               ? "absolute bottom-4 left-1/2 transform -translate-x-1/2"
+              : "mt-8 md:mt-12"
+          )}>
             <StatsCounter count="300+" label="Reviews" icon={MessageCircle} />
             <StatsCounter count="5000+" label="Travelers" icon={Users} />
             <StatsCounter count="80+" label="Destinations" icon={MapPin} />
