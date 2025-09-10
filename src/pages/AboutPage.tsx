@@ -65,27 +65,25 @@ const AboutPage = () => {
               <h2 className="text-3xl font-bold text-gray-900 mb-8">Why We Exist</h2>
               
               <div className="space-y-6 text-gray-700 leading-relaxed">
-                <p>
-                  At Awaiting Adventures, we believe that travel isn't just about adventure; it's also about responsibility. 
-                  That's why we're committed to eco-friendly tourism—minimizing waste, supporting local communities, 
-                  and making sure the places we visit stay as beautiful as they are. We work hard to make travel 
-                  affordable without compromising the experience. We believe in offering great value that lets you 
-                  focus on having fun, not on how much you're spending.
-                </p>
-                
-                <p>
-                  We curate experiences that go beyond the ordinary. Before we take you anywhere, we go there first. 
-                  We explore, test, and refine every experience to make sure you get the best. From finding offbeat 
-                  locations to handpicking the best activities, we create trips that aren't just about sightseeing—they're 
-                  about living the moment. Every trip has a Trip Captain—your go-to person, friend, and guide who makes 
-                  sure everything runs smoothly.
-                </p>
-                
-                <p>
-                  Most importantly, our mission is to build an environment where female travelers can roam freely 
-                  without worries and where everyone can join in and feel welcomed—because let's face it: travel is 
-                  meant to be liberating, not stressful. You deserve to enjoy every moment without thinking twice.
-                </p>
+               <p>
+  Adventure without responsibility? Not our style. At <strong>Awaiting Adventures</strong>, 
+  we make sure every trip is kind to the planet and fair to the communities we visit. 
+  That means eco-friendly choices, local support, and keeping travel affordable without 
+  cutting corners on the fun.
+</p>
+
+<p>
+  We believe the best adventures are the ones lived, not just seen. That’s why we 
+  scout, test, and fine-tune every location and activity before it makes it to your 
+  itinerary. And with a Trip Captain on every journey, you’ll always have a friend 
+  who’s got your back from start to finish.
+</p>
+
+<p>
+  Our mission is simple: create safe, inclusive spaces where women (and everyone else!) 
+  can travel confidently. Because true adventure should feel freeing, not frightening.
+</p>
+
               </div>
             </div>
           </div>
@@ -98,24 +96,26 @@ const AboutPage = () => {
               <h2 className="text-3xl font-bold text-gray-900 mb-8">Who We Are?</h2>
               
               <div className="space-y-6 text-gray-700 leading-relaxed">
-                <p>
-                  Ever found yourself scrolling through Instagram at 2 AM, looking at those travel reels, thinking, 
-                  "I need a vacation"? We've been there. And that's exactly why Awaiting Adventures exists!
-                </p>
-                
-                <p>
-                  We're not just another travel company trying to fill your itinerary with the usual touristy spots. 
-                  For us, travelling is about that chai break at a roadside dhaba on a long road trip, not sleeping 
-                  throughout the night to catch the most amazing sunrise and the strangers who became your best friends 
-                  after a crazy night under the stars.
-                </p>
-                
-                <p>
-                  We get it—traveling can be overwhelming. The flight bookings, hotel searches, figuring out the best 
-                  local experiences—sometimes, planning feels like a full-time job. <em>That's where we step in. 
-                  Think of us as your travel besties who've already done the research, made the mistakes, and found 
-                  the coolest experiences, so you don't have to. And these experiences, trust us, will change your life.</em>
-                </p>
+              <p>
+  We’ve all been there—lost in a scroll at 2 AM, watching travel content 
+  and promising ourselves, “Someday.” <strong>Awaiting Adventures</strong> was 
+  created to make that “someday” happen now.
+</p>
+
+<p>
+  To us, travel isn’t about fancy resorts or crowded landmarks. It’s the 
+  small, magical moments—chai breaks during road trips, sleepless nights 
+  that lead to breathtaking sunrises, and strangers who turn into lifelong 
+  friends after one crazy adventure.
+</p>
+
+<p>
+  Planning can be overwhelming, but that’s exactly why we exist. We’re 
+  your behind-the-scenes travel squad—finding hidden gems, skipping 
+  the generic, and curating experiences that stay with you forever. 
+  Because travel isn’t just a trip, it’s a chapter in your story.
+</p>
+
               </div>
             </div>
           </div>
