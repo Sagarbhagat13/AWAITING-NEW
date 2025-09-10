@@ -11,7 +11,7 @@ const PopularTripsSection = () => {
   return (
     <section className="py-12 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">Winter Trips</h2>
+        <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">Popular Winter Trips</h2>
         
         <TripCarousel 
           title=""
