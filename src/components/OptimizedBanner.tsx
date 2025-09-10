@@ -108,7 +108,7 @@ const OptimizedBanner: React.FC<OptimizedBannerProps> = React.memo(({ onSearch }
 
    // Travel-themed video sources for better compatibility  
   const videoSources = useMemo(() => [
-    '/images/bgindgirl.mp4'
+    '/images/bggirlhero.webm'
   ], []);
 
   // Handle video events
@@ -267,12 +267,12 @@ return (
         <div className="relative h-full flex flex-col justify-center items-center px-6 md:px-12 lg:px-16 text-center z-10">
           {/* Brand Title */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 animate-fade-in">
-            Get.Set.Go
+            
           </h1>
           
           {/* Tagline */}
           <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-8 md:mb-12">
-            Where every trip starts with a smile and 
+             Adventures Awaitts
             <br className="hidden sm:block" />
             <span className="text-primary font-semibold">ends with a story</span>
           </p>
