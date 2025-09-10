@@ -108,7 +108,7 @@ const OptimizedBanner: React.FC<OptimizedBannerProps> = React.memo(({ onSearch }
 
    // Travel-themed video sources for better compatibility  
   const videoSources = useMemo(() => [
-    'https://videos.pexels.com/video-files/5235133/5235133-hd_1920_1080_25fps.mp4'
+    '/images/37088-413229662_small.mp4'
   ], []);
 
   // Handle video events
