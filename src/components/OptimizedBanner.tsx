@@ -107,11 +107,11 @@ const OptimizedBanner: React.FC<OptimizedBannerProps> = React.memo(({ onSearch }
    const isMobile = useIsMobile();
 
    // Travel-themed video sources for better compatibility  
-  const videoSources = useMemo(() => [
-    '/images/bggirlhero.webm',
-    '/images/bgindgirl.mp4'
+  // const videoSources = useMemo(() => [
+  //   '/images/bggirlhero.webm',
+  //   '/images/bgindgirl.mp4'
 
-  ], []);
+  // ], []);
 
   // Handle video events
   const handleVideoLoad = useCallback(() => {
@@ -256,6 +256,7 @@ return (
                 });
               }
             }}
+            aria-hidden="true" // Decorative video, screen readers can skip
           >
              {/* Modern browsers (Chrome, Firefox, Edge) */}
   <source src="/images/bggirlhero.webm" type="video/webm" />
