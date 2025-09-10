@@ -2,7 +2,7 @@ export const sriLankaItinerary = {
   id: 'xny8',
   title: 'Sri Lanka Explorer – Beaches, Hills & Culture',
   location: 'Sri Lanka',
-  price: 55999,
+  price: 55555,
   discount: 0,
   duration: '8 Days / 7 Nights',
   description: 'A cultural and scenic journey through Sri Lanka covering Bentota, Mirissa, Ella, Kandy, Sigiriya and Colombo. From golden beaches and whale watching to hill country train rides and iconic temples, this trip offers the perfect mix of relaxation and adventure.',
@@ -174,14 +174,14 @@ export const sriLankaItinerary = {
     {
       id: 'standard',
       title: 'Twin Sharing',
-      price: 55999,
+      price: 55555,
       description: 'Standard hotels with Half Board basis (breakfast & dinner)',
       isPopular: true
     },
     {
       id: 'deluxe',
-      title: 'Twin Sharing (4-star)',
-      price: 65999,
+      title: 'Twin Sharing',
+      price: 59999,
       description: 'Upgraded comfort in 4-star properties with enhanced inclusions'
     }
   ],
@@ -192,7 +192,7 @@ export const sriLankaItinerary = {
       endDate: '27-12-2025',
       totalSlots: 20,
       availableSlots: 14,
-      price: 55999
+      price: 55555
     },
     {
       id: 'batch-2',
@@ -200,7 +200,7 @@ export const sriLankaItinerary = {
       endDate: '17-01-2026',
       totalSlots: 20,
       availableSlots: 12,
-      price: 55999
+      price: 55555
     }
   ],
   travelNotes: [
