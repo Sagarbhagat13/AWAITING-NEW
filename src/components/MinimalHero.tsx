@@ -9,7 +9,7 @@ interface MinimalHeroProps {
 const MinimalHero = ({ title, backgroundImage }: MinimalHeroProps) => {
   const defaultImage = 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=2000&q=80';
   return (
-    <section className="relative h-[60vh] flex items-center justify-center pt-32 bg-gradient-to-br from-teal-400 to-blue-500">
+    <section className="relative h-[60vh] flex items-center justify-center bg-gradient-to-br from-teal-400 to-blue-500">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
