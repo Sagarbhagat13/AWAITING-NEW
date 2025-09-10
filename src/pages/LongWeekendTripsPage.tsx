@@ -31,7 +31,7 @@ const LongWeekendTripsPage = () => {
       <Navbar />
       
       <main className="flex-grow">
-        <MinimalHero title="LongWeekend Trips" />
+        <MinimalHero title="LongWeekend Trips" backgroundImage='/images/longbg.png' />
        
         
         

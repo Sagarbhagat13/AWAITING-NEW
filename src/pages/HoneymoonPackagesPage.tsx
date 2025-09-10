@@ -31,7 +31,7 @@ const HoneymoonPackagesPage = () => {
       <Navbar />
       
       <main className="flex-grow">
-        <MinimalHero title="Honeymoon Packages" />
+        <MinimalHero title="Honeymoon Packages" backgroundImage='images/Honeymoon.png' />
         
         {/* Hero Section */}
         

@@ -31,7 +31,7 @@ const FamilyPackagesPage = () => {
       <Navbar />
       
       <main className="flex-grow">
-        <MinimalHero title="Family Packages" />
+        <MinimalHero title="Family Packages" backgroundImage='/images/familybg.png' />
         
         
        
