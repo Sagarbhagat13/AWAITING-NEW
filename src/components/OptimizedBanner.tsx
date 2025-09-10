@@ -256,9 +256,14 @@ return (
               }
             }}
           >
-            {videoSources.map((src, index) => (
+             {/* Modern browsers (Chrome, Firefox, Edge) */}
+  <source src="/images/bggirlhero.webm" type="video/webm" />
+  
+  {/* Safari / iOS fallback */}
+  <source src="/images/bgindgirl.mp4" type="video/mp4" />
+            {/* {videoSources.map((src, index) => (
               <source key={index} src={src} type="video/mp4" />
-            ))}
+            ))} */}
           </video>
           
           {/* Gradient Overlay */}
