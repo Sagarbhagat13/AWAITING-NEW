@@ -278,12 +278,12 @@ return (
           <div className="flex flex-col items-center justify-center">
             {/* Brand Title */}
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 animate-fade-in">
-              Awaiting Adventures
+              Go. See. Smile.
             </h1>
             
             {/* Tagline */}
             <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-8 md:mb-12">
-              Where every trip starts with a smile and 
+             
               <br className="hidden sm:block" />
               <span className="text-primary font-semibold">ends with a story</span>
             </p>
