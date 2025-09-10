@@ -231,6 +231,7 @@ return (
         {/* Video Background */}
         <div className="absolute inset-0 rounded-2xl overflow-hidden">
           <video
+            ref={videoRef}
             autoPlay
             muted
             loop
