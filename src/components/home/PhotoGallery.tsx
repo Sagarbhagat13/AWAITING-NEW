@@ -34,7 +34,7 @@ export const galleryPhotos = [
     id: 4,
     url: '/images/PHOTO-2025-06-25-11-50-40.jpg',
     alt: 'Houseboat on water',
-    location: 'Kerala, India'
+    location: 'Spiti Valley, India'
   },
   {
     id: 5,
