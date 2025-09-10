@@ -24,8 +24,8 @@ const defaultOfferBanners: OfferBanner[] = [
     id: '1',
     title: '',
     description: '',
-    desktopImage:  '/images/indsale1.jpg',
-    mobileImage: '/images/indsale1.jpg',
+    desktopImage:  '/images/xmasny1.png',
+    mobileImage: '/images/xmasny1.png',
     ctaText: '',
     ctaLink: '#'
   },
@@ -42,8 +42,8 @@ const defaultOfferBanners: OfferBanner[] = [
     id: '3',
     title: '',
     description: '',
-    desktopImage: '/images/SingaporeBanner.Jpg',
-    mobileImage: '/images/SINGDW.png',
+    desktopImage: '/images/xmasny2.png',
+    mobileImage: '/images/xmasny2.png',
     ctaText: '',
     ctaLink: '#'
   }
@@ -54,8 +54,8 @@ export const secondSetOfferBanners: OfferBanner[] = [
     id: '4',
     title: '',
     description: '',
-    desktopImage: '/images/Bali_DWB.png',
-    mobileImage: '/images/Bali_DWB.png',
+    desktopImage: '/images/weekend1.png',
+    mobileImage: '/images/weekend1.png',
     ctaText: '',
     ctaLink: '#'
   },
@@ -63,8 +63,8 @@ export const secondSetOfferBanners: OfferBanner[] = [
     id: '5',
     title: '',
     description: '',
-    desktopImage: '/images/ladakh1.png',
-    mobileImage: '/images/ladakh1.png',
+    desktopImage: '/images/RJ1.jpg',
+    mobileImage: '/images/RJ1.jpg',
     ctaText: '',
     ctaLink: '#'
   },
