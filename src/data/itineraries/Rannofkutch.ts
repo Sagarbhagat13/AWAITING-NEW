@@ -143,7 +143,7 @@ itinerary: [
     },
     ,
     {
-      id: 'premium',
+      id: 'super-deluxe',
       title: '3AC Berth in Train',
       price: 10150,
       description: 'Double occupancy with enhanced comfort',
