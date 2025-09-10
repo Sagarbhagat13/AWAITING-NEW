@@ -34,7 +34,7 @@ const XmasNewYearPage = () => {
       
       
       <main className="flex-grow">
-        <MinimalHero title="X-MAS & New Year Specials" />
+        <MinimalHero title="X-MAS & New Year Specials" backgroundImage='/images/xmasnybg.png' />
         
         {/* Trips Carousel Section */}
         <section className="py-16 bg-white">
