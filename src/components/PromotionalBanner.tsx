@@ -31,7 +31,7 @@ const PromotionalBanner = () => {
 
   const handleClick = () => {
     // Open WhatsApp or scroll to enquiry form
-    const whatsappUrl = "https://wa.me/918219214214?text=Hi! I'm interested in winter and new year packages. Please share details.";
+    const whatsappUrl = "https://wa.me/919137798539?text=Hi! I'm interested in winter and new year packages With 10% Discount. Please share details.";
     window.open(whatsappUrl, '_blank');
   };
 

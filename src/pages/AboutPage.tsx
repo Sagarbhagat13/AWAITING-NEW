@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import MinimalHero from '@/components/MinimalHero'
-import heroImage from '@/assets/about-hero.jpg';
+import heroImage from '/images/about-hero.jpg';
 import { Helmet } from 'react-helmet';
 
 const AboutPage = () => {
