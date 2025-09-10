@@ -238,7 +238,7 @@ return (
             playsInline
             preload="metadata"
             className="w-full h-full object-cover"
-            poster="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=2000&q=90&fm=webp"
+            poster="/images/bgherogirl11.webp"
             onLoadedData={handleVideoLoad}
             onError={handleVideoError}
             onCanPlay={() => {
