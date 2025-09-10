@@ -227,7 +227,7 @@ return (
      "px-6 md:px-8 lg:px-12 pb-8 md:pb-12 bg-background transition-all duration-300",
       isBannerVisible ? "pt-24 md:pt-28" : "pt-20 md:pt-24"
     )}>
-        <div className="relative h-[54vh] md:h-[75vh] lg:h-[80vh] xl:h-[85vh] overflow-hidden rounded-2xl shadow-2xl">
+        <div className="relative h-[64vh] md:h-[75vh] lg:h-[80vh] xl:h-[85vh] overflow-hidden rounded-2xl shadow-2xl">
         {/* Video Background */}
         <div className="absolute inset-0 rounded-2xl overflow-hidden">
           <video
