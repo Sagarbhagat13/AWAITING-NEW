@@ -285,7 +285,7 @@ return (
             <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-8 md:mb-12">
              
               <br className="hidden sm:block" />
-              <span className="text-primary font-semibold">ends with a story</span>
+              <span className="text-primary font-semibold"></span>
             </p>
             
             {/* Search Bar - Hidden on Mobile */}
