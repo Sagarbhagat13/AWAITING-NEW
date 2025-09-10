@@ -10,7 +10,7 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     id: 'xny1',
     title: 'X-MAS & New Year In Kerala.',
     location: 'Kerala',
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/xmasnykr.png',
     price: 18000,
     duration: '5N/6D',
     xmasNewYear: true,
