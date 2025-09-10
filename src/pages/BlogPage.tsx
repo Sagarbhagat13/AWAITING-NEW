@@ -27,7 +27,7 @@ const BlogPage = () => {
             </p>
             <BlogTabs /> */}
             <main className="flex-grow">
-        <MinimalHero title="Travel Blog" />
+        <MinimalHero title="Travel Blog" backgroundImage="/images/blog1.png" />
         
         <div className="min-h-screen bg-gray-50">
            <div className="container mx-auto px-6 md:px-12 lg:px-16 py-12">
