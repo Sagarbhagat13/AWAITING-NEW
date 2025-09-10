@@ -10,12 +10,13 @@ export const rjjjjxmas = {
   coverImage: 'https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80',
   rating: 4.7,
   reviews: 89,
-  images: [
+images: [
   'https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?auto=format&fit=crop&w=1200&q=80', // Hawa Mahal, Jaipur
   'https://images.unsplash.com/photo-1603262110304-3fa55b46a35c?auto=format&fit=crop&w=1200&q=80', // Amber Fort, Jaipur
   'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80', // Mehrangarh Fort, Jodhpur
   'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80'  // Sand dunes, Jaisalmer
 ],
+
   placesCovered: ['Jaipur', 'Jodhpur', 'Jaisalmer'],
   highlights: [
     'Explore Jaipur – Mandirs Bazaars & Iconic Landmarks',
