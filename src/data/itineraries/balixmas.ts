@@ -2,7 +2,7 @@ export const baliItinerary = {
   id: 'xny6',
   title: 'Bali & Gili Escape with Nusa Penida',
   location: 'Bali, Indonesia',
-  price: 45999,
+  price: 49999,
   discount: 0,
   duration: '8 Days / 7 Nights',
   description: 'Discover the tropical beauty of Bali and Gili Islands with this curated itinerary covering temples, beaches, cultural performances, and adventure activities.',
@@ -164,15 +164,15 @@ export const baliItinerary = {
   pricingOptions: [
     {
       id: 'standard',
-      title: 'Twin Sharing',
+      title: 'Triple Sharing',
       price: 49999,
       description: 'Standard package with 3-star hotels & inclusions',
       isPopular: true
     },
     {
       id: 'deluxe',
-      title: 'Triple Sharing',
-      price: 45999,
+      title: 'Double Sharing',
+      price: 52999,
       description: 'Enhanced comfort with 4-star hotels & upgraded services'
     }
   ],
@@ -184,7 +184,7 @@ export const baliItinerary = {
       endDate: '03-01-2026',
       totalSlots: 20,
       availableSlots: 12,
-      price: 45999
+      price: 49999
     }
   ]
 
