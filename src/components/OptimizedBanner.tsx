@@ -259,10 +259,10 @@ return (
             aria-hidden="true" // Decorative video, screen readers can skip
           >
              {/* Modern browsers (Chrome, Firefox, Edge) */}
-  <source src="/images/bggirlhero.webm" type="video/webm" />
+               <source src="public/images/bgherogirlexp1.webm" type="video/webm" />
   
   {/* Safari / iOS fallback */}
-  <source src="/images/bgindgirl.mp4" type="video/mp4" />
+              <source src="public/images/bgherogirlexp1.mp4" type="video/mp4" />
             {/* {videoSources.map((src, index) => (
               <source key={index} src={src} type="video/mp4" />
             ))} */}
