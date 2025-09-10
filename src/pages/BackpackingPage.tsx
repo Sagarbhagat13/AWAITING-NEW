@@ -78,7 +78,7 @@ const BackpackingPage = () => {
             </div>
           </div>
         </section> */}
-                <MinimalHero title="Backpacking Adventures" backgroundImage='/images/5771363.jpg'/>
+                <MinimalHero title="Backpacking Adventures" backgroundImage='public/images/Backpacking.webp'/>
         {/* Trips Carousel Section */}
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
