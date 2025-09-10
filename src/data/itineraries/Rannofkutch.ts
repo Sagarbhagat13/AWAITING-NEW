@@ -139,14 +139,14 @@ itinerary: [
       id: 'deluxe',
       title: 'Sleeping Berth in Train',
       price: 8550,
-      description: 'Double occupancy with enhanced comfort',
+      description: 'Includes Sleeper class train fare',
     },
     ,
     {
-      id: 'super-deluxe',
+      id: 'premium',
       title: '3AC Berth in Train',
       price: 10150,
-      description: 'Double occupancy with enhanced comfort',
+      description: 'Includes 3AC class train fare',
     }
   ],
   
