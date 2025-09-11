@@ -40,7 +40,7 @@ const YouTubeSection = () => {
               >
                 {/* YouTube Thumbnail */}
                 <img
-                  src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
+                  src= "https://www.youtube.com/embed/jNQXAC9IVRw"
                   alt="Video thumbnail"
                   className="absolute inset-0 w-full h-full object-cover"
                   loading="lazy"
@@ -76,7 +76,7 @@ const YouTubeSection = () => {
             ) : (
               // YouTube iframe
               <iframe
-                src={`https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1`}
+                src= "https://www.youtube.com/embed/jNQXAC9IVRw"
                 title="Awaiting Adventures Channel"
                 className="w-full h-full"
                 allowFullScreen
