@@ -9,10 +9,10 @@ export interface LongWeekendTrip  extends Trip {
 export const longWeekendTrips: LongWeekendTrip[] = [
   {
     id: 'lw4',
-    title: 'Experience X-MAS & New Year in Meghalaya',
+    title: 'Simply Meghalaya',
     location: 'Meghalaya',
     image: '/images/xmasnymg.png',
-    price: 19999,
+    price: 17999,
     duration: '5N/6D',
     rating: 4.7,
     reviews: 167,
@@ -31,6 +31,17 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     independence: true
   },
   {
+    id: 'lw5',
+    title: 'Experience Kerala ',
+    location: 'Kerala',
+    image: '/images/xmasnykr.png',
+    price: 15500,
+    duration: '5N/6D',
+    longWeekend: true,
+    rating: 4.9,
+    reviews: 145
+  },
+  {
     id: 'lw2',
     title: 'Spiti-Biking Mars on Earth.',
     location: 'Himachal Pradesh',
@@ -39,6 +50,17 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     duration: '8D/7N',
     longWeekend: true,
     rating: 4.8,
+    reviews: 156
+  },
+  {
+    id: 'lw7',
+    title: 'Rann of Kutch X-MAS & New Year Special',
+    location: 'Gujarat',
+    image: '/images/xmasnyrann.png',
+    price: 7499,
+    duration: '1N/2D',
+    longWeekend: true,
+    rating: 4.9,
     reviews: 156
   },
   {
