@@ -96,10 +96,10 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
   },
   {
     id: 'xny9',
-    title: 'Christmas in Himachal',
+    title: 'Christmas in Himachal with kasol',
     location: 'Himachal Pradesh',
     image: '/images/xmasnyhima2.png',
-    price: 19500,
+    price: 19999,
     duration: '7N/8D',
     xmasNewYear: true,
     rating: 4.9,
@@ -162,7 +162,7 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
   },
   {
     id: 'xny15',
-    title: 'New Year in Himachal',
+    title: 'New Year in Himachal with Dharamshala',
     location: 'Himachal Pradesh',
     image: '/images/xmasnyhima2.png',
     price: 19999,

@@ -2,7 +2,7 @@ export const himachalItinerary = {
   id: 'xny9',
   title: 'Himachal Escape with Kasol & Amritsar',
   location: 'Shimla, Manali, Kasol, Amritsar',
-  price: 17500,
+  price: 19999,
   discount: 0,
   duration: '10 Days / 9 Nights',
   description:
@@ -163,7 +163,7 @@ export const himachalItinerary = {
     {
       id: 'standard',
       title: 'Without Train Fare',
-      price: 19500,
+      price: 19999,
       description: 'Package price without train fare',
       isPopular: true
     },
