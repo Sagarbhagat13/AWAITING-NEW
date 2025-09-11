@@ -16,7 +16,7 @@ export const spitiTrekItinerary = {
     'https://images.unsplash.com/photo-1652204597589-962156b9483d?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     'https://images.unsplash.com/photo-1581280445448-ab465a010046?q=80&w=1336&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   ],
-  placesCovered: ['Sangla', 'Tabo', 'Komic', 'Pin valley', 'Kaza', 'Chandratal'],
+  placesCovered: ['jispa', 'padum', 'kargil', 'leh', 'nubra valley', 'pangong lake', 'umling la'],
   highlights: [
     'Ride through the high passes like shinkula and Pensi La',
     'witness the stunning landscapes of Zanskar Valley',
