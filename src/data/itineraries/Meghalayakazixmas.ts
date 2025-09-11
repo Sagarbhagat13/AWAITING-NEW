@@ -12,12 +12,11 @@ export const meghalayakavkaz = {
   rating: 4.8,
   reviews: 102,
   images: [
-    'https://images.unsplash.com/photo-1602331886685-34e66e4ae79e?auto=format&fit=crop&w=1200&q=80', // Shillong hills
-    'https://images.unsplash.com/photo-1612951821228-89fbb0f59c67?auto=format&fit=crop&w=1200&q=80', // Dawki river
-    'https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=1200&q=80', // Living Root Bridge
-    'https://images.unsplash.com/photo-1627894489931-8e0d315fabb3?auto=format&fit=crop&w=1200&q=80', // Nohkalikai Falls
-    'https://images.unsplash.com/photo-1611854479081-c907014c11a0?auto=format&fit=crop&w=1200&q=80' // Kaziranga Rhino
-  ],
+  'https://images.unsplash.com/photo-1552978534-9d01e1f91517?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWVnaGFsYXlhfGVufDB8fDB8fHww', // Dawki River, crystal clear waters
+  'https://images.unsplash.com/photo-1625826415766-001bd75aaf52?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWVnaGFsYXlhfGVufDB8fDB8fHww', // Living Root Bridge
+  'https://images.unsplash.com/photo-1613725194245-d8e21cf5d42e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8S0FaSVJBTkdBfGVufDB8fDB8fHww', // Nohkalikai Falls
+  'https://images.unsplash.com/photo-1700637238997-22393b88d1c4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hlcnJ5JTIwYmxvc3NvbSUyMHNoaWxsb25nfGVufDB8fDB8fHww'  // Meghalaya hills & clouds
+],
 
   placesCovered: ['Kaziranga', 'Shillong', 'Cherrapunji', 'Mawlynnong', 'Dawki', 'Guwahati'],
   highlights: [
