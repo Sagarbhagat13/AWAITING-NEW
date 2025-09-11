@@ -189,7 +189,7 @@ export const meghalayakavkaz = {
     {
       id: 'deluxe',
       title: 'Double Sharing',
-      price: 23999,
+      price: 25999,
       description: 'Package cost for double sharing'
     }
   ],
