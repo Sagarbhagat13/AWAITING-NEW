@@ -12,12 +12,11 @@ export const rajasthanRoyals = {
   rating: 4.9,
   reviews: 134,
   images: [
-    'https://images.unsplash.com/photo-1603262110304-3fa55b46a35c?auto=format&fit=crop&w=1200&q=80', // Amber Fort Jaipur
-    'https://images.unsplash.com/photo-1603262110380-82a4fbbf4e22?auto=format&fit=crop&w=1200&q=80', // Lake Pichola Udaipur
-    'https://images.unsplash.com/photo-1605514386826-cb2a5f5f79c1?auto=format&fit=crop&w=1200&q=80', // Mehrangarh Fort Jodhpur
-    'https://images.unsplash.com/photo-1589308078052-fd8e3c2d5e3a?auto=format&fit=crop&w=1200&q=80', // Jaisalmer Fort
-    'https://images.unsplash.com/photo-1604390932908-9b89f6a1ebf6?auto=format&fit=crop&w=1200&q=80' // Thar Desert
-  ],
+  'https://images.unsplash.com/photo-1587295656906-b06dca8f2340?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmFqYXN0aGFufGVufDB8fDB8fHww', // Hawa Mahal, Jaipur
+  'https://images.unsplash.com/photo-1598190896090-9dc5c70361d8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJhamFzdGhhbnxlbnwwfHwwfHx8MA%3D%3D', // Amer Fort, Jaipur
+  'https://images.unsplash.com/photo-1622225641765-8c8ef0dcb678?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHJhamFzdGhhbnxlbnwwfHwwfHx8MA%3D%3D', // Sand dunes, Jaisalmer
+  'https://images.unsplash.com/photo-1695956353120-54ce5e91632b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHVkYWlwdXJ8ZW58MHx8MHx8fDA%3D'  // City Palace, Udaipur
+],
 
   placesCovered: ['Jaipur', 'Udaipur', 'Jodhpur', 'Jaisalmer'],
   highlights: [

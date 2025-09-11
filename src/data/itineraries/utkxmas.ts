@@ -12,10 +12,10 @@ export const mussoorieItinerary = {
   rating: 4.7,
   reviews: 96,
   images: [
-    'https://images.unsplash.com/photo-1615361200803-d6b7a8a9dcf1?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1593696140826-9a6f6d5b6f39?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1542365885-bf17f1e9f8c1?auto=format&fit=crop&w=1200&q=80'
+    'https://images.unsplash.com/photo-1610715936287-6c2ad208cdbf?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bmFpbml0YWx8ZW58MHx8MHx8fDA%3D',
+    'https://images.unsplash.com/photo-1711992437606-bd676fb6fdf2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmlzaGlrZXNoJTIwcmFmdGluZ3xlbnwwfHwwfHx8MA%3D%3D',
+    'https://images.unsplash.com/photo-1665129967399-f28a228d064e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8amltJTIwY29yYmV0dCUyMG5hdGlvbmFsJTIwcGFya3xlbnwwfHwwfHx8MA%3D%3D',
+    'https://images.unsplash.com/photo-1643263905101-d0b6fb15281c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG5haW5pdGFsfGVufDB8fDB8fHww'
   ],
   placesCovered: ['Mussoorie', 'Rishikesh', 'Nainital', 'Jim Corbett'],
   highlights: [
