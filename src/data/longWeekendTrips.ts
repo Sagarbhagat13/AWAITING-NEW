@@ -107,4 +107,27 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     rating: 4.8,
     reviews: 203
   },
+  {
+    id: 'lw9',
+    title: 'Christmas in Himachal',
+    location: 'Himachal Pradesh',
+    image: '/images/xmasnyhima2.png',
+    price: 19500,
+    duration: '7N/8D',
+    longWeekend: true,
+    rating: 4.9,
+    reviews: 156
+  },
+  {
+    id: 'lw10',
+    title: 'winter Spiti',
+    location: 'Himachal Pradesh',
+    image: '/images/xmasnyspiti1.png',
+    price: 19999,
+    duration: '5N/6D',
+    longWeekend: true,
+    rating: 4.8,
+    reviews: 189
+  },
+
 ];
