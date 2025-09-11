@@ -115,5 +115,16 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     xmasNewYear: true,
     rating: 4.8,
     reviews: 134
+  },
+  {
+    id: 'xny11',
+    title: 'Meghalaya with Kaziranga: Wildlife, Waterfalls & Wonders',
+    location: 'Meghalaya & Assam',
+    image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=1200&q=80',
+    price: 23999,
+    duration: '6N/7D',
+    xmasNewYear: true,
+    rating: 4.9,
+    reviews: 154
   }
 ];
