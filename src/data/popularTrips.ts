@@ -73,7 +73,7 @@ export const popularTrips: Trip[] = [
   },
   {
     id: 'lw13',
-    title: 'Royal Rajasthan X-MAS & New Year Special',
+    title: 'Royal Rajasthan Winter Special',
     location: 'Rajasthan',
     image: '/images/xmasnyrj.png',
     price: 23200,
