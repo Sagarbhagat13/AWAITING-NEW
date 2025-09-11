@@ -50,6 +50,28 @@ export const popularTrips: Trip[] = [
     reviews: 134
   },
   {
+    id: 'lw11',
+    title: 'Himachal with Dharamshala',
+    location: 'Himachal Pradesh',
+    image: '/images/xmasnyhima2.png',
+    price: 15500,
+    duration: '7N/8D',
+    longWeekend: true,
+    rating: 5.0,
+    reviews: 167
+  },
+  {
+    id: 'lw12',
+    title: 'Sikkim & Darjeeling Winter Delight',
+    location: 'sikkim',
+    image: '/images/Sikkim.webp',
+    price: 19999,
+    duration: '5N/6D',
+    longWeekend: true,
+    rating: 4.8,
+    reviews: 203
+  },
+  {
     id: 'lw1',
     title: 'Spiti Valley Road Trip',
     location: 'Himachal Pradesh',
