@@ -28,65 +28,30 @@ export interface Trip {
 
 export const popularTrips: Trip[] = [
   {
-    id: 'lw16',
-    title: 'Himachal with Dharamshala and manali',
-    location: 'Himachal Pradesh',
-    image: '/images/xmasnyhima2.png',
-    price: 15500,
-    duration: '7N/8D',
-    rating: 5.0,
-    reviews: 167
+    id: 'lw5',
+    title: 'Experience Rajasthan in monsoon',
+    location: 'Rajasthan',
+    price: 15900,
+    discount: 0,
+    duration: '8D/7N',
+    image: 'https://images.unsplash.com/photo-1695956353120-54ce5e91632b?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    rating: 4.8,
+    reviews: 245,
+    independence: true,
+    
   },
   {
-    id: 'lw12',
-    title: 'Meghalaya with Kaziranga: Wildlife, Waterfalls & Wonders',
-    location: 'Meghalaya & Assam',
-    image: 'https://images.unsplash.com/photo-1625826415766-001bd75aaf52?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWVnaGFsYXlhfGVufDB8fDB8fHww',
-    price: 21999,
-    duration: '6N/7D',
+    id: 'lw4',
+    title: 'Kerala mansoon',
+    location: 'kerala',
+    price: 14900,
+    discount: 0,
+    duration: '8D/7N',
+    image: 'https://images.unsplash.com/photo-1629813538702-64c925934e19?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     rating: 4.9,
-    reviews: 154
-  },
-  {
-    id: 'lw8',
-    title: 'Winter Spiti valley',
-    location: 'Himachal Pradesh',
-    image: '/images/xmasnyspiti1.png',
-    price: 17999,
-    duration: '5N/6D',
-    rating: 4.8,
-    reviews: 189
-  },
-  ,
-  {
-    id: 'lw9',
-    title: 'Winter Rann of Kutch',
-    location: 'Gujarat',
-    image: '/images/xmasnyrann.png',
-    price: 7499,
-    duration: '1N/2D',
-    rating: 4.9,
-    reviews: 156
-  },
-  {
-    id: 'lw11',
-    title: 'Experience Best Of Uttarakhand ',
-    location: 'Uttarakhand',
-    image: '/images/Uttarakhand.png',
-    price: 18999,
-    duration: '6N/7D',
-    rating: 4.8,
-    reviews: 134
-  },
-  {
-    id: 'lw14',
-    title: 'Sikkim & Darjeeling Delight',
-    location: 'sikkim',
-    image: '/images/Sikkim.webp',
-    price: 19999,
-    duration: '5N/6D',
-    rating: 4.8,
-    reviews: 203
+    reviews: 189,
+    independence: true,
+    
   },
   {
     id: 'lw1',
@@ -98,7 +63,7 @@ export const popularTrips: Trip[] = [
     image: 'https://images.unsplash.com/photo-1653844573020-71f77a0ccb8c?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     rating: 4.7,
     reviews: 176,
-    
+    independence : true,
     
   },
   {
@@ -111,7 +76,7 @@ export const popularTrips: Trip[] = [
     image: 'https://images.unsplash.com/photo-1617824077360-7a77db40aae1?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     rating: 4.6,
     reviews: 134,
-    
+    independence: true,
   },
   {
     id: 'lw6',
@@ -123,36 +88,6 @@ export const popularTrips: Trip[] = [
     image: 'https://images.unsplash.com/photo-1630693147522-1169cad4986e?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     rating: 4.9,
     reviews: 267,
-    
-  },  
-  {
-    id: 'lw4',
-    title: 'Kerala Holiday Special',
-    location: 'Kerala',
-    image: '/images/xmasnykr.png',
-    price: 15500,
-    duration: '5N/6D',
-    rating: 4.9,
-    reviews: 145
+    independence  : true,
   },
-  {
-    id: 'lw5',
-    title: 'Experience Rajasthan',
-    location: 'Rajasthan',
-    image: '/images/xmasnyrj.png',
-    price: 17300,
-    duration: '5N/6D',
-    rating: 4.8,
-    reviews: 203
-  },
-  {
-    id: 'lw7',
-    title: 'Simpply Meghalaya',
-    location: 'Meghalaya',
-    image: '/images/xmasnymg.png',
-    price: 17999,
-    duration: '5N/6D',
-    rating: 4.7,
-    reviews: 167
-  }
 ];
