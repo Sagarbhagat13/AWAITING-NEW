@@ -201,7 +201,7 @@ export const keralaescape = {
   pricingOptions: [
     {
       id: 'standard',
-      title: 'Triple Sharing',
+      title: 'withput train',
       price: 26100,
       description: 'Package cost for triple sharing (train + hotels)',
       isPopular: true
@@ -209,7 +209,13 @@ export const keralaescape = {
     {
       id: 'deluxe',
       title: 'with sleeping berth',
-      price: 27550,
+      price: 27500,
+      description: 'Package cost for double sharing (extra ₹3,500 per person)'
+    },
+    {
+      id: 'premium',
+      title: 'with 3AC berth',
+      price: 29950,
       description: 'Package cost for double sharing (extra ₹3,500 per person)'
     }
   ],
