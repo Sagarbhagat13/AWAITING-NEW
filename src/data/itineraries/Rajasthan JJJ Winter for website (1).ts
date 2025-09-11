@@ -1,6 +1,6 @@
 
 export const spitiTrekItinerary = {
-  id: 'lw1',
+  id: '',
   title: '"Echoes of Royalty: A Journey Through Rajasthan’s Glorious Past"',
   location: 'Rajasthan',
   price: 17300,

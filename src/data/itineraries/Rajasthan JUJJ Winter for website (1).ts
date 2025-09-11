@@ -1,6 +1,6 @@
 
 export const spitiTrekItinerary = {
-  id: 'lw1',
+  id: '',
   title: '"Colours of Rajasthan: A Journey Through Heritage & Sand"',
   location: 'Rajasthan',
   price: 23200,
