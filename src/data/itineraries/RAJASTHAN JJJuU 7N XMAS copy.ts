@@ -7,8 +7,7 @@ export const rajasthanRoyals = {
   duration: '10 Days / 9 Nights',
   description:
     'Discover the regal charm of Rajasthan with its forts, palaces, deserts, and vibrant culture. Explore Jaipur, Udaipur, Jodhpur, and Jaisalmer – the true Land of Royals.',
-  coverImage:
-    'https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?auto=format&fit=crop&w=1200&q=80', // Hawa Mahal
+ 
   rating: 4.9,
   reviews: 134,
   images: [

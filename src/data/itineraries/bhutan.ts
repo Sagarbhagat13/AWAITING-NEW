@@ -7,8 +7,7 @@ export const bhutanItinerary = {
   duration: '7 Days / 6 Nights',
   description:
     'A serene journey through the Kingdom of Bhutan covering Paro, Thimphu, Punakha, and Dochula Pass. Explore monasteries, stunning valleys, Himalayan landscapes, and immerse yourself in Bhutanese culture.',
-  coverImage:
-    'https://images.unsplash.com/photo-1587574293230-5c67e5a01050?auto=format&fit=crop&w=1200&q=80',
+  
   rating: 4.8,
   reviews: 112,
   images: [

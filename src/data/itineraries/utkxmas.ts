@@ -7,8 +7,7 @@ export const mussoorieItinerary = {
   duration: '9 Days / 8 Nights',
   description:
     'A refreshing Himalayan journey covering Mussoorie, spiritual Rishikesh, scenic Nainital, and adventurous Jim Corbett. From waterfalls and ropeways to river rafting, temples, and wildlife safari, this itinerary balances nature, spirituality, and thrill.',
-  coverImage:
-    'https://images.unsplash.com/photo-1562347814-eb6a46b9e6c9?auto=format&fit=crop&w=1200&q=80',
+  
   rating: 4.7,
   reviews: 96,
   images: [

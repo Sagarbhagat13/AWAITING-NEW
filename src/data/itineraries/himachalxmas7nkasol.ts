@@ -7,8 +7,7 @@ export const himachalItinerary = {
   duration: '10 Days / 9 Nights',
   description:
     'A scenic journey through Himachal covering Shimla, Manali, Kasol, and the holy city of Amritsar. From snow adventures in Solang Valley to the serenity of Golden Temple, this itinerary combines natural beauty, adventure, and culture.',
-  coverImage:
-    'https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80',
+  
   rating: 4.8,
   reviews: 112,
   images: [

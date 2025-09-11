@@ -8,7 +8,7 @@ export const rannofkutch = {
   discount: 0,
   duration: '4 Days / 3 Nights',
   description: 'Witness the surreal beauty of the Great Rann of Kutch, famous for its white salt desert, cultural programs, and heritage monuments. Enjoy traditional stays, vibrant folk performances, and breathtaking sunsets.',
-  coverImage: 'https://images.unsplash.com/photo-1602605004437-b0df59e2f25d?auto=format&fit=crop&w=1200&q=80',
+  
   rating: 4.6,
   reviews: 72,
 images: [

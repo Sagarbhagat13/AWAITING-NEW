@@ -6,7 +6,7 @@ export const sriLankaItinerary = {
   discount: 0,
   duration: '8 Days / 7 Nights',
   description: 'A cultural and scenic journey through Sri Lanka covering Bentota, Mirissa, Ella, Kandy, Sigiriya and Colombo. From golden beaches and whale watching to hill country train rides and iconic temples, this trip offers the perfect mix of relaxation and adventure.',
-  coverImage: 'https://images.unsplash.com/photo-1597764691153-5d5c2a444ef6?auto=format&fit=crop&w=1200&q=80',
+  xmasNewYear: true,
   rating: 4.7,
   reviews: 98,
   images: [

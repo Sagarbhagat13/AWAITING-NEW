@@ -7,8 +7,7 @@ export const majestichimachal = {
   duration: '7n/8d',
   description:
     'From the colonial charm of Shimla to the snowy paradise of Solang Valley, from spiritual Dharamshala to patriotic Amritsar – this Himachal journey blends adventure, serenity, and culture in the lap of the Himalayas.',
-  coverImage:
-    'https://images.unsplash.com/photo-1524492449090-1a065f2f00f4?auto=format&fit=crop&w=1200&q=80', // Himachal mountains
+  
   rating: 4.8,
   reviews: 152,
   images: [

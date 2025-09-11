@@ -7,8 +7,7 @@ export const keralaescape = {
   duration: '8 Days / 7 Nights',
   description:
     'From misty hills of Munnar to serene backwaters of Alleppey, from spice plantations in Thekkady to the coastal vibes of Varkala and Trivandrum – this Kerala journey blends nature, culture, and spirituality in God’s Own Country.',
-  coverImage:
-    'https://images.unsplash.com/photo-1589308078054-8325c79b82ad?auto=format&fit=crop&w=1200&q=80', // Kerala Backwaters
+  
   rating: 4.9,
   reviews: 176,
   images: [
