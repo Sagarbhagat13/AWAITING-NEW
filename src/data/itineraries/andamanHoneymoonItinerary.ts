@@ -7,15 +7,14 @@ export const andamanItinerary = {
   duration: '6 Days / 5 Nights',
   description:
     'Discover the pristine beauty of the Andaman Islands. From historic Port Blair and the world-famous Radhanagar Beach in Havelock to the natural wonders of Neil Island, enjoy a blend of beaches, adventure, and culture.',
-  coverImage:
-    'https://images.unsplash.com/photo-1600783246004-1f4f8b3e9c5f?auto=format&fit=crop&w=1200&q=80',
+  
   rating: 4.8,
   reviews: 112,
   images: [
-    'https://images.unsplash.com/photo-1600783246004-1f4f8b3e9c5f?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1617196031392-9f6f2d79e3a2?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1617196032058-25e7e5c2e6a1?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1617196032793-df0c8e4f3f8e?auto=format&fit=crop&w=1200&q=80'
+    'https://images.unsplash.com/photo-1586053226626-febc8817962f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YW5kYW1hbnxlbnwwfHwwfHx8MA%3D%3D',
+    'https://images.unsplash.com/photo-1661413499880-d2169a0a7fea?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFuZGFtYW58ZW58MHx8MHx8fDA%3D',
+    'https://images.unsplash.com/photo-1615966650071-855b15f29ad1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGFuZGFtYW58ZW58MHx8MHx8fDA%3D',
+    'https://images.unsplash.com/photo-1708447461404-57725d3cdb6e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGFuZGFtYW58ZW58MHx8MHx8fDA%3D'
   ],
   placesCovered: ['Port Blair', 'Havelock', 'Neil Island'],
   highlights: [
