@@ -148,7 +148,7 @@ const Index = () => {
             
             <PopularTripsSection />
             
-            <EarlyBirdBanner />
+            {/* <EarlyBirdBanner /> */}
             
             <StatePackagesSection />
                         
@@ -162,7 +162,7 @@ const Index = () => {
             
             <OffBeatTripsSection />
             
-            <GroupDiscountBanner />
+            {/* <GroupDiscountBanner /> */}
             
             <FamilyToursSection />
             
