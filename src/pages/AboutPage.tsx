@@ -132,7 +132,7 @@ const AboutPage = () => {
                 we're all about creating unforgettable experiences that inspire and connect people.
               </p>
               
-               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+               {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
                 <div className="text-center">
                   <div className="mb-6 relative mx-auto w-48 h-48 overflow-hidden rounded-2xl">
                     <img 
@@ -179,8 +179,8 @@ const AboutPage = () => {
                   </div>
                   <h3 className="text-xl font-bold text-gray-900">Sneha Kumar</h3>
                   <p className="text-gray-600 font-medium">Creative Director</p>
-                </div>
-              </div>
+                </div> */}
+              {/* </div> */}
             </div>
           </div>
         </section>
