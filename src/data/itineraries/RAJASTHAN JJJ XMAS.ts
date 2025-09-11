@@ -12,9 +12,9 @@ export const rjjjjxmas = {
   reviews: 89,
   images: [
   'https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime--TRBEN9BYgY', // Hawa Mahal, Jaipur
-  'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80', // Amer Fort, Jaipur
-  'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80', // Sand dunes, Jaisalmer
-  'https://images.unsplash.com/photo-1589739906089-3584f0f3a43b?auto=format&fit=crop&w=1200&q=80'  // City Palace, Udaipur
+  'https://unsplash.com/photos/man-in-white-long-sleeve-shirt-riding-elephant-during-daytime-Eqa6lWgDW48', // Amer Fort, Jaipur
+  'https://unsplash.com/photos/people-riding-camel-on-desert-during-daytime-UgfweZ5Kvrg', // Sand dunes, Jaisalmer
+  'https://unsplash.com/photos/a-large-wooden-door-sitting-inside-of-a-building-IwXLmD3ov5U'  // City Palace, Udaipur
 ],
 
 
