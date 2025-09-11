@@ -12,10 +12,10 @@ export const rannofkutch = {
   rating: 4.6,
   reviews: 72,
 images: [
-  'https://images.unsplash.com/photo-1607354508900-d18bcb5086f6?auto=format&fit=crop&w=1200&q=80', // White salt desert at Rann of Kutch
-  'https://images.unsplash.com/photo-1612444530248-f28285a44c6f?auto=format&fit=crop&w=1200&q=80', // Sunset at Dhordo Village
-  'https://images.unsplash.com/photo-1638096249615-fcf989baf4c3?auto=format&fit=crop&w=1200&q=80', // Camel ride in Rann of Kutch
-  'https://images.unsplash.com/photo-1602605004437-b0df59e2f25d?auto=format&fit=crop&w=1200&q=80'  // Cultural festival at Rann
+  'https://images.unsplash.com/photo-1660733617811-3d905e6c37c4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8UkFOTiUyME9GJTIwS1VUQ0h8ZW58MHx8MHx8fDA%3D', // White salt desert at Rann of Kutch
+  'https://images.unsplash.com/photo-1669015881702-951de590db31?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8UkFOTiUyME9GJTIwS1VUQ0h8ZW58MHx8MHx8fDA%3D', // Sunset at Dhordo Village
+  'https://images.unsplash.com/photo-1628265512314-a9464859fe0c?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Camel ride in Rann of Kutch
+  'https://images.unsplash.com/photo-1728323267343-8464edba703d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UkFOTiUyME9GJTIwS1VUQ0glMjBGRVNUSUlWQUx8ZW58MHx8MHx8fDA%3D'  // Cultural festival at Rann
 ]
 ,
   placesCovered: ['Bhuj', 'Rann of Kutch', 'Kala Dungar', 'Dhordo Village', 'Aaina Mahal', 'Kutch Museum', 'Swaminarayan Temple'],
