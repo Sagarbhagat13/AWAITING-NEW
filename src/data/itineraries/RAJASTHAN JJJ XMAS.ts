@@ -11,7 +11,7 @@ export const rjjjjxmas = {
   rating: 4.7,
   reviews: 89,
   images: [
-  'https://unsplash.com/photos/birds-flying-over-river-during-daytime-uADXI1v10us?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash', // Hawa Mahal, Jaipur
+  'https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime--TRBEN9BYgY', // Hawa Mahal, Jaipur
   'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80', // Amer Fort, Jaipur
   'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80', // Sand dunes, Jaisalmer
   'https://images.unsplash.com/photo-1589739906089-3584f0f3a43b?auto=format&fit=crop&w=1200&q=80'  // City Palace, Udaipur
