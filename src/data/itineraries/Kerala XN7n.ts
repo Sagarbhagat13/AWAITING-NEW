@@ -12,11 +12,10 @@ export const keralaescape = {
   rating: 4.9,
   reviews: 176,
   images: [
-    'https://images.unsplash.com/photo-1619546813926-a78fa6372d0f?auto=format&fit=crop&w=1200&q=80', // Munnar Tea Gardens
-    'https://images.unsplash.com/photo-1590490360181-1fc7e5a8b5c1?auto=format&fit=crop&w=1200&q=80', // Athirappilly Waterfalls
-    'https://images.unsplash.com/photo-1625731641116-2c15f69c9110?auto=format&fit=crop&w=1200&q=80', // Alleppey Houseboat
-    'https://images.unsplash.com/photo-1611339555312-4fa3437ea1e9?auto=format&fit=crop&w=1200&q=80', // Varkala Beach
-    'https://images.unsplash.com/photo-1617093708828-d5d87b0d4e3e?auto=format&fit=crop&w=1200&q=80' // Kovalam Beach
+    'https://images.unsplash.com/photo-1628918098760-471c0fad230c?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    'https://images.unsplash.com/photo-1704365159747-1f7b8913044f?q=80&w=927&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    'https://images.unsplash.com/photo-1597735881932-d9664c9bbcea?q=80&w=1283&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    'https://images.unsplash.com/photo-1549366021-9f761d450615?q=80&w=1306&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   ],
 
   placesCovered: [
