@@ -96,7 +96,7 @@ export const meghalayakavkaz = {
         'Visit Kaziranga Orchid Garden',
         'Optional Bihu Dance cultural event (at own cost)'
       ],
-      meals: ['-'],
+      meals: ['Dinner'],
       accommodation: 'Stay at Kaziranga'
     },
     {
@@ -108,7 +108,7 @@ export const meghalayakavkaz = {
         'Spot rhino, elephants, swamp deer, wild buffalo & more',
         'Evening Jeep Safari – Western Range'
       ],
-      meals: ['Breakfast'],
+      meals: ['Breakfast','Dinner'],
       accommodation: 'Stay at Kaziranga'
     },
     {
@@ -122,7 +122,7 @@ export const meghalayakavkaz = {
         'Check-in at Shillong',
         'Evening stroll & shopping at Police Bazaar'
       ],
-      meals: ['Breakfast'],
+      meals: ['Breakfast','Dinner'],
       accommodation: 'Stay at Shillong'
     },
     {
@@ -136,7 +136,7 @@ export const meghalayakavkaz = {
         'Proceed to Dawki – see Indo-Bangladesh border & Dawki River',
         'Continue to Cherrapunji'
       ],
-      meals: ['Breakfast'],
+      meals: ['Breakfast','Dinner'],
       accommodation: 'Stay at Cherrapunji'
     },
     {
@@ -151,7 +151,7 @@ export const meghalayakavkaz = {
         'Return to Shillong',
         'Visit Elephant Falls (time permitting)'
       ],
-      meals: ['Breakfast'],
+      meals: ['Breakfast','Dinner'],
       accommodation: 'Stay at Shillong'
     },
     {
@@ -163,7 +163,7 @@ export const meghalayakavkaz = {
         'Explore Don Bosco Museum & Catholic Church',
         'Transfer to Guwahati'
       ],
-      meals: ['Breakfast'],
+      meals: ['Breakfast','Dinner'],
       accommodation: 'Stay at Guwahati'
     },
     {

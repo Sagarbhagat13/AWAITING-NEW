@@ -126,5 +126,16 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     xmasNewYear: true,
     rating: 4.9,
     reviews: 154
+  },
+  {
+    id: 'xny12',
+    title: 'Royal Rajasthan X-MAS & New Year Special',
+    location: 'Rajasthan',
+    image: '/images/xmasnyrj.png',
+    price: 28200,
+    duration: '5N/6D',
+    xmasNewYear: true,
+    rating: 4.8,
+    reviews: 203
   }
 ];
