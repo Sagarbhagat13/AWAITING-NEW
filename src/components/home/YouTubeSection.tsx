@@ -14,7 +14,7 @@ const YouTubeSection = () => {
     setVideoError(true);
   };
 
-  const videoId = "BG-imO8XqRo"; // your YouTube video ID
+  const videoId = "z7kZGh6Mxo8"; // your YouTube video ID
 
   return (
     <section className="py-16 md:py-24 bg-background">
@@ -76,14 +76,16 @@ const YouTubeSection = () => {
             ) : (
               // YouTube iframe
               <iframe
-  src="https://www.youtube.com/embed/BG-imO8XqRo?autoplay=1&rel=0&modestbranding=1"
-  title="Awaiting Adventures Channel"
-  className="w-full h-full"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowFullScreen
-  frameBorder="0"
-/>
-
+                src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1`}
+                title="Awaiting Adventures Channel"
+                className="w-full h-full"
+                allowFullScreen
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                frameBorder="0"
+                onError={handleVideoError}
+              />
             )}
           </div>
         </div>
