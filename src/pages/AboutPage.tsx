@@ -132,7 +132,7 @@ const AboutPage = () => {
                 we're all about creating unforgettable experiences that inspire and connect people.
               </p>
               
-              <div className="grid md:grid-cols-2 gap-12">
+               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
                 <div className="text-center">
                   <div className="mb-6 relative mx-auto w-48 h-48 overflow-hidden rounded-2xl">
                     <img 
