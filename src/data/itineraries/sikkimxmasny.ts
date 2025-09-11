@@ -1,5 +1,5 @@
 export const sikkimdarjeeling = {
-  id: 'xn14',
+  id: 'xn13',
   title: 'Sikkim & Darjeeling Escape: Where Nature Meets Culture',
   location: 'Sikkim & Darjeeling',
   price: 21999,
