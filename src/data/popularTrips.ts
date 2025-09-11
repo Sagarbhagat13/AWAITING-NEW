@@ -39,6 +39,17 @@ export const popularTrips: Trip[] = [
     reviews: 134
   },
   {
+    id: 'xny6',
+    title: 'New year Party in Bali',
+    location: 'Bali',
+    image: '/images/nybali.png',
+    price: 45999,
+    duration: '7D/6N',
+    longWeekend: true,
+    rating: 4.8,
+    reviews: 134
+  },
+  {
     id: 'lw1',
     title: 'Spiti Valley Road Trip',
     location: 'Himachal Pradesh',
