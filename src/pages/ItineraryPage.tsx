@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import TripImageGallery from '@/components/itinerary/TripImageGallery';
 import TripHeaderSection from '@/components/itinerary/TripHeaderSection';
 import TripContentSection from '@/components/itinerary/TripContentSection';
-import SimilarTripsSection from '@/components/itinerary/SimilarTripsSection';
+// import SimilarTripsSection from '@/components/itinerary/SimilarTripsSection';
 import GoogleReviewsSlider from '@/components/itinerary/GoogleReviewsSlider';
 import MiniGallery from '@/components/itinerary/MiniGallery';
 import { getTripData } from '@/services/tripService';
@@ -99,10 +99,10 @@ const ItineraryPage = () => {
         <MiniGallery />
         
         {/* Similar Trips Section */}
-        <SimilarTripsSection 
+        {/* <SimilarTripsSection 
           currentTripId={actualTripId} 
           currentLocation={tripData.location} 
-        />
+        /> */}
 
         {isMobile && (
           <MobileFixedBottom 
