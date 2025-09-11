@@ -13,6 +13,7 @@ import { honeymoonPackages } from '@/data/honeymoonPackages';
 import { ladakhBikingTrips, ladakhSUVTrips } from '@/data/ladakhTrips';
 import { offBeatTrips } from '@/data/offBeatTrips';
 import { useSEOOptimization } from '@/hooks/useSEOOptimization';
+import { xmasNewYearTrips } from '@/data/XmasNewYearTrips';
 
 const BackpackingPage = () => {
   // Initialize SEO optimization
@@ -30,7 +31,8 @@ const BackpackingPage = () => {
     ...honeymoonPackages,
     ...ladakhBikingTrips,
     ...ladakhSUVTrips,
-    ...offBeatTrips
+    ...offBeatTrips,
+    ...xmasNewYearTrips
   ];
   
   return (
