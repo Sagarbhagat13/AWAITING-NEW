@@ -22,7 +22,7 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     id: 'lw9',
     title: 'Do Dham With Tungnath & Chandrashila',
     location: 'Uttarakhand',
-    image: '/images/xmasnymg.png',
+    image: 'https://images.unsplash.com/photo-1617860931879-19d32ec9912d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGtlZGFybmF0aHxlbnwwfHwwfHx8MA%3D%3D',
     price: 17999,
     duration: '7N/8D',
     rating: 4.9,
