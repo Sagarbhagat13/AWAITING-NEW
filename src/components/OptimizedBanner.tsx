@@ -238,7 +238,7 @@ return (
             playsInline
             preload="metadata"
             className="w-full h-full object-cover"
-            poster="/images/bgherogirl11.webp"
+            poster="/images/bgherobackup.webp"
             onLoadedData={handleVideoLoad}
             onError={handleVideoError}
             onCanPlay={() => {
