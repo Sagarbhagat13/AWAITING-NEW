@@ -1,9 +1,9 @@
 
 export const rjjjjxmas = {
-  id: 'lw8',
+  id: 'xny2',
   title: '"Echoes of Royalty: A Journey Through Rajasthan’s Glorious Past"',
   location: 'Rajasthan',
-  price: 20800,
+  price: 17300,
   discount: 0,
   duration: '6 Days / 5 Nights',
   description: 'Experience the royal charm of Rajasthan through Jaipur’s palaces, Jodhpur’s mighty forts, and Jaisalmer’s golden deserts—where history, heritage, and adventure come alive.',
@@ -161,20 +161,20 @@ export const rjjjjxmas = {
     {
       id: 'standard',
       title: 'Without Train Fare',
-      price: 17300,
+      price: 20800,
       description: 'Package without Train Fare',
       isPopular: true
     },
     {
       id: 'deluxe',
       title: 'With Sleeper Train Fare',
-      price: 18450,
+      price: 21950,
       description: 'Package for Sleeper Train'
     },
     {
       id: 'premium',
       title: 'With A/C Train Fare',
-      price: 20300,
+      price: 23800,
       description: 'Package for A/C Train'
     }
   ],
@@ -183,117 +183,12 @@ export const rjjjjxmas = {
   batchDates: [
   {
     id: 'batch-1',
-    startDate: '27-09-2025',
-    endDate: '04-10-2025',
-    totalSlots: 15,
-    availableSlots: 15,
-    price: 17300
-  },
-  {
-    id: 'batch-2',
-    startDate: '02-10-2025',
-    endDate: '09-10-2025',
-    totalSlots: 15,
-    availableSlots: 15,
-    price: 17300
-  },
-  {
-    id: 'batch-3',
-    startDate: '18-10-2025',
-    endDate: '25-10-2025',
-    totalSlots: 15,
-    availableSlots: 15,
-    price: 17300
-  },
-  {
-    id: 'batch-4',
-    startDate: '23-10-2025',
-    endDate: '30-10-2025',
-    totalSlots: 15,
-    availableSlots: 15,
-    price: 17300
-  },
-  {
-    id: 'batch-5',
-    startDate: '01-11-2025',
-    endDate: '08-11-2025',
-    totalSlots: 15,
-    availableSlots: 15,
-    price: 17300
-  },
-  {
-    id: 'batch-6',
-    startDate: '22-11-2025',
-    endDate: '29-11-2025',
-    totalSlots: 15,
-    availableSlots: 15,
-    price: 17300
-  },
-  {
-    id: 'batch-7',
-    startDate: '13-12-2025',
-    endDate: '20-12-2025',
-    totalSlots: 15,
-    availableSlots: 15,
-    price: 17300
-  },
-  {
-    id: 'batch-8',
-    startDate: '20-12-2025',
-    endDate: '27-12-2025',
-    totalSlots: 15,
-    availableSlots: 15,
-    price: 17300
-  },
-  {
-    id: 'batch-9',
-    startDate: '25-12-2025',
-    endDate: '01-01-2026',
-    totalSlots: 15,
-    availableSlots: 15,
-    price: 17300
-  },
-  {
-    id: 'batch-10',
     startDate: '27-12-2025',
     endDate: '03-01-2026',
-    totalSlots: 15,
-    availableSlots: 15,
-    price: 17300
-  },
-  {
-    id: 'batch-11',
-    startDate: '10-01-2026',
-    endDate: '17-01-2026',
-    totalSlots: 15,
-    availableSlots: 15,
-    price: 17300
-  },
-  {
-    id: 'batch-12',
-    startDate: '24-01-2026',
-    endDate: '31-01-2026',
-    totalSlots: 15,
-    availableSlots: 15,
-    price: 17300
-  },
-  {
-    id: 'batch-13',
-    startDate: '14-02-2026',
-    endDate: '21-02-2026',
-    totalSlots: 15,
-    availableSlots: 15,
-    price: 17300
-  },
-  {
-    id: 'batch-14',
-    startDate: '21-02-2026',
-    endDate: '28-02-2026',
-    totalSlots: 15,
-    availableSlots: 15,
-    price: 17300
+    totalSlots: 12,
+    availableSlots: 8,
+    price: 20800
   }
 ]
-
 
 };

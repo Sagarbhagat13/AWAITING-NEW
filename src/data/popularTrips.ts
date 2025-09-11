@@ -27,32 +27,7 @@ export interface Trip {
 }
 
 export const popularTrips: Trip[] = [
-  {
-    id: 'lw5',
-    title: 'Experience Rajasthan in monsoon',
-    location: 'Rajasthan',
-    price: 15900,
-    discount: 0,
-    duration: '8D/7N',
-    image: 'https://images.unsplash.com/photo-1695956353120-54ce5e91632b?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    rating: 4.8,
-    reviews: 245,
-    independence: true,
-    
-  },
-  {
-    id: 'lw4',
-    title: 'Kerala mansoon',
-    location: 'kerala',
-    price: 14900,
-    discount: 0,
-    duration: '8D/7N',
-    image: 'https://images.unsplash.com/photo-1629813538702-64c925934e19?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    rating: 4.9,
-    reviews: 189,
-    independence: true,
-    
-  },
+  
   {
     id: 'lw1',
     title: 'Spiti Valley Road Trip',

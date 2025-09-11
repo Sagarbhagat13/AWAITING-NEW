@@ -109,10 +109,10 @@ export const longWeekendTrips: LongWeekendTrip[] = [
   },
   {
     id: 'lw9',
-    title: 'Christmas in Himachal',
+    title: 'Majestic Himachal with Kasol',
     location: 'Himachal Pradesh',
     image: '/images/xmasnyhima2.png',
-    price: 19500,
+    price: 15500,
     duration: '7N/8D',
     longWeekend: true,
     rating: 4.9,
