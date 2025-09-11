@@ -153,7 +153,6 @@ const Index = () => {
             <StatePackagesSection />
                         
             <OfferBannerCarousel slides={secondSetOfferBanners} />
-            
             <RegionalTripsSection />
             
             <CustomizedTripsSection />
