@@ -137,5 +137,27 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     xmasNewYear: true,
     rating: 4.8,
     reviews: 203
+  },
+  {
+    id: 'xny13',
+    title: 'Sikkim & Darjeeling Escape in X-MAS & New Year',
+    location: 'sikkim',
+    image: '/images/Sikkim.webp',
+    price: 21999,
+    duration: '5N/6D',
+    xmasNewYear: true,
+    rating: 4.8,
+    reviews: 203
+  },
+  {
+    id: 'xny14',
+    title: 'best of Kerala in X-MAS & New Year',
+    location: 'Kerala',
+    image: '/images/xmasnykr.png',
+    price: 26100,
+    duration: '7N/8D',
+    xmasNewYear: true,
+    rating: 4.9,
+    reviews: 195
   }
 ];
