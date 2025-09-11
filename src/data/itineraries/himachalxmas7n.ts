@@ -185,13 +185,13 @@ export const majestichimachal = {
     },
     {
       id: 'deluxe',
-      title: 'sleeper',
+      title: 'sleeper train fare',
       price: 21450,
       description: 'Standard package cost with triple sharing',
       isPopular: true
     },
     {
-      id: 'premium',
+      id: 'premium train',
       title: '3A/C',
       price: 24000,
       description: 'Standard package cost with triple sharing',

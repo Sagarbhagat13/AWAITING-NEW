@@ -162,7 +162,7 @@ export const rajasthanRoyals = {
   pricingOptions: [
     {
       id: 'standard',
-      title: 'Sleeper Class',
+      title: 'without train',
       price: 28200,
       description: 'Train journey in Sleeper Class'
     },

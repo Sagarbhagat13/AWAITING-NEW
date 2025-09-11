@@ -1,6 +1,6 @@
 
 export const spitiTrekItinerary = {
-  id: 'lw1',
+  id: '',
   title: 'The Ultimate Spiti Circuit - Delhi to the Land of Monasteries',
   location: 'Himachal Pradesh',
   price: 19999,
