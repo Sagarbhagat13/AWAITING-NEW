@@ -34,7 +34,6 @@ export const popularTrips: Trip[] = [
     image: '/images/xmasnyhima2.png',
     price: 15500,
     duration: '7N/8D',
-    longWeekend: true,
     rating: 5.0,
     reviews: 167
   },
@@ -45,7 +44,6 @@ export const popularTrips: Trip[] = [
     image: 'https://images.unsplash.com/photo-1625826415766-001bd75aaf52?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWVnaGFsYXlhfGVufDB8fDB8fHww',
     price: 21999,
     duration: '6N/7D',
-    longWeekend: true,
     rating: 4.9,
     reviews: 154
   },
@@ -56,7 +54,6 @@ export const popularTrips: Trip[] = [
     image: '/images/xmasnyspiti1.png',
     price: 17999,
     duration: '5N/6D',
-    longWeekend: true,
     rating: 4.8,
     reviews: 189
   },
@@ -68,7 +65,6 @@ export const popularTrips: Trip[] = [
     image: '/images/xmasnyrann.png',
     price: 7499,
     duration: '1N/2D',
-    longWeekend: true,
     rating: 4.9,
     reviews: 156
   },
@@ -79,7 +75,6 @@ export const popularTrips: Trip[] = [
     image: '/images/Uttarakhand.png',
     price: 18999,
     duration: '6N/7D',
-    longWeekend: true,
     rating: 4.8,
     reviews: 134
   },
@@ -90,7 +85,6 @@ export const popularTrips: Trip[] = [
     image: '/images/Sikkim.webp',
     price: 19999,
     duration: '5N/6D',
-    longWeekend: true,
     rating: 4.8,
     reviews: 203
   },
@@ -138,7 +132,6 @@ export const popularTrips: Trip[] = [
     image: '/images/xmasnykr.png',
     price: 15500,
     duration: '5N/6D',
-    longWeekend: true,
     rating: 4.9,
     reviews: 145
   },
@@ -149,7 +142,6 @@ export const popularTrips: Trip[] = [
     image: '/images/xmasnyrj.png',
     price: 17300,
     duration: '5N/6D',
-     longWeekend: true,
     rating: 4.8,
     reviews: 203
   },
@@ -160,7 +152,6 @@ export const popularTrips: Trip[] = [
     image: '/images/xmasnymg.png',
     price: 17999,
     duration: '5N/6D',
-    longWeekend: true,
     rating: 4.7,
     reviews: 167
   }
