@@ -130,4 +130,15 @@ export const popularTrips: Trip[] = [
     reviews: 267,
     independence  : true,
   },
+  {
+    id: 'lw16',
+    title: 'Meghalaya with Kaziranga: Wildlife, Waterfalls & Wonders',
+    location: 'Meghalaya & Assam',
+    image: 'https://images.unsplash.com/photo-1625826415766-001bd75aaf52?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWVnaGFsYXlhfGVufDB8fDB8fHww',
+    price: 21999,
+    duration: '6N/7D',
+    longWeekend: true, 
+    rating: 4.9,
+    reviews: 154
+  },
 ];

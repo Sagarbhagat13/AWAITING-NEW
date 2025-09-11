@@ -1,8 +1,8 @@
 export const meghalayakavkaz = {
-  id: 'xny11',
+  id: 'lw16',
   title: 'Kaziranga, Shillong & Cherrapunji Escape: Wildlife, Waterfalls & Wonders',
   location: 'Meghalaya & Assam',
-  price: 23999,
+  price: 21999,
   discount: 0,
   duration: '7 Days / 6 Nights',
   description:
@@ -194,30 +194,111 @@ export const meghalayakavkaz = {
     }
   ],
 
-  batchDates: [
-    {
-      id: 'batch-1',
-      startDate: '20-12-2025',
-      endDate: '26-12-2025',
-      totalSlots: 12,
-      availableSlots: 8,
-      price: 23999
-    },
-    {
-      id: 'batch-2',
-      startDate: '25-12-2025',
-      endDate: '31-12-2025',
-      totalSlots: 12,
-      availableSlots: 7,
-      price: 23999
-    },
-    {
-      id: 'batch-3',
-      startDate: '27-12-2025',
-      endDate: '02-01-2026',
-      totalSlots: 12,
-      availableSlots: 9,
-      price: 23999
-    }
-  ]
+batchDates: [
+  {
+    id: 'batch-1',
+    startDate: '18-10-2025',
+    endDate: '24-10-2025',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 21999
+  },
+  {
+    id: 'batch-2',
+    startDate: '23-10-2025',
+    endDate: '29-10-2025',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 21999
+  },
+  {
+    id: 'batch-3',
+    startDate: '25-10-2025',
+    endDate: '31-10-2025',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 21999
+  },
+  {
+    id: 'batch-4',
+    startDate: '01-11-2025',
+    endDate: '07-11-2025',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 21999
+  },
+  {
+    id: 'batch-5',
+    startDate: '22-11-2025',
+    endDate: '28-11-2025',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 21999
+  },
+  {
+    id: 'batch-6',
+    startDate: '13-12-2025',
+    endDate: '19-12-2025',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 21999
+  },
+  {
+    id: 'batch-7',
+    startDate: '20-12-2025',
+    endDate: '26-12-2025',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 21999
+  },
+  {
+    id: 'batch-8',
+    startDate: '25-12-2025',
+    endDate: '31-12-2025',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 21999
+  },
+  {
+    id: 'batch-9',
+    startDate: '27-12-2025',
+    endDate: '02-01-2026',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 21999
+  },
+  {
+    id: 'batch-10',
+    startDate: '10-01-2026',
+    endDate: '16-01-2026',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 21999
+  },
+  {
+    id: 'batch-11',
+    startDate: '24-01-2026',
+    endDate: '30-01-2026',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 21999
+  },
+  {
+    id: 'batch-12',
+    startDate: '14-02-2026',
+    endDate: '20-02-2026',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 21999
+  },
+  {
+    id: 'batch-13',
+    startDate: '21-02-2026',
+    endDate: '27-02-2026',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 21999
+  }
+]
+
 };
