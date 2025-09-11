@@ -7,16 +7,14 @@ export const sikkimdarjeeling = {
   duration: '6 Days / 5 Nights',
   description:
     'Explore the serene landscapes of Gangtok and the colonial charm of Darjeeling. Witness pristine lakes, vibrant monasteries, Himalayan sunrises, tea gardens, and cultural gems on this unforgettable journey through Sikkim and Darjeeling.',
-  coverImage:
-    'https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?auto=format&fit=crop&w=1200&q=80', // Himalayan view
   rating: 4.7,
   reviews: 128,
   images: [
-    'https://images.unsplash.com/photo-1610620378290-68cf81277849?auto=format&fit=crop&w=1200&q=80', // Gangtok MG Road
-    'https://images.unsplash.com/photo-1608902173162-6d12f90b43f2?auto=format&fit=crop&w=1200&q=80', // Tsomgo Lake
-    'https://images.unsplash.com/photo-1616576682488-93e572d8792d?auto=format&fit=crop&w=1200&q=80', // Rumtek Monastery
-    'https://images.unsplash.com/photo-1590487984097-8d0c70d82c5a?auto=format&fit=crop&w=1200&q=80', // Darjeeling Tea Gardens
-    'https://images.unsplash.com/photo-1583144584133-78a04357a798?auto=format&fit=crop&w=1200&q=80' // Tiger Hill Sunrise
+    'https://images.unsplash.com/photo-1635346537940-9d51faeb6e32?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2FuZ3Rva3xlbnwwfHwwfHx8MA%3D%3D', // Gangtok MG Road
+    'https://images.unsplash.com/photo-1641233122088-9562e3ef0105?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z2FuZ3Rva3xlbnwwfHwwfHx8MA%3D%3D', // Tsomgo Lake
+    'https://images.unsplash.com/photo-1698753864905-a447aa362ec9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGRhcmplZWxpbmd8ZW58MHx8MHx8fDA%3D', // Rumtek Monastery
+    'https://images.unsplash.com/photo-1620903376453-25f5a6fd533e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGRhcmplZWxpbmd8ZW58MHx8MHx8fDA%3D', // Darjeeling Tea Gardens
+    
   ],
 
   placesCovered: ['Gangtok', 'Tsomgo Lake', 'Baba Mandir', 'Darjeeling', 'Tiger Hill', 'Mirik'],
