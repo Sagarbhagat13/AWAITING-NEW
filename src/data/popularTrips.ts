@@ -72,6 +72,17 @@ export const popularTrips: Trip[] = [
     reviews: 203
   },
   {
+    id: 'lw13',
+    title: 'Royal Rajasthan X-MAS & New Year Special',
+    location: 'Rajasthan',
+    image: '/images/xmasnyrj.png',
+    price: 23200,
+    duration: '7N/8D',
+    longWeekend: true,
+    rating: 4.8,
+    reviews: 203
+  },
+  {
     id: 'lw1',
     title: 'Spiti Valley Road Trip',
     location: 'Himachal Pradesh',

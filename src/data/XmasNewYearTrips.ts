@@ -133,7 +133,7 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     location: 'Rajasthan',
     image: '/images/xmasnyrj.png',
     price: 28200,
-    duration: '5N/6D',
+    duration: '7N/8D',
     xmasNewYear: true,
     rating: 4.8,
     reviews: 203
