@@ -168,15 +168,15 @@ export const rajasthanRoyals = {
     },
     {
       id: 'deluxe',
-      title: '3 AC Class',
-      price: 30200,
+      title: 'Sleeper',
+      price: 29400,
       description: 'Train journey in 3 AC Class',
       isPopular: true
     },
     {
       id: 'premium',
-      title: '2 AC Class',
-      price: 31400,
+      title: '3 AC Class',
+      price: 31200,
       description: 'Train journey in 2 AC Class'
     }
   ],
