@@ -54,7 +54,7 @@ export const longWeekendTrips: LongWeekendTrip[] = [
   },
   {
     id: 'lw7',
-    title: 'Rann of Kutch X-MAS & New Year Special',
+    title: 'Rann of Kutch Winter Special',
     location: 'Gujarat',
     image: '/images/xmasnyrann.png',
     price: 7499,
@@ -84,5 +84,16 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     longWeekend: true,
     rating: 4.8,
     reviews: 142
-  }
+  },
+  {
+    id: 'xny2',
+    title: 'Winter in Rajasthan',
+    location: 'Rajasthan',
+    image: '/images/xmasnyrj.png',
+    price: 17300,
+    duration: '5N/6D',
+    longWeekend: true,
+    rating: 4.8,
+    reviews: 203
+  },
 ];
