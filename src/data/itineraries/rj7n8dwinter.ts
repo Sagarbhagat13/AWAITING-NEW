@@ -1,5 +1,5 @@
 export const rajasthanRoyals = {
-  id: 'xny12',
+  id: '',
   title: 'Rajasthan: Land of Royals',
   location: 'Jaipur, Udaipur, Jodhpur & Jaisalmer',
   price: 23200,
