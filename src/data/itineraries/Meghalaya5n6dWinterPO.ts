@@ -167,14 +167,14 @@ export const meghalayaxmas = {
     {
       id: 'standard',
       title: 'Triple Sharing',
-      price: 19999,
+      price: 17999,
       description: 'Package Cost for Triple Sharing',
       isPopular: true
     },
     {
       id: 'deluxe',
       title: 'Double Sharing',
-      price: 21999,
+      price: 19999,
       description: 'Package Cost for Double Sharing'
     }
 

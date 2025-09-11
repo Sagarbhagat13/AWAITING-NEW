@@ -172,7 +172,7 @@ export const spitiTrekItinerary = {
     {
       id: 'deluxe',
       title: 'Double Sharing',
-      price: 20499,
+      price: 19999,
       description: 'Double occupancy with enhanced comfort',
     },
     

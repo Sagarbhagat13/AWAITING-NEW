@@ -133,7 +133,7 @@ itinerary: [
       title: 'Without Train Fare',
       price: 7500,
       description: 'Standard package with basic amenities',
-      isPopular: true
+      
     },
     {
       id: 'deluxe',
@@ -143,10 +143,11 @@ itinerary: [
     },
     {
       id: 'premium',
-      title: '3AC Berth in Train',
+      title: 'with 3AC Train Fare',
       price: 10150,
-      description: 'Includes 3AC class train fare',
-    }
+      description: 'Standard package with basic amenities',
+      
+    },
   ],
   
   // Available batch dates
