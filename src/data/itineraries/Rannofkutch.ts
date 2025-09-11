@@ -141,7 +141,6 @@ itinerary: [
       price: 8550,
       description: 'Includes Sleeper class train fare',
     },
-    ,
     {
       id: 'premium',
       title: '3AC Berth in Train',

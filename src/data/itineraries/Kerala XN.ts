@@ -195,7 +195,7 @@ faqs: [
     {
       id: 'premium',
       title: '3 A/C Train Fare',
-      price: 23650,
+      price: 21800,
       description: 'Package with 3 A/C Train Fare'
     }
   ],

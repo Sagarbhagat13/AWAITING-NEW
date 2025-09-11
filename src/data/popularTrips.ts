@@ -43,7 +43,7 @@ export const popularTrips: Trip[] = [
     title: 'New year Party in Bali',
     location: 'Bali',
     image: '/images/nybali.png',
-    price: 45999,
+    price: 49999,
     duration: '7D/6N',
     longWeekend: true,
     rating: 4.8,
