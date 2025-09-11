@@ -14,6 +14,8 @@ const YouTubeSection = () => {
     setVideoError(true);
   };
 
+  const videoId = "z7kZGh6Mxo8"; // your YouTube video ID
+
   return (
     <section className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4">
@@ -32,11 +34,18 @@ const YouTubeSection = () => {
           <div className="relative aspect-video rounded-xl overflow-hidden shadow-2xl bg-black">
             {!showVideo && !videoError ? (
               // Thumbnail with play button
-              <div 
-                className="relative w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center cursor-pointer group"
+              <div
+                className="relative w-full h-full flex items-center justify-center cursor-pointer group"
                 onClick={handlePlayClick}
               >
-                <div className="absolute inset-0 bg-black/20" />
+                {/* YouTube Thumbnail */}
+                <img
+                  src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
+                  alt="Video thumbnail"
+                  className="absolute inset-0 w-full h-full object-cover"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-black/40" />
                 <Button
                   size="lg"
                   className="relative z-10 bg-white/90 text-black hover:bg-white rounded-full p-6 group-hover:scale-110 transition-transform"
@@ -53,10 +62,12 @@ const YouTubeSection = () => {
                 <div className="text-center">
                   <AlertCircle className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
                   <p className="text-muted-foreground">Video temporarily unavailable</p>
-                  <Button 
-                    variant="outline" 
+                  <Button
+                    variant="outline"
                     className="mt-4"
-                    onClick={() => window.open('https://youtu.be/z7kZGh6Mxo8?si=JqeICcskEJpktxoY', '_blank')}
+                    onClick={() =>
+                      window.open(`https://youtu.be/${videoId}`, '_blank')
+                    }
                   >
                     Watch on YouTube
                   </Button>
@@ -64,7 +75,17 @@ const YouTubeSection = () => {
               </div>
             ) : (
               // YouTube iframe
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/z7kZGh6Mxo8?si=huX9PjyxoJ-GvQeK" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+              <iframe
+                src={`https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1`}
+                title="Awaiting Adventures Channel"
+                className="w-full h-full"
+                allowFullScreen
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                frameBorder="0"
+                onError={handleVideoError}
+              />
             )}
           </div>
         </div>
