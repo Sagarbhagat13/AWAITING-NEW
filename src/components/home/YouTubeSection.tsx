@@ -73,7 +73,7 @@ const YouTubeSection = () => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerPolicy="strict-origin-when-cross-origin"
                 frameBorder="0"
-                sandbox="allow-same-origin allow-scripts allow-presentation"
+                
                 onError={handleVideoError}
               />
             )}
