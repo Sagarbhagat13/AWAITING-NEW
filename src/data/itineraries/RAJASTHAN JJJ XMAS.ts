@@ -74,85 +74,98 @@ export const rjjjjxmas = {
   itinerary: [
     {
       day: 1,
+      title: 'Mumbai ➝ Jaipur (Overnight Train)',
+      description: 'Board overnight train from Mumbai to Jaipur to begin your royal Rajasthan adventure.',
+      activities: [
+        'Board overnight train from Mumbai to Jaipur'
+      ],
+      meals: ['-'],
+      accommodation: 'Overnight Train'
+    },
+    {
+      day: 2,
       title: 'Jaipur Pick Up',
       description: 'Begin your Royal Rajasthan journey in Jaipur with a warm welcome.',
       activities: [
-        'Arrival & hotel transfer by local representative',
+        'Arrival & hotel transfer by local representative (from Jaipur Railway Station)',
         'Visit the serene Birla Mandir',
-        'Explore Jaipur’s colorful bazaars',
-        
+        'Explore Jaipur’s colorful bazaars'
       ],
       meals: ['Dinner'],
       accommodation: 'Overnight Stay in Jaipur'
     },
     {
-      day: 2,
+      day: 3,
       title: 'Jaipur Sightseeing',
       description: 'After breakfast, enjoy a full-day Jaipur city tour.',
       activities: [
-        'Visit - ',
         'Amber Fort',
         'Jal Mahal',
         'Hawa Mahal',
         'Jantar Mantar',
-        'City Palace',
-        
+        'City Palace'
       ],
-      meals: ['Bfeakfast', 'Dinner'],
+      meals: ['Breakfast', 'Dinner'],
       accommodation: 'Enjoy your stay at Jaipur'
     },
     {
-      day: 3,
-      title: 'Jaipur To Jodhpur',
-      description: 'Explore the beauty of Kishangarh & Pushkar.',
+      day: 4,
+      title: 'Jaipur ➝ Jodhpur (Via Kishangarh & Pushkar)',
+      description: 'Explore the beauty en route — Marble Dumping Yard and Pushkar (time permitting) — then proceed to Jodhpur.',
       activities: [
-        'Visit to the Marble Dumpimg Yard',
+        'Visit Marble Dumping Yard at Kishangarh',
         'Visit Brahma Temple at Pushkar (if time permits)',
-        'Transfer to Jodhpur',
-      
+        'Transfer to Jodhpur'
       ],
       meals: ['Breakfast', 'Dinner'],
       accommodation: 'Enjoy your stay at Jodhpur'
     },
     {
-      day: 4,
+      day: 5,
       title: 'Jodhpur Sightseeing & Transfer to Jaisalmer',
-      description: 'Enjoy full day of Jodhpur’s Beauty',
+      description: 'Enjoy a full day exploring Jodhpur\'s majestic sights and then drive to Jaisalmer.',
       activities: [
         'Umaid Bhavan Palace Museum',
         'Jaswant Thada',
-        'Mehrangarh Fort (One of the largest fort build in 1459 by Rao Jodha',
-        'Later, tranfer to Jiasalmer',
-  
-      ],
-      meals: ['Breakfast', 'Dinner'],
-      accommodation: 'Enjoy your stay at Jaisalmer'
-    },
-    {
-      day: 5,
-      title: 'Jaisalmer Sightseeing',
-      description: 'Explore the golden charm of Jaisalmer & Discover its Deep Desert’s.',
-      activities: [
-        'Visit the iconic Jaisalmer Fort (Sonar Kella)',
-        'Explore the historic Patwon-ki-Haveli with intricate carvings',
-        'Relax at the scenic Gadisar Lake',
-        'Experience a camel ride on Khudi Sand Dunes',
-        'Witness a stunning Thar Desert sunset',
-
+        'Mehrangarh Fort',
+        'Later transfer to Jaisalmer'
       ],
       meals: ['Breakfast', 'Dinner'],
       accommodation: 'Enjoy your stay at Jaisalmer'
     },
     {
       day: 6,
-      title: 'Jaisalmer To Jodhpur Drop',
-      description: 'End your journey with Bag full of Memories from the Land Of Royals.',
+      title: 'Jaisalmer Sightseeing',
+      description: 'Explore the golden charm of Jaisalmer & discover the deep desert.',
       activities: [
-        'After breakfast transfer to Jodhpur railway station',
-  
+        'Visit Jaisalmer Fort (Sonar Kella)',
+        'Patwon-ki-Haveli',
+        'Gadisar Lake',
+        'Khudi Sand Dunes camel ride and desert sunset'
+      ],
+      meals: ['Breakfast', 'Dinner'],
+      accommodation: 'Enjoy your stay at Jaisalmer'
+    },
+    {
+      day: 7,
+      title: 'Jaisalmer ➝ Jodhpur (Drop)',
+      description: 'After breakfast, transfer to Jodhpur railway station for onward connections or overnight train back to Mumbai (if booked).',
+      activities: [
+        'After breakfast transfer to Jodhpur railway station'
       ],
       meals: ['Breakfast'],
       accommodation: '-'
+    },
+    {
+      day: 8,
+      title: 'Jodhpur ➝ Mumbai (Return Train)',
+      description: 'Board the return train from Jodhpur to Mumbai and conclude your Rajasthan journey.',
+      activities: [
+        'Transfer to Jodhpur Railway Station (if not already there)',
+        'Board return train to Mumbai'
+      ],
+      meals: ['Breakfast'],
+      accommodation: 'Overnight Train / Return Journey'
     }
   ],
 
