@@ -159,12 +159,6 @@ export const spitiMars = {
       title: 'double sharing',
       price: 21999,
       description: 'Triple sharing price (regular/off-season)'
-    },
-    {
-      id: 'double-offseason',
-      title: 'Double Sharing (Off-season)',
-      price: 19999,
-      description: 'Double sharing price (regular/off-season)'
     }
   ],
 
