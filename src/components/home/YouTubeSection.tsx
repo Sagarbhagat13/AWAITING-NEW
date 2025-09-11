@@ -65,7 +65,7 @@ const YouTubeSection = () => {
             ) : (
               // YouTube iframe
               <iframe
-                src="https://www.youtube-nocookie.com/embed/jNQXAC9IVRw?autoplay=1&rel=0&modestbranding=1"
+                src="https://www.youtube.com/embed/z7kZGh6Mxo8?si=huX9PjyxoJ-GvQeK"
                 title="Awaiting Adventures Channel"
                 className="w-full h-full"
                 allowFullScreen
