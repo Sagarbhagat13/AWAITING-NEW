@@ -42,29 +42,6 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     reviews: 98
   },
   {
-    id: 'lw4',
-    title: 'Experience Kerala',
-    location: 'Kerala',
-    image: 'https://images.unsplash.com/photo-1593693411515-c20261bcad6e?q=80&w=2338&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    price: 14900,
-    duration: '6D/5N',
-    longWeekend: true,
-    rating: 4.9,
-    reviews: 135
-  },
-  {
-    id: 'lw5',
-    title: 'Experience Rajasthan',
-    location: 'Rajasthan',
-    image: 'https://images.unsplash.com/photo-1587295656906-b06dca8f2340?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    price: 15900,
-    duration: '6D/5N',
-    longWeekend: true,
-    rating: 4.8,
-    reviews: 142
-  }
-  ,
-  {
     id: 'lw6',
     title: 'Ladakh Biking',
     location: 'Ladakh',
