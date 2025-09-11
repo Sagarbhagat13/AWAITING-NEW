@@ -27,7 +27,7 @@ const PopularTripsSection = () => {
         </TripCarousel>
         
         <div className="text-center mt-10">
-          <Link to="/popular-trips">
+          <Link to="/backpacking">
             <Button variant="outline" className="border-tripvidya-primary text-tripvidya-primary hover:bg-tripvidya-primary hover:text-white">
               View All Popular Trips
               <ArrowRight className="ml-2 h-4 w-4" />
