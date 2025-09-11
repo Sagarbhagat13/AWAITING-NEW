@@ -108,7 +108,7 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     reviews: 203
   },
   {
-    id: 'lw9',
+    id: 'lw17',
     title: 'Majestic Himachal with Kasol',
     location: 'Himachal Pradesh',
     image: '/images/xmasnyhima2.png',

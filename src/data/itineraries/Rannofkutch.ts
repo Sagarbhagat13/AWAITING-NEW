@@ -147,7 +147,7 @@ itinerary: [
       price: 10150,
       description: 'Standard package with basic amenities',
       
-    }
+    },
   ],
   
   // Available batch dates
