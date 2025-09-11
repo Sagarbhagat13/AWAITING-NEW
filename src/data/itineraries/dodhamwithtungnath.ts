@@ -2,7 +2,7 @@ export const dodham = {
   id: 'lw9',
   title: 'Do Dham Yatra – Kedarnath & Badrinath',
   location: 'Uttarakhand, India',
-  price: 20999,
+  price: 17999,
   discount: 0,
   duration: '7n/8d',
   description:
@@ -188,20 +188,20 @@ export const dodham = {
     {
       id: 'standard',
       title: 'Quad Sharing',
-      price: 20999,
+      price: 17999,
       description: 'Standard package cost with quad sharing',
       isPopular: true
     },
     {
-      id: 'comfort',
-      title: 'Triple Sharing',
-      price: 22300,
+      id: 'deluxe',
+      title: 'Sl train',
+      price: 20100,
       description: 'Triple sharing package (extra ₹1,500 per person)'
     },
     {
       id: 'premium',
-      title: 'Double Sharing',
-      price: 24300,
+      title: '3AC train',
+      price: 21300,
       description: 'Double sharing package (extra ₹3,000 per person)'
     }
   ],
@@ -213,7 +213,7 @@ export const dodham = {
       endDate: '05-10-2025',
       totalSlots: 30,
       availableSlots: 20,
-      price: 20999
+      price: 17999
     },
     {
       id: 'batch-2',
@@ -221,7 +221,7 @@ export const dodham = {
       endDate: '12-10-2025',
       totalSlots: 30,
       availableSlots: 18,
-      price: 22300
+      price: 17999
     }
   ]
 };
