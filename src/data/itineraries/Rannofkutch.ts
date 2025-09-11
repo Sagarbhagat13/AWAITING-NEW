@@ -142,12 +142,12 @@ itinerary: [
       description: 'Includes Sleeper class train fare',
     },
     {
-      id: 'premium',
+      id:'premium',
       title: 'with 3AC Train Fare',
       price: 10150,
       description: 'Standard package with basic amenities',
       
-    },
+    }
   ],
   
   // Available batch dates

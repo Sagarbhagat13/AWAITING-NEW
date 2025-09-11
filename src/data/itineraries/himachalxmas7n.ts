@@ -1,5 +1,5 @@
 export const majestichimachal = {
-  id: 'lw9',
+  id: 'xny15',
   title: 'Majestic Himachal – Where the Hills Whisper Magic',
   location: 'Himachal Pradesh, India',
   price: 19999,

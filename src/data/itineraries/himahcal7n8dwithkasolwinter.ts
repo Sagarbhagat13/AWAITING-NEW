@@ -1,5 +1,5 @@
 export const himachalItinerary = {
-  id: 'xny9',
+  id: 'lw9',
   title: 'Himachal Escape with Kasol & Amritsar',
   location: 'Shimla, Manali, Kasol, Amritsar',
   price: 15500,
