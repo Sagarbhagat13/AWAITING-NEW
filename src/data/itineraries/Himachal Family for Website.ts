@@ -1,6 +1,6 @@
 
 export const spitiTrekItinerary = {
-  id: 'f1',
+  id: '',
   title: 'Peaks To Prayers : Experience Himachal To Amritsar Escape',
   location: 'Himachal Pradesh',
   price: 16750,

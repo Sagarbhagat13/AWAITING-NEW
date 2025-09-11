@@ -1,6 +1,6 @@
 
 export const spitiTrekItinerary = {
-  id: 'lw1',
+  id: '',
   title: 'Wild Wonders & Mystic Hills: Kaziranga to Meghalaya Escape',
   location: 'Meghalaya',
   price: 21999,

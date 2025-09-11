@@ -1,6 +1,6 @@
 
 export const spitiTrekItinerary = {
-  id: 'lw4',
+  id: '',
   title: 'Experience Kerala the Gods Own Country',
   location: 'Kerala',
   price: 14900,

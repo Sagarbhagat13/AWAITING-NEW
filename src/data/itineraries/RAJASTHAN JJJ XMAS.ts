@@ -1,6 +1,6 @@
 
 export const rjjjjxmas = {
-  id: 'lw8',
+  id: 'xny2',
   title: '"Echoes of Royalty: A Journey Through Rajasthan’s Glorious Past"',
   location: 'Rajasthan',
   price: 20800,

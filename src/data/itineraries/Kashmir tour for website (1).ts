@@ -1,6 +1,6 @@
 
 export const spitiTrekItinerary = {
-  id: 'lw1',
+  id: '',
   title: 'Kashmir Kaleidoscope - Lakes, Meadows & Mountain Magic',
   location: 'Kashmir',
   price: 16300,

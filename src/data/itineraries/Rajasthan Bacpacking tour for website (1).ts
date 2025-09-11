@@ -1,6 +1,6 @@
 
 export const spitiTrekItinerary = {
-  id: 'lw1',
+  id: '',
   title: 'Rajasthan Regal Trail – From Mumbai to Majestic Forts & Golden Sands',
   location: 'Rajasthan',
   price: 16250  ,

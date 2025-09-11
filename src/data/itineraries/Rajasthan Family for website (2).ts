@@ -1,6 +1,6 @@
 
 export const spitiTrekItinerary = {
-  id: 'lw1',
+  id: '',
   title: 'Mumbai to Majestic Rajasthan: Ride Through Royal History',
   location: 'Rajasthan',
   price: 16750,

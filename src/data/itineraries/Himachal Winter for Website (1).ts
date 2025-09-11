@@ -1,6 +1,6 @@
 
 export const spitiTrekItinerary = {
-  id: 'lw1',
+  id: '',
   title: 'Mystic Mountains to Majestic Monuments',
   location: 'Himachal Pradesh',
   price: 15500,

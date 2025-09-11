@@ -1,6 +1,6 @@
 
 export const spitiTrekItinerary = {
-  id: 'lw1',
+  id: '',
   title: 'Magical Meghalaya Trail: Canyons, Waterfalls, and Sacred Temples',
   location: 'Meghalaya',
   price: 17999,
