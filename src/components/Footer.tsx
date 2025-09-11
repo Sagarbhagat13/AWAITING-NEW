@@ -45,7 +45,7 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/destinations" className="text-gray-300 hover:text-tripvidya-primary transition-colors">
+                <Link to="/backpacking" className="text-gray-300 hover:text-tripvidya-primary transition-colors">
                   Destinations
                 </Link>
               </li>
@@ -137,7 +137,7 @@ const Footer = () => {
             <Link to="/privacy-policy" className="text-gray-400 hover:text-white text-sm">
               Privacy Policy
             </Link>
-            <Link to="/terms" className="text-gray-400 hover:text-white text-sm">
+            <Link to="/backpacking" className="text-gray-400 hover:text-white text-sm">
               Terms of Service
             </Link>
             <Link to="/faq" className="text-gray-400 hover:text-white text-sm">

@@ -15,9 +15,9 @@ const CareerPage = () => {
       id: 1,
       title: "Travel Consultant",
       department: "Sales",
-      location: "Delhi, India",
+      location: "Mumbai, India",
       type: "Full-time",
-      experience: "2-4 years",
+      experience: "1-4 years",
       description: "Help customers plan their dream vacations and provide expert travel advice."
     },
     {
@@ -26,14 +26,14 @@ const CareerPage = () => {
       department: "Operations",
       location: "Multiple Locations",
       type: "Full-time",
-      experience: "3-5 years",
+      experience: "1-5 years",
       description: "Lead and manage group tours, ensuring exceptional customer experiences."
     },
     {
       id: 3,
       title: "Digital Marketing Specialist",
       department: "Marketing",
-      location: "Delhi, India",
+      location: "Mumbai, India",
       type: "Full-time",
       experience: "1-3 years",
       description: "Drive online marketing campaigns and grow our digital presence."
@@ -42,7 +42,7 @@ const CareerPage = () => {
       id: 4,
       title: "Customer Support Executive",
       department: "Support",
-      location: "Delhi, India",
+      location: "Mumbai, India",
       type: "Full-time",
       experience: "1-2 years",
       description: "Provide excellent customer service and resolve travel-related queries."
@@ -192,10 +192,10 @@ const CareerPage = () => {
             </p>
             <div className="space-y-4">
               <p className="text-gray-700">
-                <strong>Email:</strong> careers@awaitingadventures.in
+                <strong>Email:</strong> info@awaitingadventures.in@gmail.com
               </p>
               <p className="text-gray-700">
-                <strong>Phone:</strong> +91 9999999999
+                <strong>Phone:</strong> +91 9137798539
               </p>
             </div>
           </div>
