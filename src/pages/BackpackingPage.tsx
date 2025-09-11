@@ -29,9 +29,9 @@ const BackpackingPage = () => {
     ...weekendTrips,
     ...internationalTours,
     ...honeymoonPackages,
-    ...ladakhBikingTrips,
-    ...ladakhSUVTrips,
-    ...offBeatTrips,
+    // ...ladakhBikingTrips,
+    // ...ladakhSUVTrips,
+    // ...offBeatTrips,
     ...xmasNewYearTrips
   ];
   
