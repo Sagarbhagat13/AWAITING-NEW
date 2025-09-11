@@ -14,7 +14,7 @@ const YouTubeSection = () => {
     setVideoError(true);
   };
 
-  const videoId = "z7kZGh6Mxo8"; // your YouTube video ID
+  const videoId = "BG-imO8XqRo"; // your YouTube video ID
 
   return (
     <section className="py-16 md:py-24 bg-background">
@@ -76,7 +76,7 @@ const YouTubeSection = () => {
             ) : (
               // YouTube iframe
               <iframe
-                src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1`}
+                src={`https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1`}
                 title="Awaiting Adventures Channel"
                 className="w-full h-full"
                 allowFullScreen
