@@ -12,10 +12,10 @@ export const bhutanItinerary = {
   rating: 4.8,
   reviews: 112,
   images: [
-    'https://images.unsplash.com/photo-1587574293230-5c67e5a01050?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1610986600415-d6f2db6a0eef?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1594897030261-9dfc88413167?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1583318052116-6a70c2a7e94a?auto=format&fit=crop&w=1200&q=80'
+    'https://images.unsplash.com/photo-1590580673100-ee7ee687bfa6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Ymh1dGFufGVufDB8fDB8fHww',
+    'https://images.unsplash.com/photo-1650747858910-5d48a4116296?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGJodXRhbnxlbnwwfHwwfHx8MA%3D%3D',
+    'https://images.unsplash.com/photo-1581587697675-45756bc5c402?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGJodXRhbnxlbnwwfHwwfHx8MA%3D%3D',
+    'https://images.unsplash.com/photo-1608659377506-3b4fec4f7634?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJodXRhbnxlbnwwfHwwfHx8MA%3D%3D'
   ],
   placesCovered: ['Paro', 'Thimphu', 'Punakha', 'Dochula Pass'],
   highlights: [
