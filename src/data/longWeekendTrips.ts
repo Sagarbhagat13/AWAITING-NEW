@@ -8,6 +8,17 @@ export interface LongWeekendTrip  extends Trip {
 
 export const longWeekendTrips: LongWeekendTrip[] = [
   {
+    id: 'lw4',
+    title: 'Experience X-MAS & New Year in Meghalaya',
+    location: 'Meghalaya',
+    image: '/images/xmasnymg.png',
+    price: 19999,
+    duration: '5N/6D',
+    rating: 4.7,
+    reviews: 167,
+    longWeekend: true
+  },
+  {
     id: 'lw1',
     title: 'Experience Spiti With Chandratal',
     location: 'Himachal Pradesh',
