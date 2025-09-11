@@ -40,7 +40,7 @@ const YouTubeSection = () => {
               >
                 {/* YouTube Thumbnail */}
                 <img
-                  src= "https://www.youtube.com/embed/jNQXAC9IVRw"
+                  src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
                   alt="Video thumbnail"
                   className="absolute inset-0 w-full h-full object-cover"
                   loading="lazy"
@@ -76,16 +76,14 @@ const YouTubeSection = () => {
             ) : (
               // YouTube iframe
               <iframe
-                src= "https://www.youtube.com/embed/jNQXAC9IVRw"
-                title="Awaiting Adventures Channel"
-                className="w-full h-full"
-                allowFullScreen
-                loading="lazy"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                frameBorder="0"
-                onError={handleVideoError}
-              />
+  src="https://www.youtube.com/embed/BG-imO8XqRo?autoplay=1&rel=0&modestbranding=1"
+  title="Awaiting Adventures Channel"
+  className="w-full h-full"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowFullScreen
+  frameBorder="0"
+/>
+
             )}
           </div>
         </div>
