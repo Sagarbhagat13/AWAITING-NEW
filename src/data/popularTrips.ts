@@ -28,7 +28,7 @@ export interface Trip {
 
 export const popularTrips: Trip[] = [
   {
-    id: 'lw11',
+    id: 'xny8',
     title: 'Srilanka in New Year',
     location: 'Srilanka',
     image: '/images/xmasnysl.png',
