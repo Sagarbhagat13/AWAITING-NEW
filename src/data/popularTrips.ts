@@ -130,7 +130,8 @@ export const popularTrips: Trip[] = [
     rating: 4.9,
     reviews: 267,
     diwali: true,
-  },  {
+  },  
+  {
     id: 'lw4',
     title: 'Kerala Holiday Special',
     location: 'Kerala',
@@ -162,5 +163,5 @@ export const popularTrips: Trip[] = [
     longWeekend: true,
     rating: 4.7,
     reviews: 167
-  },
+  }
 ];
