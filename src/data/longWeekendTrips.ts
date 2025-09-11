@@ -17,7 +17,7 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     longWeekend: true,
     rating: 4.7,
     reviews: 120,
-    independence: true
+  
   },
   {
     id: 'lw2',
