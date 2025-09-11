@@ -174,20 +174,20 @@ export const rjjjjxmas = {
     {
       id: 'standard',
       title: 'Without Train Fare',
-      price: 17300,
+      price: 20800,
       description: 'Package without Train Fare',
       isPopular: true
     },
     {
       id: 'deluxe',
       title: 'With Sleeper Train Fare',
-      price: 18450,
+      price: 21950,
       description: 'Package for Sleeper Train'
     },
     {
       id: 'premium',
       title: 'With A/C Train Fare',
-      price: 20300,
+      price: 23800,
       description: 'Package for A/C Train'
     }
   ],

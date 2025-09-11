@@ -22,7 +22,7 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     title: 'X-MAS & New Year In Rajasthan',
     location: 'Rajasthan',
     image: '/images/xmasnyrj.png',
-    price: 20900,
+    price: 20800,
     duration: '5N/6D',
     xmasNewYear: true,
     rating: 4.8,
