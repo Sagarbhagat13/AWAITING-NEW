@@ -1,7 +1,7 @@
 
 export const spitiMars = {
   id: 'lw10',
-  title: 'Winter Spiti Xmas & New Year!',
+  title: 'Winter Spiti Wonderland!',
   location: 'Spiti Valley, Himachal Pradesh, India',
   // primary (default) price set to Triple Sharing as indicated in your header (see pricingOptions for other tiers)
   price: 19999,
