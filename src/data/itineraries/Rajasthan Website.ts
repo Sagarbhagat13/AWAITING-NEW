@@ -1,6 +1,6 @@
 
 export const spitiTrekItinerary = {
-  id: 'lw5',
+  id: '',
   title: 'Experience Rajasthan The Land Of Royals',
   location: 'Rajasthan',
   price: 15999,
