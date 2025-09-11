@@ -3,10 +3,10 @@ import { Trip } from './popularTrips';
 
 export const honeymoonPackages: Trip[] = [
   {
-    id: '',
+    id: 'andaman-001',
     title: 'Andaman Paradise',
     location: 'Andaman & Nicobar',
-    price: 45999,
+    price: 24999,
     discount: 10,
     duration: '6D/5N',
     image: 'https://images.unsplash.com/photo-1516815231560-8f41ec531527?auto=format&fit=crop&w=800&q=80',

@@ -1,95 +1,157 @@
-
-export const andamanHoneymoonItinerary = {
-  id: '18',
-  title: 'Andaman Honeymoon Paradise',
-  location: 'Andaman & Nicobar Islands',
-  price: 25999,
-  discount: 18,
-  duration: '5 Days / 4 Nights',
-  description: 'Escape to the pristine beaches and crystal-clear waters of Andaman for your perfect honeymoon. Experience romance amidst tropical paradise.',
-  coverImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=800&q=80',
+export const andamanItinerary = {
+  id: 'andaman-001',
+  title: 'Andaman Delight',
+  location: 'Port Blair, Havelock, Neil Island',
+  price: 24999, // base option
+  discount: 0,
+  duration: '6 Days / 5 Nights',
+  description:
+    'Discover the pristine beauty of the Andaman Islands. From historic Port Blair and the world-famous Radhanagar Beach in Havelock to the natural wonders of Neil Island, enjoy a blend of beaches, adventure, and culture.',
+  coverImage:
+    'https://images.unsplash.com/photo-1600783246004-1f4f8b3e9c5f?auto=format&fit=crop&w=1200&q=80',
   rating: 4.8,
-  reviews: 167,
+  reviews: 112,
   images: [
-    'https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80'
+    'https://images.unsplash.com/photo-1600783246004-1f4f8b3e9c5f?auto=format&fit=crop&w=1200&q=80',
+    'https://images.unsplash.com/photo-1617196031392-9f6f2d79e3a2?auto=format&fit=crop&w=1200&q=80',
+    'https://images.unsplash.com/photo-1617196032058-25e7e5c2e6a1?auto=format&fit=crop&w=1200&q=80',
+    'https://images.unsplash.com/photo-1617196032793-df0c8e4f3f8e?auto=format&fit=crop&w=1200&q=80'
   ],
-  placesCovered: ['Port Blair', 'Havelock Island', 'Neil Island', 'Radhanagar Beach'],
+  placesCovered: ['Port Blair', 'Havelock', 'Neil Island'],
   highlights: [
-    'Private beach walks on pristine shores',
-    'Scuba diving and snorkeling together',
-    'Romantic sunset at Radhanagar Beach',
-    'Glass boat rides in crystal waters',
-    'Candlelight dinner on the beach',
-    'Island hopping by private ferry'
+    'Light & Sound Show at Cellular Jail',
+    'Corbyn’s Cove Beach in Port Blair',
+    'Radhanagar Beach in Havelock',
+    'Elephant Beach excursion with complimentary snorkeling',
+    'Water sports like scuba diving, kayaking, jet ski (optional)',
+    'Bharatpur Beach & Natural Bridge at Neil Island',
+    'Cultural visits: Sagarika Emporium, Fisheries & Anthropological Museum'
   ],
   inclusions: [
-    'Beach resort accommodation for 4 nights',
-    'Daily breakfast and 2 romantic dinners',
-    'Inter-island ferry transfers',
-    'Scuba diving session for couple',
-    'All entry fees and permits',
-    'Airport transfers'
+    'Accommodation on Double/Triple sharing basis in mentioned or similar hotels',
+    'Breakfast and Dinner included as per itinerary',
+    'Land transportation covering pick-up/drop, round trips, and local sightseeing',
+    'Snorkeling & candid photo shoot complimentary at Elephant Beach',
+    'Entry permits, boat tickets, and assistance at all arrival/departure points',
+    'Private cruise/speed boat transfers to/from Havelock',
+    'Vehicle expenses including fuel, driver allowance, tolls, border taxes & parking'
   ],
   exclusions: [
-    'Flights to/from Port Blair',
-    'Personal water sports activities',
-    'Shopping and personal expenses',
+    'Lunch expenses',
+    'Air/Train fares',
+    'Monument entry fees, guide charges, camera fees',
+    'Adventure/water sports unless specified (scuba, jet ski, etc.)',
+    'Beverages: alcoholic, mineral water, aerated drinks',
+    'Personal expenses: tips, phone calls, internet, laundry, room heaters, discotheque, etc.',
+    'Extra food or beverages beyond buffet/fixed menu',
+    'Transport limited to parking/specific points as per govt. regulations',
+    'Costs due to delays (weather, health, road closures, unforeseen circumstances)',
     'Travel insurance',
-    'Tips and gratuities',
-    'Lunch on most days'
+    'Any services/items not mentioned in “Inclusions”',
+    '5% GST not included'
   ],
   faqs: [
     {
-      question: 'Do we need any special permits for Andaman?',
-      answer: 'Indian nationals do not need special permits. We handle all necessary entry permissions and ferry bookings for you.'
+      question: 'Are flights included in this package?',
+      answer:
+        'No. Flights or train fares to Port Blair are not included. Guests need to arrange their own travel to Port Blair.'
     },
     {
-      question: 'What water activities are included?',
-      answer: 'We include one scuba diving session, glass boat rides, and snorkeling equipment. Additional water sports can be arranged at extra cost.'
+      question: 'Is snorkeling included?',
+      answer:
+        'Yes. Complimentary snorkeling and a candid photo shoot are included at Elephant Beach in Havelock.'
+    },
+    {
+      question: 'Can I do scuba diving or sea walk?',
+      answer:
+        'Yes. Scuba diving, sea walk, jet ski, banana ride, and kayaking are available at extra cost.'
+    },
+    {
+      question: 'What meals are included?',
+      answer:
+        'Breakfast and dinner are included daily at the hotels. Lunch and snacks are not included.'
+    },
+    {
+      question: 'Is this package suitable for honeymooners?',
+      answer:
+        'Yes. You can add honeymoon supplements like candlelight dinner, flower bed decoration, or cake at additional cost.'
     }
   ],
   itinerary: [
     {
       day: 1,
+      
       title: 'Arrival in Port Blair',
-      description: 'Begin your island honeymoon adventure.',
-      activities: ['Airport pickup', 'Check-in at beach resort', 'Corbyn\'s Cove Beach visit', 'Light & Sound show at Cellular Jail', 'Welcome dinner'],
-      meals: ['Welcome dinner'],
-      accommodation: 'Beach Resort in Port Blair'
+      description:
+        'Meet our representative, transfer to hotel. Visit Corbyn’s Cove Beach and witness the Light & Sound Show at Cellular Jail.',
+      activities: ['Corbyn’s Cove Beach', 'Light & Sound Show at Cellular Jail'],
+      meals: ['Dinner'],
+      accommodation: 'Stay in Port Blair'
     },
     {
       day: 2,
-      title: 'Havelock Island Paradise',
-      description: 'Ferry to the most beautiful island of Andaman.',
-      activities: ['Ferry to Havelock', 'Radhanagar Beach visit', 'Romantic sunset viewing', 'Beach resort check-in', 'Candlelight dinner'],
-      meals: ['Breakfast', 'Romantic beach dinner'],
-      accommodation: 'Beach Resort in Havelock'
+      
+      title: 'Port Blair to Havelock Island',
+      description:
+        'Travel by private cruise to Havelock. Afternoon visit to Radhanagar Beach. Optional scuba diving/kayaking available.',
+      activities: ['Cruise transfer', 'Radhanagar Beach', 'Optional water sports'],
+      meals: ['Breakfast', 'Dinner'],
+      accommodation: 'Stay in Havelock'
     },
     {
       day: 3,
-      title: 'Water Adventures and Romance',
-      description: 'Explore underwater world together.',
-      activities: ['Elephant Beach visit', 'Scuba diving session', 'Snorkeling together', 'Beach relaxation', 'Couple spa treatment'],
-      meals: ['Breakfast'],
-      accommodation: 'Beach Resort in Havelock'
+      
+      title: 'Elephant Beach Excursion',
+      description:
+        'Speed boat to Elephant Beach. Enjoy complimentary snorkeling and optional activities like Jet Ski, Banana Ride, Sea Walk.',
+      activities: ['Elephant Beach excursion', 'Snorkeling (complimentary)', 'Optional water sports'],
+      meals: ['Breakfast', 'Dinner'],
+      accommodation: 'Stay in Havelock'
     },
     {
       day: 4,
-      title: 'Neil Island Excursion',
-      description: 'Day trip to the coral island of Neil.',
-      activities: ['Ferry to Neil Island', 'Bharatpur Beach', 'Laxmanpur Beach', 'Natural Bridge viewing', 'Return to Havelock'],
-      meals: ['Breakfast'],
-      accommodation: 'Beach Resort in Havelock'
+     
+      title: 'Havelock to Neil Island',
+      description:
+        'Ferry transfer to Neil Island. Visit Bharatpur Beach and Natural Bridge.',
+      activities: ['Bharatpur Beach', 'Natural Bridge'],
+      meals: ['Breakfast', 'Dinner'],
+      accommodation: 'Stay in Neil Island'
     },
     {
       day: 5,
-      title: 'Departure',
-      description: 'Last moments in paradise.',
-      activities: ['Final beach walk', 'Ferry to Port Blair', 'Last-minute shopping', 'Airport transfer'],
+      
+      title: 'Neil Island to Port Blair',
+      description:
+        'Return to Port Blair by ferry. Afternoon city tour covering Sagarika Emporium, Fisheries Museum, Anthropological Museum.',
+      activities: ['Ferry transfer', 'City tour (Emporium, Museums)'],
+      meals: ['Breakfast', 'Dinner'],
+      accommodation: 'Stay in Port Blair'
+    },
+    {
+      day: 6,
+      
+      title: 'Departure from Port Blair',
+      description:
+        'Check-out from hotel and transfer to airport/harbour for onward journey.',
+      activities: ['Airport/Harbour drop'],
       meals: ['Breakfast'],
-      accommodation: 'N/A (Departure)'
+      accommodation: '-'
     }
-  ]
+  ],
+  pricingOptions: [
+    {
+      id: "standard",
+      title: "Option 1",
+      price: 24999,
+      description: "Per person cost on MAP basis"
+    },
+    {
+      id: "premium",
+      title: "Option 2",
+      price: 29499,
+      description: "Per person cost with upgraded inclusions"
+    }
+  ],
+  
 };
