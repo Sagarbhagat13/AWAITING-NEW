@@ -12,11 +12,10 @@ export const majestichimachal = {
   rating: 4.8,
   reviews: 152,
   images: [
-    'https://images.unsplash.com/photo-1603262110304-3fa55b46a35c?auto=format&fit=crop&w=1200&q=80', // Shimla Mall Road
-    'https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?auto=format&fit=crop&w=1200&q=80', // Solang Valley
-    'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80', // Dharamshala Tea Gardens
-    'https://images.unsplash.com/photo-1549887534-3db1bd59dcca?auto=format&fit=crop&w=1200&q=80', // McLeodganj Monastery
-    'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80' // Golden Temple Amritsar
+    'https://images.unsplash.com/photo-1609948543911-7f01ff385be5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2hpbWxhfGVufDB8fDB8fHww',
+    'https://images.unsplash.com/photo-1579689189009-874f5cac2db5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hbmFsaXxlbnwwfHwwfHx8MA%3D%3D',
+    'https://images.unsplash.com/photo-1621377099913-ac1ec4848e52?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z29sZGVuJTIwdGVtcGxlfGVufDB8fDB8fHww',
+    'https://images.unsplash.com/photo-1621931650010-d4d18def2f39?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRoYXJhbXNoYWxhfGVufDB8fDB8fHww'
   ],
 
   placesCovered: ['Shimla', 'Manali', 'Dharamshala', 'Amritsar'],

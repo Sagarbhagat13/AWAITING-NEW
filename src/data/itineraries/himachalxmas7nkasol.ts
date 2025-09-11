@@ -12,10 +12,10 @@ export const himachalItinerary = {
   rating: 4.8,
   reviews: 112,
   images: [
-    'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1628782379401-4fff9cdcbbfe?q=80&w=2340&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1698753935121-153a106616d5?q=80&w=1287&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80'
+    'https://images.unsplash.com/photo-1609948543911-7f01ff385be5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2hpbWxhfGVufDB8fDB8fHww',
+    'https://images.unsplash.com/photo-1579689189009-874f5cac2db5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hbmFsaXxlbnwwfHwwfHx8MA%3D%3D',
+    'https://images.unsplash.com/photo-1621377099913-ac1ec4848e52?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z29sZGVuJTIwdGVtcGxlfGVufDB8fDB8fHww',
+    'https://images.unsplash.com/photo-1606220975728-f94e0d9ed642?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGthc29sfGVufDB8fDB8fHww'
   ],
   placesCovered: ['Shimla', 'Manali', 'Kasol', 'Amritsar'],
   highlights: [
