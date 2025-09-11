@@ -10,10 +10,10 @@ export const sriLankaItinerary = {
   rating: 4.7,
   reviews: 98,
   images: [
-    'https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1589307003538-2c623ed1fd41?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1552642986-ccb41e7059e7?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80'
+    'https://images.unsplash.com/photo-1627895457805-c7bf42cb9873?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNyaWxhbmthfGVufDB8fDB8fHww',
+    'https://images.unsplash.com/photo-1701544857566-dd1d044b9dea?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fHNyaWxhbmthfGVufDB8fDB8fHww',
+    'https://images.unsplash.com/photo-1711524889939-7a067c71b532?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3JpbGFua2ElMjB0cmF2ZWx8ZW58MHx8MHx8fDA%3D',
+    'https://images.unsplash.com/photo-1531201890865-fb64780d16e9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3JpbGFua2ElMjBiZWFjaHxlbnwwfHwwfHx8MA%3D%3D'
   ],
   placesCovered: ['Bentota', 'Galle', 'Mirissa', 'Ella', 'Nuwara Eliya', 'Kandy', 'Sigiriya', 'Colombo'],
   highlights: [
