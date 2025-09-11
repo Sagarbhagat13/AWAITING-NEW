@@ -83,7 +83,7 @@ export const popularTrips: Trip[] = [
     reviews: 203
   },
   {
-    id: ',w14',
+    id: 'lw14',
     title: 'Experience Uttarakhand Winter',
     location: 'Uttarakhand',
     image: '/images/Uttarakhand.png',

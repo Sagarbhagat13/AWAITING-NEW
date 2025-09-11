@@ -1,5 +1,5 @@
 export const mussoorieItinerary = {
-  id: 'lw13',
+  id: 'lw14',
   title: 'Mussoorie, Rishikesh, Nainital & Jim Corbett',
   location: 'Mussoorie, Rishikesh, Nainital, Jim Corbett',
   price: 18999, // base price not mentioned clearly
