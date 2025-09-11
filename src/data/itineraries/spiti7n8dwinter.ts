@@ -1,6 +1,6 @@
 
 export const spitiMars = {
-  id: 'xny4',
+  id: 'lw10',
   title: 'Winter Spiti Xmas & New Year!',
   location: 'Spiti Valley, Himachal Pradesh, India',
   // primary (default) price set to Triple Sharing as indicated in your header (see pricingOptions for other tiers)
