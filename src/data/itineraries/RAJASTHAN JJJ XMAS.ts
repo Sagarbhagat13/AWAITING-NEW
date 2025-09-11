@@ -11,10 +11,10 @@ export const rjjjjxmas = {
   rating: 4.7,
   reviews: 89,
   images: [
-  'https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime--TRBEN9BYgY', // Hawa Mahal, Jaipur
-  'https://unsplash.com/photos/man-in-white-long-sleeve-shirt-riding-elephant-during-daytime-Eqa6lWgDW48', // Amer Fort, Jaipur
-  'https://unsplash.com/photos/people-riding-camel-on-desert-during-daytime-UgfweZ5Kvrg', // Sand dunes, Jaisalmer
-  'https://unsplash.com/photos/a-large-wooden-door-sitting-inside-of-a-building-IwXLmD3ov5U'  // City Palace, Udaipur
+  'https://images.unsplash.com/photo-1587295656906-b06dca8f2340?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmFqYXN0aGFufGVufDB8fDB8fHww', // Hawa Mahal, Jaipur
+  'https://images.unsplash.com/photo-1598190896090-9dc5c70361d8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJhamFzdGhhbnxlbnwwfHwwfHx8MA%3D%3D', // Amer Fort, Jaipur
+  'https://images.unsplash.com/photo-1622225641765-8c8ef0dcb678?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHJhamFzdGhhbnxlbnwwfHwwfHx8MA%3D%3D', // Sand dunes, Jaisalmer
+  'https://images.unsplash.com/photo-1716534133678-4eb3eee6e098?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fHJhamFzdGhhbnxlbnwwfHwwfHx8MA%3D%3D'  // City Palace, Udaipur
 ],
 
 
