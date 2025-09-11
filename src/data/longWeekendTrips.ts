@@ -19,6 +19,17 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     longWeekend: true
   },
   {
+    id: 'lw9',
+    title: 'Do Dham With Tungnath & Chandrashila',
+    location: 'Uttarakhand',
+    image: '/images/xmasnymg.png',
+    price: 17999,
+    duration: '7N/8D',
+    rating: 4.9,
+    reviews: 167,
+    longWeekend: true
+  },
+  {
     id: 'lw1',
     title: 'Experience Spiti With Chandratal',
     location: 'Himachal Pradesh',
@@ -86,7 +97,7 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     reviews: 142
   },
   {
-    id: 'xny2',
+    id: 'lw8',
     title: 'Winter in Rajasthan',
     location: 'Rajasthan',
     image: '/images/xmasnyrj.png',
