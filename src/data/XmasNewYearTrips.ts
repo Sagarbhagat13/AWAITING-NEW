@@ -165,7 +165,7 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     title: 'New Year in Himachal',
     location: 'Himachal Pradesh',
     image: '/images/xmasnyhima2.png',
-    price: 15500,
+    price: 19999,
     duration: '7N/8D',
     xmasNewYear: true,
     rating: 5.0,
