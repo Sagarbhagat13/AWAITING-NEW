@@ -27,7 +27,17 @@ export interface Trip {
 }
 
 export const popularTrips: Trip[] = [
-  
+  {
+    id: 'lw11',
+    title: 'Srilanka in New Year',
+    location: 'Srilanka',
+    image: '/images/xmasnysl.png',
+    price: 55555,
+    duration: '7N/8D',
+    longWeekend: true,
+    rating: 4.8,
+    reviews: 134
+  },
   {
     id: 'lw1',
     title: 'Spiti Valley Road Trip',
