@@ -64,18 +64,7 @@ const YouTubeSection = () => {
               </div>
             ) : (
               // YouTube iframe
-              <iframe
-                src="https://www.youtube.com/embed/z7kZGh6Mxo8?si=huX9PjyxoJ-GvQeK"
-                title="Awaiting Adventures Channel"
-                className="w-full h-full"
-                allowFullScreen
-                loading="lazy"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                frameBorder="0"
-                
-                onError={handleVideoError}
-              />
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/z7kZGh6Mxo8?si=huX9PjyxoJ-GvQeK" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             )}
           </div>
         </div>
