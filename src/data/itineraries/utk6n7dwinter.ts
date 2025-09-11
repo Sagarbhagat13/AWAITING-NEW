@@ -1,10 +1,10 @@
 export const mussoorieItinerary = {
-  id: 'xny10',
+  id: 'lw13',
   title: 'Mussoorie, Rishikesh, Nainital & Jim Corbett',
   location: 'Mussoorie, Rishikesh, Nainital, Jim Corbett',
-  price: 22499, // base price not mentioned clearly
+  price: 18999, // base price not mentioned clearly
   discount: 0,
-  duration: '7 Days / 6 Nights',
+  duration: '9 Days / 8 Nights',
   description:
     'A refreshing Himalayan journey covering Mussoorie, spiritual Rishikesh, scenic Nainital, and adventurous Jim Corbett. From waterfalls and ropeways to river rafting, temples, and wildlife safari, this itinerary balances nature, spirituality, and thrill.',
   
@@ -77,7 +77,6 @@ export const mussoorieItinerary = {
   itinerary: [
     {
       day: 1,
-    
       title: 'Mumbai to Delhi',
       description: 'Overnight train journey from Mumbai to Delhi.',
       activities: ['Board train from Mumbai'],
@@ -86,7 +85,6 @@ export const mussoorieItinerary = {
     },
     {
       day: 2,
-    
       title: 'Delhi to Mussoorie (290 km / 8 hrs)',
       description: 'Travel from Delhi to Mussoorie. Check-in at hotel.',
       activities: ['Scenic transfer to Mussoorie', 'Evening leisure'],
@@ -95,7 +93,6 @@ export const mussoorieItinerary = {
     },
     {
       day: 3,
-      
       title: 'Mussoorie Sightseeing',
       description: 'Explore key attractions in Mussoorie.',
       activities: [
@@ -109,7 +106,6 @@ export const mussoorieItinerary = {
     },
     {
       day: 4,
-   
       title: 'Mussoorie to Rishikesh',
       description: 'Travel to Rishikesh and explore spiritual & adventure highlights.',
       activities: [
@@ -124,7 +120,6 @@ export const mussoorieItinerary = {
     },
     {
       day: 5,
-    
       title: 'Rishikesh to Nainital',
       description: 'Proceed to Nainital and check-in at hotel.',
       activities: ['Scenic drive', 'Evening leisure'],
@@ -133,7 +128,6 @@ export const mussoorieItinerary = {
     },
     {
       day: 6,
-     
       title: 'Nainital Sightseeing',
       description: 'Full-day sightseeing tour of Nainital.',
       activities: [
@@ -148,7 +142,6 @@ export const mussoorieItinerary = {
     },
     {
       day: 7,
-     
       title: 'Nainital to Jim Corbett (270 km / 6 hrs)',
       description: 'Drive to Jim Corbett with stop at Corbett Falls. Evening at leisure.',
       activities: ['Visit Corbett Falls', 'Check-in at forest resort', 'In-house activities'],
@@ -157,7 +150,6 @@ export const mussoorieItinerary = {
     },
     {
       day: 8,
-      
       title: 'Jim Corbett to Delhi',
       description: 'Optional Jeep Safari, then proceed to Delhi for onward train.',
       activities: ['Optional Wildlife Safari (own cost)', 'Drive to Delhi Railway Station'],
@@ -166,7 +158,6 @@ export const mussoorieItinerary = {
     },
     {
       day: 9,
-      
       title: 'Arrival in Mumbai',
       description: 'Arrive in Mumbai with wonderful memories of the Himalayas.',
       activities: [],
@@ -178,44 +169,160 @@ pricingOptions: [
   {
     id: 'standard',
     title: 'Without Train Fare',
-    price: 22499,
+    price: 18999,
     description: 'Package without train fare',
     isPopular: true
   },
   {
     id: 'deluxe',
-    title: 'Sleeper Train Fare',
-    price: 24450,
+    title: 'Sleeper+ Ac Train Fare',
+    price: 20950,
     description: 'Package with Sleeper Class Train Fare'
   },
   {
     id: 'super-deluxe',
     title: '3A Train Fare',
-    price: 25800,
+    price: 22300,
     description: 'Package with 3 AC Train Fare'
   },
   ],
   batchDates: [
-    {
-      id: 'batch1',
-      startDate: '20-12-2025',
-      endDate: '28-12-2025',
-      totalSlots: 20,
-      availableSlots: 10
-    },
-    {
-      id: 'batch2',
-      startDate: '25-12-2025',
-      endDate: '02-01-2026',
-      totalSlots: 20,
-      availableSlots: 14
-    },
-    {
-      id: 'batch3',
-      startDate: '27-12-2025',
-      endDate: '04-01-2026',
-      totalSlots: 20,
-      availableSlots: 12
-    }
-  ]
+  {
+    id: 'batch-1',
+    startDate: '27-09-2025',
+    endDate: '05-10-2025',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 18999
+  },
+  {
+    id: 'batch-2',
+    startDate: '02-10-2025',
+    endDate: '10-10-2025',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 18999
+  },
+  {
+    id: 'batch-3',
+    startDate: '18-10-2025',
+    endDate: '26-10-2025',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 18999
+  },
+  {
+    id: 'batch-4',
+    startDate: '23-10-2025',
+    endDate: '31-10-2025',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 18999
+  },
+  {
+    id: 'batch-5',
+    startDate: '01-11-2025',
+    endDate: '09-11-2025',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 18999
+  },
+  {
+    id: 'batch-6',
+    startDate: '22-11-2025',
+    endDate: '30-11-2025',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 18999
+  },
+  {
+    id: 'batch-7',
+    startDate: '13-12-2025',
+    endDate: '21-12-2025',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 18999
+  },
+  {
+    id: 'batch-8',
+    startDate: '20-12-2025',
+    endDate: '28-12-2025',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 18999
+  },
+  {
+    id: 'batch-9',
+    startDate: '25-12-2025',
+    endDate: '02-01-2026',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 18999
+  },
+  {
+    id: 'batch-10',
+    startDate: '27-12-2025',
+    endDate: '04-01-2026',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 18999
+  },
+  {
+    id: 'batch-11',
+    startDate: '10-01-2026',
+    endDate: '18-01-2026',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 18999
+  },
+  {
+    id: 'batch-12',
+    startDate: '24-01-2026',
+    endDate: '01-02-2026',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 18999
+  },
+  {
+    id: 'batch-13',
+    startDate: '14-02-2026',
+    endDate: '22-02-2026',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 18999
+  },
+  {
+    id: 'batch-14',
+    startDate: '21-02-2026',
+    endDate: '01-03-2026',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 18999
+  },
+  {
+    id: 'batch-15',
+    startDate: '28-02-2026',
+    endDate: '08-03-2026',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 18999
+  },
+  {
+    id: 'batch-16',
+    startDate: '14-03-2026',
+    endDate: '22-03-2026',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 18999
+  },
+  {
+    id: 'batch-17',
+    startDate: '19-03-2026',
+    endDate: '27-03-2026',
+    totalSlots: 15,
+    availableSlots: 15,
+    price: 18999
+  }
+]
+
 };

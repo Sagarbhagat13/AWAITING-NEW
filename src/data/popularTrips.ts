@@ -83,6 +83,17 @@ export const popularTrips: Trip[] = [
     reviews: 203
   },
   {
+    id: ',w14',
+    title: 'Experience Uttarakhand Winter',
+    location: 'Uttarakhand',
+    image: '/images/Uttarakhand.png',
+    price: 18999,
+    duration: '6N/7D',
+    longWeekend: true,
+    rating: 4.8,
+    reviews: 134
+  },
+  {
     id: 'lw1',
     title: 'Spiti Valley Road Trip',
     location: 'Himachal Pradesh',
