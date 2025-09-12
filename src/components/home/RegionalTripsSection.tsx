@@ -41,7 +41,7 @@ const RegionalTripsSection = () => {
   const [activeRegion, setActiveRegion] = useState("North");
   
   return (
-    <section className="py-4 bg-gradient-to-b from-blue-50 to-white">
+    <section className="pt-0 pb-12bg-gradient-to-b from-blue-50 to-white">
       <div className="container mx-auto px-2">
         <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">Explore Trips By Region</h2>
         
