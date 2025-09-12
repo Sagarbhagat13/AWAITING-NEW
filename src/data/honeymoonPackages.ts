@@ -91,7 +91,7 @@ export const honeymoonPackages: Trip[] = [
     international: true
   },
   {
-    id: 'vietnam-002',
+    id: 'Vietnam-002',
     title: 'veitnam romantic escape',
     location: 'vietnam',
     price: 29999,

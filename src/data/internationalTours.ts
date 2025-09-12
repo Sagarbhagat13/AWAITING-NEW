@@ -43,7 +43,7 @@ export const internationalTours: Trip[] = [
   },
   {
     id: 'vietnam-002',
-    title: 'veitnam romantic escape',
+    title: 'Veitnam romantic escape',
     location: 'vietnam',
     price: 29999,
     discount: 5,
