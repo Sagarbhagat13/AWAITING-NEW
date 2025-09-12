@@ -278,7 +278,7 @@ return (
           <div className="flex flex-col items-center justify-center">
             {/* Brand Title */}
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 animate-fade-in">
-              Lights. Camera. Adventures!
+              #GoFeelIt
             </h1>
             
             {/* Tagline */}
