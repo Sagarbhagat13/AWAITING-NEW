@@ -11,10 +11,10 @@ export const singaporeItinerary = {
   rating: 4.9,
   reviews: 138,
   images: [
-    'https://images.unsplash.com/photo-1506719040632-20292e08b6a3?w=900&auto=format&fit=crop&q=60',
-    'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=900&auto=format&fit=crop&q=60',
-    'https://images.unsplash.com/photo-1584352585361-210f8c72e54f?w=900&auto=format&fit=crop&q=60',
-    'https://images.unsplash.com/photo-1575987116919-746941bb248a?w=900&auto=format&fit=crop&q=60'
+    'https://images.unsplash.com/photo-1555217851-6141535bd771?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2luZ2Fwb3JlfGVufDB8fDB8fHww',
+    'https://images.unsplash.com/photo-1565967511849-76a60a516170?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2luZ2Fwb3JlfGVufDB8fDB8fHww',
+    'https://images.unsplash.com/photo-1542114633831-6c3880908875?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHNpbmdhcG9yZXxlbnwwfHwwfHx8MA%3D%3D',
+    'https://images.unsplash.com/photo-1700307997855-204a0d9e84c4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2luZ2Fwb3JlJTIwdW5pdmVyc2FsJTIwc3R1ZGlvfGVufDB8fDB8fHww'
   ],
   placesCovered: ['Sentosa Island', 'Universal Studios', 'Gardens by the Bay', 'Singapore Flyer', 'City Tour'],
   highlights: [
