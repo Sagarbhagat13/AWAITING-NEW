@@ -42,7 +42,7 @@ const RegionalTripsSection = () => {
   
   return (
     <section className="py-4 bg-gradient-to-b from-blue-50 to-white">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-2">
         <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">Explore Trips By Region</h2>
         
         <Tabs defaultValue="North" onValueChange={setActiveRegion}>

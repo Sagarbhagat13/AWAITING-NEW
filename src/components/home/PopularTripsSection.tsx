@@ -9,8 +9,8 @@ import { popularTrips } from '@/data/popularTrips';
 
 const PopularTripsSection = () => {
   return (
-    <section className="py-6 bg-gray-50">
-      <div className="container mx-auto px-4">
+    <section className="py-4 bg-gray-50">
+      <div className="container mx-auto px-2">
         <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">Popular Winter Trips</h2>
         
         <TripCarousel 
