@@ -17,8 +17,8 @@ const HoneymoonSection = () => {
   );
 
   return (
-    <section className="py-4 bg-gradient-to-r from-[#FFDEE2] to-[#FEC6A1]">
-      <div className="container mx-auto px-2">
+    <section className="pt-0 pb-12 bg-gradient-to-r from-[#FFDEE2] to-[#FEC6A1]">
+      <div className="container mx-auto px-4">
         <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">Honeymoon Specials</h2>
         
         <div className="flex justify-center items-center space-x-2 mb-8">
