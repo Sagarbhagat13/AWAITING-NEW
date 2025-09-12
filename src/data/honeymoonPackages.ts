@@ -78,12 +78,12 @@ export const honeymoonPackages: Trip[] = [
     international: true
   },
   {
-    id: '',
+    id: 'bali-001',
     title: 'Bali Intimate Getaway',
     location: 'Indonesia',
-    price: 85000,
+    price: 30000,
     discount: 12,
-    duration: '6D/5N',
+    duration: '7D/6N',
     image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80',
     rating: 4.7,
     reviews: 68,
