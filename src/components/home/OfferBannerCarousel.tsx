@@ -33,18 +33,20 @@ const defaultOfferBanners: OfferBanner[] = [
     id: '2',
     title: '',
     description: '',
-    desktopImage: '/images/Chritsmas_2.webp',
-    mobileImage: '/images/Chritsmas_2.webp',
+    desktopImage: '/images/SPITIVMWB.png',
+    mobileImage: '/images/SPITIVMWB.png',
     ctaText: '',
+    
     ctaLink: '#'
   },
   {
     id: '3',
     title: '',
     description: '',
-    desktopImage: '/images/SPITIVMWB.png',
-    mobileImage: '/images/SPITIVMWB.png',
+    desktopImage: '/images/Chritsmas_2.webp',
+    mobileImage: '/images/Chritsmas_2.webp',
     ctaText: '',
+    
     ctaLink: '#'
   }
 ];
