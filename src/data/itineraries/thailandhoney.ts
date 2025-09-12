@@ -108,9 +108,9 @@ export const thailandItinerary = {
   ],
   pricingOptions: [
     {
-      id: 'honeymoon-couple',
-      title: 'Per Couple (Double Sharing)',
-      price: 54999,
+      id: 'standard',
+      title: 'Per person (Double Sharing)',
+      price: 27499,
       description: 'INR 54,999 per couple for 5D/4N Thailand Honeymoon Package'
     }
   ]
