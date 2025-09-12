@@ -22,10 +22,10 @@ const XmasNewYearSection = lazy(() => import('@/components/home/XmasNewYearSecti
 const LongWeekendSection = lazy(() => import('@/components/home/LongWeekendSection'));
 
 const PopularTripsSection = lazy(() => import('@/components/home/PopularTripsSection'));
-const StatePackagesSection = lazy(() => import('@/components/home/StatePackagesSection'));
-const RegionalTripsSection = lazy(() => import('@/components/home/RegionalTripsSection'));
-const EarlyBirdBanner = lazy(() => import('@/components/EarlyBirdBanner'));
-const GroupDiscountBanner = lazy(() => import('@/components/GroupDiscountBanner'));
+// const StatePackagesSection = lazy(() => import('@/components/home/StatePackagesSection'));
+// const RegionalTripsSection = lazy(() => import('@/components/home/RegionalTripsSection'));
+// const EarlyBirdBanner = lazy(() => import('@/components/EarlyBirdBanner'));
+// const GroupDiscountBanner = lazy(() => import('@/components/GroupDiscountBanner'));
 
 // Lazy load remaining sections with lower priority
 const YouTubeSection = lazy(() => import('@/components/home/YouTubeSection'));
@@ -206,13 +206,13 @@ const OptimizedIndex = () => {
             </Suspense>
             
             {/* Progressive loading placeholders */}
-            <div data-section="early-bird" className="min-h-[100px]">
-              {shouldLoadSection('early-bird') && (
-                <Suspense fallback={<SectionLoader />}>
+            {/* <div data-section="early-bird" className="min-h-[100px]"> */}
+              {/* {shouldLoadSection('early-bird') && ( */}
+                {/* // <Suspense fallback={<SectionLoader />}> */}
                   {/* <EarlyBirdBanner /> */}
-                </Suspense>
-              )}
-            </div>
+                {/* </Suspense> */}
+              {/* )} */}
+            {/* </div> */}
             
             {/* <div data-section="state-packages" className="min-h-[400px]">
               {shouldLoadSection('state-packages') && (
@@ -259,13 +259,13 @@ const OptimizedIndex = () => {
               )}
             </div> */}
             
-            <div data-section="group-discount" className="min-h-[100px]">
-              {shouldLoadSection('group-discount') && (
-                <Suspense fallback={<SectionLoader />}>
+            {/* <div data-section="group-discount" className="min-h-[100px]"> */}
+              {/* {shouldLoadSection('group-discount') && ( */}
+                {/* <Suspense fallback={<SectionLoader />}> */}
                   {/* <GroupDiscountBanner /> */}
-                </Suspense>
-              )}
-            </div>
+                {/* </Suspense> */}
+              {/* )} */}
+            {/* </div> */}
             
             {/* Lower priority sections */}
             {/* <div data-section="family-tours" className="min-h-[400px]">
