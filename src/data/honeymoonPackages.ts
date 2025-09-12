@@ -15,11 +15,11 @@ export const honeymoonPackages: Trip[] = [
     honeymoonSpecial: true
   },
   {
-    id: '',
+    id: 'kerala-001',
     title: 'Kerala Backwaters Retreat',
     location: 'Kerala',
-    price: 28500,
-    discount: 12,
+    price: 19999,
+    discount:0,
     duration: '5D/4N',
     image: 'https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&w=800&q=80',
     rating: 4.7,
@@ -27,13 +27,13 @@ export const honeymoonPackages: Trip[] = [
     honeymoonSpecial: true
   },
   {
-    id: '',
-    title: 'Udaipur Royal Retreat',
-    location: 'Rajasthan',
-    price: 35999,
-    discount: 8,
-    duration: '4D/3N',
-    image: 'https://images.unsplash.com/photo-1603204077779-bed963ea7d0e?auto=format&fit=crop&w=800&q=80',
+    id: 'sikkim-001',
+    title: 'Gangtok & Darjeeling Escape',
+    location: 'Sikkim & Darjeeling',
+    price: 24999,
+    discount: 2,
+    duration: '6D/5N',
+    image: 'https://images.unsplash.com/photo-1635346537940-9d51faeb6e32?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     rating: 4.8,
     reviews: 75,
     honeymoonSpecial: true
