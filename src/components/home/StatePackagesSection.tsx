@@ -33,7 +33,7 @@ const StatePackagesSection = () => {
   }, [activeMonth, isMobile]);
   
   return (
-    <section className="py-12 bg-white">
+    <section className="py-4 bg-white">
       <div className={cn("container mx-auto", isMobile ? "px-4" : "px-4")}>
         <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">Explore Monthly Trips</h2>
         

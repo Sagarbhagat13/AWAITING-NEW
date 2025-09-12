@@ -110,7 +110,7 @@ const OfferBannerCarousel: React.FC<OfferBannerCarouselProps> = ({ slides = defa
   };
 
   return (
-    <section className="w-full bg-gray-50 py-8">
+    <section className="w-full bg-gray-50 py-4">
       <div className="container mx-auto px-4">
         <div 
           className="relative overflow-hidden rounded-lg shadow-lg bg-white"
