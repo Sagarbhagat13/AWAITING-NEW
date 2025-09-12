@@ -24,8 +24,8 @@ const defaultOfferBanners: OfferBanner[] = [
     id: '1',
     title: '',
     description: '',
-    desktopImage:  '/images/xmasny1.png',
-    mobileImage: '/images/xmasny1.png',
+    desktopImage:  '/images/Chritsmas_1.webp',
+    mobileImage: '/images/Chritsmas_1.webp',
     ctaText: '',
     ctaLink: '#'
   },
@@ -33,8 +33,8 @@ const defaultOfferBanners: OfferBanner[] = [
     id: '2',
     title: '',
     description: '',
-    desktopImage: '/images/SPITIVDWB.png',
-    mobileImage: '/images/SPITIVMWB.png',
+    desktopImage: '/images/Chritsmas_2.webp',
+    mobileImage: '/images/Chritsmas_2.webp',
     ctaText: '',
     ctaLink: '#'
   },
@@ -42,8 +42,8 @@ const defaultOfferBanners: OfferBanner[] = [
     id: '3',
     title: '',
     description: '',
-    desktopImage: '/images/xmasny2.png',
-    mobileImage: '/images/xmasny2.png',
+    desktopImage: '/images/SPITIVMWB.png',
+    mobileImage: '/images/SPITIVMWB.png',
     ctaText: '',
     ctaLink: '#'
   }
@@ -54,8 +54,8 @@ export const secondSetOfferBanners: OfferBanner[] = [
     id: '4',
     title: '',
     description: '',
-    desktopImage: '/images/weekend1.png',
-    mobileImage: '/images/weekend1.png',
+    desktopImage: '/images/Winter_1.webp',
+    mobileImage: '/images/Winter_1.webp',
     ctaText: '',
     ctaLink: '#'
   },
