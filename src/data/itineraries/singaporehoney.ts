@@ -2,7 +2,7 @@ export const singaporeItinerary = {
   id: 'singapore-001',
   title: 'Singapore Getaway',
   location: 'Singapore',
-  price: 702, // Per person in SGD
+  price: 57999, // Per person in SGD
   discount: 0,
   duration: '5 Days / 4 Nights',
   description:
@@ -123,7 +123,7 @@ export const singaporeItinerary = {
     {
       id: 'standard',
       title: 'Per Person (Double Sharing)',
-      price: 702,
+      price: 57999,
       description: 'SGD 702 per person on double sharing basis (Total: SGD 1,404 for 2 adults)'
     }
   ]
