@@ -28,7 +28,7 @@ const BlogPostHeader = ({
       <div className="flex flex-wrap gap-4 text-sm text-wanderon-gray mb-8 pb-8 border-b border-gray-200">
         <div className="flex items-center gap-1">
           <User className="h-4 w-4" />
-          <span>TripVidya Team</span>
+          <span>Awaiting Adventures</span>
         </div>
         <div className="flex items-center gap-1">
           <Clock className="h-4 w-4" />
