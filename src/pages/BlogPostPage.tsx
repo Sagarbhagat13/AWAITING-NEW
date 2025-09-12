@@ -18,7 +18,24 @@ import {
   travelTips, 
   latestNews, 
   budgetDestinations, 
-  offbeatPlaces 
+  offbeatPlaces,
+  // newly added exports
+  trendingExperiences,
+  travelItineraries,
+  sustainableTravel,
+  soloTravel,
+  familyTravel,
+  adventureActivities,
+  luxuryEscapes,
+  festivalsEvents,
+  travelPhotography,
+  visaAndDocs,
+  healthAndSafety,
+  localCuisine,
+  weekendGetaways,
+  travelDeals,
+  affordableWinterDomestic,
+  affordableWinterInternational
 } from '@/data/blogData';
 
 // Combined blog data
@@ -29,6 +46,23 @@ const allBlogPosts = [
   ...latestNews,
   ...budgetDestinations,
   ...offbeatPlaces
+  // newly added categories
+  ,...trendingExperiences,
+  ...travelItineraries,
+  ...sustainableTravel,
+  ...soloTravel,
+  ...familyTravel,
+  ...adventureActivities,
+  ...luxuryEscapes,
+  ...festivalsEvents,
+  ...travelPhotography,
+  ...visaAndDocs,
+  ...healthAndSafety,
+  ...localCuisine,
+  ...weekendGetaways,
+  ...travelDeals,
+  ...affordableWinterDomestic,
+  ...affordableWinterInternational
 ];
 
 interface BlogPost {
