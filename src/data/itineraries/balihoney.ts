@@ -10,11 +10,11 @@ export const baliItinerary = {
   
   rating: 4.9,
   reviews: 87,
-  images: [
-    'https://images.unsplash.com/photo-1526481280691-3d5df7e03d67?w=900&auto=format&fit=crop&q=60',
-    'https://images.unsplash.com/photo-1524492449090-1a065f3a7b7c?w=900&auto=format&fit=crop&q=60',
-    'https://images.unsplash.com/photo-1543248939-ff40856f65d6?w=900&auto=format&fit=crop&q=60',
-    'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=900&auto=format&fit=crop&q=60'
+    images: [
+    'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8QkFMSXxlbnwwfHwwfHx8MA%3D%3D',
+    'https://images.unsplash.com/photo-1604500693431-647f9e76dafc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8TlVTYSUyMHBlbmlkYXxlbnwwfHwwfHx8MA%3D%3D',
+    'https://images.unsplash.com/photo-1636992165457-57634aa64dfa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGtlZGFjJTIwZGFuY2UlMjBiYWxpfGVufDB8fDB8fHww',
+    'https://images.unsplash.com/photo-1567329916012-26f1f39f04c3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmlubnMlMjBjbHVifGVufDB8fDB8fHww'
   ],
   placesCovered: ['Kuta', 'Nusa Penida', 'Ubud'],
   highlights: [
