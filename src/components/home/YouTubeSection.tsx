@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { Play, AlertCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import ReactPlayer from 'react-player';
+
+const AnyReactPlayer = ReactPlayer as unknown as React.ComponentType<any>;
 
 const YouTubeSection = () => {
   const [videoError, setVideoError] = useState(false);
@@ -75,16 +78,16 @@ const YouTubeSection = () => {
               </div>
             ) : (
               // YouTube iframe
-              <iframe
-                src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1`}
-                title="Awaiting Adventures Channel"
-                className="w-full h-full"
-                allowFullScreen
-                loading="lazy"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                frameBorder="0"
+              <AnyReactPlayer
+                url="https://www.youtube.com/watch?v=jNQXAC9IVRw"
+                playing={showVideo}
+                controls
+                width="100%"
+                height="100%"
                 onError={handleVideoError}
+                config={{
+                  youtube: { rel: 0 }
+                }}
               />
             )}
           </div>
