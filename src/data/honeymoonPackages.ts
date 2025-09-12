@@ -16,8 +16,8 @@ export const honeymoonPackages: Trip[] = [
   },
   {
     id: '',
-    title: 'Coorg Romantic Getaway',
-    location: 'Karnataka',
+    title: 'Kerala Backwaters Retreat',
+    location: 'Kerala',
     price: 28500,
     discount: 12,
     duration: '5D/4N',
@@ -39,13 +39,13 @@ export const honeymoonPackages: Trip[] = [
     honeymoonSpecial: true
   },
   {
-    id: '',
+    id: 'himachal-001',
     title: 'Shimla-Manali Couple Tour',
     location: 'Himachal Pradesh',
-    price: 32500,
-    discount: 15,
-    duration: '7D/6N',
-    image: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=800&q=80',
+    price: 11350,
+    discount: 0,
+    duration: '6D/5N',
+    image: 'https://images.unsplash.com/photo-1657894736581-ccc35d62d9e2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGltYWNoYWwlMjBwcmFkZXNofGVufDB8fDB8fHww',
     rating: 4.6,
     reviews: 93,
     honeymoonSpecial: true
