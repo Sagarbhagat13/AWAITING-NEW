@@ -79,7 +79,7 @@ export const honeymoonPackages: Trip[] = [
   },
   {
     id: 'bali-001',
-    title: 'Bali Intimate Getaway',
+    title: 'Bali Romantic Getaway',
     location: 'Indonesia',
     price: 30000,
     discount: 12,
