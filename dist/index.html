@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awaiting Adventures - Discover Amazing Travel Experiences</title>
+    <meta name="description" content="Explore curated travel packages, adventure trips, and honeymoon destinations with Awaiting Adventures. Book your next unforgettable journey today." />
+    <meta name="author" content="Awaiting Adventures" />
+    <meta property="og:image" content="/og-image.png" />
+    
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#e97600" />
+    
+    <!-- Critical resource hints for better FCP/LCP -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+    <link rel="dns-prefetch" href="https://api.supabase.co">
+    
+    <!-- High priority hero images for LCP optimization -->
+    <link rel="preload" href="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=2000&q=90&fm=webp" as="image" fetchpriority="high" crossorigin>
+    <link rel="preload" href="https://images.unsplash.com/photo-1571401835393-8c5f35328320?auto=format&fit=crop&w=2000&q=90&fm=webp" as="image" fetchpriority="high" crossorigin>
+    
+    <!-- Preload critical fonts with optimal loading -->
+    <link rel="preload" href="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeAZ9hjp-Ek-_EeA.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <!-- Preload critical resources -->
+    <link rel="modulepreload" href="data:application/octet-stream;base64,CmltcG9ydCB7IGNyZWF0ZVJvb3QgfSBmcm9tICdyZWFjdC1kb20vY2xpZW50JwppbXBvcnQgQXBwIGZyb20gJy4vQXBwLnRzeCcKaW1wb3J0ICcuL3N0eWxlcy9pbmRleC5jc3MnCgovLyBSZWdpc3RlciBzZXJ2aWNlIHdvcmtlciBmb3IgY2FjaGluZwppZiAoJ3NlcnZpY2VXb3JrZXInIGluIG5hdmlnYXRvciAmJiBpbXBvcnQubWV0YS5lbnYuUFJPRCkgewogIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdsb2FkJywgKCkgPT4gewogICAgbmF2aWdhdG9yLnNlcnZpY2VXb3JrZXIucmVnaXN0ZXIoJy9zdy5qcycpCiAgICAgIC50aGVuKChyZWdpc3RyYXRpb24pID0+IHsKICAgICAgICBjb25zb2xlLmxvZygnU1cgcmVnaXN0ZXJlZDogJywgcmVnaXN0cmF0aW9uKTsKICAgICAgfSkKICAgICAgLmNhdGNoKChyZWdpc3RyYXRpb25FcnJvcikgPT4gewogICAgICAgIGNvbnNvbGUubG9nKCdTVyByZWdpc3RyYXRpb24gZmFpbGVkOiAnLCByZWdpc3RyYXRpb25FcnJvcik7CiAgICAgIH0pOwogIH0pOwp9CgpjcmVhdGVSb290KGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJyb290IikhKS5yZW5kZXIoPEFwcCAvPik7Cg==" />
+    <link rel="modulepreload" href="/assets/App-B4nF4DLo.tsx" />
+    <link rel="modulepreload" href="/assets/Navbar-N2XwZ9ak.tsx" />
+    <link rel="modulepreload" href="/assets/OptimizedBanner-BltSC18c.tsx" />
+    
+    <!-- Optimized critical CSS for immediate rendering -->
+    <style>
+      /* Reset and base styles */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Optimized font loading */
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff2') format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeAZ9hjp-Ek-_EeA.woff2') format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+        background-color: #ffffff;
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #1a1a1a;
+      }
+      
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      /* Optimized loading state for better CLS */
+      .loading-spinner {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        z-index: 9999;
+      }
+      
+      .loading-spinner::after {
+        content: '';
+        width: 40px;
+        height: 40px;
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #e97600;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      /* Critical navbar styles for immediate render */
+      .navbar-critical {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        background-color: rgba(255, 255, 255, 0.95);
+        -webkit-backdrop-filter: blur(8px);
+                backdrop-filter: blur(8px);
+        height: 80px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        padding: 0 1rem;
+      }
+      
+      /* Critical banner styles for LCP optimization */
+      .banner-critical {
+        height: 70vh;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+      
+      @media (min-width: 768px) {
+        .banner-critical {
+          height: 90vh;
+        }
+      }
+      
+      /* Prevent layout shift */
+      .content-container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+      }
+      
+      /* Critical animation for hero text */
+      .animate-fade-in {
+        animation: fadeIn 0.8s ease-out forwards;
+      }
+      
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      /* Hide loading spinner when app loads */
+      .app-loaded .loading-spinner {
+        display: none !important;
+      }
+      
+      /* Optimize image loading placeholders */
+      .image-placeholder {
+        background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+        background-size: 200% 100%;
+        animation: loading 1.5s infinite;
+      }
+      
+      @keyframes loading {
+        0% { background-position: 200% 0; }
+        100% { background-position: -200% 0; }
+      }
+      
+      /* Critical button styles */
+      .btn-primary {
+        background-color: #e97600;
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.5rem;
+        border: none;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      }
+      
+      .btn-primary:hover {
+        background-color: #d16600;
+      }
+      
+      /* Ensure smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      /* Critical carousel styles */
+      .carousel {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+      }
+      
+      .carousel::-webkit-scrollbar {
+        display: none;
+      }
+      
+      .carousel-item {
+        flex: 0 0 auto;
+        scroll-snap-align: start;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-DiaX39Jx.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-DeDacOQ3.js">
+    <link rel="modulepreload" crossorigin href="/assets/ui-RePBYr7d.js">
+    <link rel="modulepreload" crossorigin href="/assets/router-Cs5V9_7u.js">
+    <link rel="modulepreload" crossorigin href="/assets/query-CXQKtSSs.js">
+    <link rel="modulepreload" crossorigin href="/assets/charts-BANsaY3b.js">
+    <link rel="modulepreload" crossorigin href="/assets/icons-CoauMdFp.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-BxvLWZPL.css">
+  </head>
+
+  <body>
+    <div id="root">
+      <div class="loading-spinner"></div>
+    </div>
+    
+    <!-- Performance optimization script -->
+    <script>
+      // Mark navigation start for performance measurement
+      performance.mark('navigation-start');
+      
+      // Preload next critical images when page loads
+      window.addEventListener('load', function() {
+        performance.mark('page-load-complete');
+        
+        // Preload additional images with lower priority
+        const additionalImages = [
+          'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=2000&q=90&fm=webp',
+          'https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=2000&q=90&fm=webp'
+        ];
+        
+        // Use requestIdleCallback for non-critical preloading
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(function() {
+            additionalImages.forEach(function(src) {
+              const img = new Image();
+              img.src = src;
+              img.loading = 'lazy';
+            });
+          });
+        }
+        
+        // Hide loading spinner when app is ready
+        setTimeout(function() {
+          document.body.classList.add('app-loaded');
+        }, 100);
+      });
+      
+      // Early resource hints
+      if ('connection' in navigator && navigator.connection) {
+        const connection = navigator.connection;
+        if (connection.effectiveType === '4g' && !connection.saveData) {
+          // Preload more resources on fast connections
+          const link = document.createElement('link');
+          link.rel = 'prefetch';
+          link.href = '/src/components/home/PopularTripsSection.tsx';
+          document.head.appendChild(link);
+        }
+      }
+    </script>
+    
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+  </body>
+</html>
