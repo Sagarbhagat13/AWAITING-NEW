@@ -1,6 +1,5 @@
 
 import React, { useState } from "react";
-
 import {
   BrowserRouter,
   Routes,
@@ -12,7 +11,6 @@ import { Toaster } from "@/components/ui/toaster";
 import { AuthProvider } from "@/contexts/AuthContext";
 import ScrollToTop from "@/components/ScrollToTop";
 import PromotionalBanner from "@/components/PromotionalBanner";
-import useFacebookPixel from "@/hooks/useFacebookPixel";
 
 // Error handling component
 import ErrorBoundary from "@/components/ErrorBoundary";
@@ -57,12 +55,8 @@ const queryClient = new QueryClient({
   },
 });
 
-
-  
-
 function App() {
   const [error, setError] = useState<Error | null>(null);
-  useFacebookPixel();
 
   const handleError = (error: Error) => {
     console.error("Global error caught:", error);
