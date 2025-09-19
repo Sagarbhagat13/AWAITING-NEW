@@ -11,7 +11,7 @@ import {
 import { Button } from '@/components/ui/button';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { useAuth } from '@/contexts/AuthContext';
-import { User, LogOut, MapPin, Wallet, Settings } from 'lucide-react';
+import { User, LogOut, MapPin, Wallet, Settings, Shield } from 'lucide-react';
 import { toast } from 'sonner';
 import { useNavigate } from 'react-router-dom';
 
@@ -92,6 +92,13 @@ const UserMenu = () => {
         >
           <Wallet className="mr-2 h-4 w-4" />
           <span>Wallet</span>
+          </DropdownMenuItem>
+        <DropdownMenuItem 
+          className="cursor-pointer"
+          onClick={() => navigate('/admin')}
+        >
+          <Shield className="mr-2 h-4 w-4" />
+          <span>Admin Panel</span>
         </DropdownMenuItem>
         <DropdownMenuItem className="cursor-pointer">
           <Settings className="mr-2 h-4 w-4" />
