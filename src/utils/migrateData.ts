@@ -33,6 +33,21 @@ export const migrateStaticDataToDatabase = async () => {
     }));
 
     console.log('About to migrate trips data:', tripsData.slice(0, 2)); // Log first 2 items for debugging
+    console.log('Total trips to migrate:', tripsData.length);
+    console.log('Sample trip data structure:', JSON.stringify(tripsData[0], null, 2));
+    
+    // Validate data types before insertion
+    tripsData.forEach((trip, index) => {
+      if (typeof trip.price !== 'number' || isNaN(trip.price)) {
+        console.error(`Trip ${index} has invalid price:`, trip.price, typeof trip.price);
+      }
+      if (trip.discount && (typeof trip.discount !== 'number' || isNaN(trip.discount))) {
+        console.error(`Trip ${index} has invalid discount:`, trip.discount, typeof trip.discount);
+      }
+      if (trip.rating && (typeof trip.rating !== 'number' || isNaN(trip.rating))) {
+        console.error(`Trip ${index} has invalid rating:`, trip.rating, typeof trip.rating);
+      }
+    });
     
     // Insert trips with upsert to avoid duplicates
     const { data: insertedTrips, error: tripsError } = await supabase
@@ -41,8 +56,34 @@ export const migrateStaticDataToDatabase = async () => {
       .select();
 
     if (tripsError) {
-      console.error('Error migrating trips:', tripsError);
-      console.error('Failed trips data sample:', tripsData.slice(0, 2));
+      console.error('=== TRIPS MIGRATION ERROR DETAILS ===');
+      console.error('Error object:', tripsError);
+      console.error('Error message:', tripsError.message);
+      console.error('Error details:', tripsError.details);
+      console.error('Error hint:', tripsError.hint);
+      console.error('Error code:', tripsError.code);
+      console.error('Failed trips data sample:', JSON.stringify(tripsData.slice(0, 2), null, 2));
+      console.error('All trips data:', JSON.stringify(tripsData, null, 2));
+      
+      // Try to insert one trip at a time to isolate the problematic record
+      console.log('Attempting to insert trips one by one to identify the problematic record...');
+      for (let i = 0; i < Math.min(5, tripsData.length); i++) {
+        try {
+          const { error: singleError } = await supabase
+            .from('trips')
+            .upsert([tripsData[i]], { onConflict: 'id' });
+          
+          if (singleError) {
+            console.error(`Trip ${i} failed:`, singleError);
+            console.error(`Problematic trip data:`, JSON.stringify(tripsData[i], null, 2));
+          } else {
+            console.log(`Trip ${i} inserted successfully:`, tripsData[i].title);
+          }
+        } catch (singleErr) {
+          console.error(`Trip ${i} threw exception:`, singleErr);
+          console.error(`Problematic trip data:`, JSON.stringify(tripsData[i], null, 2));
+        }
+      }
     } else {
       console.log(`Migrated ${tripsData.length} trips successfully`);
       console.log('Sample inserted trip:', insertedTrips?.[0]);
