@@ -32,15 +32,20 @@ export const migrateStaticDataToDatabase = async () => {
       offbeat: trip.offbeat || false,
     }));
 
+    console.log('About to migrate trips data:', tripsData.slice(0, 2)); // Log first 2 items for debugging
+    
     // Insert trips with upsert to avoid duplicates
-    const { error: tripsError } = await supabase
+    const { data: insertedTrips, error: tripsError } = await supabase
       .from('trips')
-      .upsert(tripsData, { onConflict: 'id' });
+      .upsert(tripsData, { onConflict: 'id' })
+      .select();
 
     if (tripsError) {
       console.error('Error migrating trips:', tripsError);
+      console.error('Failed trips data sample:', tripsData.slice(0, 2));
     } else {
-      console.log(`Migrated ${tripsData.length} trips`);
+      console.log(`Migrated ${tripsData.length} trips successfully`);
+      console.log('Sample inserted trip:', insertedTrips?.[0]);
     }
 
     // Migrate categories
