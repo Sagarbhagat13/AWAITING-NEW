@@ -1,5 +1,5 @@
 export const spitiTrekItinerary = {
-  id: 'xny',
+  id: 'xny0',
   title: "Experience Kerala — God's Own Country",
   location: 'Kerala',
   price: 16999, // Base price WITHOUT train fare
