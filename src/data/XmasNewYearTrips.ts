@@ -7,6 +7,17 @@ export interface XmasNewYearTrip extends Trip {
 
 export const xmasNewYearTrips: XmasNewYearTrip[] = [
   {
+    id: 'xny0',
+    title: 'Experience Kerala Short Trip',
+    location: 'Kerala',
+    image: '/images/xmasnykr.png',
+    price: 14999,
+    duration: '4N/5D',
+    xmasNewYear: true,
+    rating: 5.0,
+    reviews: 178
+  },
+  {
     id: 'xny1',
     title: 'X-MAS & New Year In Kerala',
     location: 'Kerala',
