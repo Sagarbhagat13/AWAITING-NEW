@@ -39,7 +39,7 @@ import LongWeekendTripsPage from "@/pages/LongWeekendTripsPage";
 import HoneymoonPackagesPage from "@/pages/HoneymoonPackagesPage";
 import FamilyPackagesPage from "@/pages/FamilyPackagesPage";
 import XmasNewYearPage from "@/pages/XmasNewYearPage";
-import AdminPage from "@/pages/AdminPage";
+;
 // Update the route for the optimized index page
 import OptimizedIndex from '@/pages/OptimizedIndex';
 
@@ -91,7 +91,7 @@ function App() {
                 <Route path="/careers" element={<CareerPage />} />
                 <Route path="/faq" element={<FaqPage />} />
                 <Route path="/corporate-tours" element={<CorporateToursPage />} />
-                <Route path="/admin" element={<AdminPage />} />
+                
                 
                 
                 {/* Specific India state routes */}
