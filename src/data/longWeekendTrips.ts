@@ -19,6 +19,17 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     longWeekend: true
   },
   {
+    id: 'lw18',
+    title: 'Experience Kerala in 4 days ',
+    location: 'Kerala',
+    image: '/images/xmasnykr.png',
+    price: 12999,
+    duration: '4N/5D',
+    longWeekend: true,
+    rating: 5.0,
+    reviews: 100
+  },
+  {
     id: 'lw9',
     title: 'Do Dham With Tungnath ',
     location: 'Uttarakhand',
