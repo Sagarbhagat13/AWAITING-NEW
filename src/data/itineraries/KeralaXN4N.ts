@@ -162,23 +162,20 @@ export const spitiTrekItinerary = {
     {
       id: 'standard',
       title: 'Without Train Fare',
-      price: 16999,
-      discountedPrice: 14999,
+      price: 14999,
       description: 'Package without Train Fare — fixed departure group tour (Breakfast & Dinner).',
       isPopular: true
     },
     {
       id: 'sleeper',
       title: 'With Sleeper Train Fare',
-      price: 18499,
-      discountedPrice: 16499,
+      price: 16499,
       description: 'Package including Sleeper train fare.'
     },
     {
       id: '3ac',
       title: 'With 3 A/C Train Fare',
-      price: 20799,
-      discountedPrice: 18799,
+      price: 18799,
       description: 'Package including 3 A/C train fare.'
     }
   ],
