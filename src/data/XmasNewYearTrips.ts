@@ -10,7 +10,7 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     id: 'xny0',
     title: 'Experience Kerala Short Trip',
     location: 'Kerala',
-    image: '/images/xmasnykr.png',
+    image: '/images/kr4ncover.jpg',
     price: 14999,
     duration: '4N/5D',
     xmasNewYear: true,

@@ -22,7 +22,7 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     id: 'lw18',
     title: 'Experience Kerala in 4 days ',
     location: 'Kerala',
-    image: '/images/xmasnykr.png',
+    image: 'images/kr4ncover.jpg',
     price: 12999,
     duration: '4N/5D',
     longWeekend: true,
