@@ -29,29 +29,7 @@ export const longWeekendTrips: LongWeekendTrip[] = [
     rating: 5.0,
     reviews: 100
   },
-  {
-    id: 'lw9',
-    title: 'Do Dham With Tungnath ',
-    location: 'Uttarakhand',
-    image: 'https://images.unsplash.com/photo-1617860931879-19d32ec9912d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGtlZGFybmF0aHxlbnwwfHwwfHx8MA%3D%3D',
-    price: 17999,
-    duration: '7N/8D',
-    rating: 4.9,
-    reviews: 167,
-    longWeekend: true
-  },
-  {
-    id: 'lw1',
-    title: 'Experience Spiti With Chandratal',
-    location: 'Himachal Pradesh',
-    image: 'https://images.unsplash.com/photo-1697984286841-5cedb7885109?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    price: 17999,
-    duration: '8D/7N',
-    longWeekend: true,
-    rating: 4.7,
-    reviews: 120,
-    independence: true
-  },
+  
   {
     id: 'lw5',
     title: 'Experience Kerala ',

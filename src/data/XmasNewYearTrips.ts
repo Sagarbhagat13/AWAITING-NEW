@@ -18,6 +18,17 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     reviews: 178
   },
   {
+    id: 'xny19',
+    title: 'Experience Kerala in Dec',
+    location: 'Kerala',
+    image: '/images/kr4ncover.jpg',
+    price: 18900,
+    duration: '4N/5D',
+    xmasNewYear: true,
+    rating: 5.0,
+    reviews: 178
+  },
+  {
     id: 'xny1',
     title: 'X-MAS & New Year In Kerala',
     location: 'Kerala',
@@ -49,6 +60,17 @@ export const xmasNewYearTrips: XmasNewYearTrip[] = [
     xmasNewYear: true,
     rating: 4.7,
     reviews: 167
+  },
+  {
+    id: 'xny20',
+    title: 'Royal Rajasthan X-MAS & New Year Custom',
+    location: 'Rajasthan',
+    image: '/images/xmasnyrj.png',
+    price: 34500,
+    duration: '7N/8D',
+    xmasNewYear: true,
+    rating: 4.8,
+    reviews: 203
   },
   {
     id: 'xny4',
