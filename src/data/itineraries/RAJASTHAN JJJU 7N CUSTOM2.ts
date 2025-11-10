@@ -155,8 +155,8 @@ export const rajasthanRoyals = {
     },
     {
       id: 'deluxe',
-      title: 'ON 2 PAX 41000',
-      price: 29400,
+      title: 'ON 2 PAX ',
+      price: 41000,
       description: 'Train journey in 3 AC Class',
       isPopular: true
     },
