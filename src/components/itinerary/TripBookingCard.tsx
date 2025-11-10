@@ -167,10 +167,10 @@ const TripBookingCard = ({
                 onBookNowClick={handleBookNowClick}
               />
             </div> */}
-              {/* Action buttons - now visible on both mobile and desktop */}
-            <ActionButtons 
-              onBookingFormOpen={handleBookingFormOpen}
-              onBookNowClick={handleBookNowClick}
+              {/* Inquiry Form - Always Visible */}
+            <BookingForm 
+              tripName={tripName}
+              batchDates={finalBatchDates}
             />
 
             <ContactSection />
@@ -178,13 +178,13 @@ const TripBookingCard = ({
         </Card>
       </div>
 
-      {/* Inquiry Form Dialog (Know More) */}
+      {/* Inquiry Form Dialog (Know More)
       <BookingForm 
         isOpen={showInquiryForm || isOpen || false}
         onClose={isOpen ? (onClose || (() => {})) : handleInquiryFormClose}
         tripName={tripName}
          batchDates={finalBatchDates}
-      />
+      /> */}
 
       {/* Booking Summary Dialog with PhonePe Integration */}
       {activePricing && (

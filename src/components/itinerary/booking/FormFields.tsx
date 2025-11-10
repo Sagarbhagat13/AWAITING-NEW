@@ -1,5 +1,4 @@
-
-import { User, Mail, Phone, Users, Calendar } from 'lucide-react';
+import { User, Mail, Phone, Users, Calendar, Info } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { 
   Form,
@@ -20,6 +19,7 @@ export const formSchema = z.object({
   phone: z.string().min(10, { message: 'Please enter a valid phone number' }),
   numberOfPeople: z.string().min(1, { message: 'Number of people is required' }),
   batchDateId: z.string().min(1, { message: 'Please select a batch date' }),
+    source: z.string().min(1, { message: 'Please select how you heard about us' }),
 });
 
 export type FormValues = z.infer<typeof formSchema>;
@@ -92,6 +92,35 @@ const FormFields = ({ form, batchDates, selectedBatchDate, exceedsAvailableSlots
             <FormControl>
               <Input placeholder="Your phone number" {...field} />
             </FormControl>
+            <FormMessage />
+          </FormItem>
+        )}
+      />
+       <FormField
+        control={form.control}
+        name="source"
+        render={({ field }) => (
+          <FormItem>
+            <FormLabel className="flex items-center gap-2">
+              <Info className="h-4 w-4 text-tripvidya-primary" />
+              Where did you hear about us?
+            </FormLabel>
+            <Select
+              onValueChange={field.onChange}
+              defaultValue={field.value}
+            >
+              <FormControl>
+                <SelectTrigger>
+                  <SelectValue placeholder="Select source" />
+                </SelectTrigger>
+              </FormControl>
+              <SelectContent>
+                <SelectItem value="instagram">Instagram Ad</SelectItem>
+                <SelectItem value="google">Google</SelectItem>
+                <SelectItem value="reference">Reference</SelectItem>
+                <SelectItem value="other">Other</SelectItem>
+              </SelectContent>
+            </Select>
             <FormMessage />
           </FormItem>
         )}

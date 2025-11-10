@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { User, Mail, Phone, Users, Calendar, MapPin } from 'lucide-react';
+import { User, Mail, Phone, Users, Calendar, MapPin, Info } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { FormData } from './types';
 import { openWhatsAppForGeneralEnquiry } from '@/services/whatsappService';
@@ -21,7 +21,8 @@ const EnquiryForm = ({ onClose }: EnquiryFormProps) => {
     phone: '',
     people: '',
     destination: '',
-    dates: ''
+    dates: '',
+    source: '',
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -72,7 +73,8 @@ const EnquiryForm = ({ onClose }: EnquiryFormProps) => {
         userEmail: formData.email,
         destination: formData.destination,
         numberOfPeople: formData.people,
-        preferredDates: formData.dates
+        preferredDates: formData.dates,
+        source: formData.source,
       });
       
       // Show success toast message
@@ -88,7 +90,8 @@ const EnquiryForm = ({ onClose }: EnquiryFormProps) => {
         phone: '',
         people: '',
         destination: '',
-        dates: ''
+        dates: '',
+        source: '',
       });
     } catch (error) {
       toast({
@@ -178,6 +181,28 @@ const EnquiryForm = ({ onClose }: EnquiryFormProps) => {
           </SelectContent>
         </Select>
       </div>
+
+
+      <div className="space-y-2">
+        <Label htmlFor="source" className="flex items-center gap-2">
+          <Info className="h-4 w-4 text-tripvidya-primary" />
+          Where did you hear about us?
+        </Label>
+        <Select 
+          value={formData.source} 
+          onValueChange={(value) => handleSelectChange('source', value)}
+        >
+          <SelectTrigger id="source">
+            <SelectValue placeholder="Select source" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="instagram">Instagram Ad</SelectItem>
+            <SelectItem value="google">Google</SelectItem>
+            <SelectItem value="reference">Reference</SelectItem>
+            <SelectItem value="other">Other</SelectItem>
+          </SelectContent>
+        </Select>
+      </div>
       
       <div className="space-y-2">
         <Label htmlFor="destination" className="flex items-center gap-2">
@@ -218,7 +243,7 @@ const EnquiryForm = ({ onClose }: EnquiryFormProps) => {
         className="w-full bg-tripvidya-primary hover:bg-tripvidya-primary/90"
         disabled={isSubmitting}
       >
-         {isSubmitting ? "Opening WhatsApp..." : "Plan My Trip"}
+         {isSubmitting ? "Opening WhatsApp..." : "Send Enquiry"}
       </Button>
     </form>
   );

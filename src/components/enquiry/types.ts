@@ -6,4 +6,5 @@ export interface FormData {
   people: string;
   destination: string;
   dates: string;
+  source: string;
 }

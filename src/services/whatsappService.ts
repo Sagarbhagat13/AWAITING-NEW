@@ -5,6 +5,7 @@ interface WhatsAppMessageData {
   userEmail: string;
   numberOfPeople: string;
   batchDate?: string;
+  source: string;
 }
 interface GeneralEnquiryData {
   userName: string;
@@ -13,6 +14,7 @@ interface GeneralEnquiryData {
   destination: string;
   numberOfPeople: string;
   preferredDates: string;
+  source: string;
 }
 const BUSINESS_WHATSAPP_NUMBER = '919137798539'; // From FloatingInfoButton
 

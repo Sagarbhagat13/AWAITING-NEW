@@ -19,8 +19,7 @@ export interface BatchDate {
 }
 
 export interface BookingFormProps {
-  isOpen: boolean;
-  onClose: () => void;
+ 
   batchDates: BatchDate[];
   tripName: string;
 }

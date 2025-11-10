@@ -3,7 +3,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/u
 import { Button } from "@/components/ui/button";
 import BatchDatesTable from "./BatchDatesTable";
 import { BatchDate } from "./booking/types";
-import BookingForm from "./BookingForm";
+import BookingFormDialog from "./BookingFormDialog"
 import { useState } from "react";
 
 interface DateSelectionDialogProps {
@@ -65,7 +65,7 @@ const DateSelectionDialog = ({
         </DialogContent>
       </Dialog>
 
-      <BookingForm 
+      <BookingFormDialog 
         isOpen={showBookingForm} 
         onClose={handleBookingFormClose} 
         batchDates={batchDates}
